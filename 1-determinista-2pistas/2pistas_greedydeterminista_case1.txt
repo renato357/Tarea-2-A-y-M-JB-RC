@@ -1,0 +1,94 @@
+/bin/python3 /home/jb/Desktop/T2_AEyM/greedydeterminista_2pistas.py
+jb@jb-pc1:~/Desktop/T2_AEyM$ /bin/python3 /home/jb/Desktop/T2_AEyM/greedydeterminista_2pistas.py
+Datos leídos correctamente para 15 aviones desde 'case1.txt'.
+
+
+Tiempos principales de aterrizaje por avión:
+----------------------------------------------------------------------
+ID    | Temprano (E_k)  | Preferente (P_k)   | Tardío (L_k)   
+----------------------------------------------------------------------
+1     | 129             | 155                | 559            
+2     | 190             | 250                | 732            
+3     | 84              | 93                 | 501            
+4     | 89              | 98                 | 509            
+5     | 100             | 111                | 536            
+6     | 107             | 120                | 552            
+7     | 109             | 121                | 550            
+8     | 109             | 120                | 544            
+9     | 115             | 128                | 557            
+10    | 134             | 151                | 610            
+11    | 266             | 341                | 837            
+12    | 251             | 313                | 778            
+13    | 160             | 181                | 674            
+14    | 152             | 171                | 637            
+15    | 276             | 342                | 815            
+----------------------------------------------------------------------
+
+--- Ejecutando Algoritmo Greedy Determinista para 2 Pistas ---
+  Aterrizaje programado: Avión ID 3 en Pista 0 en t = 84
+  Aterrizaje programado: Avión ID 4 en Pista 1 en t = 89
+  Aterrizaje programado: Avión ID 5 en Pista 0 en t = 100
+  Aterrizaje programado: Avión ID 6 en Pista 1 en t = 107
+  Aterrizaje programado: Avión ID 8 en Pista 0 en t = 109
+  Aterrizaje programado: Avión ID 7 en Pista 1 en t = 115
+  Aterrizaje programado: Avión ID 9 en Pista 0 en t = 117
+  Aterrizaje programado: Avión ID 1 en Pista 1 en t = 130
+  Aterrizaje programado: Avión ID 10 en Pista 0 en t = 134
+  Aterrizaje programado: Avión ID 14 en Pista 0 en t = 152
+  Aterrizaje programado: Avión ID 13 en Pista 0 en t = 160
+  Aterrizaje programado: Avión ID 2 en Pista 0 en t = 190
+  Aterrizaje programado: Avión ID 12 en Pista 0 en t = 251
+  Aterrizaje programado: Avión ID 11 en Pista 0 en t = 266
+  Aterrizaje programado: Avión ID 15 en Pista 0 en t = 276
+
+--- Algoritmo Greedy Determinista para 2 Pistas Finalizado ---
+
+--- Resumen de Factibilidad Final (Greedy 2 Pistas) ---
+✅ La solución encontrada es factible.
+
+--- Cálculo de Costo Total de la Programación (2 Pistas) ---
+----------------------------------------------------------------------
+ID    | Pista   | T.Aterrizaje | T.Preferente | Costo Avión  | Detalle
+----------------------------------------------------------------------
+1     | 1       | 130          | 155          | 250.00       | 25 temp. * 10.0/u
+2     | 0       | 190          | 250          | 600.00       | 60 temp. * 10.0/u
+3     | 0       | 84           | 93           | 270.00       | 9 temp. * 30.0/u
+4     | 1       | 89           | 98           | 270.00       | 9 temp. * 30.0/u
+5     | 0       | 100          | 111          | 330.00       | 11 temp. * 30.0/u
+6     | 1       | 107          | 120          | 390.00       | 13 temp. * 30.0/u
+7     | 1       | 115          | 121          | 180.00       | 6 temp. * 30.0/u
+8     | 0       | 109          | 120          | 330.00       | 11 temp. * 30.0/u
+9     | 0       | 117          | 128          | 330.00       | 11 temp. * 30.0/u
+10    | 0       | 134          | 151          | 510.00       | 17 temp. * 30.0/u
+11    | 0       | 266          | 341          | 750.00       | 75 temp. * 10.0/u
+12    | 0       | 251          | 313          | 620.00       | 62 temp. * 10.0/u
+13    | 0       | 160          | 181          | 630.00       | 21 temp. * 30.0/u
+14    | 0       | 152          | 171          | 570.00       | 19 temp. * 30.0/u
+15    | 0       | 276          | 342          | 660.00       | 66 temp. * 10.0/u
+----------------------------------------------------------------------
+Costo Total de la Programación (solo aviones aterrizados): 6690.00
+--- Fin Cálculo de Costo ---
+
+¡¡¡FELICIDADES!!! ¡Todos los aviones fueron programados con esta lógica de 2 pistas!
+
+--- Matriz de Horario de Aterrizaje (2 Pistas) ---
+----------------------------------------------------
+| Tiempo Aterrizaje  | ID Avión   | Pista   |
+|--------------------|------------|---------|
+| 84                 | 3          | 0       |
+| 89                 | 4          | 1       |
+| 100                | 5          | 0       |
+| 107                | 6          | 1       |
+| 109                | 8          | 0       |
+| 115                | 7          | 1       |
+| 117                | 9          | 0       |
+| 130                | 1          | 1       |
+| 134                | 10         | 0       |
+| 152                | 14         | 0       |
+| 160                | 13         | 0       |
+| 190                | 2          | 0       |
+| 251                | 12         | 0       |
+| 266                | 11         | 0       |
+| 276                | 15         | 0       |
+----------------------------------------------------
+jb@jb-pc1:~/Desktop/T2_AEyM$ 

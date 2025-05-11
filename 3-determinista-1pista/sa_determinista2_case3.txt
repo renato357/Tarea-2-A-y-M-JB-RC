@@ -1,0 +1,626 @@
+/bin/python3 /home/jb/Desktop/T2_AEyM/sa_determinista2.py
+jb@jb-pc1:~/Desktop/T2_AEyM$ /bin/python3 /home/jb/Desktop/T2_AEyM/sa_determinista2.py
+>>> Iniciando Proceso de Simulated Annealing (con Greedy Determinista y Nuevos Operadores) <<<
+Archivo de datos: case4.txt
+USANDO SEMILLA GLOBAL PARA REPLICACIÓN EN TODAS LAS CONFIGURACIONES DE SA: 42
+
+--- Paso 1: Generando Solución Inicial con Greedy Determinista ---
+Leídos 44 aviones desde 'case4.txt'.
+
+--- Ejecutando Algoritmo Greedy: Priorizar Menor E_k ---
+Tiempo inicial T: 0
+
+--- Iteración 1, Tiempo Actual (T): 0 ---
+Aviones pendientes: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44]
+Ningún avión ha aterrizado aún.
+  Avión global con menor E_k pendiente: ID 1 (E_k: 0)
+  Candidatos para aterrizar en T=0 (ventana y separación OK): [1]
+  Avión seleccionado para aterrizar en T=0: ID 1 (E_k: 0, L_k: 0)
+
+--- Iteración 2, Tiempo Actual (T): 0 ---
+Aviones pendientes: [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44]
+Último avión aterrizado: ID 1 en t=0
+  Avión global con menor E_k pendiente: ID 2 (E_k: 79)
+  Adelantando T de 0 a 96 para permitir aterrizar al avión ID 2 (menor E_k global).
+  Candidatos para aterrizar en T=96 (ventana y separación OK): [2]
+  Avión seleccionado para aterrizar en T=96: ID 2 (E_k: 79, L_k: 196)
+
+--- Iteración 3, Tiempo Actual (T): 96 ---
+Aviones pendientes: [3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44]
+Último avión aterrizado: ID 2 en t=96
+  Avión global con menor E_k pendiente: ID 3 (E_k: 146)
+  Adelantando T de 96 a 296 para permitir aterrizar al avión ID 3 (menor E_k global).
+  Candidatos para aterrizar en T=296 (ventana y separación OK): [3, 4]
+  Avión seleccionado para aterrizar en T=296: ID 3 (E_k: 146, L_k: 396)
+
+--- Iteración 4, Tiempo Actual (T): 296 ---
+Aviones pendientes: [4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44]
+Último avión aterrizado: ID 3 en t=296
+  Avión global con menor E_k pendiente: ID 4 (E_k: 226)
+  Adelantando T de 296 a 376 para permitir aterrizar al avión ID 4 (menor E_k global).
+  Candidatos para aterrizar en T=376 (ventana y separación OK): [4, 5]
+  Avión seleccionado para aterrizar en T=376: ID 4 (E_k: 226, L_k: 476)
+
+--- Iteración 5, Tiempo Actual (T): 376 ---
+Aviones pendientes: [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44]
+Último avión aterrizado: ID 4 en t=376
+  Avión global con menor E_k pendiente: ID 5 (E_k: 306)
+  Adelantando T de 376 a 456 para permitir aterrizar al avión ID 5 (menor E_k global).
+  Candidatos para aterrizar en T=456 (ventana y separación OK): [5, 6]
+  Avión seleccionado para aterrizar en T=456: ID 5 (E_k: 306, L_k: 556)
+
+--- Iteración 6, Tiempo Actual (T): 456 ---
+Aviones pendientes: [6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44]
+Último avión aterrizado: ID 5 en t=456
+  Avión global con menor E_k pendiente: ID 6 (E_k: 378)
+  Adelantando T de 456 a 528 para permitir aterrizar al avión ID 6 (menor E_k global).
+  Candidatos para aterrizar en T=528 (ventana y separación OK): [6, 7]
+  Avión seleccionado para aterrizar en T=528: ID 6 (E_k: 378, L_k: 628)
+
+--- Iteración 7, Tiempo Actual (T): 528 ---
+Aviones pendientes: [7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44]
+Último avión aterrizado: ID 6 en t=528
+  Avión global con menor E_k pendiente: ID 7 (E_k: 528)
+  Adelantando T de 528 a 624 para permitir aterrizar al avión ID 7 (menor E_k global).
+  Candidatos para aterrizar en T=624 (ventana y separación OK): [7]
+  Avión seleccionado para aterrizar en T=624: ID 7 (E_k: 528, L_k: 724)
+
+--- Iteración 8, Tiempo Actual (T): 624 ---
+Aviones pendientes: [8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44]
+Último avión aterrizado: ID 7 en t=624
+  Avión global con menor E_k pendiente: ID 8 (E_k: 635)
+  Adelantando T de 624 a 720 para permitir aterrizar al avión ID 8 (menor E_k global).
+  Candidatos para aterrizar en T=720 (ventana y separación OK): [8]
+  Avión seleccionado para aterrizar en T=720: ID 8 (E_k: 635, L_k: 820)
+
+--- Iteración 9, Tiempo Actual (T): 720 ---
+Aviones pendientes: [9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44]
+Último avión aterrizado: ID 8 en t=720
+  Avión global con menor E_k pendiente: ID 9 (E_k: 770)
+  Adelantando T de 720 a 920 para permitir aterrizar al avión ID 9 (menor E_k global).
+  Candidatos para aterrizar en T=920 (ventana y separación OK): [9, 10]
+  Avión seleccionado para aterrizar en T=920: ID 9 (E_k: 770, L_k: 1020)
+
+--- Iteración 10, Tiempo Actual (T): 920 ---
+Aviones pendientes: [10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44]
+Último avión aterrizado: ID 9 en t=920
+  Avión global con menor E_k pendiente: ID 10 (E_k: 842)
+  Adelantando T de 920 a 992 para permitir aterrizar al avión ID 10 (menor E_k global).
+  Candidatos para aterrizar en T=992 (ventana y separación OK): [10]
+  Avión seleccionado para aterrizar en T=992: ID 10 (E_k: 842, L_k: 1092)
+
+--- Iteración 11, Tiempo Actual (T): 992 ---
+Aviones pendientes: [11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44]
+Último avión aterrizado: ID 10 en t=992
+  Avión global con menor E_k pendiente: ID 11 (E_k: 1042)
+  Adelantando T de 992 a 1192 para permitir aterrizar al avión ID 11 (menor E_k global).
+  Candidatos para aterrizar en T=1192 (ventana y separación OK): [11, 12]
+  Avión seleccionado para aterrizar en T=1192: ID 11 (E_k: 1042, L_k: 1292)
+
+--- Iteración 12, Tiempo Actual (T): 1192 ---
+Aviones pendientes: [12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44]
+Último avión aterrizado: ID 11 en t=1192
+  Avión global con menor E_k pendiente: ID 12 (E_k: 1114)
+  Adelantando T de 1192 a 1264 para permitir aterrizar al avión ID 12 (menor E_k global).
+  Candidatos para aterrizar en T=1264 (ventana y separación OK): [12]
+  Avión seleccionado para aterrizar en T=1264: ID 12 (E_k: 1114, L_k: 1364)
+
+--- Iteración 13, Tiempo Actual (T): 1264 ---
+Aviones pendientes: [13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44]
+Último avión aterrizado: ID 12 en t=1264
+  Avión global con menor E_k pendiente: ID 13 (E_k: 1314)
+  Adelantando T de 1264 a 1464 para permitir aterrizar al avión ID 13 (menor E_k global).
+  Candidatos para aterrizar en T=1464 (ventana y separación OK): [13, 14]
+  Avión seleccionado para aterrizar en T=1464: ID 13 (E_k: 1314, L_k: 1564)
+
+--- Iteración 14, Tiempo Actual (T): 1464 ---
+Aviones pendientes: [14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44]
+Último avión aterrizado: ID 13 en t=1464
+  Avión global con menor E_k pendiente: ID 14 (E_k: 1394)
+  Adelantando T de 1464 a 1544 para permitir aterrizar al avión ID 14 (menor E_k global).
+  Candidatos para aterrizar en T=1544 (ventana y separación OK): [14, 15]
+  Avión seleccionado para aterrizar en T=1544: ID 14 (E_k: 1394, L_k: 1644)
+
+--- Iteración 15, Tiempo Actual (T): 1544 ---
+Aviones pendientes: [15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44]
+Último avión aterrizado: ID 14 en t=1544
+  Avión global con menor E_k pendiente: ID 15 (E_k: 1466)
+  Adelantando T de 1544 a 1616 para permitir aterrizar al avión ID 15 (menor E_k global).
+  Candidatos para aterrizar en T=1616 (ventana y separación OK): [15]
+  Avión seleccionado para aterrizar en T=1616: ID 15 (E_k: 1466, L_k: 1716)
+
+--- Iteración 16, Tiempo Actual (T): 1616 ---
+Aviones pendientes: [16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44]
+Último avión aterrizado: ID 15 en t=1616
+  Avión global con menor E_k pendiente: ID 16 (E_k: 1666)
+  Adelantando T de 1616 a 1816 para permitir aterrizar al avión ID 16 (menor E_k global).
+  Candidatos para aterrizar en T=1816 (ventana y separación OK): [16, 17]
+  Avión seleccionado para aterrizar en T=1816: ID 16 (E_k: 1666, L_k: 1916)
+
+--- Iteración 17, Tiempo Actual (T): 1816 ---
+Aviones pendientes: [17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44]
+Último avión aterrizado: ID 16 en t=1816
+  Avión global con menor E_k pendiente: ID 17 (E_k: 1746)
+  Adelantando T de 1816 a 1896 para permitir aterrizar al avión ID 17 (menor E_k global).
+  Candidatos para aterrizar en T=1896 (ventana y separación OK): [17, 18]
+  Avión seleccionado para aterrizar en T=1896: ID 17 (E_k: 1746, L_k: 1996)
+
+--- Iteración 18, Tiempo Actual (T): 1896 ---
+Aviones pendientes: [18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44]
+Último avión aterrizado: ID 17 en t=1896
+  Avión global con menor E_k pendiente: ID 18 (E_k: 1818)
+  Adelantando T de 1896 a 1968 para permitir aterrizar al avión ID 18 (menor E_k global).
+  Candidatos para aterrizar en T=1968 (ventana y separación OK): [18]
+  Avión seleccionado para aterrizar en T=1968: ID 18 (E_k: 1818, L_k: 2068)
+
+--- Iteración 19, Tiempo Actual (T): 1968 ---
+Aviones pendientes: [19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44]
+Último avión aterrizado: ID 18 en t=1968
+  Avión global con menor E_k pendiente: ID 19 (E_k: 2018)
+  Adelantando T de 1968 a 2168 para permitir aterrizar al avión ID 19 (menor E_k global).
+  Candidatos para aterrizar en T=2168 (ventana y separación OK): [19, 20]
+  Avión seleccionado para aterrizar en T=2168: ID 19 (E_k: 2018, L_k: 2268)
+
+--- Iteración 20, Tiempo Actual (T): 2168 ---
+Aviones pendientes: [20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44]
+Último avión aterrizado: ID 19 en t=2168
+  Avión global con menor E_k pendiente: ID 20 (E_k: 2098)
+  Adelantando T de 2168 a 2248 para permitir aterrizar al avión ID 20 (menor E_k global).
+  Candidatos para aterrizar en T=2248 (ventana y separación OK): [20, 21]
+  Avión seleccionado para aterrizar en T=2248: ID 20 (E_k: 2098, L_k: 2348)
+
+--- Iteración 21, Tiempo Actual (T): 2248 ---
+Aviones pendientes: [21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44]
+Último avión aterrizado: ID 20 en t=2248
+  Avión global con menor E_k pendiente: ID 21 (E_k: 2170)
+  Adelantando T de 2248 a 2320 para permitir aterrizar al avión ID 21 (menor E_k global).
+  Candidatos para aterrizar en T=2320 (ventana y separación OK): [21, 22]
+  Avión seleccionado para aterrizar en T=2320: ID 21 (E_k: 2170, L_k: 2420)
+
+--- Iteración 22, Tiempo Actual (T): 2320 ---
+Aviones pendientes: [22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44]
+Último avión aterrizado: ID 21 en t=2320
+  Avión global con menor E_k pendiente: ID 22 (E_k: 2266)
+  Adelantando T de 2320 a 2416 para permitir aterrizar al avión ID 22 (menor E_k global).
+  Candidatos para aterrizar en T=2416 (ventana y separación OK): [22]
+  Avión seleccionado para aterrizar en T=2416: ID 22 (E_k: 2266, L_k: 2516)
+
+--- Iteración 23, Tiempo Actual (T): 2416 ---
+Aviones pendientes: [23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44]
+Último avión aterrizado: ID 22 en t=2416
+  Avión global con menor E_k pendiente: ID 23 (E_k: 2466)
+  Adelantando T de 2416 a 2616 para permitir aterrizar al avión ID 23 (menor E_k global).
+  Candidatos para aterrizar en T=2616 (ventana y separación OK): [23, 24]
+  Avión seleccionado para aterrizar en T=2616: ID 23 (E_k: 2466, L_k: 2716)
+
+--- Iteración 24, Tiempo Actual (T): 2616 ---
+Aviones pendientes: [24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44]
+Último avión aterrizado: ID 23 en t=2616
+  Avión global con menor E_k pendiente: ID 24 (E_k: 2538)
+  Adelantando T de 2616 a 2688 para permitir aterrizar al avión ID 24 (menor E_k global).
+  Candidatos para aterrizar en T=2688 (ventana y separación OK): [24]
+  Avión seleccionado para aterrizar en T=2688: ID 24 (E_k: 2538, L_k: 2788)
+
+--- Iteración 25, Tiempo Actual (T): 2688 ---
+Aviones pendientes: [25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44]
+Último avión aterrizado: ID 24 en t=2688
+  Avión global con menor E_k pendiente: ID 25 (E_k: 2738)
+  Adelantando T de 2688 a 2888 para permitir aterrizar al avión ID 25 (menor E_k global).
+  Candidatos para aterrizar en T=2888 (ventana y separación OK): [25, 26]
+  Avión seleccionado para aterrizar en T=2888: ID 25 (E_k: 2738, L_k: 2988)
+
+--- Iteración 26, Tiempo Actual (T): 2888 ---
+Aviones pendientes: [26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44]
+Último avión aterrizado: ID 25 en t=2888
+  Avión global con menor E_k pendiente: ID 26 (E_k: 2818)
+  Adelantando T de 2888 a 2968 para permitir aterrizar al avión ID 26 (menor E_k global).
+  Candidatos para aterrizar en T=2968 (ventana y separación OK): [26, 27]
+  Avión seleccionado para aterrizar en T=2968: ID 26 (E_k: 2818, L_k: 3068)
+
+--- Iteración 27, Tiempo Actual (T): 2968 ---
+Aviones pendientes: [27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44]
+Último avión aterrizado: ID 26 en t=2968
+  Avión global con menor E_k pendiente: ID 27 (E_k: 2898)
+  Adelantando T de 2968 a 3048 para permitir aterrizar al avión ID 27 (menor E_k global).
+  Candidatos para aterrizar en T=3048 (ventana y separación OK): [27, 28]
+  Avión seleccionado para aterrizar en T=3048: ID 27 (E_k: 2898, L_k: 3148)
+
+--- Iteración 28, Tiempo Actual (T): 3048 ---
+Aviones pendientes: [28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44]
+Último avión aterrizado: ID 27 en t=3048
+  Avión global con menor E_k pendiente: ID 28 (E_k: 2978)
+  Adelantando T de 3048 a 3128 para permitir aterrizar al avión ID 28 (menor E_k global).
+  Candidatos para aterrizar en T=3128 (ventana y separación OK): [28, 29]
+  Avión seleccionado para aterrizar en T=3128: ID 28 (E_k: 2978, L_k: 3228)
+
+--- Iteración 29, Tiempo Actual (T): 3128 ---
+Aviones pendientes: [29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44]
+Último avión aterrizado: ID 28 en t=3128
+  Avión global con menor E_k pendiente: ID 29 (E_k: 3050)
+  Adelantando T de 3128 a 3200 para permitir aterrizar al avión ID 29 (menor E_k global).
+  Candidatos para aterrizar en T=3200 (ventana y separación OK): [29, 30]
+  Avión seleccionado para aterrizar en T=3200: ID 29 (E_k: 3050, L_k: 3300)
+
+--- Iteración 30, Tiempo Actual (T): 3200 ---
+Aviones pendientes: [30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44]
+Último avión aterrizado: ID 29 en t=3200
+  Avión global con menor E_k pendiente: ID 30 (E_k: 3146)
+  Adelantando T de 3200 a 3296 para permitir aterrizar al avión ID 30 (menor E_k global).
+  Candidatos para aterrizar en T=3296 (ventana y separación OK): [30]
+  Avión seleccionado para aterrizar en T=3296: ID 30 (E_k: 3146, L_k: 3396)
+
+--- Iteración 31, Tiempo Actual (T): 3296 ---
+Aviones pendientes: [31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44]
+Último avión aterrizado: ID 30 en t=3296
+  Avión global con menor E_k pendiente: ID 31 (E_k: 3346)
+  Adelantando T de 3296 a 3496 para permitir aterrizar al avión ID 31 (menor E_k global).
+  Candidatos para aterrizar en T=3496 (ventana y separación OK): [31, 32]
+  Avión seleccionado para aterrizar en T=3496: ID 31 (E_k: 3346, L_k: 3596)
+
+--- Iteración 32, Tiempo Actual (T): 3496 ---
+Aviones pendientes: [32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44]
+Último avión aterrizado: ID 31 en t=3496
+  Avión global con menor E_k pendiente: ID 32 (E_k: 3418)
+  Adelantando T de 3496 a 3568 para permitir aterrizar al avión ID 32 (menor E_k global).
+  Candidatos para aterrizar en T=3568 (ventana y separación OK): [32]
+  Avión seleccionado para aterrizar en T=3568: ID 32 (E_k: 3418, L_k: 3668)
+
+--- Iteración 33, Tiempo Actual (T): 3568 ---
+Aviones pendientes: [33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44]
+Último avión aterrizado: ID 32 en t=3568
+  Avión global con menor E_k pendiente: ID 33 (E_k: 3618)
+  Adelantando T de 3568 a 3768 para permitir aterrizar al avión ID 33 (menor E_k global).
+  Candidatos para aterrizar en T=3768 (ventana y separación OK): [33, 34]
+  Avión seleccionado para aterrizar en T=3768: ID 33 (E_k: 3618, L_k: 3868)
+
+--- Iteración 34, Tiempo Actual (T): 3768 ---
+Aviones pendientes: [34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44]
+Último avión aterrizado: ID 33 en t=3768
+  Avión global con menor E_k pendiente: ID 34 (E_k: 3690)
+  Adelantando T de 3768 a 3840 para permitir aterrizar al avión ID 34 (menor E_k global).
+  Candidatos para aterrizar en T=3840 (ventana y separación OK): [34, 35]
+  Avión seleccionado para aterrizar en T=3840: ID 34 (E_k: 3690, L_k: 3940)
+
+--- Iteración 35, Tiempo Actual (T): 3840 ---
+Aviones pendientes: [35, 36, 37, 38, 39, 40, 41, 42, 43, 44]
+Último avión aterrizado: ID 34 en t=3840
+  Avión global con menor E_k pendiente: ID 35 (E_k: 3786)
+  Adelantando T de 3840 a 3936 para permitir aterrizar al avión ID 35 (menor E_k global).
+  Candidatos para aterrizar en T=3936 (ventana y separación OK): [35]
+  Avión seleccionado para aterrizar en T=3936: ID 35 (E_k: 3786, L_k: 4036)
+
+--- Iteración 36, Tiempo Actual (T): 3936 ---
+Aviones pendientes: [36, 37, 38, 39, 40, 41, 42, 43, 44]
+Último avión aterrizado: ID 35 en t=3936
+  Avión global con menor E_k pendiente: ID 36 (E_k: 3986)
+  Adelantando T de 3936 a 4136 para permitir aterrizar al avión ID 36 (menor E_k global).
+  Candidatos para aterrizar en T=4136 (ventana y separación OK): [36, 37]
+  Avión seleccionado para aterrizar en T=4136: ID 36 (E_k: 3986, L_k: 4236)
+
+--- Iteración 37, Tiempo Actual (T): 4136 ---
+Aviones pendientes: [37, 38, 39, 40, 41, 42, 43, 44]
+Último avión aterrizado: ID 36 en t=4136
+  Avión global con menor E_k pendiente: ID 37 (E_k: 4066)
+  Adelantando T de 4136 a 4216 para permitir aterrizar al avión ID 37 (menor E_k global).
+  Candidatos para aterrizar en T=4216 (ventana y separación OK): [37, 38]
+  Avión seleccionado para aterrizar en T=4216: ID 37 (E_k: 4066, L_k: 4316)
+
+--- Iteración 38, Tiempo Actual (T): 4216 ---
+Aviones pendientes: [38, 39, 40, 41, 42, 43, 44]
+Último avión aterrizado: ID 37 en t=4216
+  Avión global con menor E_k pendiente: ID 38 (E_k: 4146)
+  Adelantando T de 4216 a 4296 para permitir aterrizar al avión ID 38 (menor E_k global).
+  Candidatos para aterrizar en T=4296 (ventana y separación OK): [38, 39]
+  Avión seleccionado para aterrizar en T=4296: ID 38 (E_k: 4146, L_k: 4396)
+
+--- Iteración 39, Tiempo Actual (T): 4296 ---
+Aviones pendientes: [39, 40, 41, 42, 43, 44]
+Último avión aterrizado: ID 38 en t=4296
+  Avión global con menor E_k pendiente: ID 39 (E_k: 4218)
+  Adelantando T de 4296 a 4368 para permitir aterrizar al avión ID 39 (menor E_k global).
+  Candidatos para aterrizar en T=4368 (ventana y separación OK): [39, 40]
+  Avión seleccionado para aterrizar en T=4368: ID 39 (E_k: 4218, L_k: 4468)
+
+--- Iteración 40, Tiempo Actual (T): 4368 ---
+Aviones pendientes: [40, 41, 42, 43, 44]
+Último avión aterrizado: ID 39 en t=4368
+  Avión global con menor E_k pendiente: ID 40 (E_k: 4314)
+  Adelantando T de 4368 a 4464 para permitir aterrizar al avión ID 40 (menor E_k global).
+  Candidatos para aterrizar en T=4464 (ventana y separación OK): [40, 41]
+  Avión seleccionado para aterrizar en T=4464: ID 40 (E_k: 4314, L_k: 4564)
+
+--- Iteración 41, Tiempo Actual (T): 4464 ---
+Aviones pendientes: [41, 42, 43, 44]
+Último avión aterrizado: ID 40 en t=4464
+  Avión global con menor E_k pendiente: ID 41 (E_k: 4410)
+  Adelantando T de 4464 a 4560 para permitir aterrizar al avión ID 41 (menor E_k global).
+  Candidatos para aterrizar en T=4560 (ventana y separación OK): [41, 42]
+  Avión seleccionado para aterrizar en T=4560: ID 41 (E_k: 4410, L_k: 4660)
+
+--- Iteración 42, Tiempo Actual (T): 4560 ---
+Aviones pendientes: [42, 43, 44]
+Último avión aterrizado: ID 41 en t=4560
+  Avión global con menor E_k pendiente: ID 42 (E_k: 4506)
+  Adelantando T de 4560 a 4656 para permitir aterrizar al avión ID 42 (menor E_k global).
+  Candidatos para aterrizar en T=4656 (ventana y separación OK): [42, 43]
+  Avión seleccionado para aterrizar en T=4656: ID 42 (E_k: 4506, L_k: 4756)
+
+--- Iteración 43, Tiempo Actual (T): 4656 ---
+Aviones pendientes: [43, 44]
+Último avión aterrizado: ID 42 en t=4656
+  Avión global con menor E_k pendiente: ID 43 (E_k: 4602)
+  Adelantando T de 4656 a 4752 para permitir aterrizar al avión ID 43 (menor E_k global).
+  Candidatos para aterrizar en T=4752 (ventana y separación OK): [43]
+  Avión seleccionado para aterrizar en T=4752: ID 43 (E_k: 4602, L_k: 4852)
+
+--- Iteración 44, Tiempo Actual (T): 4752 ---
+Aviones pendientes: [44]
+Último avión aterrizado: ID 43 en t=4752
+  Avión global con menor E_k pendiente: ID 44 (E_k: 4802)
+  Adelantando T de 4752 a 4952 para permitir aterrizar al avión ID 44 (menor E_k global).
+  Candidatos para aterrizar en T=4952 (ventana y separación OK): [44]
+  Avión seleccionado para aterrizar en T=4952: ID 44 (E_k: 4802, L_k: 5052)
+¡Todos los aviones han sido programados!
+
+--- Algoritmo Greedy (Priorizar Menor E_k) Finalizado ---
+
+--- Resumen de Factibilidad Final (Greedy Priorizar Menor E_k) ---
+✅ La solución encontrada es factible.
+
+Horario de Aterrizaje Detallado (Greedy Priorizar Menor E_k):
+  Avión ID 1: aterriza en t = 0
+  Avión ID 2: aterriza en t = 96
+  Avión ID 3: aterriza en t = 296
+  Avión ID 4: aterriza en t = 376
+  Avión ID 5: aterriza en t = 456
+  Avión ID 6: aterriza en t = 528
+  Avión ID 7: aterriza en t = 624
+  Avión ID 8: aterriza en t = 720
+  Avión ID 9: aterriza en t = 920
+  Avión ID 10: aterriza en t = 992
+  Avión ID 11: aterriza en t = 1192
+  Avión ID 12: aterriza en t = 1264
+  Avión ID 13: aterriza en t = 1464
+  Avión ID 14: aterriza en t = 1544
+  Avión ID 15: aterriza en t = 1616
+  Avión ID 16: aterriza en t = 1816
+  Avión ID 17: aterriza en t = 1896
+  Avión ID 18: aterriza en t = 1968
+  Avión ID 19: aterriza en t = 2168
+  Avión ID 20: aterriza en t = 2248
+  Avión ID 21: aterriza en t = 2320
+  Avión ID 22: aterriza en t = 2416
+  Avión ID 23: aterriza en t = 2616
+  Avión ID 24: aterriza en t = 2688
+  Avión ID 25: aterriza en t = 2888
+  Avión ID 26: aterriza en t = 2968
+  Avión ID 27: aterriza en t = 3048
+  Avión ID 28: aterriza en t = 3128
+  Avión ID 29: aterriza en t = 3200
+  Avión ID 30: aterriza en t = 3296
+  Avión ID 31: aterriza en t = 3496
+  Avión ID 32: aterriza en t = 3568
+  Avión ID 33: aterriza en t = 3768
+  Avión ID 34: aterriza en t = 3840
+  Avión ID 35: aterriza en t = 3936
+  Avión ID 36: aterriza en t = 4136
+  Avión ID 37: aterriza en t = 4216
+  Avión ID 38: aterriza en t = 4296
+  Avión ID 39: aterriza en t = 4368
+  Avión ID 40: aterriza en t = 4464
+  Avión ID 41: aterriza en t = 4560
+  Avión ID 42: aterriza en t = 4656
+  Avión ID 43: aterriza en t = 4752
+  Avión ID 44: aterriza en t = 4952
+Solución Inicial del Greedy Determinista (Factible por greedy: True):
+Costo del Greedy Determinista: 1550.00
+
+--- Matriz de Horario de Aterrizaje ---
+---------------------------------------
+| Tiempo Aterrizaje | ID Avión      |
+|-------------------|---------------|
+| 0                 | 1             |
+| 96                | 2             |
+| 296               | 3             |
+| 376               | 4             |
+| 456               | 5             |
+| 528               | 6             |
+| 624               | 7             |
+| 720               | 8             |
+| 920               | 9             |
+| 992               | 10            |
+| 1192              | 11            |
+| 1264              | 12            |
+| 1464              | 13            |
+| 1544              | 14            |
+| 1616              | 15            |
+| 1816              | 16            |
+| 1896              | 17            |
+| 1968              | 18            |
+| 2168              | 19            |
+| 2248              | 20            |
+| 2320              | 21            |
+| 2416              | 22            |
+| 2616              | 23            |
+| 2688              | 24            |
+| 2888              | 25            |
+| 2968              | 26            |
+| 3048              | 27            |
+| 3128              | 28            |
+| 3200              | 29            |
+| 3296              | 30            |
+| 3496              | 31            |
+| 3568              | 32            |
+| 3768              | 33            |
+| 3840              | 34            |
+| 3936              | 35            |
+| 4136              | 36            |
+| 4216              | 37            |
+| 4296              | 38            |
+| 4368              | 39            |
+| 4464              | 40            |
+| 4560              | 41            |
+| 4656              | 42            |
+| 4752              | 43            |
+| 4952              | 44            |
+---------------------------------------
+
+--- Paso 2: Ejecutando Simulated Annealing para Múltiples Configuraciones ---
+
+Procesando con SA - Config1_HighT_SlowCool:
+  SA Run (Config: Config1_HighT_SlowCool, Seed 42): Iniciando SA. Temp Inicial: 100000.00, Costo Inicial: 1550.00
+    SA Run (Config: Config1_HighT_SlowCool, Seed 42) Iter: 20000, Temp: 36880.18, Costo Actual: 2884.00, Mejor Costo: 1550.00
+    SA Run (Config: Config1_HighT_SlowCool, Seed 42) Iter: 40000, Temp: 13533.47, Costo Actual: 3607.00, Mejor Costo: 1550.00
+    SA Run (Config: Config1_HighT_SlowCool, Seed 42) Iter: 60000, Temp: 4966.21, Costo Actual: 3457.00, Mejor Costo: 1550.00
+    SA Run (Config: Config1_HighT_SlowCool, Seed 42) Iter: 80000, Temp: 1822.39, Costo Actual: 3263.00, Mejor Costo: 1550.00
+    SA Run (Config: Config1_HighT_SlowCool, Seed 42) Iter: 100000, Temp: 668.74, Costo Actual: 3617.00, Mejor Costo: 1550.00
+    SA Run (Config: Config1_HighT_SlowCool, Seed 42) Iter: 120000, Temp: 245.40, Costo Actual: 3251.00, Mejor Costo: 1550.00
+    SA Run (Config: Config1_HighT_SlowCool, Seed 42) Iter: 140000, Temp: 90.05, Costo Actual: 3788.00, Mejor Costo: 1550.00
+    SA Run (Config: Config1_HighT_SlowCool, Seed 42) Iter: 160000, Temp: 33.05, Costo Actual: 3196.00, Mejor Costo: 1550.00
+    SA Run (Config: Config1_HighT_SlowCool, Seed 42) Iter: 180000, Temp: 12.13, Costo Actual: 2494.00, Mejor Costo: 1550.00
+    SA Run (Config: Config1_HighT_SlowCool, Seed 42) Iter: 200000, Temp: 4.45, Costo Actual: 2053.00, Mejor Costo: 1550.00
+    SA Run (Config: Config1_HighT_SlowCool, Seed 42) Iter: 220000, Temp: 1.63, Costo Actual: 1662.00, Mejor Costo: 1550.00
+    SA Run (Config: Config1_HighT_SlowCool, Seed 42) Iter: 240000, Temp: 0.60, Costo Actual: 1553.00, Mejor Costo: 1550.00
+    SA Run (Config: Config1_HighT_SlowCool, Seed 42) Iter: 260000, Temp: 0.22, Costo Actual: 1550.00, Mejor Costo: 1550.00
+  SA Run (Config: Config1_HighT_SlowCool, Seed 42): SA Finalizado. Mejor costo encontrado: 1550.00 en 275700 iteraciones.
+
+Procesando con SA - Config2_MedT_MedCool:
+  SA Run (Config: Config2_MedT_MedCool, Seed 42): Iniciando SA. Temp Inicial: 50000.00, Costo Inicial: 1550.00
+    SA Run (Config: Config2_MedT_MedCool, Seed 42) Iter: 15000, Temp: 18486.48, Costo Actual: 3367.00, Mejor Costo: 1550.00
+    SA Run (Config: Config2_MedT_MedCool, Seed 42) Iter: 30000, Temp: 6766.65, Costo Actual: 3900.00, Mejor Costo: 1550.00
+    SA Run (Config: Config2_MedT_MedCool, Seed 42) Iter: 45000, Temp: 2476.81, Costo Actual: 3565.00, Mejor Costo: 1550.00
+    SA Run (Config: Config2_MedT_MedCool, Seed 42) Iter: 60000, Temp: 906.59, Costo Actual: 4024.00, Mejor Costo: 1550.00
+    SA Run (Config: Config2_MedT_MedCool, Seed 42) Iter: 75000, Temp: 331.84, Costo Actual: 4106.00, Mejor Costo: 1550.00
+    SA Run (Config: Config2_MedT_MedCool, Seed 42) Iter: 90000, Temp: 121.47, Costo Actual: 4334.00, Mejor Costo: 1550.00
+    SA Run (Config: Config2_MedT_MedCool, Seed 42) Iter: 105000, Temp: 44.46, Costo Actual: 3919.00, Mejor Costo: 1550.00
+    SA Run (Config: Config2_MedT_MedCool, Seed 42) Iter: 120000, Temp: 16.27, Costo Actual: 3461.00, Mejor Costo: 1550.00
+    SA Run (Config: Config2_MedT_MedCool, Seed 42) Iter: 135000, Temp: 5.96, Costo Actual: 2408.00, Mejor Costo: 1550.00
+    SA Run (Config: Config2_MedT_MedCool, Seed 42) Iter: 150000, Temp: 2.18, Costo Actual: 1675.00, Mejor Costo: 1550.00
+    SA Run (Config: Config2_MedT_MedCool, Seed 42) Iter: 165000, Temp: 0.80, Costo Actual: 1606.00, Mejor Costo: 1550.00
+    SA Run (Config: Config2_MedT_MedCool, Seed 42) Iter: 180000, Temp: 0.29, Costo Actual: 1599.00, Mejor Costo: 1550.00
+    SA Run (Config: Config2_MedT_MedCool, Seed 42) Iter: 195000, Temp: 0.11, Costo Actual: 1599.00, Mejor Costo: 1550.00
+  SA Run (Config: Config2_MedT_MedCool, Seed 42): SA Finalizado. Mejor costo encontrado: 1550.00 en 195900 iteraciones.
+
+Procesando con SA - Config3_LowT_FastCool_MoreReinsert:
+  SA Run (Config: Config3_LowT_FastCool_MoreReinsert, Seed 42): Iniciando SA. Temp Inicial: 10000.00, Costo Inicial: 1550.00
+    SA Run (Config: Config3_LowT_FastCool_MoreReinsert, Seed 42) Iter: 10000, Temp: 3716.02, Costo Actual: 3908.00, Mejor Costo: 1550.00
+    SA Run (Config: Config3_LowT_FastCool_MoreReinsert, Seed 42) Iter: 20000, Temp: 1353.26, Costo Actual: 3533.00, Mejor Costo: 1550.00
+    SA Run (Config: Config3_LowT_FastCool_MoreReinsert, Seed 42) Iter: 30000, Temp: 492.82, Costo Actual: 3901.00, Mejor Costo: 1550.00
+    SA Run (Config: Config3_LowT_FastCool_MoreReinsert, Seed 42) Iter: 40000, Temp: 179.47, Costo Actual: 3591.00, Mejor Costo: 1550.00
+    SA Run (Config: Config3_LowT_FastCool_MoreReinsert, Seed 42) Iter: 50000, Temp: 65.36, Costo Actual: 3695.00, Mejor Costo: 1550.00
+    SA Run (Config: Config3_LowT_FastCool_MoreReinsert, Seed 42) Iter: 60000, Temp: 23.80, Costo Actual: 3170.00, Mejor Costo: 1550.00
+    SA Run (Config: Config3_LowT_FastCool_MoreReinsert, Seed 42) Iter: 70000, Temp: 8.67, Costo Actual: 2544.00, Mejor Costo: 1550.00
+    SA Run (Config: Config3_LowT_FastCool_MoreReinsert, Seed 42) Iter: 80000, Temp: 3.16, Costo Actual: 2006.00, Mejor Costo: 1550.00
+    SA Run (Config: Config3_LowT_FastCool_MoreReinsert, Seed 42) Iter: 90000, Temp: 1.15, Costo Actual: 1694.00, Mejor Costo: 1550.00
+    SA Run (Config: Config3_LowT_FastCool_MoreReinsert, Seed 42) Iter: 100000, Temp: 0.42, Costo Actual: 1603.00, Mejor Costo: 1550.00
+    SA Run (Config: Config3_LowT_FastCool_MoreReinsert, Seed 42) Iter: 110000, Temp: 0.15, Costo Actual: 1600.00, Mejor Costo: 1550.00
+    SA Run (Config: Config3_LowT_FastCool_MoreReinsert, Seed 42) Iter: 120000, Temp: 0.06, Costo Actual: 1599.00, Mejor Costo: 1550.00
+    SA Run (Config: Config3_LowT_FastCool_MoreReinsert, Seed 42) Iter: 130000, Temp: 0.02, Costo Actual: 1599.00, Mejor Costo: 1550.00
+  SA Run (Config: Config3_LowT_FastCool_MoreReinsert, Seed 42): SA Finalizado. Mejor costo encontrado: 1550.00 en 136800 iteraciones.
+
+Procesando con SA - Config4_HighIter_BalancedOps:
+  SA Run (Config: Config4_HighIter_BalancedOps, Seed 42): Iniciando SA. Temp Inicial: 50000.00, Costo Inicial: 1550.00
+    SA Run (Config: Config4_HighIter_BalancedOps, Seed 42) Iter: 25000, Temp: 21711.57, Costo Actual: 3321.00, Mejor Costo: 1550.00
+    SA Run (Config: Config4_HighIter_BalancedOps, Seed 42) Iter: 50000, Temp: 9427.84, Costo Actual: 3544.00, Mejor Costo: 1550.00
+    SA Run (Config: Config4_HighIter_BalancedOps, Seed 42) Iter: 75000, Temp: 4093.86, Costo Actual: 3859.00, Mejor Costo: 1550.00
+    SA Run (Config: Config4_HighIter_BalancedOps, Seed 42) Iter: 100000, Temp: 1759.91, Costo Actual: 4135.00, Mejor Costo: 1550.00
+    SA Run (Config: Config4_HighIter_BalancedOps, Seed 42) Iter: 125000, Temp: 764.21, Costo Actual: 4039.00, Mejor Costo: 1550.00
+    SA Run (Config: Config4_HighIter_BalancedOps, Seed 42) Iter: 150000, Temp: 331.84, Costo Actual: 4839.00, Mejor Costo: 1550.00
+    SA Run (Config: Config4_HighIter_BalancedOps, Seed 42) Iter: 175000, Temp: 142.66, Costo Actual: 4058.00, Mejor Costo: 1550.00
+    SA Run (Config: Config4_HighIter_BalancedOps, Seed 42) Iter: 200000, Temp: 61.95, Costo Actual: 3980.00, Mejor Costo: 1550.00
+    SA Run (Config: Config4_HighIter_BalancedOps, Seed 42) Iter: 225000, Temp: 26.90, Costo Actual: 3729.00, Mejor Costo: 1550.00
+    SA Run (Config: Config4_HighIter_BalancedOps, Seed 42) Iter: 250000, Temp: 11.56, Costo Actual: 2589.00, Mejor Costo: 1550.00
+    SA Run (Config: Config4_HighIter_BalancedOps, Seed 42) Iter: 275000, Temp: 5.02, Costo Actual: 1800.00, Mejor Costo: 1550.00
+    SA Run (Config: Config4_HighIter_BalancedOps, Seed 42) Iter: 300000, Temp: 2.18, Costo Actual: 1592.00, Mejor Costo: 1550.00
+    SA Run (Config: Config4_HighIter_BalancedOps, Seed 42) Iter: 325000, Temp: 0.94, Costo Actual: 1551.00, Mejor Costo: 1550.00
+    SA Run (Config: Config4_HighIter_BalancedOps, Seed 42) Iter: 350000, Temp: 0.41, Costo Actual: 1550.00, Mejor Costo: 1550.00
+    SA Run (Config: Config4_HighIter_BalancedOps, Seed 42) Iter: 375000, Temp: 0.18, Costo Actual: 1550.00, Mejor Costo: 1550.00
+  SA Run (Config: Config4_HighIter_BalancedOps, Seed 42): SA Finalizado. Mejor costo encontrado: 1550.00 en 391800 iteraciones.
+
+Procesando con SA - Config5_FocusSingleMove:
+  SA Run (Config: Config5_FocusSingleMove, Seed 42): Iniciando SA. Temp Inicial: 50000.00, Costo Inicial: 1550.00
+    SA Run (Config: Config5_FocusSingleMove, Seed 42) Iter: 15000, Temp: 18486.48, Costo Actual: 2744.00, Mejor Costo: 1550.00
+    SA Run (Config: Config5_FocusSingleMove, Seed 42) Iter: 30000, Temp: 6766.65, Costo Actual: 3009.00, Mejor Costo: 1550.00
+    SA Run (Config: Config5_FocusSingleMove, Seed 42) Iter: 45000, Temp: 2476.81, Costo Actual: 3835.00, Mejor Costo: 1550.00
+    SA Run (Config: Config5_FocusSingleMove, Seed 42) Iter: 60000, Temp: 906.59, Costo Actual: 3891.00, Mejor Costo: 1550.00
+    SA Run (Config: Config5_FocusSingleMove, Seed 42) Iter: 75000, Temp: 331.84, Costo Actual: 3704.00, Mejor Costo: 1550.00
+    SA Run (Config: Config5_FocusSingleMove, Seed 42) Iter: 90000, Temp: 121.47, Costo Actual: 3405.00, Mejor Costo: 1550.00
+    SA Run (Config: Config5_FocusSingleMove, Seed 42) Iter: 105000, Temp: 44.46, Costo Actual: 3615.00, Mejor Costo: 1550.00
+    SA Run (Config: Config5_FocusSingleMove, Seed 42) Iter: 120000, Temp: 16.27, Costo Actual: 3307.00, Mejor Costo: 1550.00
+    SA Run (Config: Config5_FocusSingleMove, Seed 42) Iter: 135000, Temp: 5.96, Costo Actual: 2765.00, Mejor Costo: 1550.00
+    SA Run (Config: Config5_FocusSingleMove, Seed 42) Iter: 150000, Temp: 2.18, Costo Actual: 2148.00, Mejor Costo: 1550.00
+    SA Run (Config: Config5_FocusSingleMove, Seed 42) Iter: 165000, Temp: 0.80, Costo Actual: 1783.00, Mejor Costo: 1550.00
+    SA Run (Config: Config5_FocusSingleMove, Seed 42) Iter: 180000, Temp: 0.29, Costo Actual: 1673.00, Mejor Costo: 1550.00
+    SA Run (Config: Config5_FocusSingleMove, Seed 42) Iter: 195000, Temp: 0.11, Costo Actual: 1648.00, Mejor Costo: 1550.00
+  SA Run (Config: Config5_FocusSingleMove, Seed 42): SA Finalizado. Mejor costo encontrado: 1550.00 en 195900 iteraciones.
+
+
+========================= RESULTADOS FINALES DEL PROCESO SA (Determinista con Nuevos Operadores) =========================
+Costo Inicial (Greedy Determinista): 1550.00
+Semilla Global de Replicación Utilizada para TODAS las corridas de SA: 42
+
+Resumen de costos por configuración de SA:
+  Config SA: Config1_HighT_SlowCool (SA Seed Usada: 42) -> Costo SA Final = 1550.00
+  Config SA: Config2_MedT_MedCool (SA Seed Usada: 42) -> Costo SA Final = 1550.00
+  Config SA: Config3_LowT_FastCool_MoreReinsert (SA Seed Usada: 42) -> Costo SA Final = 1550.00
+  Config SA: Config4_HighIter_BalancedOps (SA Seed Usada: 42) -> Costo SA Final = 1550.00
+  Config SA: Config5_FocusSingleMove (SA Seed Usada: 42) -> Costo SA Final = 1550.00
+
+Mejor solución global encontrada por SA (considerando todas las configs con semilla 42): Costo = 1550.00
+  Originada por Config SA: Config1_HighT_SlowCool, SA Seed Usada: 42
+  Parámetros de la mejor config: {'label': 'Config1_HighT_SlowCool', 'initial_temp': 100000.0, 'final_temp': 0.1, 'cooling_rate': 0.995, 'iter_per_temp': 100, 'prob_single_move': 0.5, 'prob_swap_times': 0.3, 'print_interval': 20000, 'verbose_sa_run': True, 'verbose_sa_progress': True, 'verbose_sa_improvement': True}
+
+Horario de la mejor solución global SA (Config: Config1_HighT_SlowCool)
+
+--- Matriz de Horario de Aterrizaje ---
+---------------------------------------
+| Tiempo Aterrizaje | ID Avión      |
+|-------------------|---------------|
+| 0                 | 1             |
+| 96                | 2             |
+| 296               | 3             |
+| 376               | 4             |
+| 456               | 5             |
+| 528               | 6             |
+| 624               | 7             |
+| 720               | 8             |
+| 920               | 9             |
+| 992               | 10            |
+| 1192              | 11            |
+| 1264              | 12            |
+| 1464              | 13            |
+| 1544              | 14            |
+| 1616              | 15            |
+| 1816              | 16            |
+| 1896              | 17            |
+| 1968              | 18            |
+| 2168              | 19            |
+| 2248              | 20            |
+| 2320              | 21            |
+| 2416              | 22            |
+| 2616              | 23            |
+| 2688              | 24            |
+| 2888              | 25            |
+| 2968              | 26            |
+| 3048              | 27            |
+| 3128              | 28            |
+| 3200              | 29            |
+| 3296              | 30            |
+| 3496              | 31            |
+| 3568              | 32            |
+| 3768              | 33            |
+| 3840              | 34            |
+| 3936              | 35            |
+| 4136              | 36            |
+| 4216              | 37            |
+| 4296              | 38            |
+| 4368              | 39            |
+| 4464              | 40            |
+| 4560              | 41            |
+| 4656              | 42            |
+| 4752              | 43            |
+| 4952              | 44            |
+---------------------------------------
+La mejor solución SA global reportada ES factible.
+
+Gráfico de mejor costo guardado como: sa_determinista_mejor_costo_evolucion_case3_sem42.png

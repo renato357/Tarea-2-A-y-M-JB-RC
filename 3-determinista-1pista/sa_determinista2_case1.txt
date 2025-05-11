@@ -1,0 +1,556 @@
+/bin/python3 /home/jb/Desktop/T2_AEyM/sa_determinista2.py
+jb@jb-pc1:~/Desktop/T2_AEyM$ /bin/python3 /home/jb/Desktop/T2_AEyM/sa_determinista2.py
+>>> Iniciando Proceso de Simulated Annealing (con Greedy Determinista y Nuevos Operadores) <<<
+Archivo de datos: case4.txt
+USANDO SEMILLA GLOBAL PARA REPLICACIÓN EN TODAS LAS CONFIGURACIONES DE SA: 42
+
+--- Paso 1: Generando Solución Inicial con Greedy Determinista ---
+Leídos 15 aviones desde 'case4.txt'.
+
+--- Ejecutando Algoritmo Greedy: Priorizar Menor E_k ---
+Tiempo inicial T: 84
+
+--- Iteración 1, Tiempo Actual (T): 84 ---
+Aviones pendientes: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]
+Ningún avión ha aterrizado aún.
+  Avión global con menor E_k pendiente: ID 3 (E_k: 84)
+  Candidatos para aterrizar en T=84 (ventana y separación OK): [3]
+  Avión seleccionado para aterrizar en T=84: ID 3 (E_k: 84, L_k: 501)
+
+--- Iteración 2, Tiempo Actual (T): 84 ---
+Aviones pendientes: [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]
+Último avión aterrizado: ID 3 en t=84
+  Avión global con menor E_k pendiente: ID 4 (E_k: 89)
+  Adelantando T de 84 a 92 para permitir aterrizar al avión ID 4 (menor E_k global).
+  Candidatos para aterrizar en T=92 (ventana y separación OK): [4]
+  Avión seleccionado para aterrizar en T=92: ID 4 (E_k: 89, L_k: 509)
+
+--- Iteración 3, Tiempo Actual (T): 92 ---
+Aviones pendientes: [1, 2, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]
+Último avión aterrizado: ID 4 en t=92
+  Avión global con menor E_k pendiente: ID 5 (E_k: 100)
+  Adelantando T de 92 a 100 para permitir aterrizar al avión ID 5 (menor E_k global).
+  Candidatos para aterrizar en T=100 (ventana y separación OK): [5]
+  Avión seleccionado para aterrizar en T=100: ID 5 (E_k: 100, L_k: 536)
+
+--- Iteración 4, Tiempo Actual (T): 100 ---
+Aviones pendientes: [1, 2, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]
+Último avión aterrizado: ID 5 en t=100
+  Avión global con menor E_k pendiente: ID 6 (E_k: 107)
+  Adelantando T de 100 a 108 para permitir aterrizar al avión ID 6 (menor E_k global).
+  Candidatos para aterrizar en T=108 (ventana y separación OK): [6]
+  Avión seleccionado para aterrizar en T=108: ID 6 (E_k: 107, L_k: 552)
+
+--- Iteración 5, Tiempo Actual (T): 108 ---
+Aviones pendientes: [1, 2, 7, 8, 9, 10, 11, 12, 13, 14, 15]
+Último avión aterrizado: ID 6 en t=108
+  Avión global con menor E_k pendiente: ID 8 (E_k: 109)
+  Adelantando T de 108 a 116 para permitir aterrizar al avión ID 8 (menor E_k global).
+  Candidatos para aterrizar en T=116 (ventana y separación OK): [7, 8, 9]
+  Avión seleccionado para aterrizar en T=116: ID 8 (E_k: 109, L_k: 544)
+
+--- Iteración 6, Tiempo Actual (T): 116 ---
+Aviones pendientes: [1, 2, 7, 9, 10, 11, 12, 13, 14, 15]
+Último avión aterrizado: ID 8 en t=116
+  Avión global con menor E_k pendiente: ID 7 (E_k: 109)
+  Adelantando T de 116 a 124 para permitir aterrizar al avión ID 7 (menor E_k global).
+  Candidatos para aterrizar en T=124 (ventana y separación OK): [7, 9]
+  Avión seleccionado para aterrizar en T=124: ID 7 (E_k: 109, L_k: 550)
+
+--- Iteración 7, Tiempo Actual (T): 124 ---
+Aviones pendientes: [1, 2, 9, 10, 11, 12, 13, 14, 15]
+Último avión aterrizado: ID 7 en t=124
+  Avión global con menor E_k pendiente: ID 9 (E_k: 115)
+  Adelantando T de 124 a 132 para permitir aterrizar al avión ID 9 (menor E_k global).
+  Candidatos para aterrizar en T=132 (ventana y separación OK): [9]
+  Avión seleccionado para aterrizar en T=132: ID 9 (E_k: 115, L_k: 557)
+
+--- Iteración 8, Tiempo Actual (T): 132 ---
+Aviones pendientes: [1, 2, 10, 11, 12, 13, 14, 15]
+Último avión aterrizado: ID 9 en t=132
+  Avión global con menor E_k pendiente: ID 1 (E_k: 129)
+  Adelantando T de 132 a 147 para permitir aterrizar al avión ID 1 (menor E_k global).
+  Candidatos para aterrizar en T=147 (ventana y separación OK): [1, 10]
+  Avión seleccionado para aterrizar en T=147: ID 1 (E_k: 129, L_k: 559)
+
+--- Iteración 9, Tiempo Actual (T): 147 ---
+Aviones pendientes: [2, 10, 11, 12, 13, 14, 15]
+Último avión aterrizado: ID 1 en t=147
+  Avión global con menor E_k pendiente: ID 10 (E_k: 134)
+  Adelantando T de 147 a 162 para permitir aterrizar al avión ID 10 (menor E_k global).
+  Candidatos para aterrizar en T=162 (ventana y separación OK): [10, 13, 14]
+  Avión seleccionado para aterrizar en T=162: ID 10 (E_k: 134, L_k: 610)
+
+--- Iteración 10, Tiempo Actual (T): 162 ---
+Aviones pendientes: [2, 11, 12, 13, 14, 15]
+Último avión aterrizado: ID 10 en t=162
+  Avión global con menor E_k pendiente: ID 14 (E_k: 152)
+  Adelantando T de 162 a 170 para permitir aterrizar al avión ID 14 (menor E_k global).
+  Candidatos para aterrizar en T=170 (ventana y separación OK): [13, 14]
+  Avión seleccionado para aterrizar en T=170: ID 14 (E_k: 152, L_k: 637)
+
+--- Iteración 11, Tiempo Actual (T): 170 ---
+Aviones pendientes: [2, 11, 12, 13, 15]
+Último avión aterrizado: ID 14 en t=170
+  Avión global con menor E_k pendiente: ID 13 (E_k: 160)
+  Adelantando T de 170 a 178 para permitir aterrizar al avión ID 13 (menor E_k global).
+  Candidatos para aterrizar en T=178 (ventana y separación OK): [13]
+  Avión seleccionado para aterrizar en T=178: ID 13 (E_k: 160, L_k: 674)
+
+--- Iteración 12, Tiempo Actual (T): 178 ---
+Aviones pendientes: [2, 11, 12, 15]
+Último avión aterrizado: ID 13 en t=178
+  Avión global con menor E_k pendiente: ID 2 (E_k: 190)
+  Adelantando T de 178 a 193 para permitir aterrizar al avión ID 2 (menor E_k global).
+  Candidatos para aterrizar en T=193 (ventana y separación OK): [2]
+  Avión seleccionado para aterrizar en T=193: ID 2 (E_k: 190, L_k: 732)
+
+--- Iteración 13, Tiempo Actual (T): 193 ---
+Aviones pendientes: [11, 12, 15]
+Último avión aterrizado: ID 2 en t=193
+  Avión global con menor E_k pendiente: ID 12 (E_k: 251)
+  Adelantando T de 193 a 251 para permitir aterrizar al avión ID 12 (menor E_k global).
+  Candidatos para aterrizar en T=251 (ventana y separación OK): [12]
+  Avión seleccionado para aterrizar en T=251: ID 12 (E_k: 251, L_k: 778)
+
+--- Iteración 14, Tiempo Actual (T): 251 ---
+Aviones pendientes: [11, 15]
+Último avión aterrizado: ID 12 en t=251
+  Avión global con menor E_k pendiente: ID 11 (E_k: 266)
+  Adelantando T de 251 a 266 para permitir aterrizar al avión ID 11 (menor E_k global).
+  Candidatos para aterrizar en T=266 (ventana y separación OK): [11]
+  Avión seleccionado para aterrizar en T=266: ID 11 (E_k: 266, L_k: 837)
+
+--- Iteración 15, Tiempo Actual (T): 266 ---
+Aviones pendientes: [15]
+Último avión aterrizado: ID 11 en t=266
+  Avión global con menor E_k pendiente: ID 15 (E_k: 276)
+  Adelantando T de 266 a 276 para permitir aterrizar al avión ID 15 (menor E_k global).
+  Candidatos para aterrizar en T=276 (ventana y separación OK): [15]
+  Avión seleccionado para aterrizar en T=276: ID 15 (E_k: 276, L_k: 815)
+¡Todos los aviones han sido programados!
+
+--- Algoritmo Greedy (Priorizar Menor E_k) Finalizado ---
+
+--- Resumen de Factibilidad Final (Greedy Priorizar Menor E_k) ---
+✅ La solución encontrada es factible.
+
+Horario de Aterrizaje Detallado (Greedy Priorizar Menor E_k):
+  Avión ID 3: aterriza en t = 84
+  Avión ID 4: aterriza en t = 92
+  Avión ID 5: aterriza en t = 100
+  Avión ID 6: aterriza en t = 108
+  Avión ID 8: aterriza en t = 116
+  Avión ID 7: aterriza en t = 124
+  Avión ID 9: aterriza en t = 132
+  Avión ID 1: aterriza en t = 147
+  Avión ID 10: aterriza en t = 162
+  Avión ID 14: aterriza en t = 170
+  Avión ID 13: aterriza en t = 178
+  Avión ID 2: aterriza en t = 193
+  Avión ID 12: aterriza en t = 251
+  Avión ID 11: aterriza en t = 266
+  Avión ID 15: aterriza en t = 276
+Solución Inicial del Greedy Determinista (Factible por greedy: True):
+Costo del Greedy Determinista: 4600.00
+
+--- Matriz de Horario de Aterrizaje ---
+---------------------------------------
+| Tiempo Aterrizaje | ID Avión      |
+|-------------------|---------------|
+| 84                | 3             |
+| 92                | 4             |
+| 100               | 5             |
+| 108               | 6             |
+| 116               | 8             |
+| 124               | 7             |
+| 132               | 9             |
+| 147               | 1             |
+| 162               | 10            |
+| 170               | 14            |
+| 178               | 13            |
+| 193               | 2             |
+| 251               | 12            |
+| 266               | 11            |
+| 276               | 15            |
+---------------------------------------
+
+--- Paso 2: Ejecutando Simulated Annealing para Múltiples Configuraciones ---
+
+Procesando con SA - Config1_HighT_SlowCool:
+  SA Run (Config: Config1_HighT_SlowCool, Seed 42): Iniciando SA. Temp Inicial: 100000.00, Costo Inicial: 4600.00
+    SA Run (Config: Config1_HighT_SlowCool, Seed 42) Iter: 20000, Temp: 36880.18, Costo Actual: 86140.00, Mejor Costo: 4600.00
+    SA Run (Config: Config1_HighT_SlowCool, Seed 42) Iter: 40000, Temp: 13533.47, Costo Actual: 81070.00, Mejor Costo: 4600.00
+    SA Run (Config: Config1_HighT_SlowCool, Seed 42) Iter: 60000, Temp: 4966.21, Costo Actual: 40540.00, Mejor Costo: 4600.00
+    SA Run (Config: Config1_HighT_SlowCool, Seed 42) Iter: 80000, Temp: 1822.39, Costo Actual: 26970.00, Mejor Costo: 4600.00
+    SA Run (Config: Config1_HighT_SlowCool, Seed 42) Iter: 100000, Temp: 668.74, Costo Actual: 13880.00, Mejor Costo: 4600.00
+    SA Iter 111833 (T=368.30, Config: Config1_HighT_SlowCool): Nueva mejor solución SA. Costo: 4440.00 (anterior mejor: 4600.00)
+    SA Iter 112400 (T=359.19, Config: Config1_HighT_SlowCool): Nueva mejor solución SA. Costo: 4160.00 (anterior mejor: 4440.00)
+    SA Iter 113505 (T=338.22, Config: Config1_HighT_SlowCool): Nueva mejor solución SA. Costo: 4070.00 (anterior mejor: 4160.00)
+    SA Iter 113976 (T=331.50, Config: Config1_HighT_SlowCool): Nueva mejor solución SA. Costo: 4010.00 (anterior mejor: 4070.00)
+    SA Iter 113979 (T=331.50, Config: Config1_HighT_SlowCool): Nueva mejor solución SA. Costo: 3600.00 (anterior mejor: 4010.00)
+    SA Iter 114003 (T=329.85, Config: Config1_HighT_SlowCool): Nueva mejor solución SA. Costo: 3570.00 (anterior mejor: 3600.00)
+    SA Iter 114964 (T=315.30, Config: Config1_HighT_SlowCool): Nueva mejor solución SA. Costo: 3350.00 (anterior mejor: 3570.00)
+    SA Iter 114965 (T=315.30, Config: Config1_HighT_SlowCool): Nueva mejor solución SA. Costo: 3090.00 (anterior mejor: 3350.00)
+    SA Iter 116312 (T=293.93, Config: Config1_HighT_SlowCool): Nueva mejor solución SA. Costo: 3040.00 (anterior mejor: 3090.00)
+    SA Iter 116356 (T=293.93, Config: Config1_HighT_SlowCool): Nueva mejor solución SA. Costo: 3010.00 (anterior mejor: 3040.00)
+    SA Iter 116395 (T=293.93, Config: Config1_HighT_SlowCool): Nueva mejor solución SA. Costo: 2980.00 (anterior mejor: 3010.00)
+    SA Run (Config: Config1_HighT_SlowCool, Seed 42) Iter: 120000, Temp: 245.40, Costo Actual: 5210.00, Mejor Costo: 2980.00
+    SA Iter 125711 (T=183.49, Config: Config1_HighT_SlowCool): Nueva mejor solución SA. Costo: 2790.00 (anterior mejor: 2980.00)
+    SA Iter 125730 (T=183.49, Config: Config1_HighT_SlowCool): Nueva mejor solución SA. Costo: 2780.00 (anterior mejor: 2790.00)
+    SA Iter 126249 (T=178.95, Config: Config1_HighT_SlowCool): Nueva mejor solución SA. Costo: 2690.00 (anterior mejor: 2780.00)
+    SA Iter 126268 (T=178.95, Config: Config1_HighT_SlowCool): Nueva mejor solución SA. Costo: 2670.00 (anterior mejor: 2690.00)
+    SA Iter 135482 (T=112.84, Config: Config1_HighT_SlowCool): Nueva mejor solución SA. Costo: 2630.00 (anterior mejor: 2670.00)
+    SA Iter 138595 (T=96.60, Config: Config1_HighT_SlowCool): Nueva mejor solución SA. Costo: 2490.00 (anterior mejor: 2630.00)
+    SA Iter 138751 (T=95.63, Config: Config1_HighT_SlowCool): Nueva mejor solución SA. Costo: 2330.00 (anterior mejor: 2490.00)
+    SA Iter 138920 (T=94.68, Config: Config1_HighT_SlowCool): Nueva mejor solución SA. Costo: 2320.00 (anterior mejor: 2330.00)
+    SA Iter 139818 (T=90.50, Config: Config1_HighT_SlowCool): Nueva mejor solución SA. Costo: 2310.00 (anterior mejor: 2320.00)
+    SA Run (Config: Config1_HighT_SlowCool, Seed 42) Iter: 140000, Temp: 90.05, Costo Actual: 2500.00, Mejor Costo: 2310.00
+    SA Iter 145447 (T=68.35, Config: Config1_HighT_SlowCool): Nueva mejor solución SA. Costo: 2270.00 (anterior mejor: 2310.00)
+    SA Iter 145485 (T=68.35, Config: Config1_HighT_SlowCool): Nueva mejor solución SA. Costo: 2250.00 (anterior mejor: 2270.00)
+    SA Iter 145695 (T=67.67, Config: Config1_HighT_SlowCool): Nueva mejor solución SA. Costo: 2210.00 (anterior mejor: 2250.00)
+    SA Iter 145767 (T=67.33, Config: Config1_HighT_SlowCool): Nueva mejor solución SA. Costo: 2190.00 (anterior mejor: 2210.00)
+    SA Iter 148745 (T=57.93, Config: Config1_HighT_SlowCool): Nueva mejor solución SA. Costo: 2160.00 (anterior mejor: 2190.00)
+    SA Iter 151028 (T=51.62, Config: Config1_HighT_SlowCool): Nueva mejor solución SA. Costo: 2120.00 (anterior mejor: 2160.00)
+    SA Iter 151186 (T=51.37, Config: Config1_HighT_SlowCool): Nueva mejor solución SA. Costo: 2080.00 (anterior mejor: 2120.00)
+    SA Iter 151358 (T=50.85, Config: Config1_HighT_SlowCool): Nueva mejor solución SA. Costo: 2050.00 (anterior mejor: 2080.00)
+    SA Iter 151499 (T=50.60, Config: Config1_HighT_SlowCool): Nueva mejor solución SA. Costo: 2030.00 (anterior mejor: 2050.00)
+    SA Iter 151573 (T=50.35, Config: Config1_HighT_SlowCool): Nueva mejor solución SA. Costo: 2000.00 (anterior mejor: 2030.00)
+    SA Iter 152647 (T=47.65, Config: Config1_HighT_SlowCool): Nueva mejor solución SA. Costo: 1980.00 (anterior mejor: 2000.00)
+    SA Iter 156451 (T=39.38, Config: Config1_HighT_SlowCool): Nueva mejor solución SA. Costo: 1940.00 (anterior mejor: 1980.00)
+    SA Iter 156926 (T=38.41, Config: Config1_HighT_SlowCool): Nueva mejor solución SA. Costo: 1920.00 (anterior mejor: 1940.00)
+    SA Iter 157622 (T=37.08, Config: Config1_HighT_SlowCool): Nueva mejor solución SA. Costo: 1910.00 (anterior mejor: 1920.00)
+    SA Iter 159517 (T=33.71, Config: Config1_HighT_SlowCool): Nueva mejor solución SA. Costo: 1880.00 (anterior mejor: 1910.00)
+    SA Iter 159726 (T=33.38, Config: Config1_HighT_SlowCool): Nueva mejor solución SA. Costo: 1850.00 (anterior mejor: 1880.00)
+    SA Run (Config: Config1_HighT_SlowCool, Seed 42) Iter: 160000, Temp: 33.05, Costo Actual: 1910.00, Mejor Costo: 1850.00
+    SA Iter 160132 (T=32.72, Config: Config1_HighT_SlowCool): Nueva mejor solución SA. Costo: 1840.00 (anterior mejor: 1850.00)
+    SA Iter 161522 (T=30.50, Config: Config1_HighT_SlowCool): Nueva mejor solución SA. Costo: 1830.00 (anterior mejor: 1840.00)
+    SA Iter 161934 (T=29.89, Config: Config1_HighT_SlowCool): Nueva mejor solución SA. Costo: 1810.00 (anterior mejor: 1830.00)
+    SA Iter 162415 (T=29.15, Config: Config1_HighT_SlowCool): Nueva mejor solución SA. Costo: 1780.00 (anterior mejor: 1810.00)
+    SA Iter 167385 (T=22.80, Config: Config1_HighT_SlowCool): Nueva mejor solución SA. Costo: 1770.00 (anterior mejor: 1780.00)
+    SA Iter 167499 (T=22.69, Config: Config1_HighT_SlowCool): Nueva mejor solución SA. Costo: 1750.00 (anterior mejor: 1770.00)
+    SA Iter 168004 (T=22.02, Config: Config1_HighT_SlowCool): Nueva mejor solución SA. Costo: 1740.00 (anterior mejor: 1750.00)
+    SA Iter 169247 (T=20.73, Config: Config1_HighT_SlowCool): Nueva mejor solución SA. Costo: 1730.00 (anterior mejor: 1740.00)
+    SA Iter 169552 (T=20.42, Config: Config1_HighT_SlowCool): Nueva mejor solución SA. Costo: 1700.00 (anterior mejor: 1730.00)
+    SA Iter 170293 (T=19.72, Config: Config1_HighT_SlowCool): Nueva mejor solución SA. Costo: 1690.00 (anterior mejor: 1700.00)
+    SA Run (Config: Config1_HighT_SlowCool, Seed 42) Iter: 180000, Temp: 12.13, Costo Actual: 1820.00, Mejor Costo: 1690.00
+    SA Iter 183434 (T=10.17, Config: Config1_HighT_SlowCool): Nueva mejor solución SA. Costo: 1680.00 (anterior mejor: 1690.00)
+    SA Iter 183513 (T=10.12, Config: Config1_HighT_SlowCool): Nueva mejor solución SA. Costo: 1670.00 (anterior mejor: 1680.00)
+    SA Iter 186356 (T=8.80, Config: Config1_HighT_SlowCool): Nueva mejor solución SA. Costo: 1650.00 (anterior mejor: 1670.00)
+    SA Iter 187071 (T=8.49, Config: Config1_HighT_SlowCool): Nueva mejor solución SA. Costo: 1640.00 (anterior mejor: 1650.00)
+    SA Iter 195866 (T=5.47, Config: Config1_HighT_SlowCool): Nueva mejor solución SA. Costo: 1630.00 (anterior mejor: 1640.00)
+    SA Iter 197288 (T=5.09, Config: Config1_HighT_SlowCool): Nueva mejor solución SA. Costo: 1620.00 (anterior mejor: 1630.00)
+    SA Run (Config: Config1_HighT_SlowCool, Seed 42) Iter: 200000, Temp: 4.45, Costo Actual: 1620.00, Mejor Costo: 1620.00
+    SA Run (Config: Config1_HighT_SlowCool, Seed 42) Iter: 220000, Temp: 1.63, Costo Actual: 1620.00, Mejor Costo: 1620.00
+    SA Run (Config: Config1_HighT_SlowCool, Seed 42) Iter: 240000, Temp: 0.60, Costo Actual: 1620.00, Mejor Costo: 1620.00
+    SA Run (Config: Config1_HighT_SlowCool, Seed 42) Iter: 260000, Temp: 0.22, Costo Actual: 1620.00, Mejor Costo: 1620.00
+  SA Run (Config: Config1_HighT_SlowCool, Seed 42): SA Finalizado. Mejor costo encontrado: 1620.00 en 275700 iteraciones.
+
+Procesando con SA - Config2_MedT_MedCool:
+  SA Run (Config: Config2_MedT_MedCool, Seed 42): Iniciando SA. Temp Inicial: 50000.00, Costo Inicial: 4600.00
+    SA Iter 3 (T=50000.00, Config: Config2_MedT_MedCool): Nueva mejor solución SA. Costo: 4500.00 (anterior mejor: 4600.00)
+    SA Run (Config: Config2_MedT_MedCool, Seed 42) Iter: 15000, Temp: 18486.48, Costo Actual: 56410.00, Mejor Costo: 4500.00
+    SA Run (Config: Config2_MedT_MedCool, Seed 42) Iter: 30000, Temp: 6766.65, Costo Actual: 53230.00, Mejor Costo: 4500.00
+    SA Run (Config: Config2_MedT_MedCool, Seed 42) Iter: 45000, Temp: 2476.81, Costo Actual: 25990.00, Mejor Costo: 4500.00
+    SA Run (Config: Config2_MedT_MedCool, Seed 42) Iter: 60000, Temp: 906.59, Costo Actual: 11600.00, Mejor Costo: 4500.00
+    SA Iter 71332 (T=422.36, Config: Config2_MedT_MedCool): Nueva mejor solución SA. Costo: 4100.00 (anterior mejor: 4500.00)
+    SA Iter 71380 (T=422.36, Config: Config2_MedT_MedCool): Nueva mejor solución SA. Costo: 4060.00 (anterior mejor: 4100.00)
+    SA Iter 71391 (T=422.36, Config: Config2_MedT_MedCool): Nueva mejor solución SA. Costo: 4030.00 (anterior mejor: 4060.00)
+    SA Iter 73159 (T=374.38, Config: Config2_MedT_MedCool): Nueva mejor solución SA. Costo: 4020.00 (anterior mejor: 4030.00)
+    SA Iter 73166 (T=374.38, Config: Config2_MedT_MedCool): Nueva mejor solución SA. Costo: 3930.00 (anterior mejor: 4020.00)
+    SA Iter 73167 (T=374.38, Config: Config2_MedT_MedCool): Nueva mejor solución SA. Costo: 3640.00 (anterior mejor: 3930.00)
+    SA Iter 73284 (T=370.63, Config: Config2_MedT_MedCool): Nueva mejor solución SA. Costo: 3590.00 (anterior mejor: 3640.00)
+    SA Run (Config: Config2_MedT_MedCool, Seed 42) Iter: 75000, Temp: 331.84, Costo Actual: 4410.00, Mejor Costo: 3590.00
+    SA Iter 75211 (T=325.24, Config: Config2_MedT_MedCool): Nueva mejor solución SA. Costo: 3520.00 (anterior mejor: 3590.00)
+    SA Iter 75718 (T=315.58, Config: Config2_MedT_MedCool): Nueva mejor solución SA. Costo: 3290.00 (anterior mejor: 3520.00)
+    SA Iter 75767 (T=312.42, Config: Config2_MedT_MedCool): Nueva mejor solución SA. Costo: 3080.00 (anterior mejor: 3290.00)
+    SA Iter 75769 (T=312.42, Config: Config2_MedT_MedCool): Nueva mejor solución SA. Costo: 3020.00 (anterior mejor: 3080.00)
+    SA Iter 75770 (T=312.42, Config: Config2_MedT_MedCool): Nueva mejor solución SA. Costo: 2910.00 (anterior mejor: 3020.00)
+    SA Iter 87152 (T=145.55, Config: Config2_MedT_MedCool): Nueva mejor solución SA. Costo: 2780.00 (anterior mejor: 2910.00)
+    SA Iter 87171 (T=145.55, Config: Config2_MedT_MedCool): Nueva mejor solución SA. Costo: 2770.00 (anterior mejor: 2780.00)
+    SA Iter 87207 (T=145.55, Config: Config2_MedT_MedCool): Nueva mejor solución SA. Costo: 2650.00 (anterior mejor: 2770.00)
+    SA Iter 87214 (T=145.55, Config: Config2_MedT_MedCool): Nueva mejor solución SA. Costo: 2560.00 (anterior mejor: 2650.00)
+    SA Iter 87461 (T=142.66, Config: Config2_MedT_MedCool): Nueva mejor solución SA. Costo: 2530.00 (anterior mejor: 2560.00)
+    SA Iter 87515 (T=142.66, Config: Config2_MedT_MedCool): Nueva mejor solución SA. Costo: 2470.00 (anterior mejor: 2530.00)
+    SA Iter 88417 (T=134.31, Config: Config2_MedT_MedCool): Nueva mejor solución SA. Costo: 2400.00 (anterior mejor: 2470.00)
+    SA Iter 88424 (T=134.31, Config: Config2_MedT_MedCool): Nueva mejor solución SA. Costo: 2350.00 (anterior mejor: 2400.00)
+    SA Iter 88522 (T=132.96, Config: Config2_MedT_MedCool): Nueva mejor solución SA. Costo: 2340.00 (anterior mejor: 2350.00)
+    SA Run (Config: Config2_MedT_MedCool, Seed 42) Iter: 90000, Temp: 121.47, Costo Actual: 2970.00, Mejor Costo: 2340.00
+    SA Iter 91408 (T=109.85, Config: Config2_MedT_MedCool): Nueva mejor solución SA. Costo: 2320.00 (anterior mejor: 2340.00)
+    SA Iter 91625 (T=108.75, Config: Config2_MedT_MedCool): Nueva mejor solución SA. Costo: 2310.00 (anterior mejor: 2320.00)
+    SA Iter 91791 (T=107.66, Config: Config2_MedT_MedCool): Nueva mejor solución SA. Costo: 2290.00 (anterior mejor: 2310.00)
+    SA Iter 93384 (T=96.40, Config: Config2_MedT_MedCool): Nueva mejor solución SA. Costo: 2190.00 (anterior mejor: 2290.00)
+    SA Iter 93394 (T=96.40, Config: Config2_MedT_MedCool): Nueva mejor solución SA. Costo: 2180.00 (anterior mejor: 2190.00)
+    SA Iter 93492 (T=95.43, Config: Config2_MedT_MedCool): Nueva mejor solución SA. Costo: 2160.00 (anterior mejor: 2180.00)
+    SA Iter 95081 (T=86.31, Config: Config2_MedT_MedCool): Nueva mejor solución SA. Costo: 2100.00 (anterior mejor: 2160.00)
+    SA Iter 97303 (T=74.23, Config: Config2_MedT_MedCool): Nueva mejor solución SA. Costo: 2070.00 (anterior mejor: 2100.00)
+    SA Iter 100906 (T=58.32, Config: Config2_MedT_MedCool): Nueva mejor solución SA. Costo: 2040.00 (anterior mejor: 2070.00)
+    SA Iter 100922 (T=58.32, Config: Config2_MedT_MedCool): Nueva mejor solución SA. Costo: 2010.00 (anterior mejor: 2040.00)
+    SA Iter 101266 (T=56.59, Config: Config2_MedT_MedCool): Nueva mejor solución SA. Costo: 1990.00 (anterior mejor: 2010.00)
+    SA Iter 104678 (T=45.36, Config: Config2_MedT_MedCool): Nueva mejor solución SA. Costo: 1960.00 (anterior mejor: 1990.00)
+    SA Run (Config: Config2_MedT_MedCool, Seed 42) Iter: 105000, Temp: 44.46, Costo Actual: 2020.00, Mejor Costo: 1960.00
+    SA Iter 105413 (T=43.14, Config: Config2_MedT_MedCool): Nueva mejor solución SA. Costo: 1930.00 (anterior mejor: 1960.00)
+    SA Iter 106423 (T=40.21, Config: Config2_MedT_MedCool): Nueva mejor solución SA. Costo: 1920.00 (anterior mejor: 1930.00)
+    SA Iter 106492 (T=40.21, Config: Config2_MedT_MedCool): Nueva mejor solución SA. Costo: 1900.00 (anterior mejor: 1920.00)
+    SA Iter 106742 (T=39.41, Config: Config2_MedT_MedCool): Nueva mejor solución SA. Costo: 1820.00 (anterior mejor: 1900.00)
+    SA Iter 109206 (T=33.22, Config: Config2_MedT_MedCool): Nueva mejor solución SA. Costo: 1810.00 (anterior mejor: 1820.00)
+    SA Iter 110026 (T=31.59, Config: Config2_MedT_MedCool): Nueva mejor solución SA. Costo: 1800.00 (anterior mejor: 1810.00)
+    SA Iter 110186 (T=31.28, Config: Config2_MedT_MedCool): Nueva mejor solución SA. Costo: 1780.00 (anterior mejor: 1800.00)
+    SA Iter 110243 (T=31.28, Config: Config2_MedT_MedCool): Nueva mejor solución SA. Costo: 1760.00 (anterior mejor: 1780.00)
+    SA Run (Config: Config2_MedT_MedCool, Seed 42) Iter: 120000, Temp: 16.27, Costo Actual: 1870.00, Mejor Costo: 1760.00
+    SA Iter 123343 (T=12.92, Config: Config2_MedT_MedCool): Nueva mejor solución SA. Costo: 1720.00 (anterior mejor: 1760.00)
+    SA Iter 126725 (T=10.35, Config: Config2_MedT_MedCool): Nueva mejor solución SA. Costo: 1710.00 (anterior mejor: 1720.00)
+    SA Iter 127002 (T=10.15, Config: Config2_MedT_MedCool): Nueva mejor solución SA. Costo: 1680.00 (anterior mejor: 1710.00)
+    SA Iter 127482 (T=9.85, Config: Config2_MedT_MedCool): Nueva mejor solución SA. Costo: 1670.00 (anterior mejor: 1680.00)
+    SA Iter 127979 (T=9.46, Config: Config2_MedT_MedCool): Nueva mejor solución SA. Costo: 1660.00 (anterior mejor: 1670.00)
+    SA Iter 131578 (T=7.43, Config: Config2_MedT_MedCool): Nueva mejor solución SA. Costo: 1640.00 (anterior mejor: 1660.00)
+    SA Iter 132899 (T=6.86, Config: Config2_MedT_MedCool): Nueva mejor solución SA. Costo: 1630.00 (anterior mejor: 1640.00)
+    SA Iter 132915 (T=6.79, Config: Config2_MedT_MedCool): Nueva mejor solución SA. Costo: 1620.00 (anterior mejor: 1630.00)
+    SA Iter 134684 (T=6.08, Config: Config2_MedT_MedCool): Nueva mejor solución SA. Costo: 1590.00 (anterior mejor: 1620.00)
+    SA Run (Config: Config2_MedT_MedCool, Seed 42) Iter: 135000, Temp: 5.96, Costo Actual: 1590.00, Mejor Costo: 1590.00
+    SA Iter 138411 (T=4.73, Config: Config2_MedT_MedCool): Nueva mejor solución SA. Costo: 1560.00 (anterior mejor: 1590.00)
+    SA Iter 140054 (T=4.23, Config: Config2_MedT_MedCool): Nueva mejor solución SA. Costo: 1550.00 (anterior mejor: 1560.00)
+    SA Iter 141588 (T=3.83, Config: Config2_MedT_MedCool): Nueva mejor solución SA. Costo: 1540.00 (anterior mejor: 1550.00)
+    SA Run (Config: Config2_MedT_MedCool, Seed 42) Iter: 150000, Temp: 2.18, Costo Actual: 1540.00, Mejor Costo: 1540.00
+    SA Run (Config: Config2_MedT_MedCool, Seed 42) Iter: 165000, Temp: 0.80, Costo Actual: 1540.00, Mejor Costo: 1540.00
+    SA Run (Config: Config2_MedT_MedCool, Seed 42) Iter: 180000, Temp: 0.29, Costo Actual: 1540.00, Mejor Costo: 1540.00
+    SA Run (Config: Config2_MedT_MedCool, Seed 42) Iter: 195000, Temp: 0.11, Costo Actual: 1540.00, Mejor Costo: 1540.00
+  SA Run (Config: Config2_MedT_MedCool, Seed 42): SA Finalizado. Mejor costo encontrado: 1540.00 en 195900 iteraciones.
+
+Procesando con SA - Config3_LowT_FastCool_MoreReinsert:
+  SA Run (Config: Config3_LowT_FastCool_MoreReinsert, Seed 42): Iniciando SA. Temp Inicial: 10000.00, Costo Inicial: 4600.00
+    SA Run (Config: Config3_LowT_FastCool_MoreReinsert, Seed 42) Iter: 10000, Temp: 3716.02, Costo Actual: 46510.00, Mejor Costo: 4600.00
+    SA Run (Config: Config3_LowT_FastCool_MoreReinsert, Seed 42) Iter: 20000, Temp: 1353.26, Costo Actual: 12870.00, Mejor Costo: 4600.00
+    SA Run (Config: Config3_LowT_FastCool_MoreReinsert, Seed 42) Iter: 30000, Temp: 492.82, Costo Actual: 7480.00, Mejor Costo: 4600.00
+    SA Iter 30787 (T=454.56, Config: Config3_LowT_FastCool_MoreReinsert): Nueva mejor solución SA. Costo: 4520.00 (anterior mejor: 4600.00)
+    SA Iter 35670 (T=274.31, Config: Config3_LowT_FastCool_MoreReinsert): Nueva mejor solución SA. Costo: 4390.00 (anterior mejor: 4520.00)
+    SA Iter 35680 (T=274.31, Config: Config3_LowT_FastCool_MoreReinsert): Nueva mejor solución SA. Costo: 4170.00 (anterior mejor: 4390.00)
+    SA Iter 37163 (T=238.14, Config: Config3_LowT_FastCool_MoreReinsert): Nueva mejor solución SA. Costo: 3900.00 (anterior mejor: 4170.00)
+    SA Iter 38053 (T=215.26, Config: Config3_LowT_FastCool_MoreReinsert): Nueva mejor solución SA. Costo: 3870.00 (anterior mejor: 3900.00)
+    SA Iter 38079 (T=215.26, Config: Config3_LowT_FastCool_MoreReinsert): Nueva mejor solución SA. Costo: 3840.00 (anterior mejor: 3870.00)
+    SA Iter 38100 (T=215.26, Config: Config3_LowT_FastCool_MoreReinsert): Nueva mejor solución SA. Costo: 3800.00 (anterior mejor: 3840.00)
+    SA Iter 38154 (T=215.26, Config: Config3_LowT_FastCool_MoreReinsert): Nueva mejor solución SA. Costo: 3780.00 (anterior mejor: 3800.00)
+    SA Iter 38204 (T=210.95, Config: Config3_LowT_FastCool_MoreReinsert): Nueva mejor solución SA. Costo: 3600.00 (anterior mejor: 3780.00)
+    SA Iter 38272 (T=210.95, Config: Config3_LowT_FastCool_MoreReinsert): Nueva mejor solución SA. Costo: 3550.00 (anterior mejor: 3600.00)
+    SA Iter 39014 (T=194.57, Config: Config3_LowT_FastCool_MoreReinsert): Nueva mejor solución SA. Costo: 3460.00 (anterior mejor: 3550.00)
+    SA Iter 39224 (T=190.68, Config: Config3_LowT_FastCool_MoreReinsert): Nueva mejor solución SA. Costo: 3200.00 (anterior mejor: 3460.00)
+    SA Iter 39264 (T=190.68, Config: Config3_LowT_FastCool_MoreReinsert): Nueva mejor solución SA. Costo: 2660.00 (anterior mejor: 3200.00)
+    SA Iter 39434 (T=186.87, Config: Config3_LowT_FastCool_MoreReinsert): Nueva mejor solución SA. Costo: 2640.00 (anterior mejor: 2660.00)
+    SA Run (Config: Config3_LowT_FastCool_MoreReinsert, Seed 42) Iter: 40000, Temp: 179.47, Costo Actual: 3440.00, Mejor Costo: 2640.00
+    SA Iter 41121 (T=158.98, Config: Config3_LowT_FastCool_MoreReinsert): Nueva mejor solución SA. Costo: 2630.00 (anterior mejor: 2640.00)
+    SA Iter 41130 (T=158.98, Config: Config3_LowT_FastCool_MoreReinsert): Nueva mejor solución SA. Costo: 2600.00 (anterior mejor: 2630.00)
+    SA Iter 41851 (T=146.64, Config: Config3_LowT_FastCool_MoreReinsert): Nueva mejor solución SA. Costo: 2480.00 (anterior mejor: 2600.00)
+    SA Iter 41875 (T=146.64, Config: Config3_LowT_FastCool_MoreReinsert): Nueva mejor solución SA. Costo: 2420.00 (anterior mejor: 2480.00)
+    SA Iter 46306 (T=94.02, Config: Config3_LowT_FastCool_MoreReinsert): Nueva mejor solución SA. Costo: 2340.00 (anterior mejor: 2420.00)
+    SA Iter 46575 (T=92.14, Config: Config3_LowT_FastCool_MoreReinsert): Nueva mejor solución SA. Costo: 2280.00 (anterior mejor: 2340.00)
+    SA Iter 46576 (T=92.14, Config: Config3_LowT_FastCool_MoreReinsert): Nueva mejor solución SA. Costo: 2220.00 (anterior mejor: 2280.00)
+    SA Iter 46579 (T=92.14, Config: Config3_LowT_FastCool_MoreReinsert): Nueva mejor solución SA. Costo: 2180.00 (anterior mejor: 2220.00)
+    SA Iter 46621 (T=90.30, Config: Config3_LowT_FastCool_MoreReinsert): Nueva mejor solución SA. Costo: 2120.00 (anterior mejor: 2180.00)
+    SA Iter 46660 (T=90.30, Config: Config3_LowT_FastCool_MoreReinsert): Nueva mejor solución SA. Costo: 2100.00 (anterior mejor: 2120.00)
+    SA Iter 46700 (T=90.30, Config: Config3_LowT_FastCool_MoreReinsert): Nueva mejor solución SA. Costo: 2040.00 (anterior mejor: 2100.00)
+    SA Iter 46813 (T=88.49, Config: Config3_LowT_FastCool_MoreReinsert): Nueva mejor solución SA. Costo: 2020.00 (anterior mejor: 2040.00)
+    SA Iter 46915 (T=88.49, Config: Config3_LowT_FastCool_MoreReinsert): Nueva mejor solución SA. Costo: 1990.00 (anterior mejor: 2020.00)
+    SA Iter 47494 (T=83.29, Config: Config3_LowT_FastCool_MoreReinsert): Nueva mejor solución SA. Costo: 1980.00 (anterior mejor: 1990.00)
+    SA Iter 47516 (T=83.29, Config: Config3_LowT_FastCool_MoreReinsert): Nueva mejor solución SA. Costo: 1930.00 (anterior mejor: 1980.00)
+    SA Run (Config: Config3_LowT_FastCool_MoreReinsert, Seed 42) Iter: 50000, Temp: 65.36, Costo Actual: 2110.00, Mejor Costo: 1930.00
+    SA Iter 53363 (T=46.36, Config: Config3_LowT_FastCool_MoreReinsert): Nueva mejor solución SA. Costo: 1900.00 (anterior mejor: 1930.00)
+    SA Iter 56077 (T=34.94, Config: Config3_LowT_FastCool_MoreReinsert): Nueva mejor solución SA. Costo: 1870.00 (anterior mejor: 1900.00)
+    SA Iter 56213 (T=34.24, Config: Config3_LowT_FastCool_MoreReinsert): Nueva mejor solución SA. Costo: 1860.00 (anterior mejor: 1870.00)
+    SA Iter 56513 (T=33.55, Config: Config3_LowT_FastCool_MoreReinsert): Nueva mejor solución SA. Costo: 1810.00 (anterior mejor: 1860.00)
+    SA Iter 56706 (T=32.88, Config: Config3_LowT_FastCool_MoreReinsert): Nueva mejor solución SA. Costo: 1780.00 (anterior mejor: 1810.00)
+    SA Iter 56821 (T=32.23, Config: Config3_LowT_FastCool_MoreReinsert): Nueva mejor solución SA. Costo: 1750.00 (anterior mejor: 1780.00)
+    SA Iter 56865 (T=32.23, Config: Config3_LowT_FastCool_MoreReinsert): Nueva mejor solución SA. Costo: 1730.00 (anterior mejor: 1750.00)
+    SA Run (Config: Config3_LowT_FastCool_MoreReinsert, Seed 42) Iter: 60000, Temp: 23.80, Costo Actual: 1800.00, Mejor Costo: 1730.00
+    SA Iter 61196 (T=21.08, Config: Config3_LowT_FastCool_MoreReinsert): Nueva mejor solución SA. Costo: 1700.00 (anterior mejor: 1730.00)
+    SA Iter 61225 (T=20.66, Config: Config3_LowT_FastCool_MoreReinsert): Nueva mejor solución SA. Costo: 1640.00 (anterior mejor: 1700.00)
+    SA Iter 61930 (T=19.45, Config: Config3_LowT_FastCool_MoreReinsert): Nueva mejor solución SA. Costo: 1630.00 (anterior mejor: 1640.00)
+    SA Iter 62495 (T=18.30, Config: Config3_LowT_FastCool_MoreReinsert): Nueva mejor solución SA. Costo: 1620.00 (anterior mejor: 1630.00)
+    SA Iter 66075 (T=12.72, Config: Config3_LowT_FastCool_MoreReinsert): Nueva mejor solución SA. Costo: 1610.00 (anterior mejor: 1620.00)
+    SA Iter 66231 (T=12.47, Config: Config3_LowT_FastCool_MoreReinsert): Nueva mejor solución SA. Costo: 1590.00 (anterior mejor: 1610.00)
+    SA Run (Config: Config3_LowT_FastCool_MoreReinsert, Seed 42) Iter: 70000, Temp: 8.67, Costo Actual: 1590.00, Mejor Costo: 1590.00
+    SA Iter 77390 (T=4.10, Config: Config3_LowT_FastCool_MoreReinsert): Nueva mejor solución SA. Costo: 1580.00 (anterior mejor: 1590.00)
+    SA Iter 79365 (T=3.35, Config: Config3_LowT_FastCool_MoreReinsert): Nueva mejor solución SA. Costo: 1570.00 (anterior mejor: 1580.00)
+    SA Run (Config: Config3_LowT_FastCool_MoreReinsert, Seed 42) Iter: 80000, Temp: 3.16, Costo Actual: 1570.00, Mejor Costo: 1570.00
+    SA Iter 81760 (T=2.63, Config: Config3_LowT_FastCool_MoreReinsert): Nueva mejor solución SA. Costo: 1560.00 (anterior mejor: 1570.00)
+    SA Iter 84968 (T=1.90, Config: Config3_LowT_FastCool_MoreReinsert): Nueva mejor solución SA. Costo: 1540.00 (anterior mejor: 1560.00)
+    SA Run (Config: Config3_LowT_FastCool_MoreReinsert, Seed 42) Iter: 90000, Temp: 1.15, Costo Actual: 1540.00, Mejor Costo: 1540.00
+    SA Run (Config: Config3_LowT_FastCool_MoreReinsert, Seed 42) Iter: 100000, Temp: 0.42, Costo Actual: 1540.00, Mejor Costo: 1540.00
+    SA Run (Config: Config3_LowT_FastCool_MoreReinsert, Seed 42) Iter: 110000, Temp: 0.15, Costo Actual: 1540.00, Mejor Costo: 1540.00
+    SA Run (Config: Config3_LowT_FastCool_MoreReinsert, Seed 42) Iter: 120000, Temp: 0.06, Costo Actual: 1540.00, Mejor Costo: 1540.00
+    SA Run (Config: Config3_LowT_FastCool_MoreReinsert, Seed 42) Iter: 130000, Temp: 0.02, Costo Actual: 1540.00, Mejor Costo: 1540.00
+  SA Run (Config: Config3_LowT_FastCool_MoreReinsert, Seed 42): SA Finalizado. Mejor costo encontrado: 1540.00 en 136800 iteraciones.
+
+Procesando con SA - Config4_HighIter_BalancedOps:
+  SA Run (Config: Config4_HighIter_BalancedOps, Seed 42): Iniciando SA. Temp Inicial: 50000.00, Costo Inicial: 4600.00
+    SA Iter 3 (T=50000.00, Config: Config4_HighIter_BalancedOps): Nueva mejor solución SA. Costo: 4500.00 (anterior mejor: 4600.00)
+    SA Run (Config: Config4_HighIter_BalancedOps, Seed 42) Iter: 25000, Temp: 21711.57, Costo Actual: 62790.00, Mejor Costo: 4500.00
+    SA Run (Config: Config4_HighIter_BalancedOps, Seed 42) Iter: 50000, Temp: 9427.84, Costo Actual: 44710.00, Mejor Costo: 4500.00
+    SA Run (Config: Config4_HighIter_BalancedOps, Seed 42) Iter: 75000, Temp: 4093.86, Costo Actual: 51730.00, Mejor Costo: 4500.00
+    SA Run (Config: Config4_HighIter_BalancedOps, Seed 42) Iter: 100000, Temp: 1759.91, Costo Actual: 18670.00, Mejor Costo: 4500.00
+    SA Run (Config: Config4_HighIter_BalancedOps, Seed 42) Iter: 125000, Temp: 764.21, Costo Actual: 12760.00, Mejor Costo: 4500.00
+    SA Iter 146003 (T=378.16, Config: Config4_HighIter_BalancedOps): Nueva mejor solución SA. Costo: 4460.00 (anterior mejor: 4500.00)
+    SA Iter 146085 (T=378.16, Config: Config4_HighIter_BalancedOps): Nueva mejor solución SA. Costo: 4420.00 (anterior mejor: 4460.00)
+    SA Iter 146684 (T=370.63, Config: Config4_HighIter_BalancedOps): Nueva mejor solución SA. Costo: 4260.00 (anterior mejor: 4420.00)
+    SA Run (Config: Config4_HighIter_BalancedOps, Seed 42) Iter: 150000, Temp: 331.84, Costo Actual: 5700.00, Mejor Costo: 4260.00
+    SA Iter 150778 (T=321.99, Config: Config4_HighIter_BalancedOps): Nueva mejor solución SA. Costo: 4230.00 (anterior mejor: 4260.00)
+    SA Iter 150781 (T=321.99, Config: Config4_HighIter_BalancedOps): Nueva mejor solución SA. Costo: 4110.00 (anterior mejor: 4230.00)
+    SA Iter 151200 (T=318.77, Config: Config4_HighIter_BalancedOps): Nueva mejor solución SA. Costo: 4060.00 (anterior mejor: 4110.00)
+    SA Iter 151266 (T=315.58, Config: Config4_HighIter_BalancedOps): Nueva mejor solución SA. Costo: 4020.00 (anterior mejor: 4060.00)
+    SA Iter 151268 (T=315.58, Config: Config4_HighIter_BalancedOps): Nueva mejor solución SA. Costo: 4000.00 (anterior mejor: 4020.00)
+    SA Iter 151292 (T=315.58, Config: Config4_HighIter_BalancedOps): Nueva mejor solución SA. Costo: 3940.00 (anterior mejor: 4000.00)
+    SA Iter 151636 (T=312.42, Config: Config4_HighIter_BalancedOps): Nueva mejor solución SA. Costo: 3820.00 (anterior mejor: 3940.00)
+    SA Iter 151655 (T=312.42, Config: Config4_HighIter_BalancedOps): Nueva mejor solución SA. Costo: 3670.00 (anterior mejor: 3820.00)
+    SA Iter 151674 (T=312.42, Config: Config4_HighIter_BalancedOps): Nueva mejor solución SA. Costo: 3370.00 (anterior mejor: 3670.00)
+    SA Iter 151724 (T=312.42, Config: Config4_HighIter_BalancedOps): Nueva mejor solución SA. Costo: 3150.00 (anterior mejor: 3370.00)
+    SA Iter 151739 (T=312.42, Config: Config4_HighIter_BalancedOps): Nueva mejor solución SA. Costo: 3080.00 (anterior mejor: 3150.00)
+    SA Iter 151773 (T=312.42, Config: Config4_HighIter_BalancedOps): Nueva mejor solución SA. Costo: 2920.00 (anterior mejor: 3080.00)
+    SA Iter 151780 (T=312.42, Config: Config4_HighIter_BalancedOps): Nueva mejor solución SA. Costo: 2830.00 (anterior mejor: 2920.00)
+    SA Iter 151793 (T=312.42, Config: Config4_HighIter_BalancedOps): Nueva mejor solución SA. Costo: 2770.00 (anterior mejor: 2830.00)
+    SA Iter 155818 (T=271.42, Config: Config4_HighIter_BalancedOps): Nueva mejor solución SA. Costo: 2700.00 (anterior mejor: 2770.00)
+    SA Iter 156386 (T=266.02, Config: Config4_HighIter_BalancedOps): Nueva mejor solución SA. Costo: 2690.00 (anterior mejor: 2700.00)
+    SA Iter 156413 (T=266.02, Config: Config4_HighIter_BalancedOps): Nueva mejor solución SA. Costo: 2640.00 (anterior mejor: 2690.00)
+    SA Iter 156439 (T=266.02, Config: Config4_HighIter_BalancedOps): Nueva mejor solución SA. Costo: 2570.00 (anterior mejor: 2640.00)
+    SA Iter 158901 (T=245.46, Config: Config4_HighIter_BalancedOps): Nueva mejor solución SA. Costo: 2530.00 (anterior mejor: 2570.00)
+    SA Run (Config: Config4_HighIter_BalancedOps, Seed 42) Iter: 175000, Temp: 142.66, Costo Actual: 2860.00, Mejor Costo: 2530.00
+    SA Iter 177476 (T=131.63, Config: Config4_HighIter_BalancedOps): Nueva mejor solución SA. Costo: 2500.00 (anterior mejor: 2530.00)
+    SA Iter 177516 (T=131.63, Config: Config4_HighIter_BalancedOps): Nueva mejor solución SA. Costo: 2440.00 (anterior mejor: 2500.00)
+    SA Iter 177543 (T=131.63, Config: Config4_HighIter_BalancedOps): Nueva mejor solución SA. Costo: 2350.00 (anterior mejor: 2440.00)
+    SA Iter 177599 (T=131.63, Config: Config4_HighIter_BalancedOps): Nueva mejor solución SA. Costo: 2330.00 (anterior mejor: 2350.00)
+    SA Iter 177606 (T=130.32, Config: Config4_HighIter_BalancedOps): Nueva mejor solución SA. Costo: 2310.00 (anterior mejor: 2330.00)
+    SA Iter 183299 (T=108.75, Config: Config4_HighIter_BalancedOps): Nueva mejor solución SA. Costo: 2270.00 (anterior mejor: 2310.00)
+    SA Iter 188243 (T=91.67, Config: Config4_HighIter_BalancedOps): Nueva mejor solución SA. Costo: 2220.00 (anterior mejor: 2270.00)
+    SA Iter 194243 (T=74.98, Config: Config4_HighIter_BalancedOps): Nueva mejor solución SA. Costo: 2210.00 (anterior mejor: 2220.00)
+    SA Iter 195648 (T=71.30, Config: Config4_HighIter_BalancedOps): Nueva mejor solución SA. Costo: 2190.00 (anterior mejor: 2210.00)
+    SA Iter 195662 (T=71.30, Config: Config4_HighIter_BalancedOps): Nueva mejor solución SA. Costo: 2150.00 (anterior mejor: 2190.00)
+    SA Iter 195757 (T=71.30, Config: Config4_HighIter_BalancedOps): Nueva mejor solución SA. Costo: 2100.00 (anterior mejor: 2150.00)
+    SA Iter 195768 (T=71.30, Config: Config4_HighIter_BalancedOps): Nueva mejor solución SA. Costo: 2040.00 (anterior mejor: 2100.00)
+    SA Iter 196262 (T=69.89, Config: Config4_HighIter_BalancedOps): Nueva mejor solución SA. Costo: 2000.00 (anterior mejor: 2040.00)
+    SA Iter 196296 (T=69.89, Config: Config4_HighIter_BalancedOps): Nueva mejor solución SA. Costo: 1980.00 (anterior mejor: 2000.00)
+    SA Iter 196490 (T=69.89, Config: Config4_HighIter_BalancedOps): Nueva mejor solución SA. Costo: 1960.00 (anterior mejor: 1980.00)
+    SA Iter 196946 (T=68.49, Config: Config4_HighIter_BalancedOps): Nueva mejor solución SA. Costo: 1930.00 (anterior mejor: 1960.00)
+    SA Iter 196950 (T=68.49, Config: Config4_HighIter_BalancedOps): Nueva mejor solución SA. Costo: 1880.00 (anterior mejor: 1930.00)
+    SA Iter 197011 (T=68.49, Config: Config4_HighIter_BalancedOps): Nueva mejor solución SA. Costo: 1850.00 (anterior mejor: 1880.00)
+    SA Run (Config: Config4_HighIter_BalancedOps, Seed 42) Iter: 200000, Temp: 61.95, Costo Actual: 2360.00, Mejor Costo: 1850.00
+    SA Iter 208395 (T=46.75, Config: Config4_HighIter_BalancedOps): Nueva mejor solución SA. Costo: 1840.00 (anterior mejor: 1850.00)
+    SA Iter 208741 (T=46.28, Config: Config4_HighIter_BalancedOps): Nueva mejor solución SA. Costo: 1820.00 (anterior mejor: 1840.00)
+    SA Iter 209045 (T=45.82, Config: Config4_HighIter_BalancedOps): Nueva mejor solución SA. Costo: 1800.00 (anterior mejor: 1820.00)
+    SA Iter 214341 (T=38.24, Config: Config4_HighIter_BalancedOps): Nueva mejor solución SA. Costo: 1760.00 (anterior mejor: 1800.00)
+    SA Iter 214349 (T=38.24, Config: Config4_HighIter_BalancedOps): Nueva mejor solución SA. Costo: 1720.00 (anterior mejor: 1760.00)
+    SA Iter 214510 (T=37.86, Config: Config4_HighIter_BalancedOps): Nueva mejor solución SA. Costo: 1690.00 (anterior mejor: 1720.00)
+    SA Iter 214795 (T=37.86, Config: Config4_HighIter_BalancedOps): Nueva mejor solución SA. Costo: 1650.00 (anterior mejor: 1690.00)
+    SA Iter 223724 (T=28.00, Config: Config4_HighIter_BalancedOps): Nueva mejor solución SA. Costo: 1640.00 (anterior mejor: 1650.00)
+    SA Run (Config: Config4_HighIter_BalancedOps, Seed 42) Iter: 225000, Temp: 26.90, Costo Actual: 1740.00, Mejor Costo: 1640.00
+    SA Iter 232560 (T=20.71, Config: Config4_HighIter_BalancedOps): Nueva mejor solución SA. Costo: 1620.00 (anterior mejor: 1640.00)
+    SA Iter 236030 (T=18.55, Config: Config4_HighIter_BalancedOps): Nueva mejor solución SA. Costo: 1610.00 (anterior mejor: 1620.00)
+    SA Iter 236270 (T=18.36, Config: Config4_HighIter_BalancedOps): Nueva mejor solución SA. Costo: 1590.00 (anterior mejor: 1610.00)
+    SA Iter 237614 (T=17.46, Config: Config4_HighIter_BalancedOps): Nueva mejor solución SA. Costo: 1560.00 (anterior mejor: 1590.00)
+    SA Iter 246007 (T=13.18, Config: Config4_HighIter_BalancedOps): Nueva mejor solución SA. Costo: 1550.00 (anterior mejor: 1560.00)
+    SA Run (Config: Config4_HighIter_BalancedOps, Seed 42) Iter: 250000, Temp: 11.56, Costo Actual: 1620.00, Mejor Costo: 1550.00
+    SA Run (Config: Config4_HighIter_BalancedOps, Seed 42) Iter: 275000, Temp: 5.02, Costo Actual: 1580.00, Mejor Costo: 1550.00
+    SA Iter 285674 (T=3.50, Config: Config4_HighIter_BalancedOps): Nueva mejor solución SA. Costo: 1540.00 (anterior mejor: 1550.00)
+    SA Iter 289311 (T=3.10, Config: Config4_HighIter_BalancedOps): Nueva mejor solución SA. Costo: 1520.00 (anterior mejor: 1540.00)
+    SA Iter 291866 (T=2.86, Config: Config4_HighIter_BalancedOps): Nueva mejor solución SA. Costo: 1510.00 (anterior mejor: 1520.00)
+    SA Run (Config: Config4_HighIter_BalancedOps, Seed 42) Iter: 300000, Temp: 2.18, Costo Actual: 1510.00, Mejor Costo: 1510.00
+    SA Run (Config: Config4_HighIter_BalancedOps, Seed 42) Iter: 325000, Temp: 0.94, Costo Actual: 1510.00, Mejor Costo: 1510.00
+    SA Run (Config: Config4_HighIter_BalancedOps, Seed 42) Iter: 350000, Temp: 0.41, Costo Actual: 1510.00, Mejor Costo: 1510.00
+    SA Run (Config: Config4_HighIter_BalancedOps, Seed 42) Iter: 375000, Temp: 0.18, Costo Actual: 1510.00, Mejor Costo: 1510.00
+  SA Run (Config: Config4_HighIter_BalancedOps, Seed 42): SA Finalizado. Mejor costo encontrado: 1510.00 en 391800 iteraciones.
+
+Procesando con SA - Config5_FocusSingleMove:
+  SA Run (Config: Config5_FocusSingleMove, Seed 42): Iniciando SA. Temp Inicial: 50000.00, Costo Inicial: 4600.00
+    SA Run (Config: Config5_FocusSingleMove, Seed 42) Iter: 15000, Temp: 18486.48, Costo Actual: 60700.00, Mejor Costo: 4600.00
+    SA Run (Config: Config5_FocusSingleMove, Seed 42) Iter: 30000, Temp: 6766.65, Costo Actual: 51010.00, Mejor Costo: 4600.00
+    SA Run (Config: Config5_FocusSingleMove, Seed 42) Iter: 45000, Temp: 2476.81, Costo Actual: 36590.00, Mejor Costo: 4600.00
+    SA Run (Config: Config5_FocusSingleMove, Seed 42) Iter: 60000, Temp: 906.59, Costo Actual: 14110.00, Mejor Costo: 4600.00
+    SA Iter 71775 (T=409.82, Config: Config5_FocusSingleMove): Nueva mejor solución SA. Costo: 4220.00 (anterior mejor: 4600.00)
+    SA Iter 71793 (T=409.82, Config: Config5_FocusSingleMove): Nueva mejor solución SA. Costo: 3960.00 (anterior mejor: 4220.00)
+    SA Iter 71796 (T=409.82, Config: Config5_FocusSingleMove): Nueva mejor solución SA. Costo: 3750.00 (anterior mejor: 3960.00)
+    SA Iter 71824 (T=409.82, Config: Config5_FocusSingleMove): Nueva mejor solución SA. Costo: 3680.00 (anterior mejor: 3750.00)
+    SA Iter 71845 (T=409.82, Config: Config5_FocusSingleMove): Nueva mejor solución SA. Costo: 3410.00 (anterior mejor: 3680.00)
+    SA Iter 73041 (T=378.16, Config: Config5_FocusSingleMove): Nueva mejor solución SA. Costo: 3350.00 (anterior mejor: 3410.00)
+    SA Iter 73044 (T=378.16, Config: Config5_FocusSingleMove): Nueva mejor solución SA. Costo: 3300.00 (anterior mejor: 3350.00)
+    SA Iter 73115 (T=374.38, Config: Config5_FocusSingleMove): Nueva mejor solución SA. Costo: 3080.00 (anterior mejor: 3300.00)
+    SA Run (Config: Config5_FocusSingleMove, Seed 42) Iter: 75000, Temp: 331.84, Costo Actual: 7290.00, Mejor Costo: 3080.00
+    SA Iter 83617 (T=185.26, Config: Config5_FocusSingleMove): Nueva mejor solución SA. Costo: 2940.00 (anterior mejor: 3080.00)
+    SA Iter 83680 (T=185.26, Config: Config5_FocusSingleMove): Nueva mejor solución SA. Costo: 2890.00 (anterior mejor: 2940.00)
+    SA Iter 83700 (T=185.26, Config: Config5_FocusSingleMove): Nueva mejor solución SA. Costo: 2870.00 (anterior mejor: 2890.00)
+    SA Iter 84013 (T=179.75, Config: Config5_FocusSingleMove): Nueva mejor solución SA. Costo: 2850.00 (anterior mejor: 2870.00)
+    SA Iter 84029 (T=179.75, Config: Config5_FocusSingleMove): Nueva mejor solución SA. Costo: 2760.00 (anterior mejor: 2850.00)
+    SA Iter 84031 (T=179.75, Config: Config5_FocusSingleMove): Nueva mejor solución SA. Costo: 2640.00 (anterior mejor: 2760.00)
+    SA Iter 88812 (T=130.32, Config: Config5_FocusSingleMove): Nueva mejor solución SA. Costo: 2610.00 (anterior mejor: 2640.00)
+    SA Iter 88850 (T=130.32, Config: Config5_FocusSingleMove): Nueva mejor solución SA. Costo: 2580.00 (anterior mejor: 2610.00)
+    SA Iter 89463 (T=125.18, Config: Config5_FocusSingleMove): Nueva mejor solución SA. Costo: 2470.00 (anterior mejor: 2580.00)
+    SA Run (Config: Config5_FocusSingleMove, Seed 42) Iter: 90000, Temp: 121.47, Costo Actual: 2470.00, Mejor Costo: 2470.00
+    SA Iter 93908 (T=92.60, Config: Config5_FocusSingleMove): Nueva mejor solución SA. Costo: 2450.00 (anterior mejor: 2470.00)
+    SA Iter 94170 (T=91.67, Config: Config5_FocusSingleMove): Nueva mejor solución SA. Costo: 2430.00 (anterior mejor: 2450.00)
+    SA Iter 94659 (T=88.06, Config: Config5_FocusSingleMove): Nueva mejor solución SA. Costo: 2360.00 (anterior mejor: 2430.00)
+    SA Iter 94887 (T=87.18, Config: Config5_FocusSingleMove): Nueva mejor solución SA. Costo: 2310.00 (anterior mejor: 2360.00)
+    SA Iter 94899 (T=87.18, Config: Config5_FocusSingleMove): Nueva mejor solución SA. Costo: 2280.00 (anterior mejor: 2310.00)
+    SA Iter 95249 (T=85.44, Config: Config5_FocusSingleMove): Nueva mejor solución SA. Costo: 2250.00 (anterior mejor: 2280.00)
+    SA Iter 95344 (T=84.59, Config: Config5_FocusSingleMove): Nueva mejor solución SA. Costo: 2230.00 (anterior mejor: 2250.00)
+    SA Iter 95418 (T=83.74, Config: Config5_FocusSingleMove): Nueva mejor solución SA. Costo: 2210.00 (anterior mejor: 2230.00)
+    SA Iter 95596 (T=82.91, Config: Config5_FocusSingleMove): Nueva mejor solución SA. Costo: 2150.00 (anterior mejor: 2210.00)
+    SA Iter 97121 (T=74.98, Config: Config5_FocusSingleMove): Nueva mejor solución SA. Costo: 2090.00 (anterior mejor: 2150.00)
+    SA Iter 97347 (T=74.23, Config: Config5_FocusSingleMove): Nueva mejor solución SA. Costo: 2060.00 (anterior mejor: 2090.00)
+    SA Iter 97349 (T=74.23, Config: Config5_FocusSingleMove): Nueva mejor solución SA. Costo: 2030.00 (anterior mejor: 2060.00)
+    SA Run (Config: Config5_FocusSingleMove, Seed 42) Iter: 105000, Temp: 44.46, Costo Actual: 2510.00, Mejor Costo: 2030.00
+    SA Run (Config: Config5_FocusSingleMove, Seed 42) Iter: 120000, Temp: 16.27, Costo Actual: 2050.00, Mejor Costo: 2030.00
+    SA Iter 120860 (T=15.32, Config: Config5_FocusSingleMove): Nueva mejor solución SA. Costo: 1990.00 (anterior mejor: 2030.00)
+    SA Iter 121691 (T=14.42, Config: Config5_FocusSingleMove): Nueva mejor solución SA. Costo: 1980.00 (anterior mejor: 1990.00)
+    SA Iter 123030 (T=13.18, Config: Config5_FocusSingleMove): Nueva mejor solución SA. Costo: 1970.00 (anterior mejor: 1980.00)
+    SA Iter 123304 (T=12.92, Config: Config5_FocusSingleMove): Nueva mejor solución SA. Costo: 1960.00 (anterior mejor: 1970.00)
+    SA Iter 124781 (T=11.80, Config: Config5_FocusSingleMove): Nueva mejor solución SA. Costo: 1930.00 (anterior mejor: 1960.00)
+    SA Iter 125382 (T=11.33, Config: Config5_FocusSingleMove): Nueva mejor solución SA. Costo: 1920.00 (anterior mejor: 1930.00)
+    SA Iter 125937 (T=10.89, Config: Config5_FocusSingleMove): Nueva mejor solución SA. Costo: 1890.00 (anterior mejor: 1920.00)
+    SA Iter 126152 (T=10.67, Config: Config5_FocusSingleMove): Nueva mejor solución SA. Costo: 1860.00 (anterior mejor: 1890.00)
+    SA Iter 126738 (T=10.35, Config: Config5_FocusSingleMove): Nueva mejor solución SA. Costo: 1800.00 (anterior mejor: 1860.00)
+    SA Run (Config: Config5_FocusSingleMove, Seed 42) Iter: 135000, Temp: 5.96, Costo Actual: 1830.00, Mejor Costo: 1800.00
+    SA Iter 139172 (T=4.50, Config: Config5_FocusSingleMove): Nueva mejor solución SA. Costo: 1780.00 (anterior mejor: 1800.00)
+    SA Iter 141123 (T=3.95, Config: Config5_FocusSingleMove): Nueva mejor solución SA. Costo: 1770.00 (anterior mejor: 1780.00)
+    SA Run (Config: Config5_FocusSingleMove, Seed 42) Iter: 150000, Temp: 2.18, Costo Actual: 1770.00, Mejor Costo: 1770.00
+    SA Run (Config: Config5_FocusSingleMove, Seed 42) Iter: 165000, Temp: 0.80, Costo Actual: 1770.00, Mejor Costo: 1770.00
+    SA Run (Config: Config5_FocusSingleMove, Seed 42) Iter: 180000, Temp: 0.29, Costo Actual: 1770.00, Mejor Costo: 1770.00
+    SA Run (Config: Config5_FocusSingleMove, Seed 42) Iter: 195000, Temp: 0.11, Costo Actual: 1770.00, Mejor Costo: 1770.00
+  SA Run (Config: Config5_FocusSingleMove, Seed 42): SA Finalizado. Mejor costo encontrado: 1770.00 en 195900 iteraciones.
+
+
+========================= RESULTADOS FINALES DEL PROCESO SA (Determinista con Nuevos Operadores) =========================
+Costo Inicial (Greedy Determinista): 4600.00
+Semilla Global de Replicación Utilizada para TODAS las corridas de SA: 42
+
+Resumen de costos por configuración de SA:
+  Config SA: Config1_HighT_SlowCool (SA Seed Usada: 42) -> Costo SA Final = 1620.00
+  Config SA: Config2_MedT_MedCool (SA Seed Usada: 42) -> Costo SA Final = 1540.00
+  Config SA: Config3_LowT_FastCool_MoreReinsert (SA Seed Usada: 42) -> Costo SA Final = 1540.00
+  Config SA: Config4_HighIter_BalancedOps (SA Seed Usada: 42) -> Costo SA Final = 1510.00
+  Config SA: Config5_FocusSingleMove (SA Seed Usada: 42) -> Costo SA Final = 1770.00
+
+Mejor solución global encontrada por SA (considerando todas las configs con semilla 42): Costo = 1510.00
+  Originada por Config SA: Config4_HighIter_BalancedOps, SA Seed Usada: 42
+  Parámetros de la mejor config: {'label': 'Config4_HighIter_BalancedOps', 'initial_temp': 50000.0, 'final_temp': 0.1, 'cooling_rate': 0.99, 'iter_per_temp': 300, 'prob_single_move': 0.33, 'prob_swap_times': 0.33, 'print_interval': 25000, 'verbose_sa_run': True, 'verbose_sa_progress': True, 'verbose_sa_improvement': True}
+
+Horario de la mejor solución global SA (Config: Config4_HighIter_BalancedOps)
+
+--- Matriz de Horario de Aterrizaje ---
+---------------------------------------
+| Tiempo Aterrizaje | ID Avión      |
+|-------------------|---------------|
+| 91                | 3             |
+| 99                | 4             |
+| 107               | 5             |
+| 115               | 6             |
+| 123               | 7             |
+| 131               | 8             |
+| 139               | 9             |
+| 151               | 10            |
+| 171               | 14            |
+| 181               | 13            |
+| 196               | 1             |
+| 250               | 2             |
+| 313               | 12            |
+| 340               | 11            |
+| 343               | 15            |
+---------------------------------------
+La mejor solución SA global reportada ES factible.
+
+Gráfico de mejor costo guardado como: sa_determinista_mejor_costo_evolucion_case1_sem42.png

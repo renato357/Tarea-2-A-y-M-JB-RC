@@ -1,0 +1,126 @@
+
+========================= RESULTADOS FINALES SA Estocástico (2 Pistas) =========================
+
+Resultados para Sol. Inicial Greedy #1 (Semilla: 42, Costo: 7465.00):
+    Config SA: Config1_Mod_ExploitFocus_From_C2 (Seed SA: 1100) -> Costo Final SA: 101.00
+    Config SA: Config2_Fast_LowIter_MedT (Seed SA: 1200) -> Costo Final SA: 209.00
+    Config SA: Config3_VeryFast_VLowIter_LowT (Seed SA: 1300) -> Costo Final SA: 480.00
+    Config SA: Config4_HighIter_BalancedOps (Seed SA: 1400) -> Costo Final SA: 3.00
+    Config SA: Config5_Fast_RapidCool_MedIter (Seed SA: 1500) -> Costo Final SA: 118.00
+
+Resultados para Sol. Inicial Greedy #2 (Semilla: 123, Costo: 7479.00):
+    Config SA: Config1_Mod_ExploitFocus_From_C2 (Seed SA: 2100) -> Costo Final SA: 75.00
+    Config SA: Config2_Fast_LowIter_MedT (Seed SA: 2200) -> Costo Final SA: 267.00
+    Config SA: Config3_VeryFast_VLowIter_LowT (Seed SA: 2300) -> Costo Final SA: 444.00
+    Config SA: Config4_HighIter_BalancedOps (Seed SA: 2400) -> Costo Final SA: 4.00
+    Config SA: Config5_Fast_RapidCool_MedIter (Seed SA: 2500) -> Costo Final SA: 127.00
+
+Resultados para Sol. Inicial Greedy #3 (Semilla: 7, Costo: 7440.00):
+    Config SA: Config1_Mod_ExploitFocus_From_C2 (Seed SA: 3100) -> Costo Final SA: 105.00
+    Config SA: Config2_Fast_LowIter_MedT (Seed SA: 3200) -> Costo Final SA: 207.00
+    Config SA: Config3_VeryFast_VLowIter_LowT (Seed SA: 3300) -> Costo Final SA: 397.00
+    Config SA: Config4_HighIter_BalancedOps (Seed SA: 3400) -> Costo Final SA: 2.00
+    Config SA: Config5_Fast_RapidCool_MedIter (Seed SA: 3500) -> Costo Final SA: 133.00
+
+Resultados para Sol. Inicial Greedy #4 (Semilla: 99, Costo: 7503.00):
+    Config SA: Config1_Mod_ExploitFocus_From_C2 (Seed SA: 4100) -> Costo Final SA: 79.00
+    Config SA: Config2_Fast_LowIter_MedT (Seed SA: 4200) -> Costo Final SA: 235.00
+    Config SA: Config3_VeryFast_VLowIter_LowT (Seed SA: 4300) -> Costo Final SA: 411.00
+    Config SA: Config4_HighIter_BalancedOps (Seed SA: 4400) -> Costo Final SA: 2.00
+    Config SA: Config5_Fast_RapidCool_MedIter (Seed SA: 4500) -> Costo Final SA: 158.00
+
+Resultados para Sol. Inicial Greedy #5 (Semilla: 500, Costo: 7460.00):
+    Config SA: Config1_Mod_ExploitFocus_From_C2 (Seed SA: 5100) -> Costo Final SA: 80.00
+    Config SA: Config2_Fast_LowIter_MedT (Seed SA: 5200) -> Costo Final SA: 219.00
+    Config SA: Config3_VeryFast_VLowIter_LowT (Seed SA: 5300) -> Costo Final SA: 494.00
+    Config SA: Config4_HighIter_BalancedOps (Seed SA: 5400) -> Costo Final SA: 5.00
+    Config SA: Config5_Fast_RapidCool_MedIter (Seed SA: 5500) -> Costo Final SA: 148.00
+
+Resultados para Sol. Inicial Greedy #6 (Semilla: 777, Costo: 7507.00):
+    Config SA: Config1_Mod_ExploitFocus_From_C2 (Seed SA: 6100) -> Costo Final SA: 74.00
+    Config SA: Config2_Fast_LowIter_MedT (Seed SA: 6200) -> Costo Final SA: 229.00
+    Config SA: Config3_VeryFast_VLowIter_LowT (Seed SA: 6300) -> Costo Final SA: 381.00
+    Config SA: Config4_HighIter_BalancedOps (Seed SA: 6400) -> Costo Final SA: 3.00
+    Config SA: Config5_Fast_RapidCool_MedIter (Seed SA: 6500) -> Costo Final SA: 209.00
+
+Resultados para Sol. Inicial Greedy #7 (Semilla: 2024, Costo: 7479.00):
+    Config SA: Config1_Mod_ExploitFocus_From_C2 (Seed SA: 7100) -> Costo Final SA: 78.00
+    Config SA: Config2_Fast_LowIter_MedT (Seed SA: 7200) -> Costo Final SA: 218.00
+    Config SA: Config3_VeryFast_VLowIter_LowT (Seed SA: 7300) -> Costo Final SA: 471.00
+    Config SA: Config4_HighIter_BalancedOps (Seed SA: 7400) -> Costo Final SA: 4.00
+    Config SA: Config5_Fast_RapidCool_MedIter (Seed SA: 7500) -> Costo Final SA: 173.00
+
+Resultados para Sol. Inicial Greedy #8 (Semilla: 1, Costo: 7461.00):
+    Config SA: Config1_Mod_ExploitFocus_From_C2 (Seed SA: 8100) -> Costo Final SA: 82.00
+    Config SA: Config2_Fast_LowIter_MedT (Seed SA: 8200) -> Costo Final SA: 208.00
+    Config SA: Config3_VeryFast_VLowIter_LowT (Seed SA: 8300) -> Costo Final SA: 352.00
+    Config SA: Config4_HighIter_BalancedOps (Seed SA: 8400) -> Costo Final SA: 1.00
+    Config SA: Config5_Fast_RapidCool_MedIter (Seed SA: 8500) -> Costo Final SA: 159.00
+
+Resultados para Sol. Inicial Greedy #9 (Semilla: 100, Costo: 7487.00):
+    Config SA: Config1_Mod_ExploitFocus_From_C2 (Seed SA: 9100) -> Costo Final SA: 111.00
+    Config SA: Config2_Fast_LowIter_MedT (Seed SA: 9200) -> Costo Final SA: 227.00
+    Config SA: Config3_VeryFast_VLowIter_LowT (Seed SA: 9300) -> Costo Final SA: 537.00
+    Config SA: Config4_HighIter_BalancedOps (Seed SA: 9400) -> Costo Final SA: 0.00
+    Config SA: Config5_Fast_RapidCool_MedIter (Seed SA: 9500) -> Costo Final SA: 131.00
+
+Resultados para Sol. Inicial Greedy #10 (Semilla: 314, Costo: 7432.00):
+    Config SA: Config1_Mod_ExploitFocus_From_C2 (Seed SA: 10100) -> Costo Final SA: 99.00
+    Config SA: Config2_Fast_LowIter_MedT (Seed SA: 10200) -> Costo Final SA: 235.00
+    Config SA: Config3_VeryFast_VLowIter_LowT (Seed SA: 10300) -> Costo Final SA: 416.00
+    Config SA: Config4_HighIter_BalancedOps (Seed SA: 10400) -> Costo Final SA: 0.00
+    Config SA: Config5_Fast_RapidCool_MedIter (Seed SA: 10500) -> Costo Final SA: 203.00
+
+Mejor solución global SA (2 Pistas): Costo = 0.00
+  Originada por Sol. Inicial Greedy (Seed: 100, Costo: 7487.00), Config SA: Config4_HighIter_BalancedOps, Seed SA: 9400
+
+--- Mejor Horario Global SA Estocástico (2 Pistas) ---
+----------------------------------------------------
+| Tiempo Aterrizaje  | ID Avión   | Pista   |
+|--------------------|------------|---------|
+| 0                  | 1          | 1       |
+| 137                | 2          | 0       |
+| 271                | 3          | 1       |
+| 351                | 4          | 0       |
+| 431                | 5          | 0       |
+| 503                | 6          | 1       |
+| 626                | 7          | 0       |
+| 727                | 8          | 1       |
+| 895                | 9          | 0       |
+| 967                | 10         | 1       |
+| 1167               | 11         | 1       |
+| 1239               | 12         | 1       |
+| 1439               | 13         | 0       |
+| 1519               | 14         | 1       |
+| 1591               | 15         | 1       |
+| 1791               | 16         | 0       |
+| 1871               | 17         | 1       |
+| 1943               | 18         | 1       |
+| 2143               | 19         | 0       |
+| 2223               | 20         | 0       |
+| 2295               | 21         | 0       |
+| 2391               | 22         | 1       |
+| 2591               | 23         | 0       |
+| 2663               | 24         | 1       |
+| 2863               | 25         | 0       |
+| 2943               | 26         | 1       |
+| 3023               | 27         | 0       |
+| 3103               | 28         | 1       |
+| 3175               | 29         | 1       |
+| 3271               | 30         | 1       |
+| 3471               | 31         | 1       |
+| 3543               | 32         | 1       |
+| 3743               | 33         | 1       |
+| 3815               | 34         | 1       |
+| 3911               | 35         | 1       |
+| 4111               | 36         | 1       |
+| 4191               | 37         | 1       |
+| 4271               | 38         | 0       |
+| 4343               | 39         | 0       |
+| 4439               | 40         | 1       |
+| 4535               | 41         | 0       |
+| 4631               | 42         | 1       |
+| 4727               | 43         | 1       |
+| 4927               | 44         | 0       |
+----------------------------------------------------
+La mejor solución SA global (2 Pistas) reportada ES factible.

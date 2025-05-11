@@ -1,0 +1,72 @@
+/bin/python3 /home/jb/Desktop/T2_AEyM/greedy_estocastico_10_semillas.py
+jb@jb-pc1:~/Desktop/T2_AEyM$ /bin/python3 /home/jb/Desktop/T2_AEyM/greedy_estocastico_10_semillas.py
+Iniciando generación de 10 soluciones factibles con semillas predefinidas...
+Datos leídos correctamente para 15 aviones desde 'case1.txt'.
+
+
+--- Ejecución Estocástica #1/10 (Semilla: 42) ---
+  ¡Solución factible encontrada en el intento 1/1000 del greedy estocástico!
+  Solución factible encontrada para semilla 42 en 1 intento(s) del greedy.
+  Costo de esta solución: 4600.00
+
+--- Ejecución Estocástica #2/10 (Semilla: 123) ---
+  ¡Solución factible encontrada en el intento 1/1000 del greedy estocástico!
+  Solución factible encontrada para semilla 123 en 1 intento(s) del greedy.
+  Costo de esta solución: 4550.00
+
+--- Ejecución Estocástica #3/10 (Semilla: 7) ---
+  ¡Solución factible encontrada en el intento 1/1000 del greedy estocástico!
+  Solución factible encontrada para semilla 7 en 1 intento(s) del greedy.
+  Costo de esta solución: 4660.00
+
+--- Ejecución Estocástica #4/10 (Semilla: 99) ---
+  ¡Solución factible encontrada en el intento 1/1000 del greedy estocástico!
+  Solución factible encontrada para semilla 99 en 1 intento(s) del greedy.
+  Costo de esta solución: 4600.00
+
+--- Ejecución Estocástica #5/10 (Semilla: 500) ---
+  ¡Solución factible encontrada en el intento 1/1000 del greedy estocástico!
+  Solución factible encontrada para semilla 500 en 1 intento(s) del greedy.
+  Costo de esta solución: 4840.00
+
+--- Ejecución Estocástica #6/10 (Semilla: 777) ---
+  ¡Solución factible encontrada en el intento 1/1000 del greedy estocástico!
+  Solución factible encontrada para semilla 777 en 1 intento(s) del greedy.
+  Costo de esta solución: 4790.00
+
+--- Ejecución Estocástica #7/10 (Semilla: 2024) ---
+  ¡Solución factible encontrada en el intento 1/1000 del greedy estocástico!
+  Solución factible encontrada para semilla 2024 en 1 intento(s) del greedy.
+  Costo de esta solución: 5800.00
+
+--- Ejecución Estocástica #8/10 (Semilla: 1) ---
+  ¡Solución factible encontrada en el intento 1/1000 del greedy estocástico!
+  Solución factible encontrada para semilla 1 en 1 intento(s) del greedy.
+  Costo de esta solución: 5620.00
+
+--- Ejecución Estocástica #9/10 (Semilla: 100) ---
+  ¡Solución factible encontrada en el intento 1/1000 del greedy estocástico!
+  Solución factible encontrada para semilla 100 en 1 intento(s) del greedy.
+  Costo de esta solución: 5030.00
+
+--- Ejecución Estocástica #10/10 (Semilla: 314) ---
+  ¡Solución factible encontrada en el intento 1/1000 del greedy estocástico!
+  Solución factible encontrada para semilla 314 en 1 intento(s) del greedy.
+  Costo de esta solución: 5140.00
+
+--- Resumen de Generación de Soluciones Estocásticas ---
+Se generaron 10 soluciones factibles de 10 intentos con semillas predefinidas.
+
+
+--- Costos de las Soluciones Estocásticas Generadas ---
+Solución con Semilla #1 (42): Costo = 4600.00
+Solución con Semilla #2 (123): Costo = 4550.00
+Solución con Semilla #3 (7): Costo = 4660.00
+Solución con Semilla #4 (99): Costo = 4600.00
+Solución con Semilla #5 (500): Costo = 4840.00
+Solución con Semilla #6 (777): Costo = 4790.00
+Solución con Semilla #7 (2024): Costo = 5800.00
+Solución con Semilla #8 (1): Costo = 5620.00
+Solución con Semilla #9 (100): Costo = 5030.00
+Solución con Semilla #10 (314): Costo = 5140.00
+jb@jb-pc1:~/Desktop/T2_AEyM$ 

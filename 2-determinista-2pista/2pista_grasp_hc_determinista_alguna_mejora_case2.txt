@@ -1,0 +1,179 @@
+/bin/python3 /home/jb/Desktop/T2_AEyM/grasp_hc_determinista_2pistas_alguna_mejora.py
+jb@jb-pc1:~/Desktop/T2_AEyM$ /bin/python3 /home/jb/Desktop/T2_AEyM/grasp_hc_determinista_2pistas_alguna_mejora.py
+>>> Paso 1: Ejecutando Greedy Determinista para 2 Pistas para obtener solución inicial...
+Leídos 20 aviones desde 'case2.txt'.
+
+--- Salida del Greedy Determinista para 2 Pistas (esperada) ---
+
+--- Ejecutando Algoritmo Greedy Determinista para 2 Pistas ---
+  Aterrizaje programado: Avión ID 1 en Pista 0 en t = 75
+  Aterrizaje programado: Avión ID 6 en Pista 0 en t = 95
+  Aterrizaje programado: Avión ID 8 en Pista 1 en t = 98
+  Aterrizaje programado: Avión ID 4 en Pista 0 en t = 103
+  Aterrizaje programado: Avión ID 12 en Pista 0 en t = 114
+  Aterrizaje programado: Avión ID 10 en Pista 1 en t = 117
+  Aterrizaje programado: Avión ID 9 en Pista 0 en t = 122
+  Aterrizaje programado: Avión ID 11 en Pista 0 en t = 132
+  Aterrizaje programado: Avión ID 3 en Pista 1 en t = 134
+  Aterrizaje programado: Avión ID 19 en Pista 0 en t = 144
+  Aterrizaje programado: Avión ID 20 en Pista 1 en t = 151
+  Aterrizaje programado: Avión ID 2 en Pista 0 en t = 159
+  Aterrizaje programado: Avión ID 7 en Pista 0 en t = 185
+  Aterrizaje programado: Avión ID 5 en Pista 0 en t = 201
+  Aterrizaje programado: Avión ID 15 en Pista 0 en t = 214
+  Aterrizaje programado: Avión ID 18 en Pista 0 en t = 237
+  Aterrizaje programado: Avión ID 14 en Pista 0 en t = 250
+  Aterrizaje programado: Avión ID 13 en Pista 0 en t = 261
+  Aterrizaje programado: Avión ID 17 en Pista 0 en t = 269
+  Aterrizaje programado: Avión ID 16 en Pista 0 en t = 310
+
+--- Algoritmo Greedy Determinista para 2 Pistas Finalizado ---
+
+--- Resumen de Factibilidad Final (Greedy 2 Pistas) ---
+✅ La solución encontrada es factible.
+--- Fin Salida del Greedy Determinista para 2 Pistas ---
+
+
+Solución Inicial del Greedy Determinista para 2 Pistas (Factible):
+Costo del Greedy: 9550.00
+
+--- Matriz Greedy Inicial ---
+----------------------------------------------------
+| Tiempo Aterrizaje  | ID Avión   | Pista   |
+|--------------------|------------|---------|
+| 75                 | 1          | 0       |
+| 95                 | 6          | 0       |
+| 98                 | 8          | 1       |
+| 103                | 4          | 0       |
+| 114                | 12         | 0       |
+| 117                | 10         | 1       |
+| 122                | 9          | 0       |
+| 132                | 11         | 0       |
+| 134                | 3          | 1       |
+| 144                | 19         | 0       |
+| 151                | 20         | 1       |
+| 159                | 2          | 0       |
+| 185                | 7          | 0       |
+| 201                | 5          | 0       |
+| 214                | 15         | 0       |
+| 237                | 18         | 0       |
+| 250                | 14         | 0       |
+| 261                | 13         | 0       |
+| 269                | 17         | 0       |
+| 310                | 16         | 0       |
+----------------------------------------------------
+
+>>> Paso 2: Aplicando Hill Climbing (Alguna-Mejora Determinista para 2 Pistas)...
+
+--- Iniciando Hill Climbing (Alguna-Mejora Determinista para 2 Pistas) ---
+Costo Inicial (del Greedy): 9550.00
+
+--- Iteración Global de Hill Climbing #1 (Costo actual: 9550.00) ---
+  HC Mejora (Misma Pista): Avión ID 1 de t=75 a t=82 en Pista 0. Costo: 9550.00 -> 9340.00
+
+--- Iteración Global de Hill Climbing #2 (Costo actual: 9340.00) ---
+  HC Mejora (Misma Pista): Avión ID 2 de t=159 a t=197 en Pista 0. Costo: 9340.00 -> 8960.00
+
+--- Iteración Global de Hill Climbing #3 (Costo actual: 8960.00) ---
+  HC Mejora (Misma Pista): Avión ID 3 de t=134 a t=184 en Pista 1. Costo: 8960.00 -> 8940.00
+
+--- Iteración Global de Hill Climbing #4 (Costo actual: 8940.00) ---
+  HC Mejora (Misma Pista): Avión ID 5 de t=201 a t=301 en Pista 0. Costo: 8940.00 -> 8740.00
+
+--- Iteración Global de Hill Climbing #5 (Costo actual: 8740.00) ---
+  HC Mejora (Cambio Pista): Avión ID 5 de (t=301,p=0) a (t=261,p=1). Costo: 8740.00 -> 8340.00
+
+--- Iteración Global de Hill Climbing #6 (Costo actual: 8340.00) ---
+  HC Mejora (Misma Pista): Avión ID 7 de t=185 a t=229 en Pista 0. Costo: 8340.00 -> 7900.00
+
+--- Iteración Global de Hill Climbing #7 (Costo actual: 7900.00) ---
+  HC Mejora (Misma Pista): Avión ID 8 de t=98 a t=108 en Pista 1. Costo: 7900.00 -> 7600.00
+
+--- Iteración Global de Hill Climbing #8 (Costo actual: 7600.00) ---
+  HC Mejora (Misma Pista): Avión ID 10 de t=117 a t=130 en Pista 1. Costo: 7600.00 -> 7210.00
+
+--- Iteración Global de Hill Climbing #9 (Costo actual: 7210.00) ---
+  HC Mejora (Misma Pista): Avión ID 13 de t=261 a t=336 en Pista 0. Costo: 7210.00 -> 6460.00
+
+--- Iteración Global de Hill Climbing #10 (Costo actual: 6460.00) ---
+  HC Mejora (Misma Pista): Avión ID 14 de t=250 a t=300 en Pista 0. Costo: 6460.00 -> 5960.00
+
+--- Iteración Global de Hill Climbing #11 (Costo actual: 5960.00) ---
+  HC Mejora (Misma Pista): Avión ID 14 de t=300 a t=316 en Pista 0. Costo: 5960.00 -> 5800.00
+
+--- Iteración Global de Hill Climbing #12 (Costo actual: 5800.00) ---
+  HC Mejora (Misma Pista): Avión ID 15 de t=214 a t=258 en Pista 0. Costo: 5800.00 -> 5360.00
+
+--- Iteración Global de Hill Climbing #13 (Costo actual: 5360.00) ---
+  HC Mejora (Misma Pista): Avión ID 16 de t=310 a t=360 en Pista 0. Costo: 5360.00 -> 4860.00
+
+--- Iteración Global de Hill Climbing #14 (Costo actual: 4860.00) ---
+  HC Mejora (Misma Pista): Avión ID 16 de t=360 a t=409 en Pista 0. Costo: 4860.00 -> 4370.00
+
+--- Iteración Global de Hill Climbing #15 (Costo actual: 4370.00) ---
+  HC Mejora (Misma Pista): Avión ID 17 de t=269 a t=319 en Pista 0. Costo: 4370.00 -> 3870.00
+
+--- Iteración Global de Hill Climbing #16 (Costo actual: 3870.00) ---
+  HC Mejora (Cambio Pista): Avión ID 17 de (t=319,p=0) a (t=338,p=1). Costo: 3870.00 -> 3680.00
+
+--- Iteración Global de Hill Climbing #17 (Costo actual: 3680.00) ---
+  HC Mejora (Misma Pista): Avión ID 18 de t=237 a t=287 en Pista 0. Costo: 3680.00 -> 3180.00
+
+--- Iteración Global de Hill Climbing #18 (Costo actual: 3180.00) ---
+  HC Mejora (Misma Pista): Avión ID 19 de t=144 a t=160 en Pista 0. Costo: 3180.00 -> 2700.00
+
+--- Iteración Global de Hill Climbing #19 (Costo actual: 2700.00) ---
+  HC Mejora (Misma Pista): Avión ID 11 de t=132 a t=149 en Pista 0. Costo: 2700.00 -> 2190.00
+
+--- Iteración Global de Hill Climbing #20 (Costo actual: 2190.00) ---
+  HC Mejora (Misma Pista): Avión ID 9 de t=122 a t=132 en Pista 0. Costo: 2190.00 -> 1890.00
+
+--- Iteración Global de Hill Climbing #21 (Costo actual: 1890.00) ---
+  HC Mejora (Misma Pista): Avión ID 20 de t=151 a t=169 en Pista 1. Costo: 1890.00 -> 1350.00
+
+--- Iteración Global de Hill Climbing #22 (Costo actual: 1350.00) ---
+  No se encontró ninguna mejora en esta iteración global del vecindario. Óptimo local alcanzado.
+
+Hill Climbing convergió en 22 iteraciones.
+
+--- Hill Climbing (Alguna-Mejora Determinista para 2 Pistas) Finalizado ---
+
+
+==================================================================================
+--- Resultados Finales (Greedy Determinista 2 Pistas + Hill Climbing Alguna Mejora) ---
+==================================================================================
+Costo Inicial (Greedy Determinista 2 Pistas): 9550.00
+Costo Final (Después de Hill Climbing): 1350.00
+Mejora obtenida por Hill Climbing: 8200.00 (85.86%)
+
+Matriz de Aterrizaje Final (después de Hill Climbing):
+
+--- Matriz Final HC ---
+----------------------------------------------------
+| Tiempo Aterrizaje  | ID Avión   | Pista   |
+|--------------------|------------|---------|
+| 82                 | 1          | 0       |
+| 95                 | 6          | 0       |
+| 103                | 4          | 0       |
+| 108                | 8          | 1       |
+| 114                | 12         | 0       |
+| 130                | 10         | 1       |
+| 132                | 9          | 0       |
+| 149                | 11         | 0       |
+| 160                | 19         | 0       |
+| 169                | 20         | 1       |
+| 184                | 3          | 1       |
+| 197                | 2          | 0       |
+| 229                | 7          | 0       |
+| 258                | 15         | 0       |
+| 261                | 5          | 1       |
+| 287                | 18         | 0       |
+| 316                | 14         | 0       |
+| 336                | 13         | 0       |
+| 338                | 17         | 1       |
+| 409                | 16         | 0       |
+----------------------------------------------------
+
+La solución final del Hill Climbing es factible.
+
+Gráfico de convergencia guardado como: grasp_hc_2pistas_costo_evolucion_case2.png

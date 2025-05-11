@@ -1,0 +1,434 @@
+/bin/python3 /home/jb/Desktop/T2_AEyM/greedydeterminista_2pistas.py
+jb@jb-pc1:~/Desktop/T2_AEyM$ /bin/python3 /home/jb/Desktop/T2_AEyM/greedydeterminista_2pistas.py
+Datos leídos correctamente para 100 aviones desde 'case4.txt'.
+
+
+Tiempos principales de aterrizaje por avión:
+----------------------------------------------------------------------
+ID    | Temprano (E_k)  | Preferente (P_k)   | Tardío (L_k)   
+----------------------------------------------------------------------
+1     | 601             | 908                | 2401           
+2     | 725             | 1027               | 2525           
+3     | 928             | 1378               | 2728           
+4     | 974             | 1502               | 2774           
+5     | 1056            | 1618               | 2856           
+6     | 1119            | 1235               | 2919           
+7     | 1148            | 1520               | 2948           
+8     | 1195            | 1401               | 2995           
+9     | 1201            | 1584               | 3001           
+10    | 1218            | 1343               | 3018           
+11    | 1224            | 1787               | 3024           
+12    | 1288            | 1700               | 3088           
+13    | 1613            | 1724               | 3413           
+14    | 1671            | 1907               | 3471           
+15    | 1700            | 2234               | 3500           
+16    | 1801            | 2003               | 3601           
+17    | 2067            | 2169               | 3867           
+18    | 2091            | 2215               | 3891           
+19    | 2242            | 2781               | 4042           
+20    | 2340            | 2436               | 4140           
+21    | 2619            | 3111               | 4419           
+22    | 2705            | 2967               | 4505           
+23    | 2726            | 2971               | 4526           
+24    | 2803            | 2918               | 4603           
+25    | 2882            | 3258               | 4682           
+26    | 3246            | 3728               | 5046           
+27    | 3335            | 3468               | 5135           
+28    | 3357            | 3750               | 5157           
+29    | 3368            | 3647               | 5168           
+30    | 3428            | 3495               | 5228           
+31    | 3463            | 3579               | 5263           
+32    | 3495            | 4079               | 5295           
+33    | 3544            | 3764               | 5344           
+34    | 3623            | 3749               | 5423           
+35    | 3632            | 3854               | 5432           
+36    | 3723            | 4273               | 5523           
+37    | 4190            | 4469               | 5990           
+38    | 4220            | 4771               | 6020           
+39    | 4246            | 4836               | 6046           
+40    | 4376            | 4695               | 6176           
+41    | 4483            | 4829               | 6283           
+42    | 4894            | 5400               | 6694           
+43    | 4965            | 5536               | 6765           
+44    | 4982            | 5224               | 6782           
+45    | 5021            | 5443               | 6821           
+46    | 5030            | 5492               | 6830           
+47    | 5145            | 5373               | 6945           
+48    | 5175            | 5731               | 6975           
+49    | 5214            | 5749               | 7014           
+50    | 5224            | 5588               | 7024           
+51    | 5346            | 5636               | 7146           
+52    | 5588            | 5946               | 7388           
+53    | 5691            | 6145               | 7491           
+54    | 5704            | 6074               | 7504           
+55    | 5808            | 6223               | 7608           
+56    | 5944            | 6521               | 7744           
+57    | 5981            | 6404               | 7781           
+58    | 6102            | 6455               | 7902           
+59    | 6208            | 6344               | 8008           
+60    | 6582            | 6867               | 8382           
+61    | 6842            | 6972               | 8642           
+62    | 7168            | 7439               | 8968           
+63    | 7240            | 7635               | 9040           
+64    | 7508            | 7824               | 9308           
+65    | 7632            | 8162               | 9432           
+66    | 7635            | 8124               | 9435           
+67    | 7725            | 8080               | 9525           
+68    | 7774            | 8149               | 9574           
+69    | 8071            | 8291               | 9871           
+70    | 8152            | 8349               | 9952           
+71    | 8244            | 8715               | 10044          
+72    | 8350            | 8455               | 10150          
+73    | 8623            | 8903               | 10423          
+74    | 9001            | 9293               | 10801          
+75    | 9365            | 9508               | 11165          
+76    | 9569            | 9988               | 11369          
+77    | 9630            | 9796               | 11430          
+78    | 9820            | 10300              | 11620          
+79    | 9822            | 10108              | 11622          
+80    | 10119           | 10666              | 11919          
+81    | 10152           | 10704              | 11952          
+82    | 10388           | 10779              | 12188          
+83    | 10397           | 10944              | 12197          
+84    | 10411           | 10943              | 12211          
+85    | 10444           | 10515              | 12244          
+86    | 10741           | 11112              | 12541          
+87    | 10816           | 11288              | 12616          
+88    | 10858           | 11071              | 12658          
+89    | 10930           | 11353              | 12730          
+90    | 11043           | 11335              | 12843          
+91    | 11223           | 11428              | 13023          
+92    | 11279           | 11713              | 13079          
+93    | 11570           | 11959              | 13370          
+94    | 11689           | 12035              | 13489          
+95    | 11737           | 12031              | 13537          
+96    | 11942           | 12393              | 13742          
+97    | 12124           | 12655              | 13924          
+98    | 12136           | 12387              | 13936          
+99    | 12238           | 12550              | 14038          
+100   | 12323           | 12691              | 14123          
+----------------------------------------------------------------------
+
+--- Ejecutando Algoritmo Greedy Determinista para 2 Pistas ---
+  Aterrizaje programado: Avión ID 1 en Pista 0 en t = 601
+  Aterrizaje programado: Avión ID 2 en Pista 0 en t = 725
+  Aterrizaje programado: Avión ID 3 en Pista 0 en t = 928
+  Aterrizaje programado: Avión ID 4 en Pista 1 en t = 974
+  Aterrizaje programado: Avión ID 5 en Pista 0 en t = 1056
+  Aterrizaje programado: Avión ID 6 en Pista 1 en t = 1119
+  Aterrizaje programado: Avión ID 7 en Pista 0 en t = 1169
+  Aterrizaje programado: Avión ID 8 en Pista 1 en t = 1209
+  Aterrizaje programado: Avión ID 9 en Pista 0 en t = 1237
+  Aterrizaje programado: Avión ID 11 en Pista 1 en t = 1299
+  Aterrizaje programado: Avión ID 10 en Pista 0 en t = 1305
+  Aterrizaje programado: Avión ID 12 en Pista 0 en t = 1373
+  Aterrizaje programado: Avión ID 13 en Pista 0 en t = 1613
+  Aterrizaje programado: Avión ID 14 en Pista 1 en t = 1671
+  Aterrizaje programado: Avión ID 15 en Pista 0 en t = 1700
+  Aterrizaje programado: Avión ID 16 en Pista 1 en t = 1801
+  Aterrizaje programado: Avión ID 17 en Pista 0 en t = 2067
+  Aterrizaje programado: Avión ID 18 en Pista 1 en t = 2091
+  Aterrizaje programado: Avión ID 19 en Pista 0 en t = 2242
+  Aterrizaje programado: Avión ID 20 en Pista 0 en t = 2340
+  Aterrizaje programado: Avión ID 21 en Pista 0 en t = 2619
+  Aterrizaje programado: Avión ID 22 en Pista 1 en t = 2705
+  Aterrizaje programado: Avión ID 23 en Pista 0 en t = 2726
+  Aterrizaje programado: Avión ID 24 en Pista 1 en t = 2803
+  Aterrizaje programado: Avión ID 25 en Pista 0 en t = 2882
+  Aterrizaje programado: Avión ID 26 en Pista 0 en t = 3246
+  Aterrizaje programado: Avión ID 27 en Pista 0 en t = 3335
+  Aterrizaje programado: Avión ID 28 en Pista 1 en t = 3357
+  Aterrizaje programado: Avión ID 29 en Pista 1 en t = 3425
+  Aterrizaje programado: Avión ID 30 en Pista 0 en t = 3448
+  Aterrizaje programado: Avión ID 31 en Pista 1 en t = 3493
+  Aterrizaje programado: Avión ID 32 en Pista 0 en t = 3538
+  Aterrizaje programado: Avión ID 33 en Pista 1 en t = 3583
+  Aterrizaje programado: Avión ID 34 en Pista 0 en t = 3623
+  Aterrizaje programado: Avión ID 35 en Pista 1 en t = 3696
+  Aterrizaje programado: Avión ID 36 en Pista 0 en t = 3736
+  Aterrizaje programado: Avión ID 37 en Pista 0 en t = 4190
+  Aterrizaje programado: Avión ID 38 en Pista 1 en t = 4220
+  Aterrizaje programado: Avión ID 39 en Pista 0 en t = 4303
+  Aterrizaje programado: Avión ID 40 en Pista 0 en t = 4376
+  Aterrizaje programado: Avión ID 41 en Pista 0 en t = 4483
+  Aterrizaje programado: Avión ID 42 en Pista 0 en t = 4894
+  Aterrizaje programado: Avión ID 43 en Pista 0 en t = 4965
+  Aterrizaje programado: Avión ID 44 en Pista 1 en t = 4982
+  Aterrizaje programado: Avión ID 45 en Pista 0 en t = 5078
+  Aterrizaje programado: Avión ID 46 en Pista 1 en t = 5095
+  Aterrizaje programado: Avión ID 47 en Pista 1 en t = 5163
+  Aterrizaje programado: Avión ID 48 en Pista 0 en t = 5175
+  Aterrizaje programado: Avión ID 49 en Pista 1 en t = 5231
+  Aterrizaje programado: Avión ID 50 en Pista 0 en t = 5288
+  Aterrizaje programado: Avión ID 51 en Pista 1 en t = 5346
+  Aterrizaje programado: Avión ID 52 en Pista 0 en t = 5588
+  Aterrizaje programado: Avión ID 53 en Pista 1 en t = 5691
+  Aterrizaje programado: Avión ID 54 en Pista 0 en t = 5704
+  Aterrizaje programado: Avión ID 55 en Pista 0 en t = 5808
+  Aterrizaje programado: Avión ID 56 en Pista 0 en t = 5944
+  Aterrizaje programado: Avión ID 57 en Pista 1 en t = 5981
+  Aterrizaje programado: Avión ID 58 en Pista 0 en t = 6102
+  Aterrizaje programado: Avión ID 59 en Pista 0 en t = 6208
+  Aterrizaje programado: Avión ID 60 en Pista 0 en t = 6582
+  Aterrizaje programado: Avión ID 61 en Pista 0 en t = 6842
+  Aterrizaje programado: Avión ID 62 en Pista 0 en t = 7168
+  Aterrizaje programado: Avión ID 63 en Pista 1 en t = 7240
+  Aterrizaje programado: Avión ID 64 en Pista 0 en t = 7508
+  Aterrizaje programado: Avión ID 65 en Pista 0 en t = 7632
+  Aterrizaje programado: Avión ID 66 en Pista 1 en t = 7635
+  Aterrizaje programado: Avión ID 67 en Pista 0 en t = 7725
+  Aterrizaje programado: Avión ID 68 en Pista 1 en t = 7774
+  Aterrizaje programado: Avión ID 69 en Pista 0 en t = 8071
+  Aterrizaje programado: Avión ID 70 en Pista 0 en t = 8152
+  Aterrizaje programado: Avión ID 71 en Pista 0 en t = 8244
+  Aterrizaje programado: Avión ID 72 en Pista 0 en t = 8350
+  Aterrizaje programado: Avión ID 73 en Pista 0 en t = 8623
+  Aterrizaje programado: Avión ID 74 en Pista 0 en t = 9001
+  Aterrizaje programado: Avión ID 75 en Pista 0 en t = 9365
+  Aterrizaje programado: Avión ID 76 en Pista 0 en t = 9569
+  Aterrizaje programado: Avión ID 77 en Pista 1 en t = 9630
+  Aterrizaje programado: Avión ID 78 en Pista 0 en t = 9820
+  Aterrizaje programado: Avión ID 79 en Pista 1 en t = 9822
+  Aterrizaje programado: Avión ID 80 en Pista 0 en t = 10119
+  Aterrizaje programado: Avión ID 81 en Pista 1 en t = 10152
+  Aterrizaje programado: Avión ID 82 en Pista 0 en t = 10388
+  Aterrizaje programado: Avión ID 83 en Pista 1 en t = 10397
+  Aterrizaje programado: Avión ID 84 en Pista 0 en t = 10456
+  Aterrizaje programado: Avión ID 85 en Pista 1 en t = 10510
+  Aterrizaje programado: Avión ID 86 en Pista 0 en t = 10741
+  Aterrizaje programado: Avión ID 87 en Pista 1 en t = 10816
+  Aterrizaje programado: Avión ID 88 en Pista 0 en t = 10858
+  Aterrizaje programado: Avión ID 89 en Pista 0 en t = 10930
+  Aterrizaje programado: Avión ID 90 en Pista 0 en t = 11043
+  Aterrizaje programado: Avión ID 91 en Pista 0 en t = 11223
+  Aterrizaje programado: Avión ID 92 en Pista 1 en t = 11279
+  Aterrizaje programado: Avión ID 93 en Pista 0 en t = 11570
+  Aterrizaje programado: Avión ID 94 en Pista 0 en t = 11689
+  Aterrizaje programado: Avión ID 95 en Pista 1 en t = 11737
+  Aterrizaje programado: Avión ID 96 en Pista 0 en t = 11942
+  Aterrizaje programado: Avión ID 97 en Pista 0 en t = 12124
+  Aterrizaje programado: Avión ID 98 en Pista 1 en t = 12136
+  Aterrizaje programado: Avión ID 99 en Pista 0 en t = 12238
+  Aterrizaje programado: Avión ID 100 en Pista 0 en t = 12323
+
+--- Algoritmo Greedy Determinista para 2 Pistas Finalizado ---
+
+--- Resumen de Factibilidad Final (Greedy 2 Pistas) ---
+✅ La solución encontrada es factible.
+
+--- Cálculo de Costo Total de la Programación (2 Pistas) ---
+----------------------------------------------------------------------
+ID    | Pista   | T.Aterrizaje | T.Preferente | Costo Avión  | Detalle
+----------------------------------------------------------------------
+1     | 0       | 601          | 908          | 445.15       | 307 temp. * 1.45/u
+2     | 0       | 725          | 1027         | 549.64       | 302 temp. * 1.82/u
+3     | 0       | 928          | 1378         | 630.00       | 450 temp. * 1.4/u
+4     | 1       | 974          | 1502         | 929.28       | 528 temp. * 1.76/u
+5     | 0       | 1056         | 1618         | 938.54       | 562 temp. * 1.67/u
+6     | 1       | 1119         | 1235         | 161.24       | 116 temp. * 1.39/u
+7     | 0       | 1169         | 1520         | 680.94       | 351 temp. * 1.94/u
+8     | 1       | 1209         | 1401         | 305.28       | 192 temp. * 1.59/u
+9     | 0       | 1237         | 1584         | 353.94       | 347 temp. * 1.02/u
+10    | 0       | 1305         | 1343         | 60.42        | 38 temp. * 1.59/u
+11    | 1       | 1299         | 1787         | 790.56       | 488 temp. * 1.62/u
+12    | 0       | 1373         | 1700         | 369.51       | 327 temp. * 1.13/u
+13    | 0       | 1613         | 1724         | 184.26       | 111 temp. * 1.66/u
+14    | 1       | 1671         | 1907         | 379.96       | 236 temp. * 1.61/u
+15    | 0       | 1700         | 2234         | 950.52       | 534 temp. * 1.78/u
+16    | 1       | 1801         | 2003         | 220.18       | 202 temp. * 1.09/u
+17    | 0       | 2067         | 2169         | 188.70       | 102 temp. * 1.85/u
+18    | 1       | 2091         | 2215         | 234.36       | 124 temp. * 1.89/u
+19    | 0       | 2242         | 2781         | 700.70       | 539 temp. * 1.3/u
+20    | 0       | 2340         | 2436         | 160.32       | 96 temp. * 1.67/u
+21    | 0       | 2619         | 3111         | 501.84       | 492 temp. * 1.02/u
+22    | 1       | 2705         | 2967         | 330.12       | 262 temp. * 1.26/u
+23    | 0       | 2726         | 2971         | 416.50       | 245 temp. * 1.7/u
+24    | 1       | 2803         | 2918         | 124.20       | 115 temp. * 1.08/u
+25    | 0       | 2882         | 3258         | 594.08       | 376 temp. * 1.58/u
+26    | 0       | 3246         | 3728         | 520.56       | 482 temp. * 1.08/u
+27    | 0       | 3335         | 3468         | 151.62       | 133 temp. * 1.14/u
+28    | 1       | 3357         | 3750         | 471.60       | 393 temp. * 1.2/u
+29    | 1       | 3425         | 3647         | 344.10       | 222 temp. * 1.55/u
+30    | 0       | 3448         | 3495         | 56.40        | 47 temp. * 1.2/u
+31    | 1       | 3493         | 3579         | 109.22       | 86 temp. * 1.27/u
+32    | 0       | 3538         | 4079         | 1065.77      | 541 temp. * 1.97/u
+33    | 1       | 3583         | 3764         | 249.78       | 181 temp. * 1.38/u
+34    | 0       | 3623         | 3749         | 209.16       | 126 temp. * 1.66/u
+35    | 1       | 3696         | 3854         | 297.04       | 158 temp. * 1.88/u
+36    | 0       | 3736         | 4273         | 837.72       | 537 temp. * 1.56/u
+37    | 0       | 4190         | 4469         | 334.80       | 279 temp. * 1.2/u
+38    | 1       | 4220         | 4771         | 1068.94      | 551 temp. * 1.94/u
+39    | 0       | 4303         | 4836         | 1060.67      | 533 temp. * 1.99/u
+40    | 0       | 4376         | 4695         | 414.70       | 319 temp. * 1.3/u
+41    | 0       | 4483         | 4829         | 577.82       | 346 temp. * 1.67/u
+42    | 0       | 4894         | 5400         | 657.80       | 506 temp. * 1.3/u
+43    | 0       | 4965         | 5536         | 685.20       | 571 temp. * 1.2/u
+44    | 1       | 4982         | 5224         | 379.94       | 242 temp. * 1.57/u
+45    | 0       | 5078         | 5443         | 573.05       | 365 temp. * 1.57/u
+46    | 1       | 5095         | 5492         | 484.34       | 397 temp. * 1.22/u
+47    | 1       | 5163         | 5373         | 357.00       | 210 temp. * 1.7/u
+48    | 0       | 5175         | 5731         | 1106.44      | 556 temp. * 1.99/u
+49    | 1       | 5231         | 5749         | 616.42       | 518 temp. * 1.19/u
+50    | 0       | 5288         | 5588         | 339.00       | 300 temp. * 1.13/u
+51    | 1       | 5346         | 5636         | 466.90       | 290 temp. * 1.61/u
+52    | 0       | 5588         | 5946         | 522.68       | 358 temp. * 1.46/u
+53    | 1       | 5691         | 6145         | 894.38       | 454 temp. * 1.97/u
+54    | 0       | 5704         | 6074         | 647.50       | 370 temp. * 1.75/u
+55    | 0       | 5808         | 6223         | 668.15       | 415 temp. * 1.61/u
+56    | 0       | 5944         | 6521         | 1090.53      | 577 temp. * 1.89/u
+57    | 1       | 5981         | 6404         | 494.91       | 423 temp. * 1.17/u
+58    | 0       | 6102         | 6455         | 518.91       | 353 temp. * 1.47/u
+59    | 0       | 6208         | 6344         | 195.84       | 136 temp. * 1.44/u
+60    | 0       | 6582         | 6867         | 396.15       | 285 temp. * 1.39/u
+61    | 0       | 6842         | 6972         | 234.00       | 130 temp. * 1.8/u
+62    | 0       | 7168         | 7439         | 487.80       | 271 temp. * 1.8/u
+63    | 1       | 7240         | 7635         | 422.65       | 395 temp. * 1.07/u
+64    | 0       | 7508         | 7824         | 575.12       | 316 temp. * 1.82/u
+65    | 0       | 7632         | 8162         | 821.50       | 530 temp. * 1.55/u
+66    | 1       | 7635         | 8124         | 728.61       | 489 temp. * 1.49/u
+67    | 0       | 7725         | 8080         | 486.35       | 355 temp. * 1.37/u
+68    | 1       | 7774         | 8149         | 618.75       | 375 temp. * 1.65/u
+69    | 0       | 8071         | 8291         | 396.00       | 220 temp. * 1.8/u
+70    | 0       | 8152         | 8349         | 340.81       | 197 temp. * 1.73/u
+71    | 0       | 8244         | 8715         | 923.16       | 471 temp. * 1.96/u
+72    | 0       | 8350         | 8455         | 182.70       | 105 temp. * 1.74/u
+73    | 0       | 8623         | 8903         | 495.60       | 280 temp. * 1.77/u
+74    | 0       | 9001         | 9293         | 449.68       | 292 temp. * 1.54/u
+75    | 0       | 9365         | 9508         | 211.64       | 143 temp. * 1.48/u
+76    | 0       | 9569         | 9988         | 678.78       | 419 temp. * 1.62/u
+77    | 1       | 9630         | 9796         | 287.18       | 166 temp. * 1.73/u
+78    | 0       | 9820         | 10300        | 844.80       | 480 temp. * 1.76/u
+79    | 1       | 9822         | 10108        | 503.36       | 286 temp. * 1.76/u
+80    | 0       | 10119        | 10666        | 880.67       | 547 temp. * 1.61/u
+81    | 1       | 10152        | 10704        | 949.44       | 552 temp. * 1.72/u
+82    | 0       | 10388        | 10779        | 770.27       | 391 temp. * 1.97/u
+83    | 1       | 10397        | 10944        | 661.87       | 547 temp. * 1.21/u
+84    | 0       | 10456        | 10943        | 511.35       | 487 temp. * 1.05/u
+85    | 1       | 10510        | 10515        | 5.30         | 5 temp. * 1.06/u
+86    | 0       | 10741        | 11112        | 645.54       | 371 temp. * 1.74/u
+87    | 1       | 10816        | 11288        | 656.08       | 472 temp. * 1.39/u
+88    | 0       | 10858        | 11071        | 242.82       | 213 temp. * 1.14/u
+89    | 0       | 10930        | 11353        | 630.27       | 423 temp. * 1.49/u
+90    | 0       | 11043        | 11335        | 557.72       | 292 temp. * 1.91/u
+91    | 0       | 11223        | 11428        | 205.00       | 205 temp. * 1.0/u
+92    | 1       | 11279        | 11713        | 798.56       | 434 temp. * 1.84/u
+93    | 0       | 11570        | 11959        | 595.17       | 389 temp. * 1.53/u
+94    | 0       | 11689        | 12035        | 352.92       | 346 temp. * 1.02/u
+95    | 1       | 11737        | 12031        | 508.62       | 294 temp. * 1.73/u
+96    | 0       | 11942        | 12393        | 649.44       | 451 temp. * 1.44/u
+97    | 0       | 12124        | 12655        | 950.49       | 531 temp. * 1.79/u
+98    | 1       | 12136        | 12387        | 499.49       | 251 temp. * 1.99/u
+99    | 0       | 12238        | 12550        | 321.36       | 312 temp. * 1.03/u
+100   | 0       | 12323        | 12691        | 629.28       | 368 temp. * 1.71/u
+----------------------------------------------------------------------
+Costo Total de la Programación (solo aviones aterrizados): 51775.43
+--- Fin Cálculo de Costo ---
+
+¡¡¡FELICIDADES!!! ¡Todos los aviones fueron programados con esta lógica de 2 pistas!
+
+--- Matriz de Horario de Aterrizaje (2 Pistas) ---
+----------------------------------------------------
+| Tiempo Aterrizaje  | ID Avión   | Pista   |
+|--------------------|------------|---------|
+| 601                | 1          | 0       |
+| 725                | 2          | 0       |
+| 928                | 3          | 0       |
+| 974                | 4          | 1       |
+| 1056               | 5          | 0       |
+| 1119               | 6          | 1       |
+| 1169               | 7          | 0       |
+| 1209               | 8          | 1       |
+| 1237               | 9          | 0       |
+| 1299               | 11         | 1       |
+| 1305               | 10         | 0       |
+| 1373               | 12         | 0       |
+| 1613               | 13         | 0       |
+| 1671               | 14         | 1       |
+| 1700               | 15         | 0       |
+| 1801               | 16         | 1       |
+| 2067               | 17         | 0       |
+| 2091               | 18         | 1       |
+| 2242               | 19         | 0       |
+| 2340               | 20         | 0       |
+| 2619               | 21         | 0       |
+| 2705               | 22         | 1       |
+| 2726               | 23         | 0       |
+| 2803               | 24         | 1       |
+| 2882               | 25         | 0       |
+| 3246               | 26         | 0       |
+| 3335               | 27         | 0       |
+| 3357               | 28         | 1       |
+| 3425               | 29         | 1       |
+| 3448               | 30         | 0       |
+| 3493               | 31         | 1       |
+| 3538               | 32         | 0       |
+| 3583               | 33         | 1       |
+| 3623               | 34         | 0       |
+| 3696               | 35         | 1       |
+| 3736               | 36         | 0       |
+| 4190               | 37         | 0       |
+| 4220               | 38         | 1       |
+| 4303               | 39         | 0       |
+| 4376               | 40         | 0       |
+| 4483               | 41         | 0       |
+| 4894               | 42         | 0       |
+| 4965               | 43         | 0       |
+| 4982               | 44         | 1       |
+| 5078               | 45         | 0       |
+| 5095               | 46         | 1       |
+| 5163               | 47         | 1       |
+| 5175               | 48         | 0       |
+| 5231               | 49         | 1       |
+| 5288               | 50         | 0       |
+| 5346               | 51         | 1       |
+| 5588               | 52         | 0       |
+| 5691               | 53         | 1       |
+| 5704               | 54         | 0       |
+| 5808               | 55         | 0       |
+| 5944               | 56         | 0       |
+| 5981               | 57         | 1       |
+| 6102               | 58         | 0       |
+| 6208               | 59         | 0       |
+| 6582               | 60         | 0       |
+| 6842               | 61         | 0       |
+| 7168               | 62         | 0       |
+| 7240               | 63         | 1       |
+| 7508               | 64         | 0       |
+| 7632               | 65         | 0       |
+| 7635               | 66         | 1       |
+| 7725               | 67         | 0       |
+| 7774               | 68         | 1       |
+| 8071               | 69         | 0       |
+| 8152               | 70         | 0       |
+| 8244               | 71         | 0       |
+| 8350               | 72         | 0       |
+| 8623               | 73         | 0       |
+| 9001               | 74         | 0       |
+| 9365               | 75         | 0       |
+| 9569               | 76         | 0       |
+| 9630               | 77         | 1       |
+| 9820               | 78         | 0       |
+| 9822               | 79         | 1       |
+| 10119              | 80         | 0       |
+| 10152              | 81         | 1       |
+| 10388              | 82         | 0       |
+| 10397              | 83         | 1       |
+| 10456              | 84         | 0       |
+| 10510              | 85         | 1       |
+| 10741              | 86         | 0       |
+| 10816              | 87         | 1       |
+| 10858              | 88         | 0       |
+| 10930              | 89         | 0       |
+| 11043              | 90         | 0       |
+| 11223              | 91         | 0       |
+| 11279              | 92         | 1       |
+| 11570              | 93         | 0       |
+| 11689              | 94         | 0       |
+| 11737              | 95         | 1       |
+| 11942              | 96         | 0       |
+| 12124              | 97         | 0       |
+| 12136              | 98         | 1       |
+| 12238              | 99         | 0       |
+| 12323              | 100        | 0       |
+----------------------------------------------------
+jb@jb-pc1:~/Desktop/T2_AEyM$ 

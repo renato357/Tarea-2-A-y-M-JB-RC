@@ -1,0 +1,195 @@
+========================= RESULTADOS FINALES DEL PROCESO SA Estocástico =========================
+Resumen de los mejores costos encontrados por cada configuración de SA y Solución Inicial Greedy:
+
+Resultados para la Solución Inicial Greedy #1 (Semilla: 42):
+  Costo de la Solución Inicial Greedy: 39158.82
+    Configuración SA: Config1_HighT_SlowCool (Semilla SA: 1100) -> Costo Final SA: 9883.43
+    Configuración SA: Config2_Fast_LowIter_MedT (Semilla SA: 1200) -> Costo Final SA: 19003.59
+    Configuración SA: Config3_VeryFast_VLowIter_LowT (Semilla SA: 1300) -> Costo Final SA: 27240.81
+    Configuración SA: Config4_HighIter_BalancedOps (Semilla SA: 1400) -> Costo Final SA: 9278.60
+    Configuración SA: Config5_Fast_RapidCool_MedIter (Semilla SA: 1500) -> Costo Final SA: 22372.21
+
+Resultados para la Solución Inicial Greedy #2 (Semilla: 123):
+  Costo de la Solución Inicial Greedy: 40072.69
+    Configuración SA: Config1_HighT_SlowCool (Semilla SA: 2100) -> Costo Final SA: 10513.66
+    Configuración SA: Config2_Fast_LowIter_MedT (Semilla SA: 2200) -> Costo Final SA: 26094.57
+    Configuración SA: Config3_VeryFast_VLowIter_LowT (Semilla SA: 2300) -> Costo Final SA: 33899.21
+    Configuración SA: Config4_HighIter_BalancedOps (Semilla SA: 2400) -> Costo Final SA: 9345.77
+    Configuración SA: Config5_Fast_RapidCool_MedIter (Semilla SA: 2500) -> Costo Final SA: 19166.68
+
+Resultados para la Solución Inicial Greedy #3 (Semilla: 7):
+  Costo de la Solución Inicial Greedy: 39805.23
+    Configuración SA: Config1_HighT_SlowCool (Semilla SA: 3100) -> Costo Final SA: 10842.34
+    Configuración SA: Config2_Fast_LowIter_MedT (Semilla SA: 3200) -> Costo Final SA: 19094.79
+    Configuración SA: Config3_VeryFast_VLowIter_LowT (Semilla SA: 3300) -> Costo Final SA: 26320.41
+    Configuración SA: Config4_HighIter_BalancedOps (Semilla SA: 3400) -> Costo Final SA: 9257.27
+    Configuración SA: Config5_Fast_RapidCool_MedIter (Semilla SA: 3500) -> Costo Final SA: 18026.84
+
+Resultados para la Solución Inicial Greedy #4 (Semilla: 99):
+  Costo de la Solución Inicial Greedy: 39613.05
+    Configuración SA: Config1_HighT_SlowCool (Semilla SA: 4100) -> Costo Final SA: 9964.84
+    Configuración SA: Config2_Fast_LowIter_MedT (Semilla SA: 4200) -> Costo Final SA: 23520.10
+    Configuración SA: Config3_VeryFast_VLowIter_LowT (Semilla SA: 4300) -> Costo Final SA: 36386.04
+    Configuración SA: Config4_HighIter_BalancedOps (Semilla SA: 4400) -> Costo Final SA: 9379.11
+    Configuración SA: Config5_Fast_RapidCool_MedIter (Semilla SA: 4500) -> Costo Final SA: 27221.41
+
+Resultados para la Solución Inicial Greedy #5 (Semilla: 500):
+  Costo de la Solución Inicial Greedy: 41205.64
+    Configuración SA: Config1_HighT_SlowCool (Semilla SA: 5100) -> Costo Final SA: 10147.52
+    Configuración SA: Config2_Fast_LowIter_MedT (Semilla SA: 5200) -> Costo Final SA: 19358.34
+    Configuración SA: Config3_VeryFast_VLowIter_LowT (Semilla SA: 5300) -> Costo Final SA: 26302.42
+    Configuración SA: Config4_HighIter_BalancedOps (Semilla SA: 5400) -> Costo Final SA: 10297.74
+    Configuración SA: Config5_Fast_RapidCool_MedIter (Semilla SA: 5500) -> Costo Final SA: 22022.99
+
+Resultados para la Solución Inicial Greedy #6 (Semilla: 777):
+  Costo de la Solución Inicial Greedy: 39912.67
+    Configuración SA: Config1_HighT_SlowCool (Semilla SA: 6100) -> Costo Final SA: 10979.04
+    Configuración SA: Config2_Fast_LowIter_MedT (Semilla SA: 6200) -> Costo Final SA: 21854.08
+    Configuración SA: Config3_VeryFast_VLowIter_LowT (Semilla SA: 6300) -> Costo Final SA: 29178.45
+    Configuración SA: Config4_HighIter_BalancedOps (Semilla SA: 6400) -> Costo Final SA: 9036.99
+    Configuración SA: Config5_Fast_RapidCool_MedIter (Semilla SA: 6500) -> Costo Final SA: 23015.67
+
+Resultados para la Solución Inicial Greedy #7 (Semilla: 2024):
+  Costo de la Solución Inicial Greedy: 41363.62
+    Configuración SA: Config1_HighT_SlowCool (Semilla SA: 7100) -> Costo Final SA: 10125.25
+    Configuración SA: Config2_Fast_LowIter_MedT (Semilla SA: 7200) -> Costo Final SA: 18816.61
+    Configuración SA: Config3_VeryFast_VLowIter_LowT (Semilla SA: 7300) -> Costo Final SA: 29196.81
+    Configuración SA: Config4_HighIter_BalancedOps (Semilla SA: 7400) -> Costo Final SA: 10402.24
+    Configuración SA: Config5_Fast_RapidCool_MedIter (Semilla SA: 7500) -> Costo Final SA: 22465.40
+
+Resultados para la Solución Inicial Greedy #8 (Semilla: 1):
+  Costo de la Solución Inicial Greedy: 40942.64
+    Configuración SA: Config1_HighT_SlowCool (Semilla SA: 8100) -> Costo Final SA: 9749.93
+    Configuración SA: Config2_Fast_LowIter_MedT (Semilla SA: 8200) -> Costo Final SA: 24770.42
+    Configuración SA: Config3_VeryFast_VLowIter_LowT (Semilla SA: 8300) -> Costo Final SA: 27221.71
+    Configuración SA: Config4_HighIter_BalancedOps (Semilla SA: 8400) -> Costo Final SA: 8875.68
+    Configuración SA: Config5_Fast_RapidCool_MedIter (Semilla SA: 8500) -> Costo Final SA: 23396.70
+
+Resultados para la Solución Inicial Greedy #9 (Semilla: 100):
+  Costo de la Solución Inicial Greedy: 39952.80
+    Configuración SA: Config1_HighT_SlowCool (Semilla SA: 9100) -> Costo Final SA: 9259.78
+    Configuración SA: Config2_Fast_LowIter_MedT (Semilla SA: 9200) -> Costo Final SA: 22725.29
+    Configuración SA: Config3_VeryFast_VLowIter_LowT (Semilla SA: 9300) -> Costo Final SA: 26862.35
+    Configuración SA: Config4_HighIter_BalancedOps (Semilla SA: 9400) -> Costo Final SA: 10047.57
+    Configuración SA: Config5_Fast_RapidCool_MedIter (Semilla SA: 9500) -> Costo Final SA: 24175.13
+
+Resultados para la Solución Inicial Greedy #10 (Semilla: 314):
+  Costo de la Solución Inicial Greedy: 41201.24
+    Configuración SA: Config1_HighT_SlowCool (Semilla SA: 10100) -> Costo Final SA: 10273.04
+    Configuración SA: Config2_Fast_LowIter_MedT (Semilla SA: 10200) -> Costo Final SA: 21662.45
+    Configuración SA: Config3_VeryFast_VLowIter_LowT (Semilla SA: 10300) -> Costo Final SA: 32139.37
+    Configuración SA: Config4_HighIter_BalancedOps (Semilla SA: 10400) -> Costo Final SA: 7797.66
+    Configuración SA: Config5_Fast_RapidCool_MedIter (Semilla SA: 10500) -> Costo Final SA: 20634.26
+
+Mejor solución global encontrada por SA (sobre todas las soluciones iniciales y configs): Costo = 7797.66
+  Originada por Solución Inicial Greedy con Semilla: 314 (Costo Greedy: 41201.24), Configuración SA: Config4_HighIter_BalancedOps, Semilla SA: 10400
+
+Horario de la mejor solución global encontrada:
+
+--- Mejor Horario Global SA Estocástico ---
+---------------------------------------
+| Tiempo Aterrizaje | ID Avión      |
+|-------------------|---------------|
+| 889               | 1             |
+| 979               | 2             |
+| 1093              | 3             |
+| 1161              | 6             |
+| 1274              | 10            |
+| 1342              | 4             |
+| 1410              | 8             |
+| 1523              | 7             |
+| 1592              | 9             |
+| 1660              | 5             |
+| 1750              | 12            |
+| 1863              | 13            |
+| 1931              | 14            |
+| 2004              | 16            |
+| 2074              | 11            |
+| 2169              | 17            |
+| 2261              | 18            |
+| 2351              | 15            |
+| 2441              | 20            |
+| 2764              | 19            |
+| 2899              | 24            |
+| 2967              | 22            |
+| 3035              | 23            |
+| 3125              | 21            |
+| 3258              | 25            |
+| 3445              | 30            |
+| 3513              | 27            |
+| 3633              | 29            |
+| 3701              | 26            |
+| 3769              | 28            |
+| 3837              | 35            |
+| 3905              | 31            |
+| 3995              | 34            |
+| 4130              | 32            |
+| 4269              | 36            |
+| 4337              | 33            |
+| 4469              | 37            |
+| 4633              | 40            |
+| 4723              | 38            |
+| 4836              | 39            |
+| 4904              | 41            |
+| 5119              | 42            |
+| 5187              | 44            |
+| 5300              | 46            |
+| 5368              | 47            |
+| 5438              | 45            |
+| 5508              | 43            |
+| 5621              | 50            |
+| 5689              | 51            |
+| 5757              | 49            |
+| 5825              | 48            |
+| 5947              | 52            |
+| 6094              | 53            |
+| 6162              | 57            |
+| 6230              | 54            |
+| 6298              | 55            |
+| 6367              | 59            |
+| 6460              | 58            |
+| 6578              | 56            |
+| 6867              | 60            |
+| 6972              | 61            |
+| 7438              | 62            |
+| 7632              | 63            |
+| 7824              | 64            |
+| 7936              | 68            |
+| 8005              | 67            |
+| 8096              | 66            |
+| 8209              | 65            |
+| 8283              | 69            |
+| 8351              | 70            |
+| 8456              | 72            |
+| 8715              | 71            |
+| 8903              | 73            |
+| 9293              | 74            |
+| 9507              | 75            |
+| 9796              | 77            |
+| 9987              | 76            |
+| 10108             | 79            |
+| 10300             | 78            |
+| 10476             | 80            |
+| 10544             | 85            |
+| 10678             | 81            |
+| 10791             | 82            |
+| 10876             | 84            |
+| 10944             | 83            |
+| 11059             | 88            |
+| 11127             | 86            |
+| 11269             | 87            |
+| 11337             | 90            |
+| 11427             | 89            |
+| 11517             | 91            |
+| 11712             | 92            |
+| 11890             | 94            |
+| 11958             | 93            |
+| 12051             | 95            |
+| 12332             | 96            |
+| 12401             | 98            |
+| 12552             | 99            |
+| 12622             | 97            |
+| 12692             | 100           |
+---------------------------------------
+  [Factibilidad] Solución es factible.
+La mejor solución global reportada ES factible.

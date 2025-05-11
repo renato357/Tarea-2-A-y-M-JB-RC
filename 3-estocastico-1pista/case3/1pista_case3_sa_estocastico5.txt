@@ -1,0 +1,139 @@
+========================= RESULTADOS FINALES DEL PROCESO SA Estocástico =========================
+Resumen de los mejores costos encontrados por cada configuración de SA y Solución Inicial Greedy:
+
+Resultados para la Solución Inicial Greedy #1 (Semilla: 42):
+  Costo de la Solución Inicial Greedy: 1990.00
+    Configuración SA: Config1_Mod_ExploitFocus_From_C2 (Semilla SA: 1100) -> Costo Final SA: 1778.00
+    Configuración SA: Config2_Fast_LowIter_MedT (Semilla SA: 1200) -> Costo Final SA: 1691.00
+    Configuración SA: Config3_VeryFast_VLowIter_LowT (Semilla SA: 1300) -> Costo Final SA: 1990.00
+    Configuración SA: Config4_HighIter_BalancedOps (Semilla SA: 1400) -> Costo Final SA: 1550.00
+    Configuración SA: Config5_Fast_RapidCool_MedIter (Semilla SA: 1500) -> Costo Final SA: 1863.00
+
+Resultados para la Solución Inicial Greedy #2 (Semilla: 123):
+  Costo de la Solución Inicial Greedy: 2054.00
+    Configuración SA: Config1_Mod_ExploitFocus_From_C2 (Semilla SA: 2100) -> Costo Final SA: 1653.00
+    Configuración SA: Config2_Fast_LowIter_MedT (Semilla SA: 2200) -> Costo Final SA: 1901.00
+    Configuración SA: Config3_VeryFast_VLowIter_LowT (Semilla SA: 2300) -> Costo Final SA: 1770.00
+    Configuración SA: Config4_HighIter_BalancedOps (Semilla SA: 2400) -> Costo Final SA: 1550.00
+    Configuración SA: Config5_Fast_RapidCool_MedIter (Semilla SA: 2500) -> Costo Final SA: 1703.00
+
+Resultados para la Solución Inicial Greedy #3 (Semilla: 7):
+  Costo de la Solución Inicial Greedy: 2218.00
+    Configuración SA: Config1_Mod_ExploitFocus_From_C2 (Semilla SA: 3100) -> Costo Final SA: 1703.00
+    Configuración SA: Config2_Fast_LowIter_MedT (Semilla SA: 3200) -> Costo Final SA: 1798.00
+    Configuración SA: Config3_VeryFast_VLowIter_LowT (Semilla SA: 3300) -> Costo Final SA: 1925.00
+    Configuración SA: Config4_HighIter_BalancedOps (Semilla SA: 3400) -> Costo Final SA: 1550.00
+    Configuración SA: Config5_Fast_RapidCool_MedIter (Semilla SA: 3500) -> Costo Final SA: 1732.00
+
+Resultados para la Solución Inicial Greedy #4 (Semilla: 99):
+  Costo de la Solución Inicial Greedy: 1944.00
+    Configuración SA: Config1_Mod_ExploitFocus_From_C2 (Semilla SA: 4100) -> Costo Final SA: 1746.00
+    Configuración SA: Config2_Fast_LowIter_MedT (Semilla SA: 4200) -> Costo Final SA: 1587.00
+    Configuración SA: Config3_VeryFast_VLowIter_LowT (Semilla SA: 4300) -> Costo Final SA: 1812.00
+    Configuración SA: Config4_HighIter_BalancedOps (Semilla SA: 4400) -> Costo Final SA: 1550.00
+    Configuración SA: Config5_Fast_RapidCool_MedIter (Semilla SA: 4500) -> Costo Final SA: 1605.00
+
+Resultados para la Solución Inicial Greedy #5 (Semilla: 500):
+  Costo de la Solución Inicial Greedy: 1944.00
+    Configuración SA: Config1_Mod_ExploitFocus_From_C2 (Semilla SA: 5100) -> Costo Final SA: 1771.00
+    Configuración SA: Config2_Fast_LowIter_MedT (Semilla SA: 5200) -> Costo Final SA: 1729.00
+    Configuración SA: Config3_VeryFast_VLowIter_LowT (Semilla SA: 5300) -> Costo Final SA: 1869.00
+    Configuración SA: Config4_HighIter_BalancedOps (Semilla SA: 5400) -> Costo Final SA: 1550.00
+    Configuración SA: Config5_Fast_RapidCool_MedIter (Semilla SA: 5500) -> Costo Final SA: 1750.00
+
+Resultados para la Solución Inicial Greedy #6 (Semilla: 777):
+  Costo de la Solución Inicial Greedy: 2448.00
+    Configuración SA: Config1_Mod_ExploitFocus_From_C2 (Semilla SA: 6100) -> Costo Final SA: 1719.00
+    Configuración SA: Config2_Fast_LowIter_MedT (Semilla SA: 6200) -> Costo Final SA: 1747.00
+    Configuración SA: Config3_VeryFast_VLowIter_LowT (Semilla SA: 6300) -> Costo Final SA: 1725.00
+    Configuración SA: Config4_HighIter_BalancedOps (Semilla SA: 6400) -> Costo Final SA: 1550.00
+    Configuración SA: Config5_Fast_RapidCool_MedIter (Semilla SA: 6500) -> Costo Final SA: 1612.00
+
+Resultados para la Solución Inicial Greedy #7 (Semilla: 2024):
+  Costo de la Solución Inicial Greedy: 2054.00
+    Configuración SA: Config1_Mod_ExploitFocus_From_C2 (Semilla SA: 7100) -> Costo Final SA: 1788.00
+    Configuración SA: Config2_Fast_LowIter_MedT (Semilla SA: 7200) -> Costo Final SA: 1716.00
+    Configuración SA: Config3_VeryFast_VLowIter_LowT (Semilla SA: 7300) -> Costo Final SA: 1967.00
+    Configuración SA: Config4_HighIter_BalancedOps (Semilla SA: 7400) -> Costo Final SA: 1550.00
+    Configuración SA: Config5_Fast_RapidCool_MedIter (Semilla SA: 7500) -> Costo Final SA: 2054.00
+
+Resultados para la Solución Inicial Greedy #8 (Semilla: 1):
+  Costo de la Solución Inicial Greedy: 1944.00
+    Configuración SA: Config1_Mod_ExploitFocus_From_C2 (Semilla SA: 8100) -> Costo Final SA: 1944.00
+    Configuración SA: Config2_Fast_LowIter_MedT (Semilla SA: 8200) -> Costo Final SA: 1770.00
+    Configuración SA: Config3_VeryFast_VLowIter_LowT (Semilla SA: 8300) -> Costo Final SA: 1944.00
+    Configuración SA: Config4_HighIter_BalancedOps (Semilla SA: 8400) -> Costo Final SA: 1550.00
+    Configuración SA: Config5_Fast_RapidCool_MedIter (Semilla SA: 8500) -> Costo Final SA: 1729.00
+
+Resultados para la Solución Inicial Greedy #9 (Semilla: 100):
+  Costo de la Solución Inicial Greedy: 1880.00
+    Configuración SA: Config1_Mod_ExploitFocus_From_C2 (Semilla SA: 9100) -> Costo Final SA: 1802.00
+    Configuración SA: Config2_Fast_LowIter_MedT (Semilla SA: 9200) -> Costo Final SA: 1880.00
+    Configuración SA: Config3_VeryFast_VLowIter_LowT (Semilla SA: 9300) -> Costo Final SA: 1880.00
+    Configuración SA: Config4_HighIter_BalancedOps (Semilla SA: 9400) -> Costo Final SA: 1550.00
+    Configuración SA: Config5_Fast_RapidCool_MedIter (Semilla SA: 9500) -> Costo Final SA: 1661.00
+
+Resultados para la Solución Inicial Greedy #10 (Semilla: 314):
+  Costo de la Solución Inicial Greedy: 3006.00
+    Configuración SA: Config1_Mod_ExploitFocus_From_C2 (Semilla SA: 10100) -> Costo Final SA: 1616.00
+    Configuración SA: Config2_Fast_LowIter_MedT (Semilla SA: 10200) -> Costo Final SA: 1759.00
+    Configuración SA: Config3_VeryFast_VLowIter_LowT (Semilla SA: 10300) -> Costo Final SA: 2234.00
+    Configuración SA: Config4_HighIter_BalancedOps (Semilla SA: 10400) -> Costo Final SA: 1550.00
+    Configuración SA: Config5_Fast_RapidCool_MedIter (Semilla SA: 10500) -> Costo Final SA: 1675.00
+
+Mejor solución global encontrada por SA (sobre todas las soluciones iniciales y configs): Costo = 1550.00
+  Originada por Solución Inicial Greedy con Semilla: 42 (Costo Greedy: 1990.00), Configuración SA: Config4_HighIter_BalancedOps, Semilla SA: 1400
+
+Horario de la mejor solución global encontrada:
+
+--- Mejor Horario Global SA Estocástico ---
+---------------------------------------
+| Tiempo Aterrizaje | ID Avión      |
+|-------------------|---------------|
+| 0                 | 1             |
+| 96                | 2             |
+| 296               | 3             |
+| 376               | 4             |
+| 456               | 5             |
+| 528               | 6             |
+| 624               | 7             |
+| 720               | 8             |
+| 920               | 9             |
+| 992               | 10            |
+| 1192              | 11            |
+| 1264              | 12            |
+| 1464              | 13            |
+| 1544              | 14            |
+| 1616              | 15            |
+| 1816              | 16            |
+| 1896              | 17            |
+| 1968              | 18            |
+| 2168              | 19            |
+| 2248              | 20            |
+| 2320              | 21            |
+| 2416              | 22            |
+| 2616              | 23            |
+| 2688              | 24            |
+| 2888              | 25            |
+| 2968              | 26            |
+| 3048              | 27            |
+| 3128              | 28            |
+| 3200              | 29            |
+| 3296              | 30            |
+| 3496              | 31            |
+| 3568              | 32            |
+| 3768              | 33            |
+| 3840              | 34            |
+| 3936              | 35            |
+| 4136              | 36            |
+| 4216              | 37            |
+| 4296              | 38            |
+| 4368              | 39            |
+| 4464              | 40            |
+| 4560              | 41            |
+| 4656              | 42            |
+| 4752              | 43            |
+| 4952              | 44            |
+---------------------------------------
+  [Factibilidad] Solución es factible.
+La mejor solución global reportada ES factible.

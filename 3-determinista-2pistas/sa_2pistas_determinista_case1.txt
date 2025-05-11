@@ -1,0 +1,61 @@
+   SA Iter 11265 (T=43.70, Config: Config5_Fast_RapidCool_MedIter): Nueva mejor solución SA. Costo: 2130.00 (anterior mejor: 2160.00) Op: REINSERT_PLANE
+    SA Iter 11270 (T=43.70, Config: Config5_Fast_RapidCool_MedIter): Nueva mejor solución SA. Costo: 2010.00 (anterior mejor: 2130.00) Op: SINGLE_ATTR_CHANGE
+    SA Iter 11280 (T=41.96, Config: Config5_Fast_RapidCool_MedIter): Nueva mejor solución SA. Costo: 1950.00 (anterior mejor: 2010.00) Op: SINGLE_ATTR_CHANGE
+    SA Iter 11328 (T=41.96, Config: Config5_Fast_RapidCool_MedIter): Nueva mejor solución SA. Costo: 1720.00 (anterior mejor: 1950.00) Op: SWAP_ALL_ATTRS
+    SA Iter 11785 (T=31.53, Config: Config5_Fast_RapidCool_MedIter): Nueva mejor solución SA. Costo: 1680.00 (anterior mejor: 1720.00) Op: SINGLE_ATTR_CHANGE
+    SA Iter 11834 (T=30.27, Config: Config5_Fast_RapidCool_MedIter): Nueva mejor solución SA. Costo: 1560.00 (anterior mejor: 1680.00) Op: SINGLE_ATTR_CHANGE
+    SA Iter 11983 (T=27.89, Config: Config5_Fast_RapidCool_MedIter): Nueva mejor solución SA. Costo: 780.00 (anterior mejor: 1560.00) Op: REINSERT_PLANE
+    SA Iter 12056 (T=26.78, Config: Config5_Fast_RapidCool_MedIter): Nueva mejor solución SA. Costo: 720.00 (anterior mejor: 780.00) Op: SINGLE_ATTR_CHANGE
+    SA Iter 12219 (T=24.68, Config: Config5_Fast_RapidCool_MedIter): Nueva mejor solución SA. Costo: 710.00 (anterior mejor: 720.00) Op: SINGLE_ATTR_CHANGE
+    SA Iter 12223 (T=24.68, Config: Config5_Fast_RapidCool_MedIter): Nueva mejor solución SA. Costo: 670.00 (anterior mejor: 710.00) Op: REINSERT_PLANE
+    SA Iter 12549 (T=20.12, Config: Config5_Fast_RapidCool_MedIter): Nueva mejor solución SA. Costo: 560.00 (anterior mejor: 670.00) Op: SINGLE_ATTR_CHANGE
+    SA Iter 12677 (T=18.54, Config: Config5_Fast_RapidCool_MedIter): Nueva mejor solución SA. Costo: 530.00 (anterior mejor: 560.00) Op: SINGLE_ATTR_CHANGE
+    SA Iter 13234 (T=13.38, Config: Config5_Fast_RapidCool_MedIter): Nueva mejor solución SA. Costo: 480.00 (anterior mejor: 530.00) Op: REINSERT_PLANE
+    SA Iter 13518 (T=11.36, Config: Config5_Fast_RapidCool_MedIter): Nueva mejor solución SA. Costo: 450.00 (anterior mejor: 480.00) Op: SINGLE_ATTR_CHANGE
+    SA Iter 15177 (T=4.44, Config: Config5_Fast_RapidCool_MedIter): Nueva mejor solución SA. Costo: 420.00 (anterior mejor: 450.00) Op: SINGLE_ATTR_CHANGE
+    SA Iter 15898 (T=2.84, Config: Config5_Fast_RapidCool_MedIter): Nueva mejor solución SA. Costo: 410.00 (anterior mejor: 420.00) Op: REINSERT_PLANE
+    SA Iter 15964 (T=2.72, Config: Config5_Fast_RapidCool_MedIter): Nueva mejor solución SA. Costo: 380.00 (anterior mejor: 410.00) Op: SINGLE_ATTR_CHANGE
+    SA Iter 16498 (T=2.05, Config: Config5_Fast_RapidCool_MedIter): Nueva mejor solución SA. Costo: 360.00 (anterior mejor: 380.00) Op: SINGLE_ATTR_CHANGE
+    SA Iter 16835 (T=1.67, Config: Config5_Fast_RapidCool_MedIter): Nueva mejor solución SA. Costo: 350.00 (anterior mejor: 360.00) Op: REINSERT_PLANE
+    SA Iter 17576 (T=1.06, Config: Config5_Fast_RapidCool_MedIter): Nueva mejor solución SA. Costo: 320.00 (anterior mejor: 350.00) Op: SINGLE_ATTR_CHANGE
+    SA Iter 18186 (T=0.77, Config: Config5_Fast_RapidCool_MedIter): Nueva mejor solución SA. Costo: 310.00 (anterior mejor: 320.00) Op: REINSERT_PLANE
+  SA Run (Config: Config5_Fast_RapidCool_MedIter, Seed 42): SA 2 Pistas Finalizado. Mejor costo: 310.00 en 18900 iteraciones.
+
+
+========================= RESULTADOS FINALES DEL PROCESO SA (Determinista 2 Pistas) =========================
+Costo Inicial (Greedy Determinista 2 Pistas): 6690.00
+Semilla Global de Replicación Utilizada para TODAS las corridas de SA: 42
+
+Resumen de costos por configuración de SA:
+  Config SA: Config1_Mod_ExploitFocus_From_C2 (SA Seed Usada: 42) -> Costo SA Final = 270.00
+  Config SA: Config2_Fast_LowIter_MedT (SA Seed Usada: 42) -> Costo SA Final = 630.00
+  Config SA: Config3_VeryFast_VLowIter_LowT (SA Seed Usada: 42) -> Costo SA Final = 1130.00
+  Config SA: Config4_HighIter_BalancedOps (SA Seed Usada: 42) -> Costo SA Final = 210.00
+  Config SA: Config5_Fast_RapidCool_MedIter (SA Seed Usada: 42) -> Costo SA Final = 310.00
+
+Mejor solución global encontrada por SA (2 Pistas, todas configs, semilla 42): Costo = 210.00
+  Originada por Config SA: Config4_HighIter_BalancedOps, SA Seed Usada: 42
+
+Horario de la mejor solución global SA (Config: Config4_HighIter_BalancedOps)
+
+--- Mejor Horario Global SA (2 Pistas, Config: Config4_HighIter_BalancedOps) ---
+----------------------------------------------------
+| Tiempo Aterrizaje  | ID Avión   | Pista   |
+|--------------------|------------|---------|
+| 93                 | 3          | 1       |
+| 98                 | 4          | 0       |
+| 111                | 5          | 1       |
+| 120                | 8          | 0       |
+| 120                | 6          | 1       |
+| 128                | 7          | 0       |
+| 128                | 9          | 1       |
+| 151                | 10         | 1       |
+| 155                | 1          | 0       |
+| 171                | 14         | 1       |
+| 181                | 13         | 0       |
+| 250                | 2          | 0       |
+| 313                | 12         | 1       |
+| 341                | 11         | 1       |
+| 342                | 15         | 0       |
+----------------------------------------------------
+La mejor solución SA global (2 Pistas) reportada ES factible.

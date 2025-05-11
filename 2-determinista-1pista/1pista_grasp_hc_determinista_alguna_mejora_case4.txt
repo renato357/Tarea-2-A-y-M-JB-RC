@@ -1,0 +1,501 @@
+  Avión ID 96: aterriza en t = 11942
+  Avión ID 97: aterriza en t = 12124
+  Avión ID 98: aterriza en t = 12192
+  Avión ID 99: aterriza en t = 12305
+  Avión ID 100: aterriza en t = 12373
+--- Fin Salida del Greedy Determinista ---
+
+
+Solución Inicial del Greedy Determinista (Factible):
+Costo del Greedy: 41325.91
+
+--- Matriz de Horario de Aterrizaje ---
+---------------------------------------
+| Tiempo Aterrizaje | ID Avión      |
+|-------------------|---------------|
+| 601               | 1             |
+| 725               | 2             |
+| 928               | 3             |
+| 996               | 4             |
+| 1064              | 5             |
+| 1154              | 6             |
+| 1267              | 7             |
+| 1335              | 8             |
+| 1470              | 9             |
+| 1538              | 10            |
+| 1606              | 11            |
+| 1696              | 12            |
+| 1809              | 13            |
+| 1877              | 14            |
+| 1945              | 15            |
+| 2058              | 16            |
+| 2126              | 17            |
+| 2216              | 18            |
+| 2306              | 19            |
+| 2396              | 20            |
+| 2619              | 21            |
+| 2732              | 22            |
+| 2800              | 23            |
+| 2935              | 24            |
+| 3003              | 25            |
+| 3246              | 26            |
+| 3335              | 27            |
+| 3448              | 28            |
+| 3516              | 29            |
+| 3584              | 30            |
+| 3652              | 31            |
+| 3787              | 32            |
+| 3855              | 33            |
+| 3945              | 34            |
+| 4058              | 35            |
+| 4148              | 36            |
+| 4216              | 37            |
+| 4306              | 38            |
+| 4419              | 39            |
+| 4487              | 40            |
+| 4577              | 41            |
+| 4894              | 42            |
+| 4965              | 43            |
+| 5055              | 44            |
+| 5168              | 45            |
+| 5258              | 46            |
+| 5326              | 47            |
+| 5394              | 48            |
+| 5507              | 49            |
+| 5575              | 50            |
+| 5643              | 51            |
+| 5711              | 52            |
+| 5824              | 53            |
+| 5892              | 54            |
+| 5960              | 55            |
+| 6050              | 56            |
+| 6118              | 57            |
+| 6186              | 58            |
+| 6276              | 59            |
+| 6582              | 60            |
+| 6842              | 61            |
+| 7168              | 62            |
+| 7258              | 63            |
+| 7508              | 64            |
+| 7632              | 65            |
+| 7700              | 66            |
+| 7790              | 67            |
+| 7903              | 68            |
+| 8071              | 69            |
+| 8152              | 70            |
+| 8244              | 71            |
+| 8350              | 72            |
+| 8623              | 73            |
+| 9001              | 74            |
+| 9365              | 75            |
+| 9569              | 76            |
+| 9704              | 77            |
+| 9820              | 78            |
+| 9910              | 79            |
+| 10119             | 80            |
+| 10187             | 81            |
+| 10388             | 82            |
+| 10456             | 83            |
+| 10569             | 84            |
+| 10637             | 85            |
+| 10741             | 86            |
+| 10854             | 87            |
+| 10922             | 88            |
+| 10990             | 89            |
+| 11080             | 90            |
+| 11223             | 91            |
+| 11313             | 92            |
+| 11570             | 93            |
+| 11689             | 94            |
+| 11757             | 95            |
+| 11942             | 96            |
+| 12124             | 97            |
+| 12192             | 98            |
+| 12305             | 99            |
+| 12373             | 100           |
+---------------------------------------
+
+>>> Paso 2: Aplicando Hill Climbing (Alguna-Mejora Determinista V2) a la solución del Greedy...
+
+--- Iniciando Hill Climbing (Alguna-Mejora Determinista V2) ---
+Costo Inicial (del Greedy): 41325.91
+  HC Iter 1: ¡Mejora encontrada! Costo: 41325.91 -> 41289.66. Movimiento HC: Avión ID 1 de t=601 a t=626
+  HC Iter 2: ¡Mejora encontrada! Costo: 41289.66 -> 41244.16. Movimiento HC: Avión ID 2 de t=725 a t=750
+  HC Iter 3: ¡Mejora encontrada! Costo: 41244.16 -> 41207.91. Movimiento HC: Avión ID 1 de t=626 a t=651
+  HC Iter 4: ¡Mejora encontrada! Costo: 41207.91 -> 41162.41. Movimiento HC: Avión ID 2 de t=750 a t=775
+  HC Iter 5: ¡Mejora encontrada! Costo: 41162.41 -> 41126.16. Movimiento HC: Avión ID 1 de t=651 a t=676
+  HC Iter 6: ¡Mejora encontrada! Costo: 41126.16 -> 41080.66. Movimiento HC: Avión ID 2 de t=775 a t=800
+  HC Iter 7: ¡Mejora encontrada! Costo: 41080.66 -> 41044.41. Movimiento HC: Avión ID 1 de t=676 a t=701
+  HC Iter 8: ¡Mejora encontrada! Costo: 41044.41 -> 40977.61. Movimiento HC: Avión ID 20 de t=2396 a t=2436
+  HC Iter 9: ¡Mejora encontrada! Costo: 40977.61 -> 40945.11. Movimiento HC: Avión ID 19 de t=2306 a t=2331
+  HC Iter 10: ¡Mejora encontrada! Costo: 40945.11 -> 40443.27. Movimiento HC: Avión ID 21 de t=2619 a t=3111
+  HC Iter 11: ¡Mejora encontrada! Costo: 40443.27 -> 40403.77. Movimiento HC: Avión ID 25 de t=3003 a t=3028
+  HC Iter 12: ¡Mejora encontrada! Costo: 40403.77 -> 40133.37. Movimiento HC: Avión ID 40 de t=4487 a t=4695
+  HC Iter 13: ¡Mejora encontrada! Costo: 40133.37 -> 40083.62. Movimiento HC: Avión ID 39 de t=4419 a t=4444
+  HC Iter 14: ¡Mejora encontrada! Costo: 40083.62 -> 40035.12. Movimiento HC: Avión ID 38 de t=4306 a t=4331
+  HC Iter 15: ¡Mejora encontrada! Costo: 40035.12 -> 40005.12. Movimiento HC: Avión ID 37 de t=4216 a t=4241
+  HC Iter 16: ¡Mejora encontrada! Costo: 40005.12 -> 39966.12. Movimiento HC: Avión ID 36 de t=4148 a t=4173
+  HC Iter 17: ¡Mejora encontrada! Costo: 39966.12 -> 39916.37. Movimiento HC: Avión ID 39 de t=4444 a t=4469
+  HC Iter 18: ¡Mejora encontrada! Costo: 39916.37 -> 39867.87. Movimiento HC: Avión ID 38 de t=4331 a t=4356
+  HC Iter 19: ¡Mejora encontrada! Costo: 39867.87 -> 39837.87. Movimiento HC: Avión ID 37 de t=4241 a t=4266
+  HC Iter 20: ¡Mejora encontrada! Costo: 39837.87 -> 39798.87. Movimiento HC: Avión ID 36 de t=4173 a t=4198
+  HC Iter 21: ¡Mejora encontrada! Costo: 39798.87 -> 39749.12. Movimiento HC: Avión ID 39 de t=4469 a t=4494
+  HC Iter 22: ¡Mejora encontrada! Costo: 39749.12 -> 39700.62. Movimiento HC: Avión ID 38 de t=4356 a t=4381
+  HC Iter 23: ¡Mejora encontrada! Costo: 39700.62 -> 39670.62. Movimiento HC: Avión ID 37 de t=4266 a t=4291
+  HC Iter 24: ¡Mejora encontrada! Costo: 39670.62 -> 39631.62. Movimiento HC: Avión ID 36 de t=4198 a t=4223
+  HC Iter 25: ¡Mejora encontrada! Costo: 39631.62 -> 39589.87. Movimiento HC: Avión ID 41 de t=4577 a t=4602
+  HC Iter 26: ¡Mejora encontrada! Costo: 39589.87 -> 39540.12. Movimiento HC: Avión ID 39 de t=4494 a t=4519
+  HC Iter 27: ¡Mejora encontrada! Costo: 39540.12 -> 39491.62. Movimiento HC: Avión ID 38 de t=4381 a t=4406
+  HC Iter 28: ¡Mejora encontrada! Costo: 39491.62 -> 39461.62. Movimiento HC: Avión ID 37 de t=4291 a t=4316
+  HC Iter 29: ¡Mejora encontrada! Costo: 39461.62 -> 39422.62. Movimiento HC: Avión ID 36 de t=4223 a t=4248
+  HC Iter 30: ¡Mejora encontrada! Costo: 39422.62 -> 39088.00. Movimiento HC: Avión ID 57 de t=6118 a t=6404
+  HC Iter 31: ¡Mejora encontrada! Costo: 39088.00 -> 39040.75. Movimiento HC: Avión ID 56 de t=6050 a t=6075
+  HC Iter 32: ¡Mejora encontrada! Costo: 39040.75 -> 39000.50. Movimiento HC: Avión ID 55 de t=5960 a t=5985
+  HC Iter 33: ¡Mejora encontrada! Costo: 39000.50 -> 38956.75. Movimiento HC: Avión ID 54 de t=5892 a t=5917
+  HC Iter 34: ¡Mejora encontrada! Costo: 38956.75 -> 38907.50. Movimiento HC: Avión ID 53 de t=5824 a t=5849
+  HC Iter 35: ¡Mejora encontrada! Costo: 38907.50 -> 38871.00. Movimiento HC: Avión ID 52 de t=5711 a t=5736
+  HC Iter 36: ¡Mejora encontrada! Costo: 38871.00 -> 38823.75. Movimiento HC: Avión ID 56 de t=6075 a t=6100
+  HC Iter 37: ¡Mejora encontrada! Costo: 38823.75 -> 38783.50. Movimiento HC: Avión ID 55 de t=5985 a t=6010
+  HC Iter 38: ¡Mejora encontrada! Costo: 38783.50 -> 38739.75. Movimiento HC: Avión ID 54 de t=5917 a t=5942
+  HC Iter 39: ¡Mejora encontrada! Costo: 38739.75 -> 38690.50. Movimiento HC: Avión ID 53 de t=5849 a t=5874
+  HC Iter 40: ¡Mejora encontrada! Costo: 38690.50 -> 38654.00. Movimiento HC: Avión ID 52 de t=5736 a t=5761
+  HC Iter 41: ¡Mejora encontrada! Costo: 38654.00 -> 38619.25. Movimiento HC: Avión ID 60 de t=6582 a t=6607
+  HC Iter 42: ¡Mejora encontrada! Costo: 38619.25 -> 37823.56. Movimiento HC: Avión ID 56 de t=6100 a t=6521
+  HC Iter 43: ¡Mejora encontrada! Costo: 37823.56 -> 37783.31. Movimiento HC: Avión ID 55 de t=6010 a t=6035
+  HC Iter 44: ¡Mejora encontrada! Costo: 37783.31 -> 37739.56. Movimiento HC: Avión ID 54 de t=5942 a t=5967
+  HC Iter 45: ¡Mejora encontrada! Costo: 37739.56 -> 37690.31. Movimiento HC: Avión ID 53 de t=5874 a t=5899
+  HC Iter 46: ¡Mejora encontrada! Costo: 37690.31 -> 37653.81. Movimiento HC: Avión ID 52 de t=5761 a t=5786
+  HC Iter 47: ¡Mejora encontrada! Costo: 37653.81 -> 37613.56. Movimiento HC: Avión ID 55 de t=6035 a t=6060
+  HC Iter 48: ¡Mejora encontrada! Costo: 37613.56 -> 37569.81. Movimiento HC: Avión ID 54 de t=5967 a t=5992
+  HC Iter 49: ¡Mejora encontrada! Costo: 37569.81 -> 37520.56. Movimiento HC: Avión ID 53 de t=5899 a t=5924
+  HC Iter 50: ¡Mejora encontrada! Costo: 37520.56 -> 37484.06. Movimiento HC: Avión ID 52 de t=5786 a t=5811
+  HC Iter 51: ¡Mejora encontrada! Costo: 37484.06 -> 37443.81. Movimiento HC: Avión ID 55 de t=6060 a t=6085
+  HC Iter 52: ¡Mejora encontrada! Costo: 37443.81 -> 37400.06. Movimiento HC: Avión ID 54 de t=5992 a t=6017
+  HC Iter 53: ¡Mejora encontrada! Costo: 37400.06 -> 37350.81. Movimiento HC: Avión ID 53 de t=5924 a t=5949
+  HC Iter 54: ¡Mejora encontrada! Costo: 37350.81 -> 37314.31. Movimiento HC: Avión ID 52 de t=5811 a t=5836
+  HC Iter 55: ¡Mejora encontrada! Costo: 37314.31 -> 36643.68. Movimiento HC: Avión ID 48 de t=5394 a t=5731
+  HC Iter 56: ¡Mejora encontrada! Costo: 36643.68 -> 35985.88. Movimiento HC: Avión ID 42 de t=4894 a t=5400
+  HC Iter 57: ¡Mejora encontrada! Costo: 35985.88 -> 35355.05. Movimiento HC: Avión ID 39 de t=4519 a t=4836
+  HC Iter 58: ¡Mejora encontrada! Costo: 35355.05 -> 35306.55. Movimiento HC: Avión ID 38 de t=4406 a t=4431
+  HC Iter 59: ¡Mejora encontrada! Costo: 35306.55 -> 35276.55. Movimiento HC: Avión ID 37 de t=4316 a t=4341
+  HC Iter 60: ¡Mejora encontrada! Costo: 35276.55 -> 35237.55. Movimiento HC: Avión ID 36 de t=4248 a t=4273
+  HC Iter 61: ¡Mejora encontrada! Costo: 35237.55 -> 35189.05. Movimiento HC: Avión ID 38 de t=4431 a t=4456
+  HC Iter 62: ¡Mejora encontrada! Costo: 35189.05 -> 35159.05. Movimiento HC: Avión ID 37 de t=4341 a t=4366
+  HC Iter 63: ¡Mejora encontrada! Costo: 35159.05 -> 35110.55. Movimiento HC: Avión ID 38 de t=4456 a t=4481
+  HC Iter 64: ¡Mejora encontrada! Costo: 35110.55 -> 35080.55. Movimiento HC: Avión ID 37 de t=4366 a t=4391
+  HC Iter 65: ¡Mejora encontrada! Costo: 35080.55 -> 35032.05. Movimiento HC: Avión ID 38 de t=4481 a t=4506
+  HC Iter 66: ¡Mejora encontrada! Costo: 35032.05 -> 35002.05. Movimiento HC: Avión ID 37 de t=4391 a t=4416
+  HC Iter 67: ¡Mejora encontrada! Costo: 35002.05 -> 34961.80. Movimiento HC: Avión ID 55 de t=6085 a t=6110
+  HC Iter 68: ¡Mejora encontrada! Costo: 34961.80 -> 34918.05. Movimiento HC: Avión ID 54 de t=6017 a t=6042
+  HC Iter 69: ¡Mejora encontrada! Costo: 34918.05 -> 34868.80. Movimiento HC: Avión ID 53 de t=5949 a t=5974
+  HC Iter 70: ¡Mejora encontrada! Costo: 34868.80 -> 34832.30. Movimiento HC: Avión ID 52 de t=5836 a t=5861
+  HC Iter 71: ¡Mejora encontrada! Costo: 34832.30 -> 34797.55. Movimiento HC: Avión ID 60 de t=6607 a t=6632
+  HC Iter 72: ¡Mejora encontrada! Costo: 34797.55 -> 34762.80. Movimiento HC: Avión ID 60 de t=6632 a t=6657
+  HC Iter 73: ¡Mejora encontrada! Costo: 34762.80 -> 34728.05. Movimiento HC: Avión ID 60 de t=6657 a t=6682
+  HC Iter 74: ¡Mejora encontrada! Costo: 34728.05 -> 34693.30. Movimiento HC: Avión ID 60 de t=6682 a t=6707
+  HC Iter 75: ¡Mejora encontrada! Costo: 34693.30 -> 34658.55. Movimiento HC: Avión ID 60 de t=6707 a t=6732
+  HC Iter 76: ¡Mejora encontrada! Costo: 34658.55 -> 34424.55. Movimiento HC: Avión ID 61 de t=6842 a t=6972
+  HC Iter 77: ¡Mejora encontrada! Costo: 34424.55 -> 34236.90. Movimiento HC: Avión ID 60 de t=6732 a t=6867
+  HC Iter 78: ¡Mejora encontrada! Costo: 34236.90 -> 34210.15. Movimiento HC: Avión ID 63 de t=7258 a t=7283
+  HC Iter 79: ¡Mejora encontrada! Costo: 34210.15 -> 34165.15. Movimiento HC: Avión ID 62 de t=7168 a t=7193
+  HC Iter 80: ¡Mejora encontrada! Costo: 34165.15 -> 34138.40. Movimiento HC: Avión ID 63 de t=7283 a t=7308
+  HC Iter 81: ¡Mejora encontrada! Costo: 34138.40 -> 34093.40. Movimiento HC: Avión ID 62 de t=7193 a t=7218
+  HC Iter 82: ¡Mejora encontrada! Costo: 34093.40 -> 34066.65. Movimiento HC: Avión ID 63 de t=7308 a t=7333
+  HC Iter 83: ¡Mejora encontrada! Costo: 34066.65 -> 34021.65. Movimiento HC: Avión ID 62 de t=7218 a t=7243
+  HC Iter 84: ¡Mejora encontrada! Costo: 34021.65 -> 33994.90. Movimiento HC: Avión ID 63 de t=7333 a t=7358
+  HC Iter 85: ¡Mejora encontrada! Costo: 33994.90 -> 33949.90. Movimiento HC: Avión ID 62 de t=7243 a t=7268
+  HC Iter 86: ¡Mejora encontrada! Costo: 33949.90 -> 33923.15. Movimiento HC: Avión ID 63 de t=7358 a t=7383
+  HC Iter 87: ¡Mejora encontrada! Costo: 33923.15 -> 33878.15. Movimiento HC: Avión ID 62 de t=7268 a t=7293
+  HC Iter 88: ¡Mejora encontrada! Costo: 33878.15 -> 33851.40. Movimiento HC: Avión ID 63 de t=7383 a t=7408
+  HC Iter 89: ¡Mejora encontrada! Costo: 33851.40 -> 33806.40. Movimiento HC: Avión ID 62 de t=7293 a t=7318
+  HC Iter 90: ¡Mejora encontrada! Costo: 33806.40 -> 33779.65. Movimiento HC: Avión ID 63 de t=7408 a t=7433
+  HC Iter 91: ¡Mejora encontrada! Costo: 33779.65 -> 33734.65. Movimiento HC: Avión ID 62 de t=7318 a t=7343
+  HC Iter 92: ¡Mejora encontrada! Costo: 33734.65 -> 33689.15. Movimiento HC: Avión ID 64 de t=7508 a t=7533
+  HC Iter 93: ¡Mejora encontrada! Costo: 33689.15 -> 33662.40. Movimiento HC: Avión ID 63 de t=7433 a t=7458
+  HC Iter 94: ¡Mejora encontrada! Costo: 33662.40 -> 33617.40. Movimiento HC: Avión ID 62 de t=7343 a t=7368
+  HC Iter 95: ¡Mejora encontrada! Costo: 33617.40 -> 33571.90. Movimiento HC: Avión ID 64 de t=7533 a t=7558
+  HC Iter 96: ¡Mejora encontrada! Costo: 33571.90 -> 33545.15. Movimiento HC: Avión ID 63 de t=7458 a t=7483
+  HC Iter 97: ¡Mejora encontrada! Costo: 33545.15 -> 33500.15. Movimiento HC: Avión ID 62 de t=7368 a t=7393
+  HC Iter 98: ¡Mejora encontrada! Costo: 33500.15 -> 33458.90. Movimiento HC: Avión ID 68 de t=7903 a t=7928
+  HC Iter 99: ¡Mejora encontrada! Costo: 33458.90 -> 33424.65. Movimiento HC: Avión ID 67 de t=7790 a t=7815
+  HC Iter 100: ¡Mejora encontrada! Costo: 33424.65 -> 33387.40. Movimiento HC: Avión ID 66 de t=7700 a t=7725
+  HC Iter 101: ¡Mejora encontrada! Costo: 33387.40 -> 33348.65. Movimiento HC: Avión ID 65 de t=7632 a t=7657
+  HC Iter 102: ¡Mejora encontrada! Costo: 33348.65 -> 33303.15. Movimiento HC: Avión ID 64 de t=7558 a t=7583
+  HC Iter 103: ¡Mejora encontrada! Costo: 33303.15 -> 33276.40. Movimiento HC: Avión ID 63 de t=7483 a t=7508
+  HC Iter 104: ¡Mejora encontrada! Costo: 33276.40 -> 33231.40. Movimiento HC: Avión ID 62 de t=7393 a t=7418
+  HC Iter 105: ¡Mejora encontrada! Costo: 33231.40 -> 33190.15. Movimiento HC: Avión ID 68 de t=7928 a t=7953
+  HC Iter 106: ¡Mejora encontrada! Costo: 33190.15 -> 33155.90. Movimiento HC: Avión ID 67 de t=7815 a t=7840
+  HC Iter 107: ¡Mejora encontrada! Costo: 33155.90 -> 33118.65. Movimiento HC: Avión ID 66 de t=7725 a t=7750
+  HC Iter 108: ¡Mejora encontrada! Costo: 33118.65 -> 33079.90. Movimiento HC: Avión ID 65 de t=7657 a t=7682
+  HC Iter 109: ¡Mejora encontrada! Costo: 33079.90 -> 33034.40. Movimiento HC: Avión ID 64 de t=7583 a t=7608
+  HC Iter 110: ¡Mejora encontrada! Costo: 33034.40 -> 33007.65. Movimiento HC: Avión ID 63 de t=7508 a t=7533
+  HC Iter 111: ¡Mejora encontrada! Costo: 33007.65 -> 32969.85. Movimiento HC: Avión ID 62 de t=7418 a t=7439
+  HC Iter 112: ¡Mejora encontrada! Costo: 32969.85 -> 32928.60. Movimiento HC: Avión ID 68 de t=7953 a t=7978
+  HC Iter 113: ¡Mejora encontrada! Costo: 32928.60 -> 32894.35. Movimiento HC: Avión ID 67 de t=7840 a t=7865
+  HC Iter 114: ¡Mejora encontrada! Costo: 32894.35 -> 32857.10. Movimiento HC: Avión ID 66 de t=7750 a t=7775
+  HC Iter 115: ¡Mejora encontrada! Costo: 32857.10 -> 32818.35. Movimiento HC: Avión ID 65 de t=7682 a t=7707
+  HC Iter 116: ¡Mejora encontrada! Costo: 32818.35 -> 32772.85. Movimiento HC: Avión ID 64 de t=7608 a t=7633
+  HC Iter 117: ¡Mejora encontrada! Costo: 32772.85 -> 32746.10. Movimiento HC: Avión ID 63 de t=7533 a t=7558
+  HC Iter 118: ¡Mejora encontrada! Costo: 32746.10 -> 31822.94. Movimiento HC: Avión ID 71 de t=8244 a t=8715
+  HC Iter 119: ¡Mejora encontrada! Costo: 31822.94 -> 31779.69. Movimiento HC: Avión ID 70 de t=8152 a t=8177
+  HC Iter 120: ¡Mejora encontrada! Costo: 31779.69 -> 31734.69. Movimiento HC: Avión ID 69 de t=8071 a t=8096
+  HC Iter 121: ¡Mejora encontrada! Costo: 31734.69 -> 31693.44. Movimiento HC: Avión ID 68 de t=7978 a t=8003
+  HC Iter 122: ¡Mejora encontrada! Costo: 31693.44 -> 31659.19. Movimiento HC: Avión ID 67 de t=7865 a t=7890
+  HC Iter 123: ¡Mejora encontrada! Costo: 31659.19 -> 31621.94. Movimiento HC: Avión ID 66 de t=7775 a t=7800
+  HC Iter 124: ¡Mejora encontrada! Costo: 31621.94 -> 31583.19. Movimiento HC: Avión ID 65 de t=7707 a t=7732
+  HC Iter 125: ¡Mejora encontrada! Costo: 31583.19 -> 31537.69. Movimiento HC: Avión ID 64 de t=7633 a t=7658
+  HC Iter 126: ¡Mejora encontrada! Costo: 31537.69 -> 31510.94. Movimiento HC: Avión ID 63 de t=7558 a t=7583
+  HC Iter 127: ¡Mejora encontrada! Costo: 31510.94 -> 31467.69. Movimiento HC: Avión ID 70 de t=8177 a t=8202
+  HC Iter 128: ¡Mejora encontrada! Costo: 31467.69 -> 31422.69. Movimiento HC: Avión ID 69 de t=8096 a t=8121
+  HC Iter 129: ¡Mejora encontrada! Costo: 31422.69 -> 31381.44. Movimiento HC: Avión ID 68 de t=8003 a t=8028
+  HC Iter 130: ¡Mejora encontrada! Costo: 31381.44 -> 31347.19. Movimiento HC: Avión ID 67 de t=7890 a t=7915
+  HC Iter 131: ¡Mejora encontrada! Costo: 31347.19 -> 31309.94. Movimiento HC: Avión ID 66 de t=7800 a t=7825
+  HC Iter 132: ¡Mejora encontrada! Costo: 31309.94 -> 31271.19. Movimiento HC: Avión ID 65 de t=7732 a t=7757
+  HC Iter 133: ¡Mejora encontrada! Costo: 31271.19 -> 31225.69. Movimiento HC: Avión ID 64 de t=7658 a t=7683
+  HC Iter 134: ¡Mejora encontrada! Costo: 31225.69 -> 31198.94. Movimiento HC: Avión ID 63 de t=7583 a t=7608
+  HC Iter 135: ¡Mejora encontrada! Costo: 31198.94 -> 31155.69. Movimiento HC: Avión ID 70 de t=8202 a t=8227
+  HC Iter 136: ¡Mejora encontrada! Costo: 31155.69 -> 31110.69. Movimiento HC: Avión ID 69 de t=8121 a t=8146
+  HC Iter 137: ¡Mejora encontrada! Costo: 31110.69 -> 31069.44. Movimiento HC: Avión ID 68 de t=8028 a t=8053
+  HC Iter 138: ¡Mejora encontrada! Costo: 31069.44 -> 31035.19. Movimiento HC: Avión ID 67 de t=7915 a t=7940
+  HC Iter 139: ¡Mejora encontrada! Costo: 31035.19 -> 30997.94. Movimiento HC: Avión ID 66 de t=7825 a t=7850
+  HC Iter 140: ¡Mejora encontrada! Costo: 30997.94 -> 30959.19. Movimiento HC: Avión ID 65 de t=7757 a t=7782
+  HC Iter 141: ¡Mejora encontrada! Costo: 30959.19 -> 30913.69. Movimiento HC: Avión ID 64 de t=7683 a t=7708
+  HC Iter 142: ¡Mejora encontrada! Costo: 30913.69 -> 30884.80. Movimiento HC: Avión ID 63 de t=7608 a t=7635
+  HC Iter 143: ¡Mejora encontrada! Costo: 30884.80 -> 30841.55. Movimiento HC: Avión ID 70 de t=8227 a t=8252
+  HC Iter 144: ¡Mejora encontrada! Costo: 30841.55 -> 30796.55. Movimiento HC: Avión ID 69 de t=8146 a t=8171
+  HC Iter 145: ¡Mejora encontrada! Costo: 30796.55 -> 30755.30. Movimiento HC: Avión ID 68 de t=8053 a t=8078
+  HC Iter 146: ¡Mejora encontrada! Costo: 30755.30 -> 30721.05. Movimiento HC: Avión ID 67 de t=7940 a t=7965
+  HC Iter 147: ¡Mejora encontrada! Costo: 30721.05 -> 30683.80. Movimiento HC: Avión ID 66 de t=7850 a t=7875
+  HC Iter 148: ¡Mejora encontrada! Costo: 30683.80 -> 30645.05. Movimiento HC: Avión ID 65 de t=7782 a t=7807
+  HC Iter 149: ¡Mejora encontrada! Costo: 30645.05 -> 30599.55. Movimiento HC: Avión ID 64 de t=7708 a t=7733
+  HC Iter 150: ¡Mejora encontrada! Costo: 30599.55 -> 30556.30. Movimiento HC: Avión ID 70 de t=8252 a t=8277
+  HC Iter 151: ¡Mejora encontrada! Costo: 30556.30 -> 30511.30. Movimiento HC: Avión ID 69 de t=8171 a t=8196
+  HC Iter 152: ¡Mejora encontrada! Costo: 30511.30 -> 30470.05. Movimiento HC: Avión ID 68 de t=8078 a t=8103
+  HC Iter 153: ¡Mejora encontrada! Costo: 30470.05 -> 30435.80. Movimiento HC: Avión ID 67 de t=7965 a t=7990
+  HC Iter 154: ¡Mejora encontrada! Costo: 30435.80 -> 30398.55. Movimiento HC: Avión ID 66 de t=7875 a t=7900
+  HC Iter 155: ¡Mejora encontrada! Costo: 30398.55 -> 30359.80. Movimiento HC: Avión ID 65 de t=7807 a t=7832
+  HC Iter 156: ¡Mejora encontrada! Costo: 30359.80 -> 30314.30. Movimiento HC: Avión ID 64 de t=7733 a t=7758
+  HC Iter 157: ¡Mejora encontrada! Costo: 30314.30 -> 30131.60. Movimiento HC: Avión ID 72 de t=8350 a t=8455
+  HC Iter 158: ¡Mejora encontrada! Costo: 30131.60 -> 30007.04. Movimiento HC: Avión ID 70 de t=8277 a t=8349
+  HC Iter 159: ¡Mejora encontrada! Costo: 30007.04 -> 29962.04. Movimiento HC: Avión ID 69 de t=8196 a t=8221
+  HC Iter 160: ¡Mejora encontrada! Costo: 29962.04 -> 29920.79. Movimiento HC: Avión ID 68 de t=8103 a t=8128
+  HC Iter 161: ¡Mejora encontrada! Costo: 29920.79 -> 29886.54. Movimiento HC: Avión ID 67 de t=7990 a t=8015
+  HC Iter 162: ¡Mejora encontrada! Costo: 29886.54 -> 29849.29. Movimiento HC: Avión ID 66 de t=7900 a t=7925
+  HC Iter 163: ¡Mejora encontrada! Costo: 29849.29 -> 29810.54. Movimiento HC: Avión ID 65 de t=7832 a t=7857
+  HC Iter 164: ¡Mejora encontrada! Costo: 29810.54 -> 29765.04. Movimiento HC: Avión ID 64 de t=7758 a t=7783
+  HC Iter 165: ¡Mejora encontrada! Costo: 29765.04 -> 29720.04. Movimiento HC: Avión ID 69 de t=8221 a t=8246
+  HC Iter 166: ¡Mejora encontrada! Costo: 29720.04 -> 29685.39. Movimiento HC: Avión ID 68 de t=8128 a t=8149
+  HC Iter 167: ¡Mejora encontrada! Costo: 29685.39 -> 29640.39. Movimiento HC: Avión ID 69 de t=8246 a t=8271
+  HC Iter 168: ¡Mejora encontrada! Costo: 29640.39 -> 29144.79. Movimiento HC: Avión ID 73 de t=8623 a t=8903
+  HC Iter 169: ¡Mejora encontrada! Costo: 29144.79 -> 28695.11. Movimiento HC: Avión ID 74 de t=9001 a t=9293
+  HC Iter 170: ¡Mejora encontrada! Costo: 28695.11 -> 28658.11. Movimiento HC: Avión ID 75 de t=9365 a t=9390
+  HC Iter 171: ¡Mejora encontrada! Costo: 28658.11 -> 28621.11. Movimiento HC: Avión ID 75 de t=9390 a t=9415
+  HC Iter 172: ¡Mejora encontrada! Costo: 28621.11 -> 28584.11. Movimiento HC: Avión ID 75 de t=9415 a t=9440
+  HC Iter 173: ¡Mejora encontrada! Costo: 28584.11 -> 28547.11. Movimiento HC: Avión ID 75 de t=9440 a t=9465
+  HC Iter 174: ¡Mejora encontrada! Costo: 28547.11 -> 28510.11. Movimiento HC: Avión ID 75 de t=9465 a t=9490
+  HC Iter 175: ¡Mejora encontrada! Costo: 28510.11 -> 28466.86. Movimiento HC: Avión ID 77 de t=9704 a t=9729
+  HC Iter 176: ¡Mejora encontrada! Costo: 28466.86 -> 28426.36. Movimiento HC: Avión ID 76 de t=9569 a t=9594
+  HC Iter 177: ¡Mejora encontrada! Costo: 28426.36 -> 28399.72. Movimiento HC: Avión ID 75 de t=9490 a t=9508
+  HC Iter 178: ¡Mejora encontrada! Costo: 28399.72 -> 28355.72. Movimiento HC: Avión ID 79 de t=9910 a t=9935
+  HC Iter 179: ¡Mejora encontrada! Costo: 28355.72 -> 28311.72. Movimiento HC: Avión ID 78 de t=9820 a t=9845
+  HC Iter 180: ¡Mejora encontrada! Costo: 28311.72 -> 28268.47. Movimiento HC: Avión ID 77 de t=9729 a t=9754
+  HC Iter 181: ¡Mejora encontrada! Costo: 28268.47 -> 28227.97. Movimiento HC: Avión ID 76 de t=9594 a t=9619
+  HC Iter 182: ¡Mejora encontrada! Costo: 28227.97 -> 28183.97. Movimiento HC: Avión ID 79 de t=9935 a t=9960
+  HC Iter 183: ¡Mejora encontrada! Costo: 28183.97 -> 28139.97. Movimiento HC: Avión ID 78 de t=9845 a t=9870
+  HC Iter 184: ¡Mejora encontrada! Costo: 28139.97 -> 28067.31. Movimiento HC: Avión ID 77 de t=9754 a t=9796
+  HC Iter 185: ¡Mejora encontrada! Costo: 28067.31 -> 28026.81. Movimiento HC: Avión ID 76 de t=9619 a t=9644
+  HC Iter 186: ¡Mejora encontrada! Costo: 28026.81 -> 27982.81. Movimiento HC: Avión ID 79 de t=9960 a t=9985
+  HC Iter 187: ¡Mejora encontrada! Costo: 27982.81 -> 27938.81. Movimiento HC: Avión ID 78 de t=9870 a t=9895
+  HC Iter 188: ¡Mejora encontrada! Costo: 27938.81 -> 27895.81. Movimiento HC: Avión ID 81 de t=10187 a t=10212
+  HC Iter 189: ¡Mejora encontrada! Costo: 27895.81 -> 27855.56. Movimiento HC: Avión ID 80 de t=10119 a t=10144
+  HC Iter 190: ¡Mejora encontrada! Costo: 27855.56 -> 27811.56. Movimiento HC: Avión ID 79 de t=9985 a t=10010
+  HC Iter 191: ¡Mejora encontrada! Costo: 27811.56 -> 27767.56. Movimiento HC: Avión ID 78 de t=9895 a t=9920
+  HC Iter 192: ¡Mejora encontrada! Costo: 27767.56 -> 27724.56. Movimiento HC: Avión ID 81 de t=10212 a t=10237
+  HC Iter 193: ¡Mejora encontrada! Costo: 27724.56 -> 27684.31. Movimiento HC: Avión ID 80 de t=10144 a t=10169
+  HC Iter 194: ¡Mejora encontrada! Costo: 27684.31 -> 27640.31. Movimiento HC: Avión ID 79 de t=10010 a t=10035
+  HC Iter 195: ¡Mejora encontrada! Costo: 27640.31 -> 27596.31. Movimiento HC: Avión ID 78 de t=9920 a t=9945
+  HC Iter 196: ¡Mejora encontrada! Costo: 27596.31 -> 27553.31. Movimiento HC: Avión ID 81 de t=10237 a t=10262
+  HC Iter 197: ¡Mejora encontrada! Costo: 27553.31 -> 27513.06. Movimiento HC: Avión ID 80 de t=10169 a t=10194
+  HC Iter 198: ¡Mejora encontrada! Costo: 27513.06 -> 27469.06. Movimiento HC: Avión ID 79 de t=10035 a t=10060
+  HC Iter 199: ¡Mejora encontrada! Costo: 27469.06 -> 27425.06. Movimiento HC: Avión ID 78 de t=9945 a t=9970
+  HC Iter 200: ¡Mejora encontrada! Costo: 27425.06 -> 27377.31. Movimiento HC: Avión ID 90 de t=11080 a t=11105
+  HC Iter 201: ¡Mejora encontrada! Costo: 27377.31 -> 27340.06. Movimiento HC: Avión ID 89 de t=10990 a t=11015
+  HC Iter 202: ¡Mejora encontrada! Costo: 27340.06 -> 27311.56. Movimiento HC: Avión ID 88 de t=10922 a t=10947
+  HC Iter 203: ¡Mejora encontrada! Costo: 27311.56 -> 27276.81. Movimiento HC: Avión ID 87 de t=10854 a t=10879
+  HC Iter 204: ¡Mejora encontrada! Costo: 27276.81 -> 27233.31. Movimiento HC: Avión ID 86 de t=10741 a t=10766
+  HC Iter 205: ¡Mejora encontrada! Costo: 27233.31 -> 27185.56. Movimiento HC: Avión ID 90 de t=11105 a t=11130
+  HC Iter 206: ¡Mejora encontrada! Costo: 27185.56 -> 27148.31. Movimiento HC: Avión ID 89 de t=11015 a t=11040
+  HC Iter 207: ¡Mejora encontrada! Costo: 27148.31 -> 27119.81. Movimiento HC: Avión ID 88 de t=10947 a t=10972
+  HC Iter 208: ¡Mejora encontrada! Costo: 27119.81 -> 27085.06. Movimiento HC: Avión ID 87 de t=10879 a t=10904
+  HC Iter 209: ¡Mejora encontrada! Costo: 27085.06 -> 27041.56. Movimiento HC: Avión ID 86 de t=10766 a t=10791
+  HC Iter 210: ¡Mejora encontrada! Costo: 27041.56 -> 26836.56. Movimiento HC: Avión ID 91 de t=11223 a t=11428
+  HC Iter 211: ¡Mejora encontrada! Costo: 26836.56 -> 26788.81. Movimiento HC: Avión ID 90 de t=11130 a t=11155
+  HC Iter 212: ¡Mejora encontrada! Costo: 26788.81 -> 26751.56. Movimiento HC: Avión ID 89 de t=11040 a t=11065
+  HC Iter 213: ¡Mejora encontrada! Costo: 26751.56 -> 26723.06. Movimiento HC: Avión ID 88 de t=10972 a t=10997
+  HC Iter 214: ¡Mejora encontrada! Costo: 26723.06 -> 26688.31. Movimiento HC: Avión ID 87 de t=10904 a t=10929
+  HC Iter 215: ¡Mejora encontrada! Costo: 26688.31 -> 26644.81. Movimiento HC: Avión ID 86 de t=10791 a t=10816
+  HC Iter 216: ¡Mejora encontrada! Costo: 26644.81 -> 26597.06. Movimiento HC: Avión ID 90 de t=11155 a t=11180
+  HC Iter 217: ¡Mejora encontrada! Costo: 26597.06 -> 26559.81. Movimiento HC: Avión ID 89 de t=11065 a t=11090
+  HC Iter 218: ¡Mejora encontrada! Costo: 26559.81 -> 26531.31. Movimiento HC: Avión ID 88 de t=10997 a t=11022
+  HC Iter 219: ¡Mejora encontrada! Costo: 26531.31 -> 26496.56. Movimiento HC: Avión ID 87 de t=10929 a t=10954
+  HC Iter 220: ¡Mejora encontrada! Costo: 26496.56 -> 26453.06. Movimiento HC: Avión ID 86 de t=10816 a t=10841
+  HC Iter 221: ¡Mejora encontrada! Costo: 26453.06 -> 26405.31. Movimiento HC: Avión ID 90 de t=11180 a t=11205
+  HC Iter 222: ¡Mejora encontrada! Costo: 26405.31 -> 26368.06. Movimiento HC: Avión ID 89 de t=11090 a t=11115
+  HC Iter 223: ¡Mejora encontrada! Costo: 26368.06 -> 26339.56. Movimiento HC: Avión ID 88 de t=11022 a t=11047
+  HC Iter 224: ¡Mejora encontrada! Costo: 26339.56 -> 26304.81. Movimiento HC: Avión ID 87 de t=10954 a t=10979
+  HC Iter 225: ¡Mejora encontrada! Costo: 26304.81 -> 26261.31. Movimiento HC: Avión ID 86 de t=10841 a t=10866
+  HC Iter 226: ¡Mejora encontrada! Costo: 26261.31 -> 25491.04. Movimiento HC: Avión ID 82 de t=10388 a t=10779
+  HC Iter 227: ¡Mejora encontrada! Costo: 25491.04 -> 25448.04. Movimiento HC: Avión ID 81 de t=10262 a t=10287
+  HC Iter 228: ¡Mejora encontrada! Costo: 25448.04 -> 25407.79. Movimiento HC: Avión ID 80 de t=10194 a t=10219
+  HC Iter 229: ¡Mejora encontrada! Costo: 25407.79 -> 25363.79. Movimiento HC: Avión ID 79 de t=10060 a t=10085
+  HC Iter 230: ¡Mejora encontrada! Costo: 25363.79 -> 25319.79. Movimiento HC: Avión ID 78 de t=9970 a t=9995
+  HC Iter 231: ¡Mejora encontrada! Costo: 25319.79 -> 25276.79. Movimiento HC: Avión ID 81 de t=10287 a t=10312
+  HC Iter 232: ¡Mejora encontrada! Costo: 25276.79 -> 25236.54. Movimiento HC: Avión ID 80 de t=10219 a t=10244
+  HC Iter 233: ¡Mejora encontrada! Costo: 25236.54 -> 25196.06. Movimiento HC: Avión ID 79 de t=10085 a t=10108
+  HC Iter 234: ¡Mejora encontrada! Costo: 25196.06 -> 25153.06. Movimiento HC: Avión ID 81 de t=10312 a t=10337
+  HC Iter 235: ¡Mejora encontrada! Costo: 25153.06 -> 25112.81. Movimiento HC: Avión ID 80 de t=10244 a t=10269
+  HC Iter 236: ¡Mejora encontrada! Costo: 25112.81 -> 25069.81. Movimiento HC: Avión ID 81 de t=10337 a t=10362
+  HC Iter 237: ¡Mejora encontrada! Costo: 25069.81 -> 25029.56. Movimiento HC: Avión ID 80 de t=10269 a t=10294
+  HC Iter 238: ¡Mejora encontrada! Costo: 25029.56 -> 24983.56. Movimiento HC: Avión ID 92 de t=11313 a t=11338
+  HC Iter 239: ¡Mejora encontrada! Costo: 24983.56 -> 24935.81. Movimiento HC: Avión ID 90 de t=11205 a t=11230
+  HC Iter 240: ¡Mejora encontrada! Costo: 24935.81 -> 24898.56. Movimiento HC: Avión ID 89 de t=11115 a t=11140
+  HC Iter 241: ¡Mejora encontrada! Costo: 24898.56 -> 24871.20. Movimiento HC: Avión ID 88 de t=11047 a t=11071
+  HC Iter 242: ¡Mejora encontrada! Costo: 24871.20 -> 24518.28. Movimiento HC: Avión ID 94 de t=11689 a t=12035
+  HC Iter 243: ¡Mejora encontrada! Costo: 24518.28 -> 24480.03. Movimiento HC: Avión ID 93 de t=11570 a t=11595
+  HC Iter 244: ¡Mejora encontrada! Costo: 24480.03 -> 24441.78. Movimiento HC: Avión ID 93 de t=11595 a t=11620
+  HC Iter 245: ¡Mejora encontrada! Costo: 24441.78 -> 24403.53. Movimiento HC: Avión ID 93 de t=11620 a t=11645
+  HC Iter 246: ¡Mejora encontrada! Costo: 24403.53 -> 24360.28. Movimiento HC: Avión ID 95 de t=11757 a t=11782
+  HC Iter 247: ¡Mejora encontrada! Costo: 24360.28 -> 24322.03. Movimiento HC: Avión ID 93 de t=11645 a t=11670
+  HC Iter 248: ¡Mejora encontrada! Costo: 24322.03 -> 24278.78. Movimiento HC: Avión ID 95 de t=11782 a t=11807
+  HC Iter 249: ¡Mejora encontrada! Costo: 24278.78 -> 24240.53. Movimiento HC: Avión ID 93 de t=11670 a t=11695
+  HC Iter 250: ¡Mejora encontrada! Costo: 24240.53 -> 24204.53. Movimiento HC: Avión ID 96 de t=11942 a t=11967
+  HC Iter 251: ¡Mejora encontrada! Costo: 24204.53 -> 24161.28. Movimiento HC: Avión ID 95 de t=11807 a t=11832
+  HC Iter 252: ¡Mejora encontrada! Costo: 24161.28 -> 24123.03. Movimiento HC: Avión ID 93 de t=11695 a t=11720
+  HC Iter 253: ¡Mejora encontrada! Costo: 24123.03 -> 23172.54. Movimiento HC: Avión ID 97 de t=12124 a t=12655
+  HC Iter 254: ¡Mejora encontrada! Costo: 23172.54 -> 22920.19. Movimiento HC: Avión ID 99 de t=12305 a t=12550
+  HC Iter 255: ¡Mejora encontrada! Costo: 22920.19 -> 22870.44. Movimiento HC: Avión ID 98 de t=12192 a t=12217
+  HC Iter 256: ¡Mejora encontrada! Costo: 22870.44 -> 22820.69. Movimiento HC: Avión ID 98 de t=12217 a t=12242
+  HC Iter 257: ¡Mejora encontrada! Costo: 22820.69 -> 22770.94. Movimiento HC: Avión ID 98 de t=12242 a t=12267
+  HC Iter 258: ¡Mejora encontrada! Costo: 22770.94 -> 22728.19. Movimiento HC: Avión ID 100 de t=12373 a t=12398
+  HC Iter 259: ¡Mejora encontrada! Costo: 22728.19 -> 22678.44. Movimiento HC: Avión ID 98 de t=12267 a t=12292
+  HC Iter 260: ¡Mejora encontrada! Costo: 22678.44 -> 22635.69. Movimiento HC: Avión ID 100 de t=12398 a t=12423
+  HC Iter 261: ¡Mejora encontrada! Costo: 22635.69 -> 22585.94. Movimiento HC: Avión ID 98 de t=12292 a t=12317
+
+Hill Climbing convergió en 262 iteraciones.
+--- Hill Climbing (Alguna-Mejora Determinista V2) Finalizado ---
+
+--- Resultados Finales Después de Hill Climbing (Alguna-Mejora Determinista V2) ---
+Costo Inicial (Greedy): 41325.91
+Costo Final (Hill Climbing): 22585.94
+Mejora obtenida por Hill Climbing: 18739.97
+
+Matriz de Aterrizaje Final (después de Hill Climbing):
+
+--- Matriz de Horario de Aterrizaje ---
+---------------------------------------
+| Tiempo Aterrizaje | ID Avión      |
+|-------------------|---------------|
+| 701               | 1             |
+| 800               | 2             |
+| 928               | 3             |
+| 996               | 4             |
+| 1064              | 5             |
+| 1154              | 6             |
+| 1267              | 7             |
+| 1335              | 8             |
+| 1470              | 9             |
+| 1538              | 10            |
+| 1606              | 11            |
+| 1696              | 12            |
+| 1809              | 13            |
+| 1877              | 14            |
+| 1945              | 15            |
+| 2058              | 16            |
+| 2126              | 17            |
+| 2216              | 18            |
+| 2331              | 19            |
+| 2436              | 20            |
+| 2732              | 22            |
+| 2800              | 23            |
+| 2935              | 24            |
+| 3028              | 25            |
+| 3111              | 21            |
+| 3246              | 26            |
+| 3335              | 27            |
+| 3448              | 28            |
+| 3516              | 29            |
+| 3584              | 30            |
+| 3652              | 31            |
+| 3787              | 32            |
+| 3855              | 33            |
+| 3945              | 34            |
+| 4058              | 35            |
+| 4273              | 36            |
+| 4416              | 37            |
+| 4506              | 38            |
+| 4602              | 41            |
+| 4695              | 40            |
+| 4836              | 39            |
+| 4965              | 43            |
+| 5055              | 44            |
+| 5168              | 45            |
+| 5258              | 46            |
+| 5326              | 47            |
+| 5400              | 42            |
+| 5507              | 49            |
+| 5575              | 50            |
+| 5643              | 51            |
+| 5731              | 48            |
+| 5861              | 52            |
+| 5974              | 53            |
+| 6042              | 54            |
+| 6110              | 55            |
+| 6186              | 58            |
+| 6276              | 59            |
+| 6404              | 57            |
+| 6521              | 56            |
+| 6867              | 60            |
+| 6972              | 61            |
+| 7439              | 62            |
+| 7635              | 63            |
+| 7783              | 64            |
+| 7857              | 65            |
+| 7925              | 66            |
+| 8015              | 67            |
+| 8149              | 68            |
+| 8271              | 69            |
+| 8349              | 70            |
+| 8455              | 72            |
+| 8715              | 71            |
+| 8903              | 73            |
+| 9293              | 74            |
+| 9508              | 75            |
+| 9644              | 76            |
+| 9796              | 77            |
+| 9995              | 78            |
+| 10108             | 79            |
+| 10294             | 80            |
+| 10362             | 81            |
+| 10456             | 83            |
+| 10569             | 84            |
+| 10637             | 85            |
+| 10779             | 82            |
+| 10866             | 86            |
+| 10979             | 87            |
+| 11071             | 88            |
+| 11140             | 89            |
+| 11230             | 90            |
+| 11338             | 92            |
+| 11428             | 91            |
+| 11720             | 93            |
+| 11832             | 95            |
+| 11967             | 96            |
+| 12035             | 94            |
+| 12317             | 98            |
+| 12423             | 100           |
+| 12550             | 99            |
+| 12655             | 97            |
+---------------------------------------
+La solución final del Hill Climbing es factible.
+
+Gráfico de convergencia guardado como: grasp_hc_costo_evolucion_case4.png

@@ -1,0 +1,402 @@
+--- Iteración 91, Tiempo Actual (T): 11080 ---
+Aviones pendientes: [91, 92, 93, 94, 95, 96, 97, 98, 99, 100]
+Último avión aterrizado: ID 90 en t=11080
+  Avión global con menor E_k pendiente: ID 91 (E_k: 11223)
+  Adelantando T de 11080 a 11223 para permitir aterrizar al avión ID 91 (menor E_k global).
+  Candidatos para aterrizar en T=11223 (ventana y separación OK): [91]
+  Avión seleccionado para aterrizar en T=11223: ID 91 (E_k: 11223, L_k: 13023)
+
+--- Iteración 92, Tiempo Actual (T): 11223 ---
+Aviones pendientes: [92, 93, 94, 95, 96, 97, 98, 99, 100]
+Último avión aterrizado: ID 91 en t=11223
+  Avión global con menor E_k pendiente: ID 92 (E_k: 11279)
+  Adelantando T de 11223 a 11313 para permitir aterrizar al avión ID 92 (menor E_k global).
+  Candidatos para aterrizar en T=11313 (ventana y separación OK): [92]
+  Avión seleccionado para aterrizar en T=11313: ID 92 (E_k: 11279, L_k: 13079)
+
+--- Iteración 93, Tiempo Actual (T): 11313 ---
+Aviones pendientes: [93, 94, 95, 96, 97, 98, 99, 100]
+Último avión aterrizado: ID 92 en t=11313
+  Avión global con menor E_k pendiente: ID 93 (E_k: 11570)
+  Adelantando T de 11313 a 11570 para permitir aterrizar al avión ID 93 (menor E_k global).
+  Candidatos para aterrizar en T=11570 (ventana y separación OK): [93]
+  Avión seleccionado para aterrizar en T=11570: ID 93 (E_k: 11570, L_k: 13370)
+
+--- Iteración 94, Tiempo Actual (T): 11570 ---
+Aviones pendientes: [94, 95, 96, 97, 98, 99, 100]
+Último avión aterrizado: ID 93 en t=11570
+  Avión global con menor E_k pendiente: ID 94 (E_k: 11689)
+  Adelantando T de 11570 a 11689 para permitir aterrizar al avión ID 94 (menor E_k global).
+  Candidatos para aterrizar en T=11689 (ventana y separación OK): [94]
+  Avión seleccionado para aterrizar en T=11689: ID 94 (E_k: 11689, L_k: 13489)
+
+--- Iteración 95, Tiempo Actual (T): 11689 ---
+Aviones pendientes: [95, 96, 97, 98, 99, 100]
+Último avión aterrizado: ID 94 en t=11689
+  Avión global con menor E_k pendiente: ID 95 (E_k: 11737)
+  Adelantando T de 11689 a 11757 para permitir aterrizar al avión ID 95 (menor E_k global).
+  Candidatos para aterrizar en T=11757 (ventana y separación OK): [95]
+  Avión seleccionado para aterrizar en T=11757: ID 95 (E_k: 11737, L_k: 13537)
+
+--- Iteración 96, Tiempo Actual (T): 11757 ---
+Aviones pendientes: [96, 97, 98, 99, 100]
+Último avión aterrizado: ID 95 en t=11757
+  Avión global con menor E_k pendiente: ID 96 (E_k: 11942)
+  Adelantando T de 11757 a 11942 para permitir aterrizar al avión ID 96 (menor E_k global).
+  Candidatos para aterrizar en T=11942 (ventana y separación OK): [96]
+  Avión seleccionado para aterrizar en T=11942: ID 96 (E_k: 11942, L_k: 13742)
+
+--- Iteración 97, Tiempo Actual (T): 11942 ---
+Aviones pendientes: [97, 98, 99, 100]
+Último avión aterrizado: ID 96 en t=11942
+  Avión global con menor E_k pendiente: ID 97 (E_k: 12124)
+  Adelantando T de 11942 a 12124 para permitir aterrizar al avión ID 97 (menor E_k global).
+  Candidatos para aterrizar en T=12124 (ventana y separación OK): [97]
+  Avión seleccionado para aterrizar en T=12124: ID 97 (E_k: 12124, L_k: 13924)
+
+--- Iteración 98, Tiempo Actual (T): 12124 ---
+Aviones pendientes: [98, 99, 100]
+Último avión aterrizado: ID 97 en t=12124
+  Avión global con menor E_k pendiente: ID 98 (E_k: 12136)
+  Adelantando T de 12124 a 12192 para permitir aterrizar al avión ID 98 (menor E_k global).
+  Candidatos para aterrizar en T=12192 (ventana y separación OK): [98]
+  Avión seleccionado para aterrizar en T=12192: ID 98 (E_k: 12136, L_k: 13936)
+
+--- Iteración 99, Tiempo Actual (T): 12192 ---
+Aviones pendientes: [99, 100]
+Último avión aterrizado: ID 98 en t=12192
+  Avión global con menor E_k pendiente: ID 99 (E_k: 12238)
+  Adelantando T de 12192 a 12305 para permitir aterrizar al avión ID 99 (menor E_k global).
+  Candidatos para aterrizar en T=12305 (ventana y separación OK): [99]
+  Avión seleccionado para aterrizar en T=12305: ID 99 (E_k: 12238, L_k: 14038)
+
+--- Iteración 100, Tiempo Actual (T): 12305 ---
+Aviones pendientes: [100]
+Último avión aterrizado: ID 99 en t=12305
+  Avión global con menor E_k pendiente: ID 100 (E_k: 12323)
+  Adelantando T de 12305 a 12373 para permitir aterrizar al avión ID 100 (menor E_k global).
+  Candidatos para aterrizar en T=12373 (ventana y separación OK): [100]
+  Avión seleccionado para aterrizar en T=12373: ID 100 (E_k: 12323, L_k: 14123)
+¡Todos los aviones han sido programados!
+
+--- Algoritmo Greedy (Priorizar Menor E_k) Finalizado ---
+
+--- Resumen de Factibilidad Final (Greedy Priorizar Menor E_k) ---
+✅ La solución encontrada es factible.
+
+Horario de Aterrizaje Detallado (Greedy Priorizar Menor E_k):
+  Avión ID 1: aterriza en t = 601
+  Avión ID 2: aterriza en t = 725
+  Avión ID 3: aterriza en t = 928
+  Avión ID 4: aterriza en t = 996
+  Avión ID 5: aterriza en t = 1064
+  Avión ID 6: aterriza en t = 1154
+  Avión ID 7: aterriza en t = 1267
+  Avión ID 8: aterriza en t = 1335
+  Avión ID 9: aterriza en t = 1470
+  Avión ID 10: aterriza en t = 1538
+  Avión ID 11: aterriza en t = 1606
+  Avión ID 12: aterriza en t = 1696
+  Avión ID 13: aterriza en t = 1809
+  Avión ID 14: aterriza en t = 1877
+  Avión ID 15: aterriza en t = 1945
+  Avión ID 16: aterriza en t = 2058
+  Avión ID 17: aterriza en t = 2126
+  Avión ID 18: aterriza en t = 2216
+  Avión ID 19: aterriza en t = 2306
+  Avión ID 20: aterriza en t = 2396
+  Avión ID 21: aterriza en t = 2619
+  Avión ID 22: aterriza en t = 2732
+  Avión ID 23: aterriza en t = 2800
+  Avión ID 24: aterriza en t = 2935
+  Avión ID 25: aterriza en t = 3003
+  Avión ID 26: aterriza en t = 3246
+  Avión ID 27: aterriza en t = 3335
+  Avión ID 28: aterriza en t = 3448
+  Avión ID 29: aterriza en t = 3516
+  Avión ID 30: aterriza en t = 3584
+  Avión ID 31: aterriza en t = 3652
+  Avión ID 32: aterriza en t = 3787
+  Avión ID 33: aterriza en t = 3855
+  Avión ID 34: aterriza en t = 3945
+  Avión ID 35: aterriza en t = 4058
+  Avión ID 36: aterriza en t = 4148
+  Avión ID 37: aterriza en t = 4216
+  Avión ID 38: aterriza en t = 4306
+  Avión ID 39: aterriza en t = 4419
+  Avión ID 40: aterriza en t = 4487
+  Avión ID 41: aterriza en t = 4577
+  Avión ID 42: aterriza en t = 4894
+  Avión ID 43: aterriza en t = 4965
+  Avión ID 44: aterriza en t = 5055
+  Avión ID 45: aterriza en t = 5168
+  Avión ID 46: aterriza en t = 5258
+  Avión ID 47: aterriza en t = 5326
+  Avión ID 48: aterriza en t = 5394
+  Avión ID 49: aterriza en t = 5507
+  Avión ID 50: aterriza en t = 5575
+  Avión ID 51: aterriza en t = 5643
+  Avión ID 52: aterriza en t = 5711
+  Avión ID 53: aterriza en t = 5824
+  Avión ID 54: aterriza en t = 5892
+  Avión ID 55: aterriza en t = 5960
+  Avión ID 56: aterriza en t = 6050
+  Avión ID 57: aterriza en t = 6118
+  Avión ID 58: aterriza en t = 6186
+  Avión ID 59: aterriza en t = 6276
+  Avión ID 60: aterriza en t = 6582
+  Avión ID 61: aterriza en t = 6842
+  Avión ID 62: aterriza en t = 7168
+  Avión ID 63: aterriza en t = 7258
+  Avión ID 64: aterriza en t = 7508
+  Avión ID 65: aterriza en t = 7632
+  Avión ID 66: aterriza en t = 7700
+  Avión ID 67: aterriza en t = 7790
+  Avión ID 68: aterriza en t = 7903
+  Avión ID 69: aterriza en t = 8071
+  Avión ID 70: aterriza en t = 8152
+  Avión ID 71: aterriza en t = 8244
+  Avión ID 72: aterriza en t = 8350
+  Avión ID 73: aterriza en t = 8623
+  Avión ID 74: aterriza en t = 9001
+  Avión ID 75: aterriza en t = 9365
+  Avión ID 76: aterriza en t = 9569
+  Avión ID 77: aterriza en t = 9704
+  Avión ID 78: aterriza en t = 9820
+  Avión ID 79: aterriza en t = 9910
+  Avión ID 80: aterriza en t = 10119
+  Avión ID 81: aterriza en t = 10187
+  Avión ID 82: aterriza en t = 10388
+  Avión ID 83: aterriza en t = 10456
+  Avión ID 84: aterriza en t = 10569
+  Avión ID 85: aterriza en t = 10637
+  Avión ID 86: aterriza en t = 10741
+  Avión ID 87: aterriza en t = 10854
+  Avión ID 88: aterriza en t = 10922
+  Avión ID 89: aterriza en t = 10990
+  Avión ID 90: aterriza en t = 11080
+  Avión ID 91: aterriza en t = 11223
+  Avión ID 92: aterriza en t = 11313
+  Avión ID 93: aterriza en t = 11570
+  Avión ID 94: aterriza en t = 11689
+  Avión ID 95: aterriza en t = 11757
+  Avión ID 96: aterriza en t = 11942
+  Avión ID 97: aterriza en t = 12124
+  Avión ID 98: aterriza en t = 12192
+  Avión ID 99: aterriza en t = 12305
+  Avión ID 100: aterriza en t = 12373
+
+--- Cálculo de Costo Total de la Programación ---
+--------------------------------------------------
+  Avión ID  1 (Aterrizó:  601, Preferente:  908, Ventana: [ 601,2401]): Costo:   445.15 (307 unidades temprano * 1.45/unidad)
+  Avión ID  2 (Aterrizó:  725, Preferente: 1027, Ventana: [ 725,2525]): Costo:   549.64 (302 unidades temprano * 1.82/unidad)
+  Avión ID  3 (Aterrizó:  928, Preferente: 1378, Ventana: [ 928,2728]): Costo:   630.00 (450 unidades temprano * 1.4/unidad)
+  Avión ID  4 (Aterrizó:  996, Preferente: 1502, Ventana: [ 974,2774]): Costo:   890.56 (506 unidades temprano * 1.76/unidad)
+  Avión ID  5 (Aterrizó: 1064, Preferente: 1618, Ventana: [1056,2856]): Costo:   925.18 (554 unidades temprano * 1.67/unidad)
+  Avión ID  6 (Aterrizó: 1154, Preferente: 1235, Ventana: [1119,2919]): Costo:   112.59 (81 unidades temprano * 1.39/unidad)
+  Avión ID  7 (Aterrizó: 1267, Preferente: 1520, Ventana: [1148,2948]): Costo:   490.82 (253 unidades temprano * 1.94/unidad)
+  Avión ID  8 (Aterrizó: 1335, Preferente: 1401, Ventana: [1195,2995]): Costo:   104.94 (66 unidades temprano * 1.59/unidad)
+  Avión ID  9 (Aterrizó: 1470, Preferente: 1584, Ventana: [1201,3001]): Costo:   116.28 (114 unidades temprano * 1.02/unidad)
+  Avión ID 10 (Aterrizó: 1538, Preferente: 1343, Ventana: [1218,3018]): Costo:   366.60 (+195 unidades tarde * 1.88/unidad)
+  Avión ID 11 (Aterrizó: 1606, Preferente: 1787, Ventana: [1224,3024]): Costo:   293.22 (181 unidades temprano * 1.62/unidad)
+  Avión ID 12 (Aterrizó: 1696, Preferente: 1700, Ventana: [1288,3088]): Costo:     4.52 (4 unidades temprano * 1.13/unidad)
+  Avión ID 13 (Aterrizó: 1809, Preferente: 1724, Ventana: [1613,3413]): Costo:   104.55 (+85 unidades tarde * 1.23/unidad)
+  Avión ID 14 (Aterrizó: 1877, Preferente: 1907, Ventana: [1671,3471]): Costo:    48.30 (30 unidades temprano * 1.61/unidad)
+  Avión ID 15 (Aterrizó: 1945, Preferente: 2234, Ventana: [1700,3500]): Costo:   514.42 (289 unidades temprano * 1.78/unidad)
+  Avión ID 16 (Aterrizó: 2058, Preferente: 2003, Ventana: [1801,3601]): Costo:    95.15 (+55 unidades tarde * 1.73/unidad)
+  Avión ID 17 (Aterrizó: 2126, Preferente: 2169, Ventana: [2067,3867]): Costo:    79.55 (43 unidades temprano * 1.85/unidad)
+  Avión ID 18 (Aterrizó: 2216, Preferente: 2215, Ventana: [2091,3891]): Costo:     1.17 (+1 unidades tarde * 1.17/unidad)
+  Avión ID 19 (Aterrizó: 2306, Preferente: 2781, Ventana: [2242,4042]): Costo:   617.50 (475 unidades temprano * 1.3/unidad)
+  Avión ID 20 (Aterrizó: 2396, Preferente: 2436, Ventana: [2340,4140]): Costo:    66.80 (40 unidades temprano * 1.67/unidad)
+  Avión ID 21 (Aterrizó: 2619, Preferente: 3111, Ventana: [2619,4419]): Costo:   501.84 (492 unidades temprano * 1.02/unidad)
+  Avión ID 22 (Aterrizó: 2732, Preferente: 2967, Ventana: [2705,4505]): Costo:   296.10 (235 unidades temprano * 1.26/unidad)
+  Avión ID 23 (Aterrizó: 2800, Preferente: 2971, Ventana: [2726,4526]): Costo:   290.70 (171 unidades temprano * 1.7/unidad)
+  Avión ID 24 (Aterrizó: 2935, Preferente: 2918, Ventana: [2803,4603]): Costo:    32.30 (+17 unidades tarde * 1.9/unidad)
+  Avión ID 25 (Aterrizó: 3003, Preferente: 3258, Ventana: [2882,4682]): Costo:   402.90 (255 unidades temprano * 1.58/unidad)
+  Avión ID 26 (Aterrizó: 3246, Preferente: 3728, Ventana: [3246,5046]): Costo:   520.56 (482 unidades temprano * 1.08/unidad)
+  Avión ID 27 (Aterrizó: 3335, Preferente: 3468, Ventana: [3335,5135]): Costo:   151.62 (133 unidades temprano * 1.14/unidad)
+  Avión ID 28 (Aterrizó: 3448, Preferente: 3750, Ventana: [3357,5157]): Costo:   362.40 (302 unidades temprano * 1.2/unidad)
+  Avión ID 29 (Aterrizó: 3516, Preferente: 3647, Ventana: [3368,5168]): Costo:   203.05 (131 unidades temprano * 1.55/unidad)
+  Avión ID 30 (Aterrizó: 3584, Preferente: 3495, Ventana: [3428,5228]): Costo:   128.16 (+89 unidades tarde * 1.44/unidad)
+  Avión ID 31 (Aterrizó: 3652, Preferente: 3579, Ventana: [3463,5263]): Costo:   127.02 (+73 unidades tarde * 1.74/unidad)
+  Avión ID 32 (Aterrizó: 3787, Preferente: 4079, Ventana: [3495,5295]): Costo:   575.24 (292 unidades temprano * 1.97/unidad)
+  Avión ID 33 (Aterrizó: 3855, Preferente: 3764, Ventana: [3544,5344]): Costo:    94.64 (+91 unidades tarde * 1.04/unidad)
+  Avión ID 34 (Aterrizó: 3945, Preferente: 3749, Ventana: [3623,5423]): Costo:   297.92 (+196 unidades tarde * 1.52/unidad)
+  Avión ID 35 (Aterrizó: 4058, Preferente: 3854, Ventana: [3632,5432]): Costo:   405.96 (+204 unidades tarde * 1.99/unidad)
+  Avión ID 36 (Aterrizó: 4148, Preferente: 4273, Ventana: [3723,5523]): Costo:   195.00 (125 unidades temprano * 1.56/unidad)
+  Avión ID 37 (Aterrizó: 4216, Preferente: 4469, Ventana: [4190,5990]): Costo:   303.60 (253 unidades temprano * 1.2/unidad)
+  Avión ID 38 (Aterrizó: 4306, Preferente: 4771, Ventana: [4220,6020]): Costo:   902.10 (465 unidades temprano * 1.94/unidad)
+  Avión ID 39 (Aterrizó: 4419, Preferente: 4836, Ventana: [4246,6046]): Costo:   829.83 (417 unidades temprano * 1.99/unidad)
+  Avión ID 40 (Aterrizó: 4487, Preferente: 4695, Ventana: [4376,6176]): Costo:   270.40 (208 unidades temprano * 1.3/unidad)
+  Avión ID 41 (Aterrizó: 4577, Preferente: 4829, Ventana: [4483,6283]): Costo:   420.84 (252 unidades temprano * 1.67/unidad)
+  Avión ID 42 (Aterrizó: 4894, Preferente: 5400, Ventana: [4894,6694]): Costo:   657.80 (506 unidades temprano * 1.3/unidad)
+  Avión ID 43 (Aterrizó: 4965, Preferente: 5536, Ventana: [4965,6765]): Costo:   685.20 (571 unidades temprano * 1.2/unidad)
+  Avión ID 44 (Aterrizó: 5055, Preferente: 5224, Ventana: [4982,6782]): Costo:   265.33 (169 unidades temprano * 1.57/unidad)
+  Avión ID 45 (Aterrizó: 5168, Preferente: 5443, Ventana: [5021,6821]): Costo:   431.75 (275 unidades temprano * 1.57/unidad)
+  Avión ID 46 (Aterrizó: 5258, Preferente: 5492, Ventana: [5030,6830]): Costo:   285.48 (234 unidades temprano * 1.22/unidad)
+  Avión ID 47 (Aterrizó: 5326, Preferente: 5373, Ventana: [5145,6945]): Costo:    79.90 (47 unidades temprano * 1.7/unidad)
+  Avión ID 48 (Aterrizó: 5394, Preferente: 5731, Ventana: [5175,6975]): Costo:   670.63 (337 unidades temprano * 1.99/unidad)
+  Avión ID 49 (Aterrizó: 5507, Preferente: 5749, Ventana: [5214,7014]): Costo:   287.98 (242 unidades temprano * 1.19/unidad)
+  Avión ID 50 (Aterrizó: 5575, Preferente: 5588, Ventana: [5224,7024]): Costo:    14.69 (13 unidades temprano * 1.13/unidad)
+  Avión ID 51 (Aterrizó: 5643, Preferente: 5636, Ventana: [5346,7146]): Costo:    13.44 (+7 unidades tarde * 1.92/unidad)
+  Avión ID 52 (Aterrizó: 5711, Preferente: 5946, Ventana: [5588,7388]): Costo:   343.10 (235 unidades temprano * 1.46/unidad)
+  Avión ID 53 (Aterrizó: 5824, Preferente: 6145, Ventana: [5691,7491]): Costo:   632.37 (321 unidades temprano * 1.97/unidad)
+  Avión ID 54 (Aterrizó: 5892, Preferente: 6074, Ventana: [5704,7504]): Costo:   318.50 (182 unidades temprano * 1.75/unidad)
+  Avión ID 55 (Aterrizó: 5960, Preferente: 6223, Ventana: [5808,7608]): Costo:   423.43 (263 unidades temprano * 1.61/unidad)
+  Avión ID 56 (Aterrizó: 6050, Preferente: 6521, Ventana: [5944,7744]): Costo:   890.19 (471 unidades temprano * 1.89/unidad)
+  Avión ID 57 (Aterrizó: 6118, Preferente: 6404, Ventana: [5981,7781]): Costo:   334.62 (286 unidades temprano * 1.17/unidad)
+  Avión ID 58 (Aterrizó: 6186, Preferente: 6455, Ventana: [6102,7902]): Costo:   395.43 (269 unidades temprano * 1.47/unidad)
+  Avión ID 59 (Aterrizó: 6276, Preferente: 6344, Ventana: [6208,8008]): Costo:    97.92 (68 unidades temprano * 1.44/unidad)
+  Avión ID 60 (Aterrizó: 6582, Preferente: 6867, Ventana: [6582,8382]): Costo:   396.15 (285 unidades temprano * 1.39/unidad)
+  Avión ID 61 (Aterrizó: 6842, Preferente: 6972, Ventana: [6842,8642]): Costo:   234.00 (130 unidades temprano * 1.8/unidad)
+  Avión ID 62 (Aterrizó: 7168, Preferente: 7439, Ventana: [7168,8968]): Costo:   487.80 (271 unidades temprano * 1.8/unidad)
+  Avión ID 63 (Aterrizó: 7258, Preferente: 7635, Ventana: [7240,9040]): Costo:   403.39 (377 unidades temprano * 1.07/unidad)
+  Avión ID 64 (Aterrizó: 7508, Preferente: 7824, Ventana: [7508,9308]): Costo:   575.12 (316 unidades temprano * 1.82/unidad)
+  Avión ID 65 (Aterrizó: 7632, Preferente: 8162, Ventana: [7632,9432]): Costo:   821.50 (530 unidades temprano * 1.55/unidad)
+  Avión ID 66 (Aterrizó: 7700, Preferente: 8124, Ventana: [7635,9435]): Costo:   631.76 (424 unidades temprano * 1.49/unidad)
+  Avión ID 67 (Aterrizó: 7790, Preferente: 8080, Ventana: [7725,9525]): Costo:   397.30 (290 unidades temprano * 1.37/unidad)
+  Avión ID 68 (Aterrizó: 7903, Preferente: 8149, Ventana: [7774,9574]): Costo:   405.90 (246 unidades temprano * 1.65/unidad)
+  Avión ID 69 (Aterrizó: 8071, Preferente: 8291, Ventana: [8071,9871]): Costo:   396.00 (220 unidades temprano * 1.8/unidad)
+  Avión ID 70 (Aterrizó: 8152, Preferente: 8349, Ventana: [8152,9952]): Costo:   340.81 (197 unidades temprano * 1.73/unidad)
+  Avión ID 71 (Aterrizó: 8244, Preferente: 8715, Ventana: [8244,10044]): Costo:   923.16 (471 unidades temprano * 1.96/unidad)
+  Avión ID 72 (Aterrizó: 8350, Preferente: 8455, Ventana: [8350,10150]): Costo:   182.70 (105 unidades temprano * 1.74/unidad)
+  Avión ID 73 (Aterrizó: 8623, Preferente: 8903, Ventana: [8623,10423]): Costo:   495.60 (280 unidades temprano * 1.77/unidad)
+  Avión ID 74 (Aterrizó: 9001, Preferente: 9293, Ventana: [9001,10801]): Costo:   449.68 (292 unidades temprano * 1.54/unidad)
+  Avión ID 75 (Aterrizó: 9365, Preferente: 9508, Ventana: [9365,11165]): Costo:   211.64 (143 unidades temprano * 1.48/unidad)
+  Avión ID 76 (Aterrizó: 9569, Preferente: 9988, Ventana: [9569,11369]): Costo:   678.78 (419 unidades temprano * 1.62/unidad)
+  Avión ID 77 (Aterrizó: 9704, Preferente: 9796, Ventana: [9630,11430]): Costo:   159.16 (92 unidades temprano * 1.73/unidad)
+  Avión ID 78 (Aterrizó: 9820, Preferente: 10300, Ventana: [9820,11620]): Costo:   844.80 (480 unidades temprano * 1.76/unidad)
+  Avión ID 79 (Aterrizó: 9910, Preferente: 10108, Ventana: [9822,11622]): Costo:   348.48 (198 unidades temprano * 1.76/unidad)
+  Avión ID 80 (Aterrizó: 10119, Preferente: 10666, Ventana: [10119,11919]): Costo:   880.67 (547 unidades temprano * 1.61/unidad)
+  Avión ID 81 (Aterrizó: 10187, Preferente: 10704, Ventana: [10152,11952]): Costo:   889.24 (517 unidades temprano * 1.72/unidad)
+  Avión ID 82 (Aterrizó: 10388, Preferente: 10779, Ventana: [10388,12188]): Costo:   770.27 (391 unidades temprano * 1.97/unidad)
+  Avión ID 83 (Aterrizó: 10456, Preferente: 10944, Ventana: [10397,12197]): Costo:   590.48 (488 unidades temprano * 1.21/unidad)
+  Avión ID 84 (Aterrizó: 10569, Preferente: 10943, Ventana: [10411,12211]): Costo:   392.70 (374 unidades temprano * 1.05/unidad)
+  Avión ID 85 (Aterrizó: 10637, Preferente: 10515, Ventana: [10444,12244]): Costo:   228.14 (+122 unidades tarde * 1.87/unidad)
+  Avión ID 86 (Aterrizó: 10741, Preferente: 11112, Ventana: [10741,12541]): Costo:   645.54 (371 unidades temprano * 1.74/unidad)
+  Avión ID 87 (Aterrizó: 10854, Preferente: 11288, Ventana: [10816,12616]): Costo:   603.26 (434 unidades temprano * 1.39/unidad)
+  Avión ID 88 (Aterrizó: 10922, Preferente: 11071, Ventana: [10858,12658]): Costo:   169.86 (149 unidades temprano * 1.14/unidad)
+  Avión ID 89 (Aterrizó: 10990, Preferente: 11353, Ventana: [10930,12730]): Costo:   540.87 (363 unidades temprano * 1.49/unidad)
+  Avión ID 90 (Aterrizó: 11080, Preferente: 11335, Ventana: [11043,12843]): Costo:   487.05 (255 unidades temprano * 1.91/unidad)
+  Avión ID 91 (Aterrizó: 11223, Preferente: 11428, Ventana: [11223,13023]): Costo:   205.00 (205 unidades temprano * 1.0/unidad)
+  Avión ID 92 (Aterrizó: 11313, Preferente: 11713, Ventana: [11279,13079]): Costo:   736.00 (400 unidades temprano * 1.84/unidad)
+  Avión ID 93 (Aterrizó: 11570, Preferente: 11959, Ventana: [11570,13370]): Costo:   595.17 (389 unidades temprano * 1.53/unidad)
+  Avión ID 94 (Aterrizó: 11689, Preferente: 12035, Ventana: [11689,13489]): Costo:   352.92 (346 unidades temprano * 1.02/unidad)
+  Avión ID 95 (Aterrizó: 11757, Preferente: 12031, Ventana: [11737,13537]): Costo:   474.02 (274 unidades temprano * 1.73/unidad)
+  Avión ID 96 (Aterrizó: 11942, Preferente: 12393, Ventana: [11942,13742]): Costo:   649.44 (451 unidades temprano * 1.44/unidad)
+  Avión ID 97 (Aterrizó: 12124, Preferente: 12655, Ventana: [12124,13924]): Costo:   950.49 (531 unidades temprano * 1.79/unidad)
+  Avión ID 98 (Aterrizó: 12192, Preferente: 12387, Ventana: [12136,13936]): Costo:   388.05 (195 unidades temprano * 1.99/unidad)
+  Avión ID 99 (Aterrizó: 12305, Preferente: 12550, Ventana: [12238,14038]): Costo:   252.35 (245 unidades temprano * 1.03/unidad)
+  Avión ID 100 (Aterrizó: 12373, Preferente: 12691, Ventana: [12323,14123]): Costo:   543.78 (318 unidades temprano * 1.71/unidad)
+--------------------------------------------------
+Costo Total de la Programación (solo aviones aterrizados): 41325.91
+--- Fin Cálculo de Costo ---
+
+¡¡¡FELICIDADES!!! ¡Todos los aviones fueron programados con esta lógica!
+
+--- Matriz de Horario de Aterrizaje ---
+---------------------------------------
+| Tiempo Aterrizaje | ID Avión      |
+|-------------------|---------------|
+| 601               | 1             |
+| 725               | 2             |
+| 928               | 3             |
+| 996               | 4             |
+| 1064              | 5             |
+| 1154              | 6             |
+| 1267              | 7             |
+| 1335              | 8             |
+| 1470              | 9             |
+| 1538              | 10            |
+| 1606              | 11            |
+| 1696              | 12            |
+| 1809              | 13            |
+| 1877              | 14            |
+| 1945              | 15            |
+| 2058              | 16            |
+| 2126              | 17            |
+| 2216              | 18            |
+| 2306              | 19            |
+| 2396              | 20            |
+| 2619              | 21            |
+| 2732              | 22            |
+| 2800              | 23            |
+| 2935              | 24            |
+| 3003              | 25            |
+| 3246              | 26            |
+| 3335              | 27            |
+| 3448              | 28            |
+| 3516              | 29            |
+| 3584              | 30            |
+| 3652              | 31            |
+| 3787              | 32            |
+| 3855              | 33            |
+| 3945              | 34            |
+| 4058              | 35            |
+| 4148              | 36            |
+| 4216              | 37            |
+| 4306              | 38            |
+| 4419              | 39            |
+| 4487              | 40            |
+| 4577              | 41            |
+| 4894              | 42            |
+| 4965              | 43            |
+| 5055              | 44            |
+| 5168              | 45            |
+| 5258              | 46            |
+| 5326              | 47            |
+| 5394              | 48            |
+| 5507              | 49            |
+| 5575              | 50            |
+| 5643              | 51            |
+| 5711              | 52            |
+| 5824              | 53            |
+| 5892              | 54            |
+| 5960              | 55            |
+| 6050              | 56            |
+| 6118              | 57            |
+| 6186              | 58            |
+| 6276              | 59            |
+| 6582              | 60            |
+| 6842              | 61            |
+| 7168              | 62            |
+| 7258              | 63            |
+| 7508              | 64            |
+| 7632              | 65            |
+| 7700              | 66            |
+| 7790              | 67            |
+| 7903              | 68            |
+| 8071              | 69            |
+| 8152              | 70            |
+| 8244              | 71            |
+| 8350              | 72            |
+| 8623              | 73            |
+| 9001              | 74            |
+| 9365              | 75            |
+| 9569              | 76            |
+| 9704              | 77            |
+| 9820              | 78            |
+| 9910              | 79            |
+| 10119             | 80            |
+| 10187             | 81            |
+| 10388             | 82            |
+| 10456             | 83            |
+| 10569             | 84            |
+| 10637             | 85            |
+| 10741             | 86            |
+| 10854             | 87            |
+| 10922             | 88            |
+| 10990             | 89            |
+| 11080             | 90            |
+| 11223             | 91            |
+| 11313             | 92            |
+| 11570             | 93            |
+| 11689             | 94            |
+| 11757             | 95            |
+| 11942             | 96            |
+| 12124             | 97            |
+| 12192             | 98            |
+| 12305             | 99            |
+| 12373             | 100           |
+---------------------------------------
+jb@jb-pc1:~/Desktop/T2_AEyM$ 

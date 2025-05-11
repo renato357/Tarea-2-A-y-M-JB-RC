@@ -1,0 +1,465 @@
+--- Iteración Global de Hill Climbing #152 (Costo actual: 28042.07) ---
+  HC Mejora (Misma Pista): Avión ID 65 de t=7732 a t=7782 en Pista 0. Costo: 28042.07 -> 27964.57
+
+--- Iteración Global de Hill Climbing #153 (Costo actual: 27964.57) ---
+  HC Mejora (Misma Pista): Avión ID 64 de t=7658 a t=7708 en Pista 0. Costo: 27964.57 -> 27873.57
+
+--- Iteración Global de Hill Climbing #154 (Costo actual: 27873.57) ---
+  HC Mejora (Misma Pista): Avión ID 67 de t=7875 a t=7925 en Pista 0. Costo: 27873.57 -> 27805.07
+
+--- Iteración Global de Hill Climbing #155 (Costo actual: 27805.07) ---
+  HC Mejora (Misma Pista): Avión ID 65 de t=7782 a t=7832 en Pista 0. Costo: 27805.07 -> 27727.57
+
+--- Iteración Global de Hill Climbing #156 (Costo actual: 27727.57) ---
+  HC Mejora (Misma Pista): Avión ID 64 de t=7708 a t=7758 en Pista 0. Costo: 27727.57 -> 27636.57
+
+--- Iteración Global de Hill Climbing #157 (Costo actual: 27636.57) ---
+  HC Mejora (Misma Pista): Avión ID 68 de t=7774 a t=7824 en Pista 1. Costo: 27636.57 -> 27554.07
+
+--- Iteración Global de Hill Climbing #158 (Costo actual: 27554.07) ---
+  HC Mejora (Misma Pista): Avión ID 68 de t=7824 a t=7874 en Pista 1. Costo: 27554.07 -> 27471.57
+
+--- Iteración Global de Hill Climbing #159 (Costo actual: 27471.57) ---
+  HC Mejora (Misma Pista): Avión ID 68 de t=7874 a t=7924 en Pista 1. Costo: 27471.57 -> 27389.07
+
+--- Iteración Global de Hill Climbing #160 (Costo actual: 27389.07) ---
+  HC Mejora (Misma Pista): Avión ID 68 de t=7924 a t=7974 en Pista 1. Costo: 27389.07 -> 27306.57
+
+--- Iteración Global de Hill Climbing #161 (Costo actual: 27306.57) ---
+  HC Mejora (Misma Pista): Avión ID 68 de t=7974 a t=8024 en Pista 1. Costo: 27306.57 -> 27224.07
+
+--- Iteración Global de Hill Climbing #162 (Costo actual: 27224.07) ---
+  HC Mejora (Misma Pista): Avión ID 71 de t=8244 a t=8715 en Pista 0. Costo: 27224.07 -> 26300.91
+
+--- Iteración Global de Hill Climbing #163 (Costo actual: 26300.91) ---
+  HC Mejora (Misma Pista): Avión ID 70 de t=8152 a t=8202 en Pista 0. Costo: 26300.91 -> 26214.41
+
+--- Iteración Global de Hill Climbing #164 (Costo actual: 26214.41) ---
+  HC Mejora (Misma Pista): Avión ID 69 de t=8071 a t=8121 en Pista 0. Costo: 26214.41 -> 26124.41
+
+--- Iteración Global de Hill Climbing #165 (Costo actual: 26124.41) ---
+  HC Mejora (Misma Pista): Avión ID 67 de t=7925 a t=7975 en Pista 0. Costo: 26124.41 -> 26055.91
+
+--- Iteración Global de Hill Climbing #166 (Costo actual: 26055.91) ---
+  HC Mejora (Misma Pista): Avión ID 65 de t=7832 a t=7882 en Pista 0. Costo: 26055.91 -> 25978.41
+
+--- Iteración Global de Hill Climbing #167 (Costo actual: 25978.41) ---
+  HC Mejora (Misma Pista): Avión ID 64 de t=7758 a t=7808 en Pista 0. Costo: 25978.41 -> 25887.41
+
+--- Iteración Global de Hill Climbing #168 (Costo actual: 25887.41) ---
+  HC Mejora (Misma Pista): Avión ID 70 de t=8202 a t=8252 en Pista 0. Costo: 25887.41 -> 25800.91
+
+--- Iteración Global de Hill Climbing #169 (Costo actual: 25800.91) ---
+  HC Mejora (Misma Pista): Avión ID 69 de t=8121 a t=8171 en Pista 0. Costo: 25800.91 -> 25710.91
+
+--- Iteración Global de Hill Climbing #170 (Costo actual: 25710.91) ---
+  HC Mejora (Misma Pista): Avión ID 67 de t=7975 a t=8025 en Pista 0. Costo: 25710.91 -> 25642.41
+
+--- Iteración Global de Hill Climbing #171 (Costo actual: 25642.41) ---
+  HC Mejora (Misma Pista): Avión ID 65 de t=7882 a t=7932 en Pista 0. Costo: 25642.41 -> 25564.91
+
+--- Iteración Global de Hill Climbing #172 (Costo actual: 25564.91) ---
+  HC Mejora (Misma Pista): Avión ID 64 de t=7808 a t=7824 en Pista 0. Costo: 25564.91 -> 25535.79
+
+--- Iteración Global de Hill Climbing #173 (Costo actual: 25535.79) ---
+  HC Mejora (Misma Pista): Avión ID 72 de t=8350 a t=8400 en Pista 0. Costo: 25535.79 -> 25448.79
+
+--- Iteración Global de Hill Climbing #174 (Costo actual: 25448.79) ---
+  HC Mejora (Misma Pista): Avión ID 70 de t=8252 a t=8302 en Pista 0. Costo: 25448.79 -> 25362.29
+
+--- Iteración Global de Hill Climbing #175 (Costo actual: 25362.29) ---
+  HC Mejora (Misma Pista): Avión ID 69 de t=8171 a t=8221 en Pista 0. Costo: 25362.29 -> 25272.29
+
+--- Iteración Global de Hill Climbing #176 (Costo actual: 25272.29) ---
+  HC Mejora (Misma Pista): Avión ID 67 de t=8025 a t=8075 en Pista 0. Costo: 25272.29 -> 25203.79
+
+--- Iteración Global de Hill Climbing #177 (Costo actual: 25203.79) ---
+  HC Mejora (Misma Pista): Avión ID 65 de t=7932 a t=7982 en Pista 0. Costo: 25203.79 -> 25126.29
+
+--- Iteración Global de Hill Climbing #178 (Costo actual: 25126.29) ---
+  HC Mejora (Misma Pista): Avión ID 67 de t=8075 a t=8080 en Pista 0. Costo: 25126.29 -> 25119.44
+
+--- Iteración Global de Hill Climbing #179 (Costo actual: 25119.44) ---
+  HC Mejora (Misma Pista): Avión ID 72 de t=8400 a t=8450 en Pista 0. Costo: 25119.44 -> 25032.44
+
+--- Iteración Global de Hill Climbing #180 (Costo actual: 25032.44) ---
+  HC Mejora (Misma Pista): Avión ID 70 de t=8302 a t=8349 en Pista 0. Costo: 25032.44 -> 24951.13
+
+--- Iteración Global de Hill Climbing #181 (Costo actual: 24951.13) ---
+  HC Mejora (Misma Pista): Avión ID 69 de t=8221 a t=8271 en Pista 0. Costo: 24951.13 -> 24861.13
+
+--- Iteración Global de Hill Climbing #182 (Costo actual: 24861.13) ---
+  HC Mejora (Misma Pista): Avión ID 72 de t=8450 a t=8455 en Pista 0. Costo: 24861.13 -> 24852.43
+
+--- Iteración Global de Hill Climbing #183 (Costo actual: 24852.43) ---
+  HC Mejora (Misma Pista): Avión ID 73 de t=8623 a t=8903 en Pista 0. Costo: 24852.43 -> 24356.83
+
+--- Iteración Global de Hill Climbing #184 (Costo actual: 24356.83) ---
+  HC Mejora (Misma Pista): Avión ID 74 de t=9001 a t=9051 en Pista 0. Costo: 24356.83 -> 24279.83
+
+--- Iteración Global de Hill Climbing #185 (Costo actual: 24279.83) ---
+  HC Mejora (Misma Pista): Avión ID 74 de t=9051 a t=9101 en Pista 0. Costo: 24279.83 -> 24202.83
+
+--- Iteración Global de Hill Climbing #186 (Costo actual: 24202.83) ---
+  HC Mejora (Misma Pista): Avión ID 74 de t=9101 a t=9151 en Pista 0. Costo: 24202.83 -> 24125.83
+
+--- Iteración Global de Hill Climbing #187 (Costo actual: 24125.83) ---
+  HC Mejora (Misma Pista): Avión ID 74 de t=9151 a t=9201 en Pista 0. Costo: 24125.83 -> 24048.83
+
+--- Iteración Global de Hill Climbing #188 (Costo actual: 24048.83) ---
+  HC Mejora (Misma Pista): Avión ID 74 de t=9201 a t=9251 en Pista 0. Costo: 24048.83 -> 23971.83
+
+--- Iteración Global de Hill Climbing #189 (Costo actual: 23971.83) ---
+  HC Mejora (Misma Pista): Avión ID 74 de t=9251 a t=9293 en Pista 0. Costo: 23971.83 -> 23907.15
+
+--- Iteración Global de Hill Climbing #190 (Costo actual: 23907.15) ---
+  HC Mejora (Misma Pista): Avión ID 75 de t=9365 a t=9415 en Pista 0. Costo: 23907.15 -> 23833.15
+
+--- Iteración Global de Hill Climbing #191 (Costo actual: 23833.15) ---
+  HC Mejora (Misma Pista): Avión ID 75 de t=9415 a t=9465 en Pista 0. Costo: 23833.15 -> 23759.15
+
+--- Iteración Global de Hill Climbing #192 (Costo actual: 23759.15) ---
+  HC Mejora (Misma Pista): Avión ID 76 de t=9569 a t=9619 en Pista 0. Costo: 23759.15 -> 23678.15
+
+--- Iteración Global de Hill Climbing #193 (Costo actual: 23678.15) ---
+  HC Mejora (Misma Pista): Avión ID 75 de t=9465 a t=9508 en Pista 0. Costo: 23678.15 -> 23614.51
+
+--- Iteración Global de Hill Climbing #194 (Costo actual: 23614.51) ---
+  HC Mejora (Misma Pista): Avión ID 76 de t=9619 a t=9669 en Pista 0. Costo: 23614.51 -> 23533.51
+
+--- Iteración Global de Hill Climbing #195 (Costo actual: 23533.51) ---
+  HC Mejora (Misma Pista): Avión ID 76 de t=9669 a t=9719 en Pista 0. Costo: 23533.51 -> 23452.51
+
+--- Iteración Global de Hill Climbing #196 (Costo actual: 23452.51) ---
+  HC Mejora (Misma Pista): Avión ID 76 de t=9719 a t=9988 en Pista 0. Costo: 23452.51 -> 23016.73
+
+--- Iteración Global de Hill Climbing #197 (Costo actual: 23016.73) ---
+  HC Mejora (Misma Pista): Avión ID 77 de t=9630 a t=9680 en Pista 1. Costo: 23016.73 -> 22930.23
+
+--- Iteración Global de Hill Climbing #198 (Costo actual: 22930.23) ---
+  HC Mejora (Misma Pista): Avión ID 77 de t=9680 a t=9730 en Pista 1. Costo: 22930.23 -> 22843.73
+
+--- Iteración Global de Hill Climbing #199 (Costo actual: 22843.73) ---
+  HC Mejora (Misma Pista): Avión ID 78 de t=9820 a t=9870 en Pista 0. Costo: 22843.73 -> 22755.73
+
+--- Iteración Global de Hill Climbing #200 (Costo actual: 22755.73) ---
+  HC Mejora (Misma Pista): Avión ID 79 de t=9822 a t=9872 en Pista 1. Costo: 22755.73 -> 22667.73
+
+--- Iteración Global de Hill Climbing #201 (Costo actual: 22667.73) ---
+  HC Mejora (Misma Pista): Avión ID 77 de t=9730 a t=9780 en Pista 1. Costo: 22667.73 -> 22581.23
+
+--- Iteración Global de Hill Climbing #202 (Costo actual: 22581.23) ---
+  HC Mejora (Misma Pista): Avión ID 77 de t=9780 a t=9796 en Pista 1. Costo: 22581.23 -> 22553.55
+
+--- Iteración Global de Hill Climbing #203 (Costo actual: 22553.55) ---
+  HC Mejora (Misma Pista): Avión ID 79 de t=9872 a t=9922 en Pista 1. Costo: 22553.55 -> 22465.55
+
+--- Iteración Global de Hill Climbing #204 (Costo actual: 22465.55) ---
+  HC Mejora (Misma Pista): Avión ID 79 de t=9922 a t=9972 en Pista 1. Costo: 22465.55 -> 22377.55
+
+--- Iteración Global de Hill Climbing #205 (Costo actual: 22377.55) ---
+  HC Mejora (Misma Pista): Avión ID 79 de t=9972 a t=10022 en Pista 1. Costo: 22377.55 -> 22289.55
+
+--- Iteración Global de Hill Climbing #206 (Costo actual: 22289.55) ---
+  HC Mejora (Misma Pista): Avión ID 80 de t=10119 a t=10169 en Pista 0. Costo: 22289.55 -> 22209.05
+
+--- Iteración Global de Hill Climbing #207 (Costo actual: 22209.05) ---
+  HC Mejora (Misma Pista): Avión ID 80 de t=10169 a t=10219 en Pista 0. Costo: 22209.05 -> 22128.55
+
+--- Iteración Global de Hill Climbing #208 (Costo actual: 22128.55) ---
+  HC Mejora (Misma Pista): Avión ID 80 de t=10219 a t=10269 en Pista 0. Costo: 22128.55 -> 22048.05
+
+--- Iteración Global de Hill Climbing #209 (Costo actual: 22048.05) ---
+  HC Mejora (Misma Pista): Avión ID 80 de t=10269 a t=10319 en Pista 0. Costo: 22048.05 -> 21967.55
+
+--- Iteración Global de Hill Climbing #210 (Costo actual: 21967.55) ---
+  HC Mejora (Misma Pista): Avión ID 80 de t=10319 a t=10666 en Pista 0. Costo: 21967.55 -> 21408.88
+
+--- Iteración Global de Hill Climbing #211 (Costo actual: 21408.88) ---
+  HC Mejora (Misma Pista): Avión ID 81 de t=10152 a t=10202 en Pista 1. Costo: 21408.88 -> 21322.88
+
+--- Iteración Global de Hill Climbing #212 (Costo actual: 21322.88) ---
+  HC Mejora (Misma Pista): Avión ID 79 de t=10022 a t=10072 en Pista 1. Costo: 21322.88 -> 21234.88
+
+--- Iteración Global de Hill Climbing #213 (Costo actual: 21234.88) ---
+  HC Mejora (Misma Pista): Avión ID 79 de t=10072 a t=10108 en Pista 1. Costo: 21234.88 -> 21171.52
+
+--- Iteración Global de Hill Climbing #214 (Costo actual: 21171.52) ---
+  HC Mejora (Misma Pista): Avión ID 81 de t=10202 a t=10252 en Pista 1. Costo: 21171.52 -> 21085.52
+
+--- Iteración Global de Hill Climbing #215 (Costo actual: 21085.52) ---
+  HC Mejora (Misma Pista): Avión ID 81 de t=10252 a t=10302 en Pista 1. Costo: 21085.52 -> 20999.52
+
+--- Iteración Global de Hill Climbing #216 (Costo actual: 20999.52) ---
+  HC Mejora (Misma Pista): Avión ID 83 de t=10397 a t=10944 en Pista 1. Costo: 20999.52 -> 20337.65
+
+--- Iteración Global de Hill Climbing #217 (Costo actual: 20337.65) ---
+  HC Mejora (Misma Pista): Avión ID 81 de t=10302 a t=10352 en Pista 1. Costo: 20337.65 -> 20251.65
+
+--- Iteración Global de Hill Climbing #218 (Costo actual: 20251.65) ---
+  HC Mejora (Misma Pista): Avión ID 84 de t=10456 a t=10506 en Pista 0. Costo: 20251.65 -> 20199.15
+
+--- Iteración Global de Hill Climbing #219 (Costo actual: 20199.15) ---
+  HC Mejora (Misma Pista): Avión ID 82 de t=10388 a t=10438 en Pista 0. Costo: 20199.15 -> 20100.65
+
+--- Iteración Global de Hill Climbing #220 (Costo actual: 20100.65) ---
+  HC Mejora (Misma Pista): Avión ID 78 de t=9870 a t=10300 en Pista 0. Costo: 20100.65 -> 19343.85
+
+--- Iteración Global de Hill Climbing #221 (Costo actual: 19343.85) ---
+  HC Mejora (Misma Pista): Avión ID 84 de t=10506 a t=10556 en Pista 0. Costo: 19343.85 -> 19291.35
+
+--- Iteración Global de Hill Climbing #222 (Costo actual: 19291.35) ---
+  HC Mejora (Misma Pista): Avión ID 82 de t=10438 a t=10488 en Pista 0. Costo: 19291.35 -> 19192.85
+
+--- Iteración Global de Hill Climbing #223 (Costo actual: 19192.85) ---
+  HC Mejora (Misma Pista): Avión ID 85 de t=10510 a t=10515 en Pista 1. Costo: 19192.85 -> 19187.55
+
+--- Iteración Global de Hill Climbing #224 (Costo actual: 19187.55) ---
+  HC Mejora (Misma Pista): Avión ID 81 de t=10352 a t=10402 en Pista 1. Costo: 19187.55 -> 19101.55
+
+--- Iteración Global de Hill Climbing #225 (Costo actual: 19101.55) ---
+  HC Mejora (Misma Pista): Avión ID 87 de t=10816 a t=10866 en Pista 1. Costo: 19101.55 -> 19032.05
+
+--- Iteración Global de Hill Climbing #226 (Costo actual: 19032.05) ---
+  HC Mejora (Misma Pista): Avión ID 81 de t=10402 a t=10704 en Pista 1. Costo: 19032.05 -> 18512.61
+
+--- Iteración Global de Hill Climbing #227 (Costo actual: 18512.61) ---
+  HC Mejora (Misma Pista): Avión ID 89 de t=10930 a t=11353 en Pista 0. Costo: 18512.61 -> 17882.34
+
+--- Iteración Global de Hill Climbing #228 (Costo actual: 17882.34) ---
+  HC Mejora (Misma Pista): Avión ID 84 de t=10556 a t=10943 en Pista 0. Costo: 17882.34 -> 17475.99
+
+--- Iteración Global de Hill Climbing #229 (Costo actual: 17475.99) ---
+  HC Mejora (Misma Pista): Avión ID 82 de t=10488 a t=10538 en Pista 0. Costo: 17475.99 -> 17377.49
+
+--- Iteración Global de Hill Climbing #230 (Costo actual: 17377.49) ---
+  HC Mejora (Misma Pista): Avión ID 90 de t=11043 a t=11093 en Pista 0. Costo: 17377.49 -> 17281.99
+
+--- Iteración Global de Hill Climbing #231 (Costo actual: 17281.99) ---
+  HC Mejora (Misma Pista): Avión ID 92 de t=11279 a t=11329 en Pista 1. Costo: 17281.99 -> 17189.99
+
+--- Iteración Global de Hill Climbing #232 (Costo actual: 17189.99) ---
+  HC Mejora (Misma Pista): Avión ID 92 de t=11329 a t=11379 en Pista 1. Costo: 17189.99 -> 17097.99
+
+--- Iteración Global de Hill Climbing #233 (Costo actual: 17097.99) ---
+  HC Mejora (Misma Pista): Avión ID 87 de t=10866 a t=11288 en Pista 1. Costo: 17097.99 -> 16511.41
+
+--- Iteración Global de Hill Climbing #234 (Costo actual: 16511.41) ---
+  HC Mejora (Misma Pista): Avión ID 92 de t=11379 a t=11429 en Pista 1. Costo: 16511.41 -> 16419.41
+
+--- Iteración Global de Hill Climbing #235 (Costo actual: 16419.41) ---
+  HC Mejora (Misma Pista): Avión ID 92 de t=11429 a t=11479 en Pista 1. Costo: 16419.41 -> 16327.41
+
+--- Iteración Global de Hill Climbing #236 (Costo actual: 16327.41) ---
+  HC Mejora (Misma Pista): Avión ID 92 de t=11479 a t=11529 en Pista 1. Costo: 16327.41 -> 16235.41
+
+--- Iteración Global de Hill Climbing #237 (Costo actual: 16235.41) ---
+  HC Mejora (Misma Pista): Avión ID 92 de t=11529 a t=11579 en Pista 1. Costo: 16235.41 -> 16143.41
+
+--- Iteración Global de Hill Climbing #238 (Costo actual: 16143.41) ---
+  HC Mejora (Misma Pista): Avión ID 92 de t=11579 a t=11629 en Pista 1. Costo: 16143.41 -> 16051.41
+
+--- Iteración Global de Hill Climbing #239 (Costo actual: 16051.41) ---
+  HC Mejora (Cambio Pista): Avión ID 93 de (t=11570,p=0) a (t=12226,p=1). Costo: 16051.41 -> 15976.89
+
+--- Iteración Global de Hill Climbing #240 (Costo actual: 15976.89) ---
+  HC Mejora (Misma Pista): Avión ID 93 de t=12226 a t=11959 en Pista 1. Costo: 15976.89 -> 15456.24
+
+--- Iteración Global de Hill Climbing #241 (Costo actual: 15456.24) ---
+  HC Mejora (Misma Pista): Avión ID 94 de t=11689 a t=11739 en Pista 0. Costo: 15456.24 -> 15405.24
+
+--- Iteración Global de Hill Climbing #242 (Costo actual: 15405.24) ---
+  HC Mejora (Misma Pista): Avión ID 94 de t=11739 a t=11789 en Pista 0. Costo: 15405.24 -> 15354.24
+
+--- Iteración Global de Hill Climbing #243 (Costo actual: 15354.24) ---
+  HC Mejora (Misma Pista): Avión ID 94 de t=11789 a t=11839 en Pista 0. Costo: 15354.24 -> 15303.24
+
+--- Iteración Global de Hill Climbing #244 (Costo actual: 15303.24) ---
+  HC Mejora (Misma Pista): Avión ID 94 de t=11839 a t=12035 en Pista 0. Costo: 15303.24 -> 15103.32
+
+--- Iteración Global de Hill Climbing #245 (Costo actual: 15103.32) ---
+  HC Mejora (Misma Pista): Avión ID 95 de t=11737 a t=11787 en Pista 1. Costo: 15103.32 -> 15016.82
+
+--- Iteración Global de Hill Climbing #246 (Costo actual: 15016.82) ---
+  HC Mejora (Misma Pista): Avión ID 92 de t=11629 a t=11679 en Pista 1. Costo: 15016.82 -> 14924.82
+
+--- Iteración Global de Hill Climbing #247 (Costo actual: 14924.82) ---
+  HC Mejora (Misma Pista): Avión ID 95 de t=11787 a t=11837 en Pista 1. Costo: 14924.82 -> 14838.32
+
+--- Iteración Global de Hill Climbing #248 (Costo actual: 14838.32) ---
+  HC Mejora (Misma Pista): Avión ID 92 de t=11679 a t=11713 en Pista 1. Costo: 14838.32 -> 14775.76
+
+--- Iteración Global de Hill Climbing #249 (Costo actual: 14775.76) ---
+  HC Mejora (Cambio Pista): Avión ID 96 de (t=11942,p=0) a (t=12249,p=1). Costo: 14775.76 -> 14333.68
+
+--- Iteración Global de Hill Climbing #250 (Costo actual: 14333.68) ---
+  HC Mejora (Misma Pista): Avión ID 96 de t=12249 a t=12299 en Pista 1. Costo: 14333.68 -> 14261.68
+
+--- Iteración Global de Hill Climbing #251 (Costo actual: 14261.68) ---
+  HC Mejora (Misma Pista): Avión ID 96 de t=12299 a t=12349 en Pista 1. Costo: 14261.68 -> 14189.68
+
+--- Iteración Global de Hill Climbing #252 (Costo actual: 14189.68) ---
+  HC Mejora (Misma Pista): Avión ID 96 de t=12349 a t=12393 en Pista 1. Costo: 14189.68 -> 14126.32
+
+--- Iteración Global de Hill Climbing #253 (Costo actual: 14126.32) ---
+  HC Mejora (Misma Pista): Avión ID 97 de t=12124 a t=12655 en Pista 0. Costo: 14126.32 -> 13175.83
+
+--- Iteración Global de Hill Climbing #254 (Costo actual: 13175.83) ---
+  HC Mejora (Misma Pista): Avión ID 98 de t=12136 a t=12186 en Pista 1. Costo: 13175.83 -> 13076.33
+
+--- Iteración Global de Hill Climbing #255 (Costo actual: 13076.33) ---
+  HC Mejora (Misma Pista): Avión ID 98 de t=12186 a t=12236 en Pista 1. Costo: 13076.33 -> 12976.83
+
+--- Iteración Global de Hill Climbing #256 (Costo actual: 12976.83) ---
+  HC Mejora (Misma Pista): Avión ID 99 de t=12238 a t=12550 en Pista 0. Costo: 12976.83 -> 12655.47
+
+--- Iteración Global de Hill Climbing #257 (Costo actual: 12655.47) ---
+  HC Mejora (Misma Pista): Avión ID 100 de t=12323 a t=12373 en Pista 0. Costo: 12655.47 -> 12569.97
+
+--- Iteración Global de Hill Climbing #258 (Costo actual: 12569.97) ---
+  HC Mejora (Misma Pista): Avión ID 100 de t=12373 a t=12423 en Pista 0. Costo: 12569.97 -> 12484.47
+
+--- Iteración Global de Hill Climbing #259 (Costo actual: 12484.47) ---
+  HC Mejora (Cambio Pista): Avión ID 100 de (t=12423,p=0) a (t=12461,p=1). Costo: 12484.47 -> 12419.49
+
+--- Iteración Global de Hill Climbing #260 (Costo actual: 12419.49) ---
+  HC Mejora (Misma Pista): Avión ID 100 de t=12461 a t=12511 en Pista 1. Costo: 12419.49 -> 12333.99
+
+--- Iteración Global de Hill Climbing #261 (Costo actual: 12333.99) ---
+  HC Mejora (Misma Pista): Avión ID 100 de t=12511 a t=12561 en Pista 1. Costo: 12333.99 -> 12248.49
+
+--- Iteración Global de Hill Climbing #262 (Costo actual: 12248.49) ---
+  HC Mejora (Misma Pista): Avión ID 100 de t=12561 a t=12611 en Pista 1. Costo: 12248.49 -> 12162.99
+
+--- Iteración Global de Hill Climbing #263 (Costo actual: 12162.99) ---
+  HC Mejora (Misma Pista): Avión ID 100 de t=12611 a t=12661 en Pista 1. Costo: 12162.99 -> 12077.49
+
+--- Iteración Global de Hill Climbing #264 (Costo actual: 12077.49) ---
+  HC Mejora (Misma Pista): Avión ID 100 de t=12661 a t=12691 en Pista 1. Costo: 12077.49 -> 12026.19
+
+--- Iteración Global de Hill Climbing #265 (Costo actual: 12026.19) ---
+  No se encontró ninguna mejora en esta iteración global del vecindario. Óptimo local alcanzado.
+
+Hill Climbing convergió en 265 iteraciones.
+
+--- Hill Climbing (Alguna-Mejora Determinista para 2 Pistas) Finalizado ---
+
+
+==================================================================================
+--- Resultados Finales (Greedy Determinista 2 Pistas + Hill Climbing Alguna Mejora) ---
+==================================================================================
+Costo Inicial (Greedy Determinista 2 Pistas): 51775.43
+Costo Final (Después de Hill Climbing): 12026.19
+Mejora obtenida por Hill Climbing: 39749.24 (76.77%)
+
+Matriz de Aterrizaje Final (después de Hill Climbing):
+
+--- Matriz Final HC ---
+----------------------------------------------------
+| Tiempo Aterrizaje  | ID Avión   | Pista   |
+|--------------------|------------|---------|
+| 701                | 1          | 0       |
+| 825                | 2          | 0       |
+| 978                | 3          | 0       |
+| 1056               | 5          | 0       |
+| 1235               | 6          | 1       |
+| 1237               | 9          | 0       |
+| 1305               | 10         | 0       |
+| 1359               | 8          | 1       |
+| 1373               | 12         | 0       |
+| 1502               | 4          | 1       |
+| 1520               | 7          | 0       |
+| 1724               | 13         | 0       |
+| 1787               | 11         | 1       |
+| 1907               | 14         | 1       |
+| 2003               | 16         | 1       |
+| 2050               | 15         | 0       |
+| 2169               | 17         | 0       |
+| 2215               | 18         | 1       |
+| 2342               | 19         | 0       |
+| 2436               | 20         | 0       |
+| 2853               | 24         | 1       |
+| 2882               | 25         | 0       |
+| 2967               | 22         | 1       |
+| 2971               | 23         | 0       |
+| 3111               | 21         | 0       |
+| 3246               | 26         | 0       |
+| 3335               | 27         | 0       |
+| 3407               | 28         | 1       |
+| 3475               | 29         | 1       |
+| 3495               | 30         | 0       |
+| 3579               | 31         | 1       |
+| 3696               | 35         | 1       |
+| 3749               | 34         | 0       |
+| 3764               | 33         | 1       |
+| 4079               | 32         | 0       |
+| 4273               | 36         | 0       |
+| 4469               | 37         | 0       |
+| 4583               | 41         | 0       |
+| 4695               | 40         | 0       |
+| 4771               | 38         | 1       |
+| 4836               | 39         | 0       |
+| 5178               | 45         | 0       |
+| 5224               | 44         | 1       |
+| 5288               | 50         | 0       |
+| 5373               | 47         | 1       |
+| 5400               | 42         | 0       |
+| 5492               | 46         | 1       |
+| 5536               | 43         | 0       |
+| 5636               | 51         | 1       |
+| 5638               | 52         | 0       |
+| 5731               | 48         | 0       |
+| 5749               | 49         | 1       |
+| 5994               | 56         | 0       |
+| 6074               | 54         | 0       |
+| 6145               | 53         | 1       |
+| 6223               | 55         | 0       |
+| 6344               | 59         | 0       |
+| 6404               | 57         | 1       |
+| 6455               | 58         | 0       |
+| 6867               | 60         | 0       |
+| 6972               | 61         | 0       |
+| 7439               | 62         | 0       |
+| 7635               | 63         | 1       |
+| 7824               | 64         | 0       |
+| 7982               | 65         | 0       |
+| 8024               | 68         | 1       |
+| 8080               | 67         | 0       |
+| 8124               | 66         | 1       |
+| 8271               | 69         | 0       |
+| 8349               | 70         | 0       |
+| 8455               | 72         | 0       |
+| 8715               | 71         | 0       |
+| 8903               | 73         | 0       |
+| 9293               | 74         | 0       |
+| 9508               | 75         | 0       |
+| 9796               | 77         | 1       |
+| 9988               | 76         | 0       |
+| 10108              | 79         | 1       |
+| 10300              | 78         | 0       |
+| 10515              | 85         | 1       |
+| 10538              | 82         | 0       |
+| 10666              | 80         | 0       |
+| 10704              | 81         | 1       |
+| 10741              | 86         | 0       |
+| 10858              | 88         | 0       |
+| 10943              | 84         | 0       |
+| 10944              | 83         | 1       |
+| 11093              | 90         | 0       |
+| 11223              | 91         | 0       |
+| 11288              | 87         | 1       |
+| 11353              | 89         | 0       |
+| 11713              | 92         | 1       |
+| 11837              | 95         | 1       |
+| 11959              | 93         | 1       |
+| 12035              | 94         | 0       |
+| 12236              | 98         | 1       |
+| 12393              | 96         | 1       |
+| 12550              | 99         | 0       |
+| 12655              | 97         | 0       |
+| 12691              | 100        | 1       |
+----------------------------------------------------
+
+La solución final del Hill Climbing es factible.
+
+Gráfico de convergencia guardado como: grasp_hc_2pistas_costo_evolucion_case4.png

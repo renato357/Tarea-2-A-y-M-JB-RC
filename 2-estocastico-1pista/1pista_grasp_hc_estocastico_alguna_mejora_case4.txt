@@ -1,0 +1,220 @@
+    ILS Restart #2/5:
+      3a. Perturbando solución actual (costo: 24940.33)...
+  [Factibilidad] Solución es factible.
+      Solución perturbada (factible). Costo: 24977.03
+      3b. Aplicando HC a solución perturbada...
+  [Factibilidad] Solución es factible.
+      ILS no mejoró la mejor solución de esta GRASP (Mejor actual GRASP: 24940.33)
+
+    ILS Restart #3/5:
+      3a. Perturbando solución actual (costo: 24940.33)...
+  [Factibilidad] Solución es factible.
+      Solución perturbada (factible). Costo: 25610.34
+      3b. Aplicando HC a solución perturbada...
+  [Factibilidad] Solución es factible.
+      ILS no mejoró la mejor solución de esta GRASP (Mejor actual GRASP: 24940.33)
+
+    ILS Restart #4/5:
+      3a. Perturbando solución actual (costo: 24940.33)...
+  [Factibilidad] Solución es factible.
+      Solución perturbada (factible). Costo: 24940.33
+      3b. Aplicando HC a solución perturbada...
+  [Factibilidad] Solución es factible.
+      ILS no mejoró la mejor solución de esta GRASP (Mejor actual GRASP: 24940.33)
+
+    ILS Restart #5/5:
+      3a. Perturbando solución actual (costo: 24940.33)...
+  [Factibilidad] Solución es factible.
+      Solución perturbada (factible). Costo: 24940.33
+      3b. Aplicando HC a solución perturbada...
+  [Factibilidad] Solución es factible.
+      ILS no mejoró la mejor solución de esta GRASP (Mejor actual GRASP: 24940.33)
+
+--- Fin Ejecución GRASP (Semilla: 100). Mejor Costo Final Encontrado: 24940.33 (Costo Inicial Construcción: 39952.80) ---
+  [Factibilidad] Solución es factible.
+Ejecución GRASP con semilla 100 finalizada. Costo Inicial: 39952.80, Costo Final: 24940.33. (No superó el mejor global: 20058.73)
+
+========================= EJECUCIÓN GRASP GLOBAL #10/10 (Semilla: 314) =========================
+
+--- Iniciando Ejecución GRASP con Semilla: 314 ---
+  1. Fase de Construcción (Greedy Estocástico)...
+    Construcción GRASP exitosa en intento 1/1000. Costo: 41201.24
+
+  2. Búsqueda Local Inicial (Hill Climbing) tras construcción...
+  [Factibilidad] Solución es factible.
+    HC inicial mejoró la solución. Nuevo mejor costo GRASP: 23430.62
+
+  3. Búsqueda Local Iterada (ILS) - 5 restarts de perturbación...
+
+    ILS Restart #1/5:
+      3a. Perturbando solución actual (costo: 23430.62)...
+  [Factibilidad] Solución es factible.
+      Solución perturbada (factible). Costo: 23667.26
+      3b. Aplicando HC a solución perturbada...
+  [Factibilidad] Solución es factible.
+      ILS no mejoró la mejor solución de esta GRASP (Mejor actual GRASP: 23430.62)
+
+    ILS Restart #2/5:
+      3a. Perturbando solución actual (costo: 23430.62)...
+  [Factibilidad] Solución es factible.
+      Solución perturbada (factible). Costo: 23667.14
+      3b. Aplicando HC a solución perturbada...
+  [Factibilidad] Solución es factible.
+      ILS no mejoró la mejor solución de esta GRASP (Mejor actual GRASP: 23430.62)
+
+    ILS Restart #3/5:
+      3a. Perturbando solución actual (costo: 23430.62)...
+  [Factibilidad] Solución es factible.
+      Solución perturbada (factible). Costo: 23911.84
+      3b. Aplicando HC a solución perturbada...
+  [Factibilidad] Solución es factible.
+      ILS no mejoró la mejor solución de esta GRASP (Mejor actual GRASP: 23430.62)
+
+    ILS Restart #4/5:
+      3a. Perturbando solución actual (costo: 23430.62)...
+  [Factibilidad] Solución es factible.
+      Solución perturbada (factible). Costo: 23688.55
+      3b. Aplicando HC a solución perturbada...
+  [Factibilidad] Solución es factible.
+      ILS no mejoró la mejor solución de esta GRASP (Mejor actual GRASP: 23430.62)
+
+    ILS Restart #5/5:
+      3a. Perturbando solución actual (costo: 23430.62)...
+  [Factibilidad] Solución es factible.
+      Solución perturbada (factible). Costo: 23430.62
+      3b. Aplicando HC a solución perturbada...
+  [Factibilidad] Solución es factible.
+      ILS no mejoró la mejor solución de esta GRASP (Mejor actual GRASP: 23430.62)
+
+--- Fin Ejecución GRASP (Semilla: 314). Mejor Costo Final Encontrado: 23430.62 (Costo Inicial Construcción: 41201.24) ---
+  [Factibilidad] Solución es factible.
+Ejecución GRASP con semilla 314 finalizada. Costo Inicial: 41201.24, Costo Final: 23430.62. (No superó el mejor global: 20058.73)
+
+
+========================= RESULTADOS FINALES DEL PROCESO GRASP-ILS =========================
+
+Resumen de costos por semilla (Inicial -> Final):
+  Semilla: 42   -> Costo Inicial: 39158.82, Costo Final: 21490.64
+  Semilla: 123  -> Costo Inicial: 40072.69, Costo Final: 22352.34
+  Semilla: 7    -> Costo Inicial: 39805.23, Costo Final: 23633.47
+  Semilla: 99   -> Costo Inicial: 39613.05, Costo Final: 20058.73
+  Semilla: 500  -> Costo Inicial: 41205.64, Costo Final: 22893.75
+  Semilla: 777  -> Costo Inicial: 39912.67, Costo Final: 24310.30
+  Semilla: 2024 -> Costo Inicial: 41363.62, Costo Final: 24224.54
+  Semilla: 1    -> Costo Inicial: 40942.64, Costo Final: 20818.77
+  Semilla: 100  -> Costo Inicial: 39952.80, Costo Final: 24940.33
+  Semilla: 314  -> Costo Inicial: 41201.24, Costo Final: 23430.62
+
+Mejor solución global encontrada con costo inicial: 39613.05 y costo final: 20058.73 (originada por semilla: 99)
+Horario de la mejor solución global:
+
+--- Mejor Horario Global GRASP-ILS (Semilla 99) ---
+---------------------------------------
+| Tiempo Aterrizaje | ID Avión      |
+|-------------------|---------------|
+| 651               | 1             |
+| 775               | 2             |
+| 928               | 3             |
+| 996               | 4             |
+| 1064              | 5             |
+| 1154              | 6             |
+| 1267              | 8             |
+| 1380              | 10            |
+| 1470              | 7             |
+| 1538              | 9             |
+| 1606              | 12            |
+| 1696              | 11            |
+| 1809              | 13            |
+| 1877              | 14            |
+| 1945              | 16            |
+| 2013              | 15            |
+| 2103              | 17            |
+| 2215              | 18            |
+| 2333              | 19            |
+| 2436              | 20            |
+| 2732              | 23            |
+| 2845              | 22            |
+| 2935              | 24            |
+| 3003              | 25            |
+| 3111              | 21            |
+| 3246              | 26            |
+| 3335              | 27            |
+| 3448              | 30            |
+| 3516              | 31            |
+| 3629              | 29            |
+| 3697              | 34            |
+| 3810              | 33            |
+| 3923              | 35            |
+| 3991              | 28            |
+| 4081              | 32            |
+| 4273              | 36            |
+| 4417              | 37            |
+| 4507              | 38            |
+| 4620              | 39            |
+| 4688              | 40            |
+| 4778              | 41            |
+| 4944              | 42            |
+| 5015              | 43            |
+| 5105              | 44            |
+| 5218              | 47            |
+| 5286              | 46            |
+| 5354              | 50            |
+| 5443              | 45            |
+| 5590              | 51            |
+| 5658              | 49            |
+| 5731              | 48            |
+| 5866              | 52            |
+| 5979              | 53            |
+| 6047              | 54            |
+| 6115              | 55            |
+| 6205              | 56            |
+| 6273              | 57            |
+| 6344              | 59            |
+| 6455              | 58            |
+| 6867              | 60            |
+| 6972              | 61            |
+| 7439              | 62            |
+| 7635              | 63            |
+| 7758              | 64            |
+| 7832              | 65            |
+| 7900              | 66            |
+| 7990              | 67            |
+| 8149              | 68            |
+| 8271              | 69            |
+| 8349              | 70            |
+| 8455              | 72            |
+| 8715              | 71            |
+| 8903              | 73            |
+| 9293              | 74            |
+| 9508              | 75            |
+| 9619              | 76            |
+| 9796              | 77            |
+| 9970              | 78            |
+| 10108             | 79            |
+| 10319             | 80            |
+| 10387             | 81            |
+| 10515             | 85            |
+| 10588             | 82            |
+| 10674             | 84            |
+| 10742             | 83            |
+| 10841             | 86            |
+| 10972             | 88            |
+| 11040             | 89            |
+| 11130             | 90            |
+| 11288             | 87            |
+| 11428             | 91            |
+| 11620             | 93            |
+| 11713             | 92            |
+| 11907             | 95            |
+| 12035             | 94            |
+| 12192             | 96            |
+| 12292             | 98            |
+| 12423             | 100           |
+| 12550             | 99            |
+| 12655             | 97            |
+---------------------------------------
+  [Factibilidad] Solución es factible.
+
+La mejor solución global reportada ES factible según la verificación final.
+
+Gráfico de evolución de costos GRASP-ILS guardado como: grasp_ils_costo_evolucion_case4.png

@@ -1,0 +1,273 @@
+/bin/python3 /home/jb/Desktop/T2_AEyM/greedydeterminista.py
+jb@jb-pc1:~/Desktop/T2_AEyM$ /bin/python3 /home/jb/Desktop/T2_AEyM/greedydeterminista.py
+Datos leídos correctamente para 20 aviones desde 'case2.txt'.
+
+
+Tiempos principales de aterrizaje por avión:
+------------------------------------------------------------
+Avión ID:  1 | Temprano (E_k):   75 | Preferente (P_k):   82 | Tardío (L_k):  486
+Avión ID:  2 | Temprano (E_k):  157 | Preferente (P_k):  197 | Tardío (L_k):  628
+Avión ID:  3 | Temprano (E_k):  134 | Preferente (P_k):  160 | Tardío (L_k):  561
+Avión ID:  4 | Temprano (E_k):  103 | Preferente (P_k):  117 | Tardío (L_k):  565
+Avión ID:  5 | Temprano (E_k):  201 | Preferente (P_k):  261 | Tardío (L_k):  735
+Avión ID:  6 | Temprano (E_k):   95 | Preferente (P_k):  106 | Tardío (L_k):  524
+Avión ID:  7 | Temprano (E_k):  185 | Preferente (P_k):  229 | Tardío (L_k):  664
+Avión ID:  8 | Temprano (E_k):   98 | Preferente (P_k):  108 | Tardío (L_k):  523
+Avión ID:  9 | Temprano (E_k):  117 | Preferente (P_k):  132 | Tardío (L_k):  578
+Avión ID: 10 | Temprano (E_k):  117 | Preferente (P_k):  130 | Tardío (L_k):  569
+Avión ID: 11 | Temprano (E_k):  132 | Preferente (P_k):  149 | Tardío (L_k):  615
+Avión ID: 12 | Temprano (E_k):  114 | Preferente (P_k):  126 | Tardío (L_k):  551
+Avión ID: 13 | Temprano (E_k):  261 | Preferente (P_k):  336 | Tardío (L_k):  834
+Avión ID: 14 | Temprano (E_k):  250 | Preferente (P_k):  316 | Tardío (L_k):  790
+Avión ID: 15 | Temprano (E_k):  214 | Preferente (P_k):  258 | Tardío (L_k):  688
+Avión ID: 16 | Temprano (E_k):  310 | Preferente (P_k):  409 | Tardío (L_k):  967
+Avión ID: 17 | Temprano (E_k):  269 | Preferente (P_k):  338 | Tardío (L_k):  818
+Avión ID: 18 | Temprano (E_k):  237 | Preferente (P_k):  287 | Tardío (L_k):  726
+Avión ID: 19 | Temprano (E_k):  144 | Preferente (P_k):  160 | Tardío (L_k):  607
+Avión ID: 20 | Temprano (E_k):  151 | Preferente (P_k):  169 | Tardío (L_k):  624
+------------------------------------------------------------
+
+--- Ejecutando Algoritmo Greedy: Priorizar Menor E_k ---
+Tiempo inicial T: 75
+
+--- Iteración 1, Tiempo Actual (T): 75 ---
+Aviones pendientes: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
+Ningún avión ha aterrizado aún.
+  Avión global con menor E_k pendiente: ID 1 (E_k: 75)
+  Candidatos para aterrizar en T=75 (ventana y separación OK): [1]
+  Avión seleccionado para aterrizar en T=75: ID 1 (E_k: 75, L_k: 486)
+
+--- Iteración 2, Tiempo Actual (T): 75 ---
+Aviones pendientes: [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
+Último avión aterrizado: ID 1 en t=75
+  Avión global con menor E_k pendiente: ID 6 (E_k: 95)
+  Adelantando T de 75 a 95 para permitir aterrizar al avión ID 6 (menor E_k global).
+  Candidatos para aterrizar en T=95 (ventana y separación OK): [6]
+  Avión seleccionado para aterrizar en T=95: ID 6 (E_k: 95, L_k: 524)
+
+--- Iteración 3, Tiempo Actual (T): 95 ---
+Aviones pendientes: [2, 3, 4, 5, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
+Último avión aterrizado: ID 6 en t=95
+  Avión global con menor E_k pendiente: ID 8 (E_k: 98)
+  Adelantando T de 95 a 103 para permitir aterrizar al avión ID 8 (menor E_k global).
+  Candidatos para aterrizar en T=103 (ventana y separación OK): [4, 8]
+  Avión seleccionado para aterrizar en T=103: ID 8 (E_k: 98, L_k: 523)
+
+--- Iteración 4, Tiempo Actual (T): 103 ---
+Aviones pendientes: [2, 3, 4, 5, 7, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
+Último avión aterrizado: ID 8 en t=103
+  Avión global con menor E_k pendiente: ID 4 (E_k: 103)
+  Adelantando T de 103 a 111 para permitir aterrizar al avión ID 4 (menor E_k global).
+  Candidatos para aterrizar en T=111 (ventana y separación OK): [4]
+  Avión seleccionado para aterrizar en T=111: ID 4 (E_k: 103, L_k: 565)
+
+--- Iteración 5, Tiempo Actual (T): 111 ---
+Aviones pendientes: [2, 3, 5, 7, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
+Último avión aterrizado: ID 4 en t=111
+  Avión global con menor E_k pendiente: ID 12 (E_k: 114)
+  Adelantando T de 111 a 119 para permitir aterrizar al avión ID 12 (menor E_k global).
+  Candidatos para aterrizar en T=119 (ventana y separación OK): [9, 10, 12]
+  Avión seleccionado para aterrizar en T=119: ID 12 (E_k: 114, L_k: 551)
+
+--- Iteración 6, Tiempo Actual (T): 119 ---
+Aviones pendientes: [2, 3, 5, 7, 9, 10, 11, 13, 14, 15, 16, 17, 18, 19, 20]
+Último avión aterrizado: ID 12 en t=119
+  Avión global con menor E_k pendiente: ID 10 (E_k: 117)
+  Adelantando T de 119 a 127 para permitir aterrizar al avión ID 10 (menor E_k global).
+  Candidatos para aterrizar en T=127 (ventana y separación OK): [9, 10]
+  Avión seleccionado para aterrizar en T=127: ID 10 (E_k: 117, L_k: 569)
+
+--- Iteración 7, Tiempo Actual (T): 127 ---
+Aviones pendientes: [2, 3, 5, 7, 9, 11, 13, 14, 15, 16, 17, 18, 19, 20]
+Último avión aterrizado: ID 10 en t=127
+  Avión global con menor E_k pendiente: ID 9 (E_k: 117)
+  Adelantando T de 127 a 135 para permitir aterrizar al avión ID 9 (menor E_k global).
+  Candidatos para aterrizar en T=135 (ventana y separación OK): [9, 11]
+  Avión seleccionado para aterrizar en T=135: ID 9 (E_k: 117, L_k: 578)
+
+--- Iteración 8, Tiempo Actual (T): 135 ---
+Aviones pendientes: [2, 3, 5, 7, 11, 13, 14, 15, 16, 17, 18, 19, 20]
+Último avión aterrizado: ID 9 en t=135
+  Avión global con menor E_k pendiente: ID 11 (E_k: 132)
+  Adelantando T de 135 a 143 para permitir aterrizar al avión ID 11 (menor E_k global).
+  Candidatos para aterrizar en T=143 (ventana y separación OK): [11]
+  Avión seleccionado para aterrizar en T=143: ID 11 (E_k: 132, L_k: 615)
+
+--- Iteración 9, Tiempo Actual (T): 143 ---
+Aviones pendientes: [2, 3, 5, 7, 13, 14, 15, 16, 17, 18, 19, 20]
+Último avión aterrizado: ID 11 en t=143
+  Avión global con menor E_k pendiente: ID 3 (E_k: 134)
+  Adelantando T de 143 a 158 para permitir aterrizar al avión ID 3 (menor E_k global).
+  Candidatos para aterrizar en T=158 (ventana y separación OK): [2, 3, 19, 20]
+  Avión seleccionado para aterrizar en T=158: ID 3 (E_k: 134, L_k: 561)
+
+--- Iteración 10, Tiempo Actual (T): 158 ---
+Aviones pendientes: [2, 5, 7, 13, 14, 15, 16, 17, 18, 19, 20]
+Último avión aterrizado: ID 3 en t=158
+  Avión global con menor E_k pendiente: ID 19 (E_k: 144)
+  Adelantando T de 158 a 173 para permitir aterrizar al avión ID 19 (menor E_k global).
+  Candidatos para aterrizar en T=173 (ventana y separación OK): [2, 19, 20]
+  Avión seleccionado para aterrizar en T=173: ID 19 (E_k: 144, L_k: 607)
+
+--- Iteración 11, Tiempo Actual (T): 173 ---
+Aviones pendientes: [2, 5, 7, 13, 14, 15, 16, 17, 18, 20]
+Último avión aterrizado: ID 19 en t=173
+  Avión global con menor E_k pendiente: ID 20 (E_k: 151)
+  Adelantando T de 173 a 181 para permitir aterrizar al avión ID 20 (menor E_k global).
+  Candidatos para aterrizar en T=181 (ventana y separación OK): [20]
+  Avión seleccionado para aterrizar en T=181: ID 20 (E_k: 151, L_k: 624)
+
+--- Iteración 12, Tiempo Actual (T): 181 ---
+Aviones pendientes: [2, 5, 7, 13, 14, 15, 16, 17, 18]
+Último avión aterrizado: ID 20 en t=181
+  Avión global con menor E_k pendiente: ID 2 (E_k: 157)
+  Adelantando T de 181 a 196 para permitir aterrizar al avión ID 2 (menor E_k global).
+  Candidatos para aterrizar en T=196 (ventana y separación OK): [2, 7]
+  Avión seleccionado para aterrizar en T=196: ID 2 (E_k: 157, L_k: 628)
+
+--- Iteración 13, Tiempo Actual (T): 196 ---
+Aviones pendientes: [5, 7, 13, 14, 15, 16, 17, 18]
+Último avión aterrizado: ID 2 en t=196
+  Avión global con menor E_k pendiente: ID 7 (E_k: 185)
+  Adelantando T de 196 a 199 para permitir aterrizar al avión ID 7 (menor E_k global).
+  Candidatos para aterrizar en T=199 (ventana y separación OK): [7]
+  Avión seleccionado para aterrizar en T=199: ID 7 (E_k: 185, L_k: 664)
+
+--- Iteración 14, Tiempo Actual (T): 199 ---
+Aviones pendientes: [5, 13, 14, 15, 16, 17, 18]
+Último avión aterrizado: ID 7 en t=199
+  Avión global con menor E_k pendiente: ID 5 (E_k: 201)
+  Adelantando T de 199 a 202 para permitir aterrizar al avión ID 5 (menor E_k global).
+  Candidatos para aterrizar en T=202 (ventana y separación OK): [5]
+  Avión seleccionado para aterrizar en T=202: ID 5 (E_k: 201, L_k: 735)
+
+--- Iteración 15, Tiempo Actual (T): 202 ---
+Aviones pendientes: [13, 14, 15, 16, 17, 18]
+Último avión aterrizado: ID 5 en t=202
+  Avión global con menor E_k pendiente: ID 15 (E_k: 214)
+  Adelantando T de 202 a 214 para permitir aterrizar al avión ID 15 (menor E_k global).
+  Candidatos para aterrizar en T=214 (ventana y separación OK): [15]
+  Avión seleccionado para aterrizar en T=214: ID 15 (E_k: 214, L_k: 688)
+
+--- Iteración 16, Tiempo Actual (T): 214 ---
+Aviones pendientes: [13, 14, 16, 17, 18]
+Último avión aterrizado: ID 15 en t=214
+  Avión global con menor E_k pendiente: ID 18 (E_k: 237)
+  Adelantando T de 214 a 237 para permitir aterrizar al avión ID 18 (menor E_k global).
+  Candidatos para aterrizar en T=237 (ventana y separación OK): [18]
+  Avión seleccionado para aterrizar en T=237: ID 18 (E_k: 237, L_k: 726)
+
+--- Iteración 17, Tiempo Actual (T): 237 ---
+Aviones pendientes: [13, 14, 16, 17]
+Último avión aterrizado: ID 18 en t=237
+  Avión global con menor E_k pendiente: ID 14 (E_k: 250)
+  Adelantando T de 237 a 250 para permitir aterrizar al avión ID 14 (menor E_k global).
+  Candidatos para aterrizar en T=250 (ventana y separación OK): [14]
+  Avión seleccionado para aterrizar en T=250: ID 14 (E_k: 250, L_k: 790)
+
+--- Iteración 18, Tiempo Actual (T): 250 ---
+Aviones pendientes: [13, 16, 17]
+Último avión aterrizado: ID 14 en t=250
+  Avión global con menor E_k pendiente: ID 13 (E_k: 261)
+  Adelantando T de 250 a 261 para permitir aterrizar al avión ID 13 (menor E_k global).
+  Candidatos para aterrizar en T=261 (ventana y separación OK): [13]
+  Avión seleccionado para aterrizar en T=261: ID 13 (E_k: 261, L_k: 834)
+
+--- Iteración 19, Tiempo Actual (T): 261 ---
+Aviones pendientes: [16, 17]
+Último avión aterrizado: ID 13 en t=261
+  Avión global con menor E_k pendiente: ID 17 (E_k: 269)
+  Adelantando T de 261 a 269 para permitir aterrizar al avión ID 17 (menor E_k global).
+  Candidatos para aterrizar en T=269 (ventana y separación OK): [17]
+  Avión seleccionado para aterrizar en T=269: ID 17 (E_k: 269, L_k: 818)
+
+--- Iteración 20, Tiempo Actual (T): 269 ---
+Aviones pendientes: [16]
+Último avión aterrizado: ID 17 en t=269
+  Avión global con menor E_k pendiente: ID 16 (E_k: 310)
+  Adelantando T de 269 a 310 para permitir aterrizar al avión ID 16 (menor E_k global).
+  Candidatos para aterrizar en T=310 (ventana y separación OK): [16]
+  Avión seleccionado para aterrizar en T=310: ID 16 (E_k: 310, L_k: 967)
+¡Todos los aviones han sido programados!
+
+--- Algoritmo Greedy (Priorizar Menor E_k) Finalizado ---
+
+--- Resumen de Factibilidad Final (Greedy Priorizar Menor E_k) ---
+✅ La solución encontrada es factible.
+
+Horario de Aterrizaje Detallado (Greedy Priorizar Menor E_k):
+  Avión ID 1: aterriza en t = 75
+  Avión ID 6: aterriza en t = 95
+  Avión ID 8: aterriza en t = 103
+  Avión ID 4: aterriza en t = 111
+  Avión ID 12: aterriza en t = 119
+  Avión ID 10: aterriza en t = 127
+  Avión ID 9: aterriza en t = 135
+  Avión ID 11: aterriza en t = 143
+  Avión ID 3: aterriza en t = 158
+  Avión ID 19: aterriza en t = 173
+  Avión ID 20: aterriza en t = 181
+  Avión ID 2: aterriza en t = 196
+  Avión ID 7: aterriza en t = 199
+  Avión ID 5: aterriza en t = 202
+  Avión ID 15: aterriza en t = 214
+  Avión ID 18: aterriza en t = 237
+  Avión ID 14: aterriza en t = 250
+  Avión ID 13: aterriza en t = 261
+  Avión ID 17: aterriza en t = 269
+  Avión ID 16: aterriza en t = 310
+
+--- Cálculo de Costo Total de la Programación ---
+--------------------------------------------------
+  Avión ID  1 (Aterrizó:   75, Preferente:   82, Ventana: [  75, 486]): Costo:   210.00 (7 unidades temprano * 30.0/unidad)
+  Avión ID  2 (Aterrizó:  196, Preferente:  197, Ventana: [ 157, 628]): Costo:    10.00 (1 unidades temprano * 10.0/unidad)
+  Avión ID  3 (Aterrizó:  158, Preferente:  160, Ventana: [ 134, 561]): Costo:    20.00 (2 unidades temprano * 10.0/unidad)
+  Avión ID  4 (Aterrizó:  111, Preferente:  117, Ventana: [ 103, 565]): Costo:   180.00 (6 unidades temprano * 30.0/unidad)
+  Avión ID  5 (Aterrizó:  202, Preferente:  261, Ventana: [ 201, 735]): Costo:   590.00 (59 unidades temprano * 10.0/unidad)
+  Avión ID  6 (Aterrizó:   95, Preferente:  106, Ventana: [  95, 524]): Costo:   330.00 (11 unidades temprano * 30.0/unidad)
+  Avión ID  7 (Aterrizó:  199, Preferente:  229, Ventana: [ 185, 664]): Costo:   300.00 (30 unidades temprano * 10.0/unidad)
+  Avión ID  8 (Aterrizó:  103, Preferente:  108, Ventana: [  98, 523]): Costo:   150.00 (5 unidades temprano * 30.0/unidad)
+  Avión ID  9 (Aterrizó:  135, Preferente:  132, Ventana: [ 117, 578]): Costo:    90.00 (+3 unidades tarde * 30.0/unidad)
+  Avión ID 10 (Aterrizó:  127, Preferente:  130, Ventana: [ 117, 569]): Costo:    90.00 (3 unidades temprano * 30.0/unidad)
+  Avión ID 11 (Aterrizó:  143, Preferente:  149, Ventana: [ 132, 615]): Costo:   180.00 (6 unidades temprano * 30.0/unidad)
+  Avión ID 12 (Aterrizó:  119, Preferente:  126, Ventana: [ 114, 551]): Costo:   210.00 (7 unidades temprano * 30.0/unidad)
+  Avión ID 13 (Aterrizó:  261, Preferente:  336, Ventana: [ 261, 834]): Costo:   750.00 (75 unidades temprano * 10.0/unidad)
+  Avión ID 14 (Aterrizó:  250, Preferente:  316, Ventana: [ 250, 790]): Costo:   660.00 (66 unidades temprano * 10.0/unidad)
+  Avión ID 15 (Aterrizó:  214, Preferente:  258, Ventana: [ 214, 688]): Costo:   440.00 (44 unidades temprano * 10.0/unidad)
+  Avión ID 16 (Aterrizó:  310, Preferente:  409, Ventana: [ 310, 967]): Costo:   990.00 (99 unidades temprano * 10.0/unidad)
+  Avión ID 17 (Aterrizó:  269, Preferente:  338, Ventana: [ 269, 818]): Costo:   690.00 (69 unidades temprano * 10.0/unidad)
+  Avión ID 18 (Aterrizó:  237, Preferente:  287, Ventana: [ 237, 726]): Costo:   500.00 (50 unidades temprano * 10.0/unidad)
+  Avión ID 19 (Aterrizó:  173, Preferente:  160, Ventana: [ 144, 607]): Costo:   390.00 (+13 unidades tarde * 30.0/unidad)
+  Avión ID 20 (Aterrizó:  181, Preferente:  169, Ventana: [ 151, 624]): Costo:   360.00 (+12 unidades tarde * 30.0/unidad)
+--------------------------------------------------
+Costo Total de la Programación (solo aviones aterrizados): 7140.00
+--- Fin Cálculo de Costo ---
+
+¡¡¡FELICIDADES!!! ¡Todos los aviones fueron programados con esta lógica!
+
+--- Matriz de Horario de Aterrizaje ---
+---------------------------------------
+| Tiempo Aterrizaje | ID Avión      |
+|-------------------|---------------|
+| 75                | 1             |
+| 95                | 6             |
+| 103               | 8             |
+| 111               | 4             |
+| 119               | 12            |
+| 127               | 10            |
+| 135               | 9             |
+| 143               | 11            |
+| 158               | 3             |
+| 173               | 19            |
+| 181               | 20            |
+| 196               | 2             |
+| 199               | 7             |
+| 202               | 5             |
+| 214               | 15            |
+| 237               | 18            |
+| 250               | 14            |
+| 261               | 13            |
+| 269               | 17            |
+| 310               | 16            |
+---------------------------------------
+jb@jb-pc1:~/Desktop/T2_AEyM$ 

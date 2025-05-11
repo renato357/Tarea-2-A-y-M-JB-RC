@@ -1,0 +1,189 @@
+    ILS Restart #3/5:
+      3a. Perturbando solución actual (costo: 2430.00)...
+  [Factibilidad] Solución es factible.
+      Solución perturbada (factible). Costo: 3890.00
+      3b. Aplicando HC a solución perturbada...
+  [Factibilidad] Solución es factible.
+      ILS no mejoró la mejor solución de esta GRASP (Mejor actual GRASP: 2430.00)
+
+    ILS Restart #4/5:
+      3a. Perturbando solución actual (costo: 2430.00)...
+  [Factibilidad] Solución es factible.
+      Solución perturbada (factible). Costo: 4710.00
+      3b. Aplicando HC a solución perturbada...
+  [Factibilidad] Solución es factible.
+      ILS encontró nueva mejor solución para esta GRASP. Costo: 2250.00
+
+    ILS Restart #5/5:
+      3a. Perturbando solución actual (costo: 2250.00)...
+  [Factibilidad] Solución es factible.
+      Solución perturbada (factible). Costo: 5170.00
+      3b. Aplicando HC a solución perturbada...
+  [Factibilidad] Solución es factible.
+      ILS no mejoró la mejor solución de esta GRASP (Mejor actual GRASP: 2250.00)
+
+--- Fin Ejecución GRASP (Semilla: 1). Mejor Costo Final Encontrado: 2250.00 (Costo Inicial Construcción: 7320.00) ---
+  [Factibilidad] Solución es factible.
+Ejecución GRASP con semilla 1 finalizada. Costo Inicial: 7320.00, Costo Final: 2250.00. (No superó el mejor global: 1680.00)
+
+========================= EJECUCIÓN GRASP GLOBAL #9/10 (Semilla: 100) =========================
+
+--- Iniciando Ejecución GRASP con Semilla: 100 ---
+  1. Fase de Construcción (Greedy Estocástico)...
+    Construcción GRASP exitosa en intento 1/1000. Costo: 8690.00
+
+  2. Búsqueda Local Inicial (Hill Climbing) tras construcción...
+  [Factibilidad] Solución es factible.
+    HC inicial mejoró la solución. Nuevo mejor costo GRASP: 5030.00
+
+  3. Búsqueda Local Iterada (ILS) - 5 restarts de perturbación...
+
+    ILS Restart #1/5:
+      3a. Perturbando solución actual (costo: 5030.00)...
+  [Factibilidad] Solución es factible.
+      Solución perturbada (factible). Costo: 4470.00
+      3b. Aplicando HC a solución perturbada...
+  [Factibilidad] Solución es factible.
+      ILS encontró nueva mejor solución para esta GRASP. Costo: 1850.00
+
+    ILS Restart #2/5:
+      3a. Perturbando solución actual (costo: 1850.00)...
+  [Factibilidad] Solución es factible.
+      Solución perturbada (factible). Costo: 4550.00
+      3b. Aplicando HC a solución perturbada...
+  [Factibilidad] Solución es factible.
+      ILS no mejoró la mejor solución de esta GRASP (Mejor actual GRASP: 1850.00)
+
+    ILS Restart #3/5:
+      3a. Perturbando solución actual (costo: 1850.00)...
+  [Factibilidad] Solución es factible.
+      Solución perturbada (factible). Costo: 4050.00
+      3b. Aplicando HC a solución perturbada...
+  [Factibilidad] Solución es factible.
+      ILS no mejoró la mejor solución de esta GRASP (Mejor actual GRASP: 1850.00)
+
+    ILS Restart #4/5:
+      3a. Perturbando solución actual (costo: 1850.00)...
+  [Factibilidad] Solución es factible.
+      Solución perturbada (factible). Costo: 3650.00
+      3b. Aplicando HC a solución perturbada...
+  [Factibilidad] Solución es factible.
+      ILS encontró nueva mejor solución para esta GRASP. Costo: 1790.00
+
+    ILS Restart #5/5:
+      3a. Perturbando solución actual (costo: 1790.00)...
+  [Factibilidad] Solución es factible.
+      Solución perturbada (factible). Costo: 3970.00
+      3b. Aplicando HC a solución perturbada...
+  [Factibilidad] Solución es factible.
+      ILS no mejoró la mejor solución de esta GRASP (Mejor actual GRASP: 1790.00)
+
+--- Fin Ejecución GRASP (Semilla: 100). Mejor Costo Final Encontrado: 1790.00 (Costo Inicial Construcción: 8690.00) ---
+  [Factibilidad] Solución es factible.
+Ejecución GRASP con semilla 100 finalizada. Costo Inicial: 8690.00, Costo Final: 1790.00. (No superó el mejor global: 1680.00)
+
+========================= EJECUCIÓN GRASP GLOBAL #10/10 (Semilla: 314) =========================
+
+--- Iniciando Ejecución GRASP con Semilla: 314 ---
+  1. Fase de Construcción (Greedy Estocástico)...
+    Construcción GRASP exitosa en intento 1/1000. Costo: 8540.00
+
+  2. Búsqueda Local Inicial (Hill Climbing) tras construcción...
+  [Factibilidad] Solución es factible.
+    HC inicial mejoró la solución. Nuevo mejor costo GRASP: 3850.00
+
+  3. Búsqueda Local Iterada (ILS) - 5 restarts de perturbación...
+
+    ILS Restart #1/5:
+      3a. Perturbando solución actual (costo: 3850.00)...
+  [Factibilidad] Solución es factible.
+      Solución perturbada (factible). Costo: 5010.00
+      3b. Aplicando HC a solución perturbada...
+  [Factibilidad] Solución es factible.
+      ILS no mejoró la mejor solución de esta GRASP (Mejor actual GRASP: 3850.00)
+
+    ILS Restart #2/5:
+      3a. Perturbando solución actual (costo: 3850.00)...
+  [Factibilidad] Solución es factible.
+      Solución perturbada (factible). Costo: 6810.00
+      3b. Aplicando HC a solución perturbada...
+  [Factibilidad] Solución es factible.
+      ILS no mejoró la mejor solución de esta GRASP (Mejor actual GRASP: 3850.00)
+
+    ILS Restart #3/5:
+      3a. Perturbando solución actual (costo: 3850.00)...
+  [Factibilidad] Solución es factible.
+      Solución perturbada (factible). Costo: 5890.00
+      3b. Aplicando HC a solución perturbada...
+  [Factibilidad] Solución es factible.
+      ILS no mejoró la mejor solución de esta GRASP (Mejor actual GRASP: 3850.00)
+
+    ILS Restart #4/5:
+      3a. Perturbando solución actual (costo: 3850.00)...
+  [Factibilidad] Solución es factible.
+      Solución perturbada (factible). Costo: 6890.00
+      3b. Aplicando HC a solución perturbada...
+  [Factibilidad] Solución es factible.
+      ILS no mejoró la mejor solución de esta GRASP (Mejor actual GRASP: 3850.00)
+
+    ILS Restart #5/5:
+      3a. Perturbando solución actual (costo: 3850.00)...
+  [Factibilidad] Solución es factible.
+      Solución perturbada (factible). Costo: 5430.00
+      3b. Aplicando HC a solución perturbada...
+  [Factibilidad] Solución es factible.
+      ILS no mejoró la mejor solución de esta GRASP (Mejor actual GRASP: 3850.00)
+
+--- Fin Ejecución GRASP (Semilla: 314). Mejor Costo Final Encontrado: 3850.00 (Costo Inicial Construcción: 8540.00) ---
+  [Factibilidad] Solución es factible.
+Ejecución GRASP con semilla 314 finalizada. Costo Inicial: 8540.00, Costo Final: 3850.00. (No superó el mejor global: 1680.00)
+
+
+========================= RESULTADOS FINALES DEL PROCESO GRASP-ILS =========================
+
+Resumen de costos por semilla (Inicial -> Final):
+  Semilla: 42   -> Costo Inicial: 7240.00, Costo Final: 1680.00
+  Semilla: 123  -> Costo Inicial: 8540.00, Costo Final: 2660.00
+  Semilla: 7    -> Costo Inicial: 7320.00, Costo Final: 1880.00
+  Semilla: 99   -> Costo Inicial: 8680.00, Costo Final: 4130.00
+  Semilla: 500  -> Costo Inicial: 9760.00, Costo Final: 3240.00
+  Semilla: 777  -> Costo Inicial: 7380.00, Costo Final: 1900.00
+  Semilla: 2024 -> Costo Inicial: 7740.00, Costo Final: 2310.00
+  Semilla: 1    -> Costo Inicial: 7320.00, Costo Final: 2250.00
+  Semilla: 100  -> Costo Inicial: 8690.00, Costo Final: 1790.00
+  Semilla: 314  -> Costo Inicial: 8540.00, Costo Final: 3850.00
+
+Mejor solución global encontrada con costo inicial: 7240.00 y costo final: 1680.00 (originada por semilla: 42)
+Horario de la mejor solución global:
+
+--- Mejor Horario Global GRASP-ILS (Semilla 42) ---
+---------------------------------------
+| Tiempo Aterrizaje | ID Avión      |
+|-------------------|---------------|
+| 82                | 1             |
+| 95                | 6             |
+| 103               | 8             |
+| 111               | 4             |
+| 119               | 10            |
+| 127               | 12            |
+| 135               | 9             |
+| 149               | 11            |
+| 160               | 19            |
+| 169               | 20            |
+| 194               | 3             |
+| 197               | 2             |
+| 229               | 7             |
+| 258               | 15            |
+| 261               | 5             |
+| 287               | 18            |
+| 316               | 14            |
+| 338               | 17            |
+| 359               | 13            |
+| 409               | 16            |
+---------------------------------------
+  [Factibilidad] Solución es factible.
+
+La mejor solución global reportada ES factible según la verificación final.
+
+Gráfico de evolución de costos GRASP-ILS guardado como: grasp_ils_costo_evolucion_case2.png
+jb@jb-pc1:~/Desktop/T2_AEyM$ 

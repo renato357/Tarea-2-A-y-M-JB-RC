@@ -1,0 +1,210 @@
+/bin/python3 /home/jb/Desktop/T2_AEyM/greedydeterminista_2pistas.py
+jb@jb-pc1:~/Desktop/T2_AEyM$ /bin/python3 /home/jb/Desktop/T2_AEyM/greedydeterminista_2pistas.py
+Datos leídos correctamente para 44 aviones desde 'case3.txt'.
+
+
+Tiempos principales de aterrizaje por avión:
+----------------------------------------------------------------------
+ID    | Temprano (E_k)  | Preferente (P_k)   | Tardío (L_k)   
+----------------------------------------------------------------------
+1     | 0               | 0                  | 0              
+2     | 79              | 137                | 196            
+3     | 146             | 271                | 396            
+4     | 226             | 351                | 476            
+5     | 306             | 431                | 556            
+6     | 378             | 503                | 628            
+7     | 528             | 626                | 724            
+8     | 635             | 727                | 820            
+9     | 770             | 895                | 1020           
+10    | 842             | 967                | 1092           
+11    | 1042            | 1167               | 1292           
+12    | 1114            | 1239               | 1364           
+13    | 1314            | 1439               | 1564           
+14    | 1394            | 1519               | 1644           
+15    | 1466            | 1591               | 1716           
+16    | 1666            | 1791               | 1916           
+17    | 1746            | 1871               | 1996           
+18    | 1818            | 1943               | 2068           
+19    | 2018            | 2143               | 2268           
+20    | 2098            | 2223               | 2348           
+21    | 2170            | 2295               | 2420           
+22    | 2266            | 2391               | 2516           
+23    | 2466            | 2591               | 2716           
+24    | 2538            | 2663               | 2788           
+25    | 2738            | 2863               | 2988           
+26    | 2818            | 2943               | 3068           
+27    | 2898            | 3023               | 3148           
+28    | 2978            | 3103               | 3228           
+29    | 3050            | 3175               | 3300           
+30    | 3146            | 3271               | 3396           
+31    | 3346            | 3471               | 3596           
+32    | 3418            | 3543               | 3668           
+33    | 3618            | 3743               | 3868           
+34    | 3690            | 3815               | 3940           
+35    | 3786            | 3911               | 4036           
+36    | 3986            | 4111               | 4236           
+37    | 4066            | 4191               | 4316           
+38    | 4146            | 4271               | 4396           
+39    | 4218            | 4343               | 4468           
+40    | 4314            | 4439               | 4564           
+41    | 4410            | 4535               | 4660           
+42    | 4506            | 4631               | 4756           
+43    | 4602            | 4727               | 4852           
+44    | 4802            | 4927               | 5052           
+----------------------------------------------------------------------
+
+--- Ejecutando Algoritmo Greedy Determinista para 2 Pistas ---
+  Aterrizaje programado: Avión ID 1 en Pista 0 en t = 0
+  Aterrizaje programado: Avión ID 2 en Pista 1 en t = 79
+  Aterrizaje programado: Avión ID 3 en Pista 0 en t = 200
+  Aterrizaje programado: Avión ID 4 en Pista 1 en t = 279
+  Aterrizaje programado: Avión ID 5 en Pista 0 en t = 306
+  Aterrizaje programado: Avión ID 6 en Pista 0 en t = 378
+  Aterrizaje programado: Avión ID 7 en Pista 0 en t = 528
+  Aterrizaje programado: Avión ID 8 en Pista 0 en t = 635
+  Aterrizaje programado: Avión ID 9 en Pista 1 en t = 770
+  Aterrizaje programado: Avión ID 10 en Pista 0 en t = 842
+  Aterrizaje programado: Avión ID 11 en Pista 0 en t = 1042
+  Aterrizaje programado: Avión ID 12 en Pista 0 en t = 1114
+  Aterrizaje programado: Avión ID 13 en Pista 0 en t = 1314
+  Aterrizaje programado: Avión ID 14 en Pista 0 en t = 1394
+  Aterrizaje programado: Avión ID 15 en Pista 0 en t = 1466
+  Aterrizaje programado: Avión ID 16 en Pista 0 en t = 1666
+  Aterrizaje programado: Avión ID 17 en Pista 0 en t = 1746
+  Aterrizaje programado: Avión ID 18 en Pista 0 en t = 1818
+  Aterrizaje programado: Avión ID 19 en Pista 0 en t = 2018
+  Aterrizaje programado: Avión ID 20 en Pista 0 en t = 2098
+  Aterrizaje programado: Avión ID 21 en Pista 0 en t = 2170
+  Aterrizaje programado: Avión ID 22 en Pista 0 en t = 2266
+  Aterrizaje programado: Avión ID 23 en Pista 0 en t = 2466
+  Aterrizaje programado: Avión ID 24 en Pista 0 en t = 2538
+  Aterrizaje programado: Avión ID 25 en Pista 0 en t = 2738
+  Aterrizaje programado: Avión ID 26 en Pista 0 en t = 2818
+  Aterrizaje programado: Avión ID 27 en Pista 0 en t = 2898
+  Aterrizaje programado: Avión ID 28 en Pista 0 en t = 2978
+  Aterrizaje programado: Avión ID 29 en Pista 0 en t = 3050
+  Aterrizaje programado: Avión ID 30 en Pista 0 en t = 3146
+  Aterrizaje programado: Avión ID 31 en Pista 0 en t = 3346
+  Aterrizaje programado: Avión ID 32 en Pista 0 en t = 3418
+  Aterrizaje programado: Avión ID 33 en Pista 0 en t = 3618
+  Aterrizaje programado: Avión ID 34 en Pista 0 en t = 3690
+  Aterrizaje programado: Avión ID 35 en Pista 0 en t = 3786
+  Aterrizaje programado: Avión ID 36 en Pista 0 en t = 3986
+  Aterrizaje programado: Avión ID 37 en Pista 0 en t = 4066
+  Aterrizaje programado: Avión ID 38 en Pista 0 en t = 4146
+  Aterrizaje programado: Avión ID 39 en Pista 0 en t = 4218
+  Aterrizaje programado: Avión ID 40 en Pista 0 en t = 4314
+  Aterrizaje programado: Avión ID 41 en Pista 0 en t = 4410
+  Aterrizaje programado: Avión ID 42 en Pista 0 en t = 4506
+  Aterrizaje programado: Avión ID 43 en Pista 0 en t = 4602
+  Aterrizaje programado: Avión ID 44 en Pista 0 en t = 4802
+
+--- Algoritmo Greedy Determinista para 2 Pistas Finalizado ---
+
+--- Resumen de Factibilidad Final (Greedy 2 Pistas) ---
+✅ La solución encontrada es factible.
+
+--- Cálculo de Costo Total de la Programación (2 Pistas) ---
+----------------------------------------------------------------------
+ID    | Pista   | T.Aterrizaje | T.Preferente | Costo Avión  | Detalle
+----------------------------------------------------------------------
+1     | 0       | 0            | 0            | 0.00         | En tiempo preferente
+2     | 1       | 79           | 137          | 116.00       | 58 temp. * 2.0/u
+3     | 0       | 200          | 271          | 71.00        | 71 temp. * 1.0/u
+4     | 1       | 279          | 351          | 72.00        | 72 temp. * 1.0/u
+5     | 0       | 306          | 431          | 125.00       | 125 temp. * 1.0/u
+6     | 0       | 378          | 503          | 250.00       | 125 temp. * 2.0/u
+7     | 0       | 528          | 626          | 196.00       | 98 temp. * 2.0/u
+8     | 0       | 635          | 727          | 184.00       | 92 temp. * 2.0/u
+9     | 1       | 770          | 895          | 125.00       | 125 temp. * 1.0/u
+10    | 0       | 842          | 967          | 250.00       | 125 temp. * 2.0/u
+11    | 0       | 1042         | 1167         | 125.00       | 125 temp. * 1.0/u
+12    | 0       | 1114         | 1239         | 250.00       | 125 temp. * 2.0/u
+13    | 0       | 1314         | 1439         | 125.00       | 125 temp. * 1.0/u
+14    | 0       | 1394         | 1519         | 125.00       | 125 temp. * 1.0/u
+15    | 0       | 1466         | 1591         | 250.00       | 125 temp. * 2.0/u
+16    | 0       | 1666         | 1791         | 125.00       | 125 temp. * 1.0/u
+17    | 0       | 1746         | 1871         | 125.00       | 125 temp. * 1.0/u
+18    | 0       | 1818         | 1943         | 250.00       | 125 temp. * 2.0/u
+19    | 0       | 2018         | 2143         | 125.00       | 125 temp. * 1.0/u
+20    | 0       | 2098         | 2223         | 125.00       | 125 temp. * 1.0/u
+21    | 0       | 2170         | 2295         | 250.00       | 125 temp. * 2.0/u
+22    | 0       | 2266         | 2391         | 250.00       | 125 temp. * 2.0/u
+23    | 0       | 2466         | 2591         | 125.00       | 125 temp. * 1.0/u
+24    | 0       | 2538         | 2663         | 250.00       | 125 temp. * 2.0/u
+25    | 0       | 2738         | 2863         | 125.00       | 125 temp. * 1.0/u
+26    | 0       | 2818         | 2943         | 125.00       | 125 temp. * 1.0/u
+27    | 0       | 2898         | 3023         | 125.00       | 125 temp. * 1.0/u
+28    | 0       | 2978         | 3103         | 125.00       | 125 temp. * 1.0/u
+29    | 0       | 3050         | 3175         | 250.00       | 125 temp. * 2.0/u
+30    | 0       | 3146         | 3271         | 250.00       | 125 temp. * 2.0/u
+31    | 0       | 3346         | 3471         | 125.00       | 125 temp. * 1.0/u
+32    | 0       | 3418         | 3543         | 250.00       | 125 temp. * 2.0/u
+33    | 0       | 3618         | 3743         | 125.00       | 125 temp. * 1.0/u
+34    | 0       | 3690         | 3815         | 250.00       | 125 temp. * 2.0/u
+35    | 0       | 3786         | 3911         | 250.00       | 125 temp. * 2.0/u
+36    | 0       | 3986         | 4111         | 125.00       | 125 temp. * 1.0/u
+37    | 0       | 4066         | 4191         | 125.00       | 125 temp. * 1.0/u
+38    | 0       | 4146         | 4271         | 125.00       | 125 temp. * 1.0/u
+39    | 0       | 4218         | 4343         | 250.00       | 125 temp. * 2.0/u
+40    | 0       | 4314         | 4439         | 250.00       | 125 temp. * 2.0/u
+41    | 0       | 4410         | 4535         | 250.00       | 125 temp. * 2.0/u
+42    | 0       | 4506         | 4631         | 250.00       | 125 temp. * 2.0/u
+43    | 0       | 4602         | 4727         | 250.00       | 125 temp. * 2.0/u
+44    | 0       | 4802         | 4927         | 125.00       | 125 temp. * 1.0/u
+----------------------------------------------------------------------
+Costo Total de la Programación (solo aviones aterrizados): 7639.00
+--- Fin Cálculo de Costo ---
+
+¡¡¡FELICIDADES!!! ¡Todos los aviones fueron programados con esta lógica de 2 pistas!
+
+--- Matriz de Horario de Aterrizaje (2 Pistas) ---
+----------------------------------------------------
+| Tiempo Aterrizaje  | ID Avión   | Pista   |
+|--------------------|------------|---------|
+| 0                  | 1          | 0       |
+| 79                 | 2          | 1       |
+| 200                | 3          | 0       |
+| 279                | 4          | 1       |
+| 306                | 5          | 0       |
+| 378                | 6          | 0       |
+| 528                | 7          | 0       |
+| 635                | 8          | 0       |
+| 770                | 9          | 1       |
+| 842                | 10         | 0       |
+| 1042               | 11         | 0       |
+| 1114               | 12         | 0       |
+| 1314               | 13         | 0       |
+| 1394               | 14         | 0       |
+| 1466               | 15         | 0       |
+| 1666               | 16         | 0       |
+| 1746               | 17         | 0       |
+| 1818               | 18         | 0       |
+| 2018               | 19         | 0       |
+| 2098               | 20         | 0       |
+| 2170               | 21         | 0       |
+| 2266               | 22         | 0       |
+| 2466               | 23         | 0       |
+| 2538               | 24         | 0       |
+| 2738               | 25         | 0       |
+| 2818               | 26         | 0       |
+| 2898               | 27         | 0       |
+| 2978               | 28         | 0       |
+| 3050               | 29         | 0       |
+| 3146               | 30         | 0       |
+| 3346               | 31         | 0       |
+| 3418               | 32         | 0       |
+| 3618               | 33         | 0       |
+| 3690               | 34         | 0       |
+| 3786               | 35         | 0       |
+| 3986               | 36         | 0       |
+| 4066               | 37         | 0       |
+| 4146               | 38         | 0       |
+| 4218               | 39         | 0       |
+| 4314               | 40         | 0       |
+| 4410               | 41         | 0       |
+| 4506               | 42         | 0       |
+| 4602               | 43         | 0       |
+| 4802               | 44         | 0       |
+----------------------------------------------------
+jb@jb-pc1:~/Desktop/T2_AEyM$ 

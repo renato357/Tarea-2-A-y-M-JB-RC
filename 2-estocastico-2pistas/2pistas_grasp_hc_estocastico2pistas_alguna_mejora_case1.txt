@@ -1,0 +1,433 @@
+jb@jb-pc1:~/Desktop/T2_AEyM$ /bin/python3 /home/jb/Desktop/T2_AEyM/grasp_hc_estocastico2pistas_alguna_mejora.py
+>>> Iniciando Proceso GRASP con ILS (2 Pistas) <<<
+Archivo de datos: case1.txt
+Número de ejecuciones GRASP separadas: 10
+Parámetros GRASP/ILS: {'max_intentos_construccion_por_grasp': 1000, 'paso_delta_hc': 50, 'max_iter_hc': 500, 'num_restarts_ils': 5, 'num_switches_perturbacion': 3}
+Leídos 15 aviones.
+
+
+========================= EJECUCIÓN GRASP GLOBAL (2 Pistas) #1/10 (Semilla Constr.: 42) =========================
+  GRASP: Iniciando Fase de Construcción (2 Pistas)...
+    Construcción GRASP (2 Pistas) exitosa en intento 1. Costo: 5720.00
+  GRASP (2 Pistas): Aplicando HC inicial (Costo: 5720.00)...
+  [Factibilidad] Solución es factible.
+  [Factibilidad] Solución es factible.
+  GRASP (2 Pistas): Costo tras HC inicial: 390.00
+
+  GRASP (2 Pistas): Iniciando Fase ILS (5 restarts)...
+    ILS Restart #1/5
+      ILS: Aplicando HC a solución perturbada...
+  [Factibilidad] Solución es factible.
+  [Factibilidad] Solución es factible.
+      ILS: Costo tras HC de perturbación: 1230.00
+    ILS Restart #2/5
+      ILS: Aplicando HC a solución perturbada...
+  [Factibilidad] Solución es factible.
+  [Factibilidad] Solución es factible.
+      ILS: Costo tras HC de perturbación: 390.00
+    ILS Restart #3/5
+      ILS: Aplicando HC a solución perturbada...
+  [Factibilidad] Solución es factible.
+  [Factibilidad] Solución es factible.
+      ILS: Costo tras HC de perturbación: 270.00
+    ILS Restart #4/5
+      ILS: Aplicando HC a solución perturbada...
+  [Factibilidad] Solución es factible.
+  [Factibilidad] Solución es factible.
+      ILS: Costo tras HC de perturbación: 560.00
+    ILS Restart #5/5
+      ILS: Aplicando HC a solución perturbada...
+  [Factibilidad] Solución es factible.
+  [Factibilidad] Solución es factible.
+      ILS: Costo tras HC de perturbación: 300.00
+--- Fin Ejecución GRASP con ILS (2 Pistas) (Semilla: 42). Mejor Costo: 270.00 (Inicial: 5720.00) ---
+  [Factibilidad] Solución es factible.
+¡NUEVA MEJOR SOLUCIÓN GLOBAL (2 Pistas) encontrada! Costo Inicial: 5720.00, Costo Final: 270.00 (Semilla constr.: 42)
+
+========================= EJECUCIÓN GRASP GLOBAL (2 Pistas) #2/10 (Semilla Constr.: 123) =========================
+  GRASP: Iniciando Fase de Construcción (2 Pistas)...
+    Construcción GRASP (2 Pistas) exitosa en intento 1. Costo: 5580.00
+  GRASP (2 Pistas): Aplicando HC inicial (Costo: 5580.00)...
+  [Factibilidad] Solución es factible.
+  [Factibilidad] Solución es factible.
+  GRASP (2 Pistas): Costo tras HC inicial: 360.00
+
+  GRASP (2 Pistas): Iniciando Fase ILS (5 restarts)...
+    ILS Restart #1/5
+      ILS: Aplicando HC a solución perturbada...
+  [Factibilidad] Solución es factible.
+  [Factibilidad] Solución es factible.
+      ILS: Costo tras HC de perturbación: 360.00
+    ILS Restart #2/5
+      ILS: Aplicando HC a solución perturbada...
+  [Factibilidad] Solución es factible.
+  [Factibilidad] Solución es factible.
+      ILS: Costo tras HC de perturbación: 390.00
+    ILS Restart #3/5
+      ILS: Aplicando HC a solución perturbada...
+  [Factibilidad] Solución es factible.
+  [Factibilidad] Solución es factible.
+      ILS: Costo tras HC de perturbación: 960.00
+    ILS Restart #4/5
+      ILS: Aplicando HC a solución perturbada...
+  [Factibilidad] Solución es factible.
+  [Factibilidad] Solución es factible.
+      ILS: Costo tras HC de perturbación: 390.00
+    ILS Restart #5/5
+      ILS: Aplicando HC a solución perturbada...
+  [Factibilidad] Solución es factible.
+  [Factibilidad] Solución es factible.
+      ILS: Costo tras HC de perturbación: 900.00
+--- Fin Ejecución GRASP con ILS (2 Pistas) (Semilla: 123). Mejor Costo: 360.00 (Inicial: 5580.00) ---
+  [Factibilidad] Solución es factible.
+Ejecución GRASP (2 Pistas) con semilla 123 finalizada. Costo Inicial: 5580.00, Costo Final: 360.00. (No superó mejor global: 270.00)
+
+========================= EJECUCIÓN GRASP GLOBAL (2 Pistas) #3/10 (Semilla Constr.: 7) =========================
+  GRASP: Iniciando Fase de Construcción (2 Pistas)...
+    Construcción GRASP (2 Pistas) exitosa en intento 1. Costo: 5480.00
+  GRASP (2 Pistas): Aplicando HC inicial (Costo: 5480.00)...
+  [Factibilidad] Solución es factible.
+  [Factibilidad] Solución es factible.
+  GRASP (2 Pistas): Costo tras HC inicial: 660.00
+
+  GRASP (2 Pistas): Iniciando Fase ILS (5 restarts)...
+    ILS Restart #1/5
+      ILS: Aplicando HC a solución perturbada...
+  [Factibilidad] Solución es factible.
+  [Factibilidad] Solución es factible.
+      ILS: Costo tras HC de perturbación: 480.00
+    ILS Restart #2/5
+      ILS: Aplicando HC a solución perturbada...
+  [Factibilidad] Solución es factible.
+  [Factibilidad] Solución es factible.
+      ILS: Costo tras HC de perturbación: 420.00
+    ILS Restart #3/5
+      ILS: Aplicando HC a solución perturbada...
+  [Factibilidad] Solución es factible.
+  [Factibilidad] Solución es factible.
+      ILS: Costo tras HC de perturbación: 1160.00
+    ILS Restart #4/5
+      ILS: Aplicando HC a solución perturbada...
+  [Factibilidad] Solución es factible.
+  [Factibilidad] Solución es factible.
+      ILS: Costo tras HC de perturbación: 630.00
+    ILS Restart #5/5
+      ILS: Aplicando HC a solución perturbada...
+  [Factibilidad] Solución es factible.
+  [Factibilidad] Solución es factible.
+      ILS: Costo tras HC de perturbación: 420.00
+--- Fin Ejecución GRASP con ILS (2 Pistas) (Semilla: 7). Mejor Costo: 420.00 (Inicial: 5480.00) ---
+  [Factibilidad] Solución es factible.
+Ejecución GRASP (2 Pistas) con semilla 7 finalizada. Costo Inicial: 5480.00, Costo Final: 420.00. (No superó mejor global: 270.00)
+
+========================= EJECUCIÓN GRASP GLOBAL (2 Pistas) #4/10 (Semilla Constr.: 99) =========================
+  GRASP: Iniciando Fase de Construcción (2 Pistas)...
+    Construcción GRASP (2 Pistas) exitosa en intento 1. Costo: 5060.00
+  GRASP (2 Pistas): Aplicando HC inicial (Costo: 5060.00)...
+  [Factibilidad] Solución es factible.
+  [Factibilidad] Solución es factible.
+  GRASP (2 Pistas): Costo tras HC inicial: 810.00
+
+  GRASP (2 Pistas): Iniciando Fase ILS (5 restarts)...
+    ILS Restart #1/5
+      ILS: Aplicando HC a solución perturbada...
+  [Factibilidad] Solución es factible.
+  [Factibilidad] Solución es factible.
+      ILS: Costo tras HC de perturbación: 630.00
+    ILS Restart #2/5
+      ILS: Aplicando HC a solución perturbada...
+  [Factibilidad] Solución es factible.
+  [Factibilidad] Solución es factible.
+      ILS: Costo tras HC de perturbación: 780.00
+    ILS Restart #3/5
+      ILS: Aplicando HC a solución perturbada...
+  [Factibilidad] Solución es factible.
+  [Factibilidad] Solución es factible.
+      ILS: Costo tras HC de perturbación: 1050.00
+    ILS Restart #4/5
+      ILS: Aplicando HC a solución perturbada...
+  [Factibilidad] Solución es factible.
+  [Factibilidad] Solución es factible.
+      ILS: Costo tras HC de perturbación: 1200.00
+    ILS Restart #5/5
+      ILS: Aplicando HC a solución perturbada...
+  [Factibilidad] Solución es factible.
+  [Factibilidad] Solución es factible.
+      ILS: Costo tras HC de perturbación: 1230.00
+--- Fin Ejecución GRASP con ILS (2 Pistas) (Semilla: 99). Mejor Costo: 630.00 (Inicial: 5060.00) ---
+  [Factibilidad] Solución es factible.
+Ejecución GRASP (2 Pistas) con semilla 99 finalizada. Costo Inicial: 5060.00, Costo Final: 630.00. (No superó mejor global: 270.00)
+
+========================= EJECUCIÓN GRASP GLOBAL (2 Pistas) #5/10 (Semilla Constr.: 500) =========================
+  GRASP: Iniciando Fase de Construcción (2 Pistas)...
+    Construcción GRASP (2 Pistas) exitosa en intento 1. Costo: 5680.00
+  GRASP (2 Pistas): Aplicando HC inicial (Costo: 5680.00)...
+  [Factibilidad] Solución es factible.
+  [Factibilidad] Solución es factible.
+  GRASP (2 Pistas): Costo tras HC inicial: 1200.00
+
+  GRASP (2 Pistas): Iniciando Fase ILS (5 restarts)...
+    ILS Restart #1/5
+      ILS: Aplicando HC a solución perturbada...
+  [Factibilidad] Solución es factible.
+  [Factibilidad] Solución es factible.
+      ILS: Costo tras HC de perturbación: 360.00
+    ILS Restart #2/5
+      ILS: Aplicando HC a solución perturbada...
+  [Factibilidad] Solución es factible.
+  [Factibilidad] Solución es factible.
+      ILS: Costo tras HC de perturbación: 900.00
+    ILS Restart #3/5
+      ILS: Aplicando HC a solución perturbada...
+  [Factibilidad] Solución es factible.
+  [Factibilidad] Solución es factible.
+      ILS: Costo tras HC de perturbación: 720.00
+    ILS Restart #4/5
+      ILS: Aplicando HC a solución perturbada...
+  [Factibilidad] Solución es factible.
+  [Factibilidad] Solución es factible.
+      ILS: Costo tras HC de perturbación: 480.00
+    ILS Restart #5/5
+      ILS: Aplicando HC a solución perturbada...
+  [Factibilidad] Solución es factible.
+  [Factibilidad] Solución es factible.
+      ILS: Costo tras HC de perturbación: 1130.00
+--- Fin Ejecución GRASP con ILS (2 Pistas) (Semilla: 500). Mejor Costo: 360.00 (Inicial: 5680.00) ---
+  [Factibilidad] Solución es factible.
+Ejecución GRASP (2 Pistas) con semilla 500 finalizada. Costo Inicial: 5680.00, Costo Final: 360.00. (No superó mejor global: 270.00)
+
+========================= EJECUCIÓN GRASP GLOBAL (2 Pistas) #6/10 (Semilla Constr.: 777) =========================
+  GRASP: Iniciando Fase de Construcción (2 Pistas)...
+    Construcción GRASP (2 Pistas) exitosa en intento 1. Costo: 5780.00
+  GRASP (2 Pistas): Aplicando HC inicial (Costo: 5780.00)...
+  [Factibilidad] Solución es factible.
+  [Factibilidad] Solución es factible.
+  GRASP (2 Pistas): Costo tras HC inicial: 780.00
+
+  GRASP (2 Pistas): Iniciando Fase ILS (5 restarts)...
+    ILS Restart #1/5
+      ILS: Aplicando HC a solución perturbada...
+  [Factibilidad] Solución es factible.
+  [Factibilidad] Solución es factible.
+      ILS: Costo tras HC de perturbación: 270.00
+    ILS Restart #2/5
+      ILS: Aplicando HC a solución perturbada...
+  [Factibilidad] Solución es factible.
+  [Factibilidad] Solución es factible.
+      ILS: Costo tras HC de perturbación: 700.00
+    ILS Restart #3/5
+      ILS: Aplicando HC a solución perturbada...
+  [Factibilidad] Solución es factible.
+  [Factibilidad] Solución es factible.
+      ILS: Costo tras HC de perturbación: 750.00
+    ILS Restart #4/5
+      ILS: Aplicando HC a solución perturbada...
+  [Factibilidad] Solución es factible.
+  [Factibilidad] Solución es factible.
+      ILS: Costo tras HC de perturbación: 430.00
+    ILS Restart #5/5
+      ILS: Aplicando HC a solución perturbada...
+  [Factibilidad] Solución es factible.
+  [Factibilidad] Solución es factible.
+      ILS: Costo tras HC de perturbación: 270.00
+--- Fin Ejecución GRASP con ILS (2 Pistas) (Semilla: 777). Mejor Costo: 270.00 (Inicial: 5780.00) ---
+  [Factibilidad] Solución es factible.
+Ejecución GRASP (2 Pistas) con semilla 777 finalizada. Costo Inicial: 5780.00, Costo Final: 270.00. (No superó mejor global: 270.00)
+
+========================= EJECUCIÓN GRASP GLOBAL (2 Pistas) #7/10 (Semilla Constr.: 2024) =========================
+  GRASP: Iniciando Fase de Construcción (2 Pistas)...
+    Construcción GRASP (2 Pistas) exitosa en intento 1. Costo: 5210.00
+  GRASP (2 Pistas): Aplicando HC inicial (Costo: 5210.00)...
+  [Factibilidad] Solución es factible.
+  [Factibilidad] Solución es factible.
+  GRASP (2 Pistas): Costo tras HC inicial: 330.00
+
+  GRASP (2 Pistas): Iniciando Fase ILS (5 restarts)...
+    ILS Restart #1/5
+      ILS: Aplicando HC a solución perturbada...
+  [Factibilidad] Solución es factible.
+  [Factibilidad] Solución es factible.
+      ILS: Costo tras HC de perturbación: 600.00
+    ILS Restart #2/5
+      ILS: Aplicando HC a solución perturbada...
+  [Factibilidad] Solución es factible.
+  [Factibilidad] Solución es factible.
+      ILS: Costo tras HC de perturbación: 270.00
+    ILS Restart #3/5
+      ILS: Aplicando HC a solución perturbada...
+  [Factibilidad] Solución es factible.
+  [Factibilidad] Solución es factible.
+      ILS: Costo tras HC de perturbación: 270.00
+    ILS Restart #4/5
+      ILS: Aplicando HC a solución perturbada...
+  [Factibilidad] Solución es factible.
+  [Factibilidad] Solución es factible.
+      ILS: Costo tras HC de perturbación: 690.00
+    ILS Restart #5/5
+      ILS: Aplicando HC a solución perturbada...
+  [Factibilidad] Solución es factible.
+  [Factibilidad] Solución es factible.
+      ILS: Costo tras HC de perturbación: 270.00
+--- Fin Ejecución GRASP con ILS (2 Pistas) (Semilla: 2024). Mejor Costo: 270.00 (Inicial: 5210.00) ---
+  [Factibilidad] Solución es factible.
+Ejecución GRASP (2 Pistas) con semilla 2024 finalizada. Costo Inicial: 5210.00, Costo Final: 270.00. (No superó mejor global: 270.00)
+
+========================= EJECUCIÓN GRASP GLOBAL (2 Pistas) #8/10 (Semilla Constr.: 1) =========================
+  GRASP: Iniciando Fase de Construcción (2 Pistas)...
+    Construcción GRASP (2 Pistas) exitosa en intento 1. Costo: 4980.00
+  GRASP (2 Pistas): Aplicando HC inicial (Costo: 4980.00)...
+  [Factibilidad] Solución es factible.
+  [Factibilidad] Solución es factible.
+  GRASP (2 Pistas): Costo tras HC inicial: 600.00
+
+  GRASP (2 Pistas): Iniciando Fase ILS (5 restarts)...
+    ILS Restart #1/5
+      ILS: Aplicando HC a solución perturbada...
+  [Factibilidad] Solución es factible.
+  [Factibilidad] Solución es factible.
+      ILS: Costo tras HC de perturbación: 600.00
+    ILS Restart #2/5
+      ILS: Aplicando HC a solución perturbada...
+  [Factibilidad] Solución es factible.
+  [Factibilidad] Solución es factible.
+      ILS: Costo tras HC de perturbación: 600.00
+    ILS Restart #3/5
+      ILS: Aplicando HC a solución perturbada...
+  [Factibilidad] Solución es factible.
+  [Factibilidad] Solución es factible.
+      ILS: Costo tras HC de perturbación: 910.00
+    ILS Restart #4/5
+      ILS: Aplicando HC a solución perturbada...
+  [Factibilidad] Solución es factible.
+  [Factibilidad] Solución es factible.
+      ILS: Costo tras HC de perturbación: 850.00
+    ILS Restart #5/5
+      ILS: Aplicando HC a solución perturbada...
+  [Factibilidad] Solución es factible.
+  [Factibilidad] Solución es factible.
+      ILS: Costo tras HC de perturbación: 1230.00
+--- Fin Ejecución GRASP con ILS (2 Pistas) (Semilla: 1). Mejor Costo: 600.00 (Inicial: 4980.00) ---
+  [Factibilidad] Solución es factible.
+Ejecución GRASP (2 Pistas) con semilla 1 finalizada. Costo Inicial: 4980.00, Costo Final: 600.00. (No superó mejor global: 270.00)
+
+========================= EJECUCIÓN GRASP GLOBAL (2 Pistas) #9/10 (Semilla Constr.: 100) =========================
+  GRASP: Iniciando Fase de Construcción (2 Pistas)...
+    Construcción GRASP (2 Pistas) exitosa en intento 1. Costo: 5700.00
+  GRASP (2 Pistas): Aplicando HC inicial (Costo: 5700.00)...
+  [Factibilidad] Solución es factible.
+  [Factibilidad] Solución es factible.
+  GRASP (2 Pistas): Costo tras HC inicial: 870.00
+
+  GRASP (2 Pistas): Iniciando Fase ILS (5 restarts)...
+    ILS Restart #1/5
+      ILS: Aplicando HC a solución perturbada...
+  [Factibilidad] Solución es factible.
+  [Factibilidad] Solución es factible.
+      ILS: Costo tras HC de perturbación: 900.00
+    ILS Restart #2/5
+      ILS: Aplicando HC a solución perturbada...
+  [Factibilidad] Solución es factible.
+  [Factibilidad] Solución es factible.
+      ILS: Costo tras HC de perturbación: 1060.00
+    ILS Restart #3/5
+      ILS: Aplicando HC a solución perturbada...
+  [Factibilidad] Solución es factible.
+  [Factibilidad] Solución es factible.
+      ILS: Costo tras HC de perturbación: 900.00
+    ILS Restart #4/5
+      ILS: Aplicando HC a solución perturbada...
+  [Factibilidad] Solución es factible.
+  [Factibilidad] Solución es factible.
+      ILS: Costo tras HC de perturbación: 1410.00
+    ILS Restart #5/5
+      ILS: Aplicando HC a solución perturbada...
+  [Factibilidad] Solución es factible.
+  [Factibilidad] Solución es factible.
+      ILS: Costo tras HC de perturbación: 1060.00
+--- Fin Ejecución GRASP con ILS (2 Pistas) (Semilla: 100). Mejor Costo: 870.00 (Inicial: 5700.00) ---
+  [Factibilidad] Solución es factible.
+Ejecución GRASP (2 Pistas) con semilla 100 finalizada. Costo Inicial: 5700.00, Costo Final: 870.00. (No superó mejor global: 270.00)
+
+========================= EJECUCIÓN GRASP GLOBAL (2 Pistas) #10/10 (Semilla Constr.: 314) =========================
+  GRASP: Iniciando Fase de Construcción (2 Pistas)...
+    Construcción GRASP (2 Pistas) exitosa en intento 1. Costo: 5730.00
+  GRASP (2 Pistas): Aplicando HC inicial (Costo: 5730.00)...
+  [Factibilidad] Solución es factible.
+  [Factibilidad] Solución es factible.
+  GRASP (2 Pistas): Costo tras HC inicial: 330.00
+
+  GRASP (2 Pistas): Iniciando Fase ILS (5 restarts)...
+    ILS Restart #1/5
+      ILS: Aplicando HC a solución perturbada...
+  [Factibilidad] Solución es factible.
+  [Factibilidad] Solución es factible.
+      ILS: Costo tras HC de perturbación: 870.00
+    ILS Restart #2/5
+      ILS: Aplicando HC a solución perturbada...
+  [Factibilidad] Solución es factible.
+  [Factibilidad] Solución es factible.
+      ILS: Costo tras HC de perturbación: 1030.00
+    ILS Restart #3/5
+      ILS: Aplicando HC a solución perturbada...
+  [Factibilidad] Solución es factible.
+  [Factibilidad] Solución es factible.
+      ILS: Costo tras HC de perturbación: 330.00
+    ILS Restart #4/5
+      ILS: Aplicando HC a solución perturbada...
+  [Factibilidad] Solución es factible.
+  [Factibilidad] Solución es factible.
+      ILS: Costo tras HC de perturbación: 750.00
+    ILS Restart #5/5
+      ILS: Aplicando HC a solución perturbada...
+  [Factibilidad] Solución es factible.
+  [Factibilidad] Solución es factible.
+      ILS: Costo tras HC de perturbación: 360.00
+--- Fin Ejecución GRASP con ILS (2 Pistas) (Semilla: 314). Mejor Costo: 330.00 (Inicial: 5730.00) ---
+  [Factibilidad] Solución es factible.
+Ejecución GRASP (2 Pistas) con semilla 314 finalizada. Costo Inicial: 5730.00, Costo Final: 330.00. (No superó mejor global: 270.00)
+
+
+========================= RESULTADOS FINALES DEL PROCESO GRASP-ILS (2 Pistas) =========================
+
+Resumen de costos por semilla (Inicial -> Final):
+  Semilla: 42   -> Costo Inicial: 5720.00, Costo Final: 270.00
+  Semilla: 123  -> Costo Inicial: 5580.00, Costo Final: 360.00
+  Semilla: 7    -> Costo Inicial: 5480.00, Costo Final: 420.00
+  Semilla: 99   -> Costo Inicial: 5060.00, Costo Final: 630.00
+  Semilla: 500  -> Costo Inicial: 5680.00, Costo Final: 360.00
+  Semilla: 777  -> Costo Inicial: 5780.00, Costo Final: 270.00
+  Semilla: 2024 -> Costo Inicial: 5210.00, Costo Final: 270.00
+  Semilla: 1    -> Costo Inicial: 4980.00, Costo Final: 600.00
+  Semilla: 100  -> Costo Inicial: 5700.00, Costo Final: 870.00
+  Semilla: 314  -> Costo Inicial: 5730.00, Costo Final: 330.00
+
+Mejor solución global GRASP-ILS (2 Pistas) encontrada con costo inicial: 5720.00 y costo final: 270.00
+  Originada por la semilla de construcción: 42
+
+Horario de la mejor solución global GRASP-ILS (2 Pistas):
+
+--- Mejor Horario GRASP-ILS (2 Pistas) (Semilla Constr. 42) ---
+----------------------------------------------------
+| Tiempo Aterrizaje  | ID Avión   | Pista   |
+|--------------------|------------|---------|
+| 84                 | 3          | 0       |
+| 89                 | 4          | 1       |
+| 100                | 5          | 0       |
+| 107                | 6          | 1       |
+| 113                | 8          | 0       |
+| 120                | 7          | 1       |
+| 126                | 9          | 0       |
+| 136                | 10         | 1       |
+| 142                | 1          | 0       |
+| 155                | 14         | 1       |
+| 162                | 13         | 0       |
+| 195                | 2          | 0       |
+| 251                | 12         | 0       |
+| 267                | 11         | 1       |
+| 280                | 15         | 1       |
+----------------------------------------------------
+  [Factibilidad] Solución es factible.
+
+La mejor solución global GRASP-ILS (2 Pistas) reportada ES factible.
+
+Gráfico de evolución de costos GRASP-ILS (2 Pistas) guardado como: grasp_ils_2pistas_costo_evolucion_case1.png

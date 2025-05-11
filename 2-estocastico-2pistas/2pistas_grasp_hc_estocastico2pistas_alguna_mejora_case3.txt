@@ -1,0 +1,93 @@
+    ILS Restart #3/5
+      ILS: Aplicando HC a solución perturbada...
+  [Factibilidad] Solución es factible.
+  [Factibilidad] Solución es factible.
+      ILS: Costo tras HC de perturbación: 0.00
+    ILS Restart #4/5
+      ILS: Aplicando HC a solución perturbada...
+  [Factibilidad] Solución es factible.
+  [Factibilidad] Solución es factible.
+      ILS: Costo tras HC de perturbación: 72.00
+    ILS Restart #5/5
+      ILS: Aplicando HC a solución perturbada...
+  [Factibilidad] Solución es factible.
+  [Factibilidad] Solución es factible.
+      ILS: Costo tras HC de perturbación: 0.00
+--- Fin Ejecución GRASP con ILS (2 Pistas) (Semilla: 314). Mejor Costo: 0.00 (Inicial: 7432.00) ---
+  [Factibilidad] Solución es factible.
+Ejecución GRASP (2 Pistas) con semilla 314 finalizada. Costo Inicial: 7432.00, Costo Final: 0.00. (No superó mejor global: 0.00)
+
+
+========================= RESULTADOS FINALES DEL PROCESO GRASP-ILS (2 Pistas) =========================
+
+Resumen de costos por semilla (Inicial -> Final):
+  Semilla: 42   -> Costo Inicial: 7465.00, Costo Final: 0.00
+  Semilla: 123  -> Costo Inicial: 7479.00, Costo Final: 0.00
+  Semilla: 7    -> Costo Inicial: 7440.00, Costo Final: 0.00
+  Semilla: 99   -> Costo Inicial: 7503.00, Costo Final: 0.00
+  Semilla: 500  -> Costo Inicial: 7460.00, Costo Final: 0.00
+  Semilla: 777  -> Costo Inicial: 7507.00, Costo Final: 0.00
+  Semilla: 2024 -> Costo Inicial: 7479.00, Costo Final: 0.00
+  Semilla: 1    -> Costo Inicial: 7461.00, Costo Final: 0.00
+  Semilla: 100  -> Costo Inicial: 7487.00, Costo Final: 0.00
+  Semilla: 314  -> Costo Inicial: 7432.00, Costo Final: 0.00
+
+Mejor solución global GRASP-ILS (2 Pistas) encontrada con costo inicial: 7465.00 y costo final: 0.00
+  Originada por la semilla de construcción: 42
+
+Horario de la mejor solución global GRASP-ILS (2 Pistas):
+
+--- Mejor Horario GRASP-ILS (2 Pistas) (Semilla Constr. 42) ---
+----------------------------------------------------
+| Tiempo Aterrizaje  | ID Avión   | Pista   |
+|--------------------|------------|---------|
+| 0                  | 1          | 1       |
+| 83                 | 2          | 0       |
+| 201                | 3          | 1       |
+| 282                | 4          | 1       |
+| 306                | 5          | 0       |
+| 379                | 6          | 1       |
+| 532                | 7          | 1       |
+| 640                | 8          | 1       |
+| 770                | 9          | 0       |
+| 844                | 10         | 0       |
+| 1047               | 11         | 1       |
+| 1114               | 12         | 0       |
+| 1315               | 13         | 1       |
+| 1397               | 14         | 0       |
+| 1469               | 15         | 1       |
+| 1666               | 16         | 0       |
+| 1749               | 17         | 1       |
+| 1822               | 18         | 0       |
+| 2022               | 19         | 1       |
+| 2103               | 20         | 0       |
+| 2174               | 21         | 1       |
+| 2269               | 22         | 0       |
+| 2471               | 23         | 1       |
+| 2541               | 24         | 0       |
+| 2738               | 25         | 1       |
+| 2823               | 26         | 1       |
+| 2903               | 27         | 0       |
+| 2978               | 28         | 1       |
+| 3053               | 29         | 1       |
+| 3150               | 30         | 0       |
+| 3347               | 31         | 1       |
+| 3423               | 32         | 0       |
+| 3623               | 33         | 1       |
+| 3690               | 34         | 0       |
+| 3789               | 35         | 1       |
+| 3987               | 36         | 0       |
+| 4071               | 37         | 1       |
+| 4150               | 38         | 0       |
+| 4220               | 39         | 1       |
+| 4316               | 40         | 0       |
+| 4415               | 41         | 1       |
+| 4506               | 42         | 0       |
+| 4603               | 43         | 1       |
+| 4804               | 44         | 0       |
+----------------------------------------------------
+  [Factibilidad] Solución es factible.
+
+La mejor solución global GRASP-ILS (2 Pistas) reportada ES factible.
+
+Gráfico de evolución de costos GRASP-ILS (2 Pistas) guardado como: grasp_ils_2pistas_costo_evolucion_case3.png

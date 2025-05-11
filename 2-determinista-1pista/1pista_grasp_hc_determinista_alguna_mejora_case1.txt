@@ -1,0 +1,227 @@
+/bin/python3 /home/jb/Desktop/T2_AEyM/grasp_hc_determinista_alguna_mejora.py
+jb@jb-pc1:~/Desktop/T2_AEyM$ /bin/python3 /home/jb/Desktop/T2_AEyM/grasp_hc_determinista_alguna_mejora.py
+>>> Paso 1: Ejecutando Greedy Determinista para obtener solución inicial...
+Leídos 15 aviones desde 'case1.txt'.
+
+--- Salida del Greedy Determinista (esperada) ---
+
+--- Ejecutando Algoritmo Greedy: Priorizar Menor E_k ---
+Tiempo inicial T: 84
+
+--- Iteración 1, Tiempo Actual (T): 84 ---
+Aviones pendientes: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]
+Ningún avión ha aterrizado aún.
+  Avión global con menor E_k pendiente: ID 3 (E_k: 84)
+  Candidatos para aterrizar en T=84 (ventana y separación OK): [3]
+  Avión seleccionado para aterrizar en T=84: ID 3 (E_k: 84, L_k: 501)
+
+--- Iteración 2, Tiempo Actual (T): 84 ---
+Aviones pendientes: [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]
+Último avión aterrizado: ID 3 en t=84
+  Avión global con menor E_k pendiente: ID 4 (E_k: 89)
+  Adelantando T de 84 a 92 para permitir aterrizar al avión ID 4 (menor E_k global).
+  Candidatos para aterrizar en T=92 (ventana y separación OK): [4]
+  Avión seleccionado para aterrizar en T=92: ID 4 (E_k: 89, L_k: 509)
+
+--- Iteración 3, Tiempo Actual (T): 92 ---
+Aviones pendientes: [1, 2, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]
+Último avión aterrizado: ID 4 en t=92
+  Avión global con menor E_k pendiente: ID 5 (E_k: 100)
+  Adelantando T de 92 a 100 para permitir aterrizar al avión ID 5 (menor E_k global).
+  Candidatos para aterrizar en T=100 (ventana y separación OK): [5]
+  Avión seleccionado para aterrizar en T=100: ID 5 (E_k: 100, L_k: 536)
+
+--- Iteración 4, Tiempo Actual (T): 100 ---
+Aviones pendientes: [1, 2, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]
+Último avión aterrizado: ID 5 en t=100
+  Avión global con menor E_k pendiente: ID 6 (E_k: 107)
+  Adelantando T de 100 a 108 para permitir aterrizar al avión ID 6 (menor E_k global).
+  Candidatos para aterrizar en T=108 (ventana y separación OK): [6]
+  Avión seleccionado para aterrizar en T=108: ID 6 (E_k: 107, L_k: 552)
+
+--- Iteración 5, Tiempo Actual (T): 108 ---
+Aviones pendientes: [1, 2, 7, 8, 9, 10, 11, 12, 13, 14, 15]
+Último avión aterrizado: ID 6 en t=108
+  Avión global con menor E_k pendiente: ID 8 (E_k: 109)
+  Adelantando T de 108 a 116 para permitir aterrizar al avión ID 8 (menor E_k global).
+  Candidatos para aterrizar en T=116 (ventana y separación OK): [7, 8, 9]
+  Avión seleccionado para aterrizar en T=116: ID 8 (E_k: 109, L_k: 544)
+
+--- Iteración 6, Tiempo Actual (T): 116 ---
+Aviones pendientes: [1, 2, 7, 9, 10, 11, 12, 13, 14, 15]
+Último avión aterrizado: ID 8 en t=116
+  Avión global con menor E_k pendiente: ID 7 (E_k: 109)
+  Adelantando T de 116 a 124 para permitir aterrizar al avión ID 7 (menor E_k global).
+  Candidatos para aterrizar en T=124 (ventana y separación OK): [7, 9]
+  Avión seleccionado para aterrizar en T=124: ID 7 (E_k: 109, L_k: 550)
+
+--- Iteración 7, Tiempo Actual (T): 124 ---
+Aviones pendientes: [1, 2, 9, 10, 11, 12, 13, 14, 15]
+Último avión aterrizado: ID 7 en t=124
+  Avión global con menor E_k pendiente: ID 9 (E_k: 115)
+  Adelantando T de 124 a 132 para permitir aterrizar al avión ID 9 (menor E_k global).
+  Candidatos para aterrizar en T=132 (ventana y separación OK): [9]
+  Avión seleccionado para aterrizar en T=132: ID 9 (E_k: 115, L_k: 557)
+
+--- Iteración 8, Tiempo Actual (T): 132 ---
+Aviones pendientes: [1, 2, 10, 11, 12, 13, 14, 15]
+Último avión aterrizado: ID 9 en t=132
+  Avión global con menor E_k pendiente: ID 1 (E_k: 129)
+  Adelantando T de 132 a 147 para permitir aterrizar al avión ID 1 (menor E_k global).
+  Candidatos para aterrizar en T=147 (ventana y separación OK): [1, 10]
+  Avión seleccionado para aterrizar en T=147: ID 1 (E_k: 129, L_k: 559)
+
+--- Iteración 9, Tiempo Actual (T): 147 ---
+Aviones pendientes: [2, 10, 11, 12, 13, 14, 15]
+Último avión aterrizado: ID 1 en t=147
+  Avión global con menor E_k pendiente: ID 10 (E_k: 134)
+  Adelantando T de 147 a 162 para permitir aterrizar al avión ID 10 (menor E_k global).
+  Candidatos para aterrizar en T=162 (ventana y separación OK): [10, 13, 14]
+  Avión seleccionado para aterrizar en T=162: ID 10 (E_k: 134, L_k: 610)
+
+--- Iteración 10, Tiempo Actual (T): 162 ---
+Aviones pendientes: [2, 11, 12, 13, 14, 15]
+Último avión aterrizado: ID 10 en t=162
+  Avión global con menor E_k pendiente: ID 14 (E_k: 152)
+  Adelantando T de 162 a 170 para permitir aterrizar al avión ID 14 (menor E_k global).
+  Candidatos para aterrizar en T=170 (ventana y separación OK): [13, 14]
+  Avión seleccionado para aterrizar en T=170: ID 14 (E_k: 152, L_k: 637)
+
+--- Iteración 11, Tiempo Actual (T): 170 ---
+Aviones pendientes: [2, 11, 12, 13, 15]
+Último avión aterrizado: ID 14 en t=170
+  Avión global con menor E_k pendiente: ID 13 (E_k: 160)
+  Adelantando T de 170 a 178 para permitir aterrizar al avión ID 13 (menor E_k global).
+  Candidatos para aterrizar en T=178 (ventana y separación OK): [13]
+  Avión seleccionado para aterrizar en T=178: ID 13 (E_k: 160, L_k: 674)
+
+--- Iteración 12, Tiempo Actual (T): 178 ---
+Aviones pendientes: [2, 11, 12, 15]
+Último avión aterrizado: ID 13 en t=178
+  Avión global con menor E_k pendiente: ID 2 (E_k: 190)
+  Adelantando T de 178 a 193 para permitir aterrizar al avión ID 2 (menor E_k global).
+  Candidatos para aterrizar en T=193 (ventana y separación OK): [2]
+  Avión seleccionado para aterrizar en T=193: ID 2 (E_k: 190, L_k: 732)
+
+--- Iteración 13, Tiempo Actual (T): 193 ---
+Aviones pendientes: [11, 12, 15]
+Último avión aterrizado: ID 2 en t=193
+  Avión global con menor E_k pendiente: ID 12 (E_k: 251)
+  Adelantando T de 193 a 251 para permitir aterrizar al avión ID 12 (menor E_k global).
+  Candidatos para aterrizar en T=251 (ventana y separación OK): [12]
+  Avión seleccionado para aterrizar en T=251: ID 12 (E_k: 251, L_k: 778)
+
+--- Iteración 14, Tiempo Actual (T): 251 ---
+Aviones pendientes: [11, 15]
+Último avión aterrizado: ID 12 en t=251
+  Avión global con menor E_k pendiente: ID 11 (E_k: 266)
+  Adelantando T de 251 a 266 para permitir aterrizar al avión ID 11 (menor E_k global).
+  Candidatos para aterrizar en T=266 (ventana y separación OK): [11]
+  Avión seleccionado para aterrizar en T=266: ID 11 (E_k: 266, L_k: 837)
+
+--- Iteración 15, Tiempo Actual (T): 266 ---
+Aviones pendientes: [15]
+Último avión aterrizado: ID 11 en t=266
+  Avión global con menor E_k pendiente: ID 15 (E_k: 276)
+  Adelantando T de 266 a 276 para permitir aterrizar al avión ID 15 (menor E_k global).
+  Candidatos para aterrizar en T=276 (ventana y separación OK): [15]
+  Avión seleccionado para aterrizar en T=276: ID 15 (E_k: 276, L_k: 815)
+¡Todos los aviones han sido programados!
+
+--- Algoritmo Greedy (Priorizar Menor E_k) Finalizado ---
+
+--- Resumen de Factibilidad Final (Greedy Priorizar Menor E_k) ---
+✅ La solución encontrada es factible.
+
+Horario de Aterrizaje Detallado (Greedy Priorizar Menor E_k):
+  Avión ID 3: aterriza en t = 84
+  Avión ID 4: aterriza en t = 92
+  Avión ID 5: aterriza en t = 100
+  Avión ID 6: aterriza en t = 108
+  Avión ID 8: aterriza en t = 116
+  Avión ID 7: aterriza en t = 124
+  Avión ID 9: aterriza en t = 132
+  Avión ID 1: aterriza en t = 147
+  Avión ID 10: aterriza en t = 162
+  Avión ID 14: aterriza en t = 170
+  Avión ID 13: aterriza en t = 178
+  Avión ID 2: aterriza en t = 193
+  Avión ID 12: aterriza en t = 251
+  Avión ID 11: aterriza en t = 266
+  Avión ID 15: aterriza en t = 276
+--- Fin Salida del Greedy Determinista ---
+
+
+Solución Inicial del Greedy Determinista (Factible):
+Costo del Greedy: 4600.00
+
+--- Matriz de Horario de Aterrizaje ---
+---------------------------------------
+| Tiempo Aterrizaje | ID Avión      |
+|-------------------|---------------|
+| 84                | 3             |
+| 92                | 4             |
+| 100               | 5             |
+| 108               | 6             |
+| 116               | 8             |
+| 124               | 7             |
+| 132               | 9             |
+| 147               | 1             |
+| 162               | 10            |
+| 170               | 14            |
+| 178               | 13            |
+| 193               | 2             |
+| 251               | 12            |
+| 266               | 11            |
+| 276               | 15            |
+---------------------------------------
+
+>>> Paso 2: Aplicando Hill Climbing (Alguna-Mejora Determinista V2) a la solución del Greedy...
+
+--- Iniciando Hill Climbing (Alguna-Mejora Determinista V2) ---
+Costo Inicial (del Greedy): 4600.00
+  HC Iter 1: ¡Mejora encontrada! Costo: 4600.00 -> 4350.00. Movimiento HC: Avión ID 2 de t=193 a t=218
+  HC Iter 2: ¡Mejora encontrada! Costo: 4350.00 -> 4100.00. Movimiento HC: Avión ID 2 de t=218 a t=243
+  HC Iter 3: ¡Mejora encontrada! Costo: 4100.00 -> 3350.00. Movimiento HC: Avión ID 11 de t=266 a t=341
+  HC Iter 4: ¡Mejora encontrada! Costo: 3350.00 -> 2730.00. Movimiento HC: Avión ID 12 de t=251 a t=313
+  HC Iter 5: ¡Mejora encontrada! Costo: 2730.00 -> 2660.00. Movimiento HC: Avión ID 2 de t=243 a t=250
+  HC Iter 6: ¡Mejora encontrada! Costo: 2660.00 -> 2570.00. Movimiento HC: Avión ID 13 de t=178 a t=181
+  HC Iter 7: ¡Mejora encontrada! Costo: 2570.00 -> 2540.00. Movimiento HC: Avión ID 14 de t=170 a t=171
+  HC Iter 8: ¡Mejora encontrada! Costo: 2540.00 -> 2290.00. Movimiento HC: Avión ID 15 de t=276 a t=301
+  HC Iter 9: ¡Mejora encontrada! Costo: 2290.00 -> 2040.00. Movimiento HC: Avión ID 15 de t=301 a t=326
+  HC Iter 10: ¡Mejora encontrada! Costo: 2040.00 -> 1970.00. Movimiento HC: Avión ID 15 de t=326 a t=351
+
+Hill Climbing convergió en 11 iteraciones.
+--- Hill Climbing (Alguna-Mejora Determinista V2) Finalizado ---
+
+--- Resultados Finales Después de Hill Climbing (Alguna-Mejora Determinista V2) ---
+Costo Inicial (Greedy): 4600.00
+Costo Final (Hill Climbing): 1970.00
+Mejora obtenida por Hill Climbing: 2630.00
+
+Matriz de Aterrizaje Final (después de Hill Climbing):
+
+--- Matriz de Horario de Aterrizaje ---
+---------------------------------------
+| Tiempo Aterrizaje | ID Avión      |
+|-------------------|---------------|
+| 84                | 3             |
+| 92                | 4             |
+| 100               | 5             |
+| 108               | 6             |
+| 116               | 8             |
+| 124               | 7             |
+| 132               | 9             |
+| 147               | 1             |
+| 162               | 10            |
+| 171               | 14            |
+| 181               | 13            |
+| 250               | 2             |
+| 313               | 12            |
+| 341               | 11            |
+| 351               | 15            |
+---------------------------------------
+La solución final del Hill Climbing es factible.
+
+Gráfico de convergencia guardado como: grasp_hc_costo_evolucion_case1.png
+jb@jb-pc1:~/Desktop/T2_AEyM$ 

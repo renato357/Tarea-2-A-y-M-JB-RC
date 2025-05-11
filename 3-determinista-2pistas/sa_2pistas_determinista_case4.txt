@@ -1,0 +1,162 @@
+    SA Iter 16066 (T=2.61, Config: Config5_Fast_RapidCool_MedIter): Nueva mejor solución SA. Costo: 8544.53 (anterior mejor: 8554.27) Op: SINGLE_ATTR_CHANGE
+    SA Iter 16142 (T=2.51, Config: Config5_Fast_RapidCool_MedIter): Nueva mejor solución SA. Costo: 8536.83 (anterior mejor: 8544.53) Op: SINGLE_ATTR_CHANGE
+    SA Iter 16185 (T=2.41, Config: Config5_Fast_RapidCool_MedIter): Nueva mejor solución SA. Costo: 8462.07 (anterior mejor: 8536.83) Op: SINGLE_ATTR_CHANGE
+    SA Iter 16187 (T=2.41, Config: Config5_Fast_RapidCool_MedIter): Nueva mejor solución SA. Costo: 8424.97 (anterior mejor: 8462.07) Op: REINSERT_PLANE
+    SA Iter 16299 (T=2.31, Config: Config5_Fast_RapidCool_MedIter): Nueva mejor solución SA. Costo: 8351.89 (anterior mejor: 8424.97) Op: SINGLE_ATTR_CHANGE
+    SA Iter 16322 (T=2.22, Config: Config5_Fast_RapidCool_MedIter): Nueva mejor solución SA. Costo: 8326.80 (anterior mejor: 8351.89) Op: REINSERT_PLANE
+    SA Iter 16323 (T=2.22, Config: Config5_Fast_RapidCool_MedIter): Nueva mejor solución SA. Costo: 8255.83 (anterior mejor: 8326.80) Op: SINGLE_ATTR_CHANGE
+    SA Iter 16357 (T=2.22, Config: Config5_Fast_RapidCool_MedIter): Nueva mejor solución SA. Costo: 8211.46 (anterior mejor: 8255.83) Op: REINSERT_PLANE
+    SA Iter 16482 (T=2.05, Config: Config5_Fast_RapidCool_MedIter): Nueva mejor solución SA. Costo: 8174.40 (anterior mejor: 8211.46) Op: SINGLE_ATTR_CHANGE
+    SA Iter 16661 (T=1.81, Config: Config5_Fast_RapidCool_MedIter): Nueva mejor solución SA. Costo: 8129.52 (anterior mejor: 8174.40) Op: SINGLE_ATTR_CHANGE
+    SA Iter 16743 (T=1.74, Config: Config5_Fast_RapidCool_MedIter): Nueva mejor solución SA. Costo: 8074.32 (anterior mejor: 8129.52) Op: REINSERT_PLANE
+    SA Iter 16758 (T=1.74, Config: Config5_Fast_RapidCool_MedIter): Nueva mejor solución SA. Costo: 7930.00 (anterior mejor: 8074.32) Op: SINGLE_ATTR_CHANGE
+    SA Iter 16762 (T=1.74, Config: Config5_Fast_RapidCool_MedIter): Nueva mejor solución SA. Costo: 7921.66 (anterior mejor: 7930.00) Op: SINGLE_ATTR_CHANGE
+    SA Iter 16787 (T=1.74, Config: Config5_Fast_RapidCool_MedIter): Nueva mejor solución SA. Costo: 7803.26 (anterior mejor: 7921.66) Op: SINGLE_ATTR_CHANGE
+    SA Iter 16806 (T=1.67, Config: Config5_Fast_RapidCool_MedIter): Nueva mejor solución SA. Costo: 7760.54 (anterior mejor: 7803.26) Op: REINSERT_PLANE
+    SA Iter 17038 (T=1.48, Config: Config5_Fast_RapidCool_MedIter): Nueva mejor solución SA. Costo: 7757.09 (anterior mejor: 7760.54) Op: SINGLE_ATTR_CHANGE
+    SA Iter 17061 (T=1.48, Config: Config5_Fast_RapidCool_MedIter): Nueva mejor solución SA. Costo: 7507.17 (anterior mejor: 7757.09) Op: SINGLE_ATTR_CHANGE
+    SA Iter 17083 (T=1.42, Config: Config5_Fast_RapidCool_MedIter): Nueva mejor solución SA. Costo: 7474.41 (anterior mejor: 7507.17) Op: REINSERT_PLANE
+    SA Iter 17110 (T=1.42, Config: Config5_Fast_RapidCool_MedIter): Nueva mejor solución SA. Costo: 7433.10 (anterior mejor: 7474.41) Op: REINSERT_PLANE
+    SA Iter 17185 (T=1.36, Config: Config5_Fast_RapidCool_MedIter): Nueva mejor solución SA. Costo: 7409.26 (anterior mejor: 7433.10) Op: REINSERT_PLANE
+    SA Iter 17287 (T=1.31, Config: Config5_Fast_RapidCool_MedIter): Nueva mejor solución SA. Costo: 7372.37 (anterior mejor: 7409.26) Op: SINGLE_ATTR_CHANGE
+    SA Iter 17307 (T=1.25, Config: Config5_Fast_RapidCool_MedIter): Nueva mejor solución SA. Costo: 7263.81 (anterior mejor: 7372.37) Op: SINGLE_ATTR_CHANGE
+    SA Iter 17343 (T=1.25, Config: Config5_Fast_RapidCool_MedIter): Nueva mejor solución SA. Costo: 7170.77 (anterior mejor: 7263.81) Op: REINSERT_PLANE
+    SA Iter 17354 (T=1.25, Config: Config5_Fast_RapidCool_MedIter): Nueva mejor solución SA. Costo: 7104.83 (anterior mejor: 7170.77) Op: SINGLE_ATTR_CHANGE
+    SA Iter 17580 (T=1.06, Config: Config5_Fast_RapidCool_MedIter): Nueva mejor solución SA. Costo: 7093.50 (anterior mejor: 7104.83) Op: SINGLE_ATTR_CHANGE
+    SA Iter 17606 (T=1.06, Config: Config5_Fast_RapidCool_MedIter): Nueva mejor solución SA. Costo: 7025.46 (anterior mejor: 7093.50) Op: SINGLE_ATTR_CHANGE
+    SA Iter 17733 (T=0.98, Config: Config5_Fast_RapidCool_MedIter): Nueva mejor solución SA. Costo: 7003.56 (anterior mejor: 7025.46) Op: REINSERT_PLANE
+    SA Iter 17820 (T=0.94, Config: Config5_Fast_RapidCool_MedIter): Nueva mejor solución SA. Costo: 6919.19 (anterior mejor: 7003.56) Op: SINGLE_ATTR_CHANGE
+    SA Iter 17913 (T=0.90, Config: Config5_Fast_RapidCool_MedIter): Nueva mejor solución SA. Costo: 6871.77 (anterior mejor: 6919.19) Op: SINGLE_ATTR_CHANGE
+    SA Iter 17929 (T=0.87, Config: Config5_Fast_RapidCool_MedIter): Nueva mejor solución SA. Costo: 6846.09 (anterior mejor: 6871.77) Op: SWAP_ALL_ATTRS
+    SA Iter 18160 (T=0.77, Config: Config5_Fast_RapidCool_MedIter): Nueva mejor solución SA. Costo: 6842.79 (anterior mejor: 6846.09) Op: SINGLE_ATTR_CHANGE
+    SA Iter 18221 (T=0.74, Config: Config5_Fast_RapidCool_MedIter): Nueva mejor solución SA. Costo: 6842.47 (anterior mejor: 6842.79) Op: SINGLE_ATTR_CHANGE
+    SA Iter 18298 (T=0.71, Config: Config5_Fast_RapidCool_MedIter): Nueva mejor solución SA. Costo: 6835.35 (anterior mejor: 6842.47) Op: REINSERT_PLANE
+    SA Iter 18299 (T=0.71, Config: Config5_Fast_RapidCool_MedIter): Nueva mejor solución SA. Costo: 6807.91 (anterior mejor: 6835.35) Op: SINGLE_ATTR_CHANGE
+    SA Iter 18508 (T=0.63, Config: Config5_Fast_RapidCool_MedIter): Nueva mejor solución SA. Costo: 6806.17 (anterior mejor: 6807.91) Op: SINGLE_ATTR_CHANGE
+    SA Iter 18763 (T=0.53, Config: Config5_Fast_RapidCool_MedIter): Nueva mejor solución SA. Costo: 6754.36 (anterior mejor: 6806.17) Op: SINGLE_ATTR_CHANGE
+    SA Iter 18787 (T=0.53, Config: Config5_Fast_RapidCool_MedIter): Nueva mejor solución SA. Costo: 6706.29 (anterior mejor: 6754.36) Op: SINGLE_ATTR_CHANGE
+  SA Run (Config: Config5_Fast_RapidCool_MedIter, Seed 42): SA 2 Pistas Finalizado. Mejor costo: 6706.29 en 18900 iteraciones.
+
+
+========================= RESULTADOS FINALES DEL PROCESO SA (Determinista 2 Pistas) =========================
+Costo Inicial (Greedy Determinista 2 Pistas): 51775.43
+Semilla Global de Replicación Utilizada para TODAS las corridas de SA: 42
+
+Resumen de costos por configuración de SA:
+  Config SA: Config1_Mod_ExploitFocus_From_C2 (SA Seed Usada: 42) -> Costo SA Final = 2825.84
+  Config SA: Config2_Fast_LowIter_MedT (SA Seed Usada: 42) -> Costo SA Final = 6145.36
+  Config SA: Config3_VeryFast_VLowIter_LowT (SA Seed Usada: 42) -> Costo SA Final = 13306.72
+  Config SA: Config4_HighIter_BalancedOps (SA Seed Usada: 42) -> Costo SA Final = 826.69
+  Config SA: Config5_Fast_RapidCool_MedIter (SA Seed Usada: 42) -> Costo SA Final = 6706.29
+
+Mejor solución global encontrada por SA (2 Pistas, todas configs, semilla 42): Costo = 826.69
+  Originada por Config SA: Config4_HighIter_BalancedOps, SA Seed Usada: 42
+
+Horario de la mejor solución global SA (Config: Config4_HighIter_BalancedOps)
+
+--- Mejor Horario Global SA (2 Pistas, Config: Config4_HighIter_BalancedOps) ---
+----------------------------------------------------
+| Tiempo Aterrizaje  | ID Avión   | Pista   |
+|--------------------|------------|---------|
+| 907                | 1          | 1       |
+| 1030               | 2          | 1       |
+| 1236               | 6          | 0       |
+| 1304               | 10         | 1       |
+| 1395               | 3          | 1       |
+| 1403               | 8          | 0       |
+| 1501               | 4          | 1       |
+| 1516               | 7          | 0       |
+| 1585               | 9          | 0       |
+| 1614               | 5          | 1       |
+| 1696               | 12         | 0       |
+| 1727               | 13         | 1       |
+| 1787               | 11         | 0       |
+| 1908               | 14         | 1       |
+| 2002               | 16         | 0       |
+| 2166               | 17         | 1       |
+| 2218               | 18         | 0       |
+| 2261               | 15         | 1       |
+| 2435               | 20         | 0       |
+| 2783               | 19         | 0       |
+| 2921               | 24         | 1       |
+| 2972               | 23         | 0       |
+| 3003               | 22         | 1       |
+| 3111               | 21         | 0       |
+| 3258               | 25         | 1       |
+| 3468               | 27         | 1       |
+| 3495               | 30         | 0       |
+| 3578               | 31         | 1       |
+| 3645               | 29         | 0       |
+| 3691               | 26         | 1       |
+| 3750               | 28         | 0       |
+| 3763               | 34         | 1       |
+| 3852               | 35         | 0       |
+| 3854               | 33         | 1       |
+| 4080               | 32         | 1       |
+| 4270               | 36         | 1       |
+| 4467               | 37         | 0       |
+| 4695               | 40         | 1       |
+| 4747               | 38         | 0       |
+| 4836               | 39         | 1       |
+| 4838               | 41         | 0       |
+| 5223               | 44         | 0       |
+| 5375               | 47         | 0       |
+| 5400               | 42         | 1       |
+| 5446               | 45         | 0       |
+| 5491               | 46         | 1       |
+| 5519               | 43         | 0       |
+| 5586               | 50         | 1       |
+| 5639               | 51         | 0       |
+| 5732               | 48         | 1       |
+| 5753               | 49         | 0       |
+| 5946               | 52         | 0       |
+| 6074               | 54         | 1       |
+| 6143               | 53         | 0       |
+| 6219               | 55         | 1       |
+| 6341               | 59         | 1       |
+| 6395               | 57         | 0       |
+| 6456               | 58         | 1       |
+| 6523               | 56         | 0       |
+| 6868               | 60         | 1       |
+| 6973               | 61         | 0       |
+| 7439               | 62         | 1       |
+| 7635               | 63         | 1       |
+| 7825               | 64         | 1       |
+| 8058               | 67         | 0       |
+| 8126               | 66         | 1       |
+| 8171               | 65         | 0       |
+| 8256               | 68         | 0       |
+| 8291               | 69         | 1       |
+| 8351               | 70         | 0       |
+| 8456               | 72         | 0       |
+| 8715               | 71         | 1       |
+| 8906               | 73         | 0       |
+| 9292               | 74         | 0       |
+| 9507               | 75         | 1       |
+| 9798               | 77         | 0       |
+| 9988               | 76         | 0       |
+| 10107              | 79         | 0       |
+| 10300              | 78         | 0       |
+| 10514              | 85         | 1       |
+| 10672              | 80         | 1       |
+| 10703              | 81         | 0       |
+| 10783              | 82         | 1       |
+| 10944              | 83         | 0       |
+| 10945              | 84         | 1       |
+| 11071              | 88         | 0       |
+| 11113              | 86         | 1       |
+| 11278              | 87         | 0       |
+| 11331              | 90         | 1       |
+| 11351              | 89         | 0       |
+| 11427              | 91         | 1       |
+| 11713              | 92         | 1       |
+| 11939              | 93         | 0       |
+| 12033              | 95         | 0       |
+| 12033              | 94         | 1       |
+| 12387              | 98         | 0       |
+| 12393              | 96         | 1       |
+| 12549              | 99         | 1       |
+| 12651              | 97         | 1       |
+| 12690              | 100        | 0       |
+----------------------------------------------------
+La mejor solución SA global (2 Pistas) reportada ES factible.

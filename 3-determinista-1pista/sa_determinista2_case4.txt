@@ -1,0 +1,284 @@
+    SA Iter 142788 (T=3.53, Config: Config5_FocusSingleMove): Nueva mejor solución SA. Costo: 12631.40 (anterior mejor: 12634.46)
+    SA Iter 142826 (T=3.50, Config: Config5_FocusSingleMove): Nueva mejor solución SA. Costo: 12629.55 (anterior mejor: 12631.40)
+    SA Iter 142857 (T=3.50, Config: Config5_FocusSingleMove): Nueva mejor solución SA. Costo: 12612.75 (anterior mejor: 12629.55)
+    SA Iter 142891 (T=3.50, Config: Config5_FocusSingleMove): Nueva mejor solución SA. Costo: 12611.49 (anterior mejor: 12612.75)
+    SA Iter 142912 (T=3.50, Config: Config5_FocusSingleMove): Nueva mejor solución SA. Costo: 12599.49 (anterior mejor: 12611.49)
+    SA Iter 145385 (T=2.95, Config: Config5_FocusSingleMove): Nueva mejor solución SA. Costo: 12597.45 (anterior mejor: 12599.49)
+    SA Iter 145562 (T=2.92, Config: Config5_FocusSingleMove): Nueva mejor solución SA. Costo: 12596.00 (anterior mejor: 12597.45)
+    SA Iter 145566 (T=2.92, Config: Config5_FocusSingleMove): Nueva mejor solución SA. Costo: 12582.23 (anterior mejor: 12596.00)
+    SA Iter 145793 (T=2.89, Config: Config5_FocusSingleMove): Nueva mejor solución SA. Costo: 12559.25 (anterior mejor: 12582.23)
+    SA Iter 145815 (T=2.86, Config: Config5_FocusSingleMove): Nueva mejor solución SA. Costo: 12550.85 (anterior mejor: 12559.25)
+    SA Iter 146344 (T=2.78, Config: Config5_FocusSingleMove): Nueva mejor solución SA. Costo: 12548.45 (anterior mejor: 12550.85)
+    SA Iter 146797 (T=2.69, Config: Config5_FocusSingleMove): Nueva mejor solución SA. Costo: 12535.78 (anterior mejor: 12548.45)
+    SA Iter 146827 (T=2.69, Config: Config5_FocusSingleMove): Nueva mejor solución SA. Costo: 12533.61 (anterior mejor: 12535.78)
+    SA Iter 147430 (T=2.59, Config: Config5_FocusSingleMove): Nueva mejor solución SA. Costo: 12527.84 (anterior mejor: 12533.61)
+    SA Iter 148523 (T=2.39, Config: Config5_FocusSingleMove): Nueva mejor solución SA. Costo: 12524.58 (anterior mejor: 12527.84)
+    SA Iter 148541 (T=2.39, Config: Config5_FocusSingleMove): Nueva mejor solución SA. Costo: 12521.20 (anterior mejor: 12524.58)
+    SA Iter 148571 (T=2.39, Config: Config5_FocusSingleMove): Nueva mejor solución SA. Costo: 12518.53 (anterior mejor: 12521.20)
+    SA Iter 148703 (T=2.36, Config: Config5_FocusSingleMove): Nueva mejor solución SA. Costo: 12503.27 (anterior mejor: 12518.53)
+    SA Iter 148887 (T=2.34, Config: Config5_FocusSingleMove): Nueva mejor solución SA. Costo: 12502.25 (anterior mejor: 12503.27)
+    SA Iter 148949 (T=2.34, Config: Config5_FocusSingleMove): Nueva mejor solución SA. Costo: 12499.79 (anterior mejor: 12502.25)
+    SA Iter 148985 (T=2.32, Config: Config5_FocusSingleMove): Nueva mejor solución SA. Costo: 12493.94 (anterior mejor: 12499.79)
+    SA Iter 149064 (T=2.32, Config: Config5_FocusSingleMove): Nueva mejor solución SA. Costo: 12474.44 (anterior mejor: 12493.94)
+    SA Iter 149099 (T=2.32, Config: Config5_FocusSingleMove): Nueva mejor solución SA. Costo: 12472.40 (anterior mejor: 12474.44)
+    SA Iter 149468 (T=2.25, Config: Config5_FocusSingleMove): Nueva mejor solución SA. Costo: 12470.40 (anterior mejor: 12472.40)
+    SA Iter 149772 (T=2.20, Config: Config5_FocusSingleMove): Nueva mejor solución SA. Costo: 12461.06 (anterior mejor: 12470.40)
+    SA Iter 149881 (T=2.18, Config: Config5_FocusSingleMove): Nueva mejor solución SA. Costo: 12458.80 (anterior mejor: 12461.06)
+    SA Run (Config: Config5_FocusSingleMove, Seed 42) Iter: 150000, Temp: 2.18, Costo Actual: 12461.84, Mejor Costo: 12458.80
+    SA Iter 150306 (T=2.12, Config: Config5_FocusSingleMove): Nueva mejor solución SA. Costo: 12437.57 (anterior mejor: 12458.80)
+    SA Iter 150587 (T=2.09, Config: Config5_FocusSingleMove): Nueva mejor solución SA. Costo: 12436.36 (anterior mejor: 12437.57)
+    SA Iter 150588 (T=2.09, Config: Config5_FocusSingleMove): Nueva mejor solución SA. Costo: 11850.61 (anterior mejor: 12436.36)
+    SA Iter 150736 (T=2.07, Config: Config5_FocusSingleMove): Nueva mejor solución SA. Costo: 11528.21 (anterior mejor: 11850.61)
+    SA Iter 150739 (T=2.07, Config: Config5_FocusSingleMove): Nueva mejor solución SA. Costo: 11524.53 (anterior mejor: 11528.21)
+    SA Iter 150838 (T=2.05, Config: Config5_FocusSingleMove): Nueva mejor solución SA. Costo: 11520.83 (anterior mejor: 11524.53)
+    SA Iter 151215 (T=1.99, Config: Config5_FocusSingleMove): Nueva mejor solución SA. Costo: 11520.13 (anterior mejor: 11520.83)
+    SA Iter 151302 (T=1.99, Config: Config5_FocusSingleMove): Nueva mejor solución SA. Costo: 11508.73 (anterior mejor: 11520.13)
+    SA Iter 151338 (T=1.99, Config: Config5_FocusSingleMove): Nueva mejor solución SA. Costo: 11505.16 (anterior mejor: 11508.73)
+    SA Iter 151390 (T=1.97, Config: Config5_FocusSingleMove): Nueva mejor solución SA. Costo: 11502.70 (anterior mejor: 11505.16)
+    SA Iter 151409 (T=1.97, Config: Config5_FocusSingleMove): Nueva mejor solución SA. Costo: 11500.35 (anterior mejor: 11502.70)
+    SA Iter 151698 (T=1.93, Config: Config5_FocusSingleMove): Nueva mejor solución SA. Costo: 11499.56 (anterior mejor: 11500.35)
+    SA Iter 151715 (T=1.93, Config: Config5_FocusSingleMove): Nueva mejor solución SA. Costo: 11495.04 (anterior mejor: 11499.56)
+    SA Iter 152144 (T=1.88, Config: Config5_FocusSingleMove): Nueva mejor solución SA. Costo: 11483.56 (anterior mejor: 11495.04)
+    SA Iter 152461 (T=1.84, Config: Config5_FocusSingleMove): Nueva mejor solución SA. Costo: 11481.81 (anterior mejor: 11483.56)
+    SA Iter 152550 (T=1.84, Config: Config5_FocusSingleMove): Nueva mejor solución SA. Costo: 11479.73 (anterior mejor: 11481.81)
+    SA Iter 152836 (T=1.80, Config: Config5_FocusSingleMove): Nueva mejor solución SA. Costo: 11472.34 (anterior mejor: 11479.73)
+    SA Iter 152947 (T=1.78, Config: Config5_FocusSingleMove): Nueva mejor solución SA. Costo: 11470.30 (anterior mejor: 11472.34)
+    SA Iter 153191 (T=1.75, Config: Config5_FocusSingleMove): Nueva mejor solución SA. Costo: 11466.97 (anterior mejor: 11470.30)
+    SA Iter 153291 (T=1.75, Config: Config5_FocusSingleMove): Nueva mejor solución SA. Costo: 11460.42 (anterior mejor: 11466.97)
+    SA Iter 153462 (T=1.71, Config: Config5_FocusSingleMove): Nueva mejor solución SA. Costo: 11458.53 (anterior mejor: 11460.42)
+    SA Iter 153477 (T=1.71, Config: Config5_FocusSingleMove): Nueva mejor solución SA. Costo: 11456.72 (anterior mejor: 11458.53)
+    SA Iter 154005 (T=1.66, Config: Config5_FocusSingleMove): Nueva mejor solución SA. Costo: 11456.25 (anterior mejor: 11456.72)
+    SA Iter 154009 (T=1.66, Config: Config5_FocusSingleMove): Nueva mejor solución SA. Costo: 11455.10 (anterior mejor: 11456.25)
+    SA Iter 154149 (T=1.65, Config: Config5_FocusSingleMove): Nueva mejor solución SA. Costo: 11452.04 (anterior mejor: 11455.10)
+    SA Iter 154190 (T=1.65, Config: Config5_FocusSingleMove): Nueva mejor solución SA. Costo: 11450.81 (anterior mejor: 11452.04)
+    SA Iter 154317 (T=1.63, Config: Config5_FocusSingleMove): Nueva mejor solución SA. Costo: 11447.17 (anterior mejor: 11450.81)
+    SA Iter 154506 (T=1.60, Config: Config5_FocusSingleMove): Nueva mejor solución SA. Costo: 11443.36 (anterior mejor: 11447.17)
+    SA Iter 154740 (T=1.58, Config: Config5_FocusSingleMove): Nueva mejor solución SA. Costo: 11436.78 (anterior mejor: 11443.36)
+    SA Iter 154785 (T=1.58, Config: Config5_FocusSingleMove): Nueva mejor solución SA. Costo: 11434.74 (anterior mejor: 11436.78)
+    SA Iter 154804 (T=1.56, Config: Config5_FocusSingleMove): Nueva mejor solución SA. Costo: 11433.55 (anterior mejor: 11434.74)
+    SA Iter 154805 (T=1.56, Config: Config5_FocusSingleMove): Nueva mejor solución SA. Costo: 11431.88 (anterior mejor: 11433.55)
+    SA Iter 154910 (T=1.56, Config: Config5_FocusSingleMove): Nueva mejor solución SA. Costo: 11411.20 (anterior mejor: 11431.88)
+    SA Iter 155206 (T=1.53, Config: Config5_FocusSingleMove): Nueva mejor solución SA. Costo: 11408.80 (anterior mejor: 11411.20)
+    SA Iter 155668 (T=1.49, Config: Config5_FocusSingleMove): Nueva mejor solución SA. Costo: 11407.51 (anterior mejor: 11408.80)
+    SA Iter 155716 (T=1.47, Config: Config5_FocusSingleMove): Nueva mejor solución SA. Costo: 11405.09 (anterior mejor: 11407.51)
+    SA Iter 155845 (T=1.47, Config: Config5_FocusSingleMove): Nueva mejor solución SA. Costo: 11403.94 (anterior mejor: 11405.09)
+    SA Iter 155855 (T=1.46, Config: Config5_FocusSingleMove): Nueva mejor solución SA. Costo: 11398.60 (anterior mejor: 11403.94)
+    SA Iter 156610 (T=1.39, Config: Config5_FocusSingleMove): Nueva mejor solución SA. Costo: 11396.18 (anterior mejor: 11398.60)
+    SA Iter 156764 (T=1.37, Config: Config5_FocusSingleMove): Nueva mejor solución SA. Costo: 11391.02 (anterior mejor: 11396.18)
+    SA Iter 156846 (T=1.37, Config: Config5_FocusSingleMove): Nueva mejor solución SA. Costo: 11385.02 (anterior mejor: 11391.02)
+    SA Iter 157001 (T=1.36, Config: Config5_FocusSingleMove): Nueva mejor solución SA. Costo: 11382.33 (anterior mejor: 11385.02)
+    SA Iter 157472 (T=1.32, Config: Config5_FocusSingleMove): Nueva mejor solución SA. Costo: 11377.20 (anterior mejor: 11382.33)
+    SA Iter 158160 (T=1.25, Config: Config5_FocusSingleMove): Nueva mejor solución SA. Costo: 11374.96 (anterior mejor: 11377.20)
+    SA Iter 158300 (T=1.24, Config: Config5_FocusSingleMove): Nueva mejor solución SA. Costo: 11372.68 (anterior mejor: 11374.96)
+    SA Iter 158372 (T=1.24, Config: Config5_FocusSingleMove): Nueva mejor solución SA. Costo: 11371.60 (anterior mejor: 11372.68)
+    SA Iter 158452 (T=1.23, Config: Config5_FocusSingleMove): Nueva mejor solución SA. Costo: 11358.10 (anterior mejor: 11371.60)
+    SA Iter 158855 (T=1.19, Config: Config5_FocusSingleMove): Nueva mejor solución SA. Costo: 11345.91 (anterior mejor: 11358.10)
+    SA Iter 158874 (T=1.19, Config: Config5_FocusSingleMove): Nueva mejor solución SA. Costo: 11344.09 (anterior mejor: 11345.91)
+    SA Iter 159102 (T=1.18, Config: Config5_FocusSingleMove): Nueva mejor solución SA. Costo: 11341.79 (anterior mejor: 11344.09)
+    SA Iter 159428 (T=1.16, Config: Config5_FocusSingleMove): Nueva mejor solución SA. Costo: 11339.99 (anterior mejor: 11341.79)
+    SA Iter 159536 (T=1.15, Config: Config5_FocusSingleMove): Nueva mejor solución SA. Costo: 11338.16 (anterior mejor: 11339.99)
+    SA Iter 159806 (T=1.12, Config: Config5_FocusSingleMove): Nueva mejor solución SA. Costo: 11332.70 (anterior mejor: 11338.16)
+    SA Iter 159834 (T=1.12, Config: Config5_FocusSingleMove): Nueva mejor solución SA. Costo: 11328.72 (anterior mejor: 11332.70)
+    SA Iter 160255 (T=1.09, Config: Config5_FocusSingleMove): Nueva mejor solución SA. Costo: 11323.32 (anterior mejor: 11328.72)
+    SA Iter 160637 (T=1.07, Config: Config5_FocusSingleMove): Nueva mejor solución SA. Costo: 11311.43 (anterior mejor: 11323.32)
+    SA Iter 160650 (T=1.07, Config: Config5_FocusSingleMove): Nueva mejor solución SA. Costo: 11310.35 (anterior mejor: 11311.43)
+    SA Iter 160775 (T=1.06, Config: Config5_FocusSingleMove): Nueva mejor solución SA. Costo: 11308.47 (anterior mejor: 11310.35)
+    SA Iter 161021 (T=1.04, Config: Config5_FocusSingleMove): Nueva mejor solución SA. Costo: 11307.27 (anterior mejor: 11308.47)
+    SA Iter 161381 (T=1.02, Config: Config5_FocusSingleMove): Nueva mejor solución SA. Costo: 11305.28 (anterior mejor: 11307.27)
+    SA Iter 161558 (T=1.00, Config: Config5_FocusSingleMove): Nueva mejor solución SA. Costo: 11296.74 (anterior mejor: 11305.28)
+    SA Iter 161721 (T=0.99, Config: Config5_FocusSingleMove): Nueva mejor solución SA. Costo: 11295.65 (anterior mejor: 11296.74)
+    SA Iter 161763 (T=0.99, Config: Config5_FocusSingleMove): Nueva mejor solución SA. Costo: 11294.45 (anterior mejor: 11295.65)
+    SA Iter 162490 (T=0.94, Config: Config5_FocusSingleMove): Nueva mejor solución SA. Costo: 11294.24 (anterior mejor: 11294.45)
+    SA Iter 162708 (T=0.93, Config: Config5_FocusSingleMove): Nueva mejor solución SA. Costo: 11289.04 (anterior mejor: 11294.24)
+    SA Iter 162784 (T=0.92, Config: Config5_FocusSingleMove): Nueva mejor solución SA. Costo: 11283.84 (anterior mejor: 11289.04)
+    SA Iter 162981 (T=0.91, Config: Config5_FocusSingleMove): Nueva mejor solución SA. Costo: 11281.40 (anterior mejor: 11283.84)
+    SA Iter 163397 (T=0.88, Config: Config5_FocusSingleMove): Nueva mejor solución SA. Costo: 11277.98 (anterior mejor: 11281.40)
+    SA Iter 163620 (T=0.87, Config: Config5_FocusSingleMove): Nueva mejor solución SA. Costo: 11274.94 (anterior mejor: 11277.98)
+    SA Iter 164217 (T=0.84, Config: Config5_FocusSingleMove): Nueva mejor solución SA. Costo: 11273.72 (anterior mejor: 11274.94)
+    SA Iter 164238 (T=0.84, Config: Config5_FocusSingleMove): Nueva mejor solución SA. Costo: 11272.70 (anterior mejor: 11273.72)
+    SA Iter 164437 (T=0.82, Config: Config5_FocusSingleMove): Nueva mejor solución SA. Costo: 11271.31 (anterior mejor: 11272.70)
+    SA Iter 164762 (T=0.81, Config: Config5_FocusSingleMove): Nueva mejor solución SA. Costo: 11268.57 (anterior mejor: 11271.31)
+    SA Run (Config: Config5_FocusSingleMove, Seed 42) Iter: 165000, Temp: 0.80, Costo Actual: 11268.57, Mejor Costo: 11268.57
+    SA Iter 166496 (T=0.72, Config: Config5_FocusSingleMove): Nueva mejor solución SA. Costo: 11267.96 (anterior mejor: 11268.57)
+    SA Iter 166724 (T=0.71, Config: Config5_FocusSingleMove): Nueva mejor solución SA. Costo: 11266.43 (anterior mejor: 11267.96)
+    SA Iter 166821 (T=0.70, Config: Config5_FocusSingleMove): Nueva mejor solución SA. Costo: 11262.07 (anterior mejor: 11266.43)
+    SA Iter 166984 (T=0.69, Config: Config5_FocusSingleMove): Nueva mejor solución SA. Costo: 11260.87 (anterior mejor: 11262.07)
+    SA Iter 167015 (T=0.69, Config: Config5_FocusSingleMove): Nueva mejor solución SA. Costo: 11257.31 (anterior mejor: 11260.87)
+    SA Iter 167029 (T=0.69, Config: Config5_FocusSingleMove): Nueva mejor solución SA. Costo: 11255.49 (anterior mejor: 11257.31)
+    SA Iter 167198 (T=0.69, Config: Config5_FocusSingleMove): Nueva mejor solución SA. Costo: 11253.69 (anterior mejor: 11255.49)
+    SA Iter 167489 (T=0.67, Config: Config5_FocusSingleMove): Nueva mejor solución SA. Costo: 11252.49 (anterior mejor: 11253.69)
+    SA Iter 168178 (T=0.64, Config: Config5_FocusSingleMove): Nueva mejor solución SA. Costo: 11251.47 (anterior mejor: 11252.49)
+    SA Iter 168261 (T=0.64, Config: Config5_FocusSingleMove): Nueva mejor solución SA. Costo: 11242.23 (anterior mejor: 11251.47)
+    SA Iter 168785 (T=0.61, Config: Config5_FocusSingleMove): Nueva mejor solución SA. Costo: 11236.16 (anterior mejor: 11242.23)
+    SA Iter 169895 (T=0.57, Config: Config5_FocusSingleMove): Nueva mejor solución SA. Costo: 11233.34 (anterior mejor: 11236.16)
+    SA Iter 170060 (T=0.57, Config: Config5_FocusSingleMove): Nueva mejor solución SA. Costo: 11232.04 (anterior mejor: 11233.34)
+    SA Iter 170748 (T=0.54, Config: Config5_FocusSingleMove): Nueva mejor solución SA. Costo: 11230.74 (anterior mejor: 11232.04)
+    SA Iter 172065 (T=0.49, Config: Config5_FocusSingleMove): Nueva mejor solución SA. Costo: 11228.41 (anterior mejor: 11230.74)
+    SA Iter 172270 (T=0.49, Config: Config5_FocusSingleMove): Nueva mejor solución SA. Costo: 11224.45 (anterior mejor: 11228.41)
+    SA Iter 172646 (T=0.48, Config: Config5_FocusSingleMove): Nueva mejor solución SA. Costo: 11222.78 (anterior mejor: 11224.45)
+    SA Iter 172713 (T=0.47, Config: Config5_FocusSingleMove): Nueva mejor solución SA. Costo: 11221.63 (anterior mejor: 11222.78)
+    SA Iter 172764 (T=0.47, Config: Config5_FocusSingleMove): Nueva mejor solución SA. Costo: 11217.65 (anterior mejor: 11221.63)
+    SA Iter 173105 (T=0.46, Config: Config5_FocusSingleMove): Nueva mejor solución SA. Costo: 11215.57 (anterior mejor: 11217.65)
+    SA Iter 173108 (T=0.46, Config: Config5_FocusSingleMove): Nueva mejor solución SA. Costo: 11212.30 (anterior mejor: 11215.57)
+    SA Iter 173259 (T=0.45, Config: Config5_FocusSingleMove): Nueva mejor solución SA. Costo: 11203.90 (anterior mejor: 11212.30)
+    SA Iter 173332 (T=0.45, Config: Config5_FocusSingleMove): Nueva mejor solución SA. Costo: 11202.63 (anterior mejor: 11203.90)
+    SA Iter 173876 (T=0.44, Config: Config5_FocusSingleMove): Nueva mejor solución SA. Costo: 11200.74 (anterior mejor: 11202.63)
+    SA Iter 175750 (T=0.39, Config: Config5_FocusSingleMove): Nueva mejor solución SA. Costo: 11198.86 (anterior mejor: 11200.74)
+    SA Iter 176441 (T=0.37, Config: Config5_FocusSingleMove): Nueva mejor solución SA. Costo: 11189.05 (anterior mejor: 11198.86)
+    SA Iter 176446 (T=0.37, Config: Config5_FocusSingleMove): Nueva mejor solución SA. Costo: 11174.53 (anterior mejor: 11189.05)
+    SA Iter 177003 (T=0.35, Config: Config5_FocusSingleMove): Nueva mejor solución SA. Costo: 11172.13 (anterior mejor: 11174.53)
+    SA Iter 177365 (T=0.35, Config: Config5_FocusSingleMove): Nueva mejor solución SA. Costo: 11170.41 (anterior mejor: 11172.13)
+    SA Iter 177431 (T=0.35, Config: Config5_FocusSingleMove): Nueva mejor solución SA. Costo: 11170.20 (anterior mejor: 11170.41)
+    SA Iter 177654 (T=0.34, Config: Config5_FocusSingleMove): Nueva mejor solución SA. Costo: 11165.96 (anterior mejor: 11170.20)
+    SA Iter 177725 (T=0.34, Config: Config5_FocusSingleMove): Nueva mejor solución SA. Costo: 11164.14 (anterior mejor: 11165.96)
+    SA Iter 178068 (T=0.33, Config: Config5_FocusSingleMove): Nueva mejor solución SA. Costo: 11157.60 (anterior mejor: 11164.14)
+    SA Run (Config: Config5_FocusSingleMove, Seed 42) Iter: 180000, Temp: 0.29, Costo Actual: 11157.81, Mejor Costo: 11157.60
+    SA Iter 180408 (T=0.28, Config: Config5_FocusSingleMove): Nueva mejor solución SA. Costo: 11156.05 (anterior mejor: 11157.60)
+    SA Iter 181478 (T=0.26, Config: Config5_FocusSingleMove): Nueva mejor solución SA. Costo: 11155.84 (anterior mejor: 11156.05)
+    SA Iter 181734 (T=0.26, Config: Config5_FocusSingleMove): Nueva mejor solución SA. Costo: 11153.05 (anterior mejor: 11155.84)
+    SA Iter 182124 (T=0.25, Config: Config5_FocusSingleMove): Nueva mejor solución SA. Costo: 11144.77 (anterior mejor: 11153.05)
+    SA Iter 183001 (T=0.24, Config: Config5_FocusSingleMove): Nueva mejor solución SA. Costo: 11144.19 (anterior mejor: 11144.77)
+    SA Iter 186216 (T=0.19, Config: Config5_FocusSingleMove): Nueva mejor solución SA. Costo: 11142.99 (anterior mejor: 11144.19)
+    SA Iter 186895 (T=0.18, Config: Config5_FocusSingleMove): Nueva mejor solución SA. Costo: 11140.09 (anterior mejor: 11142.99)
+    SA Iter 187355 (T=0.18, Config: Config5_FocusSingleMove): Nueva mejor solución SA. Costo: 11133.47 (anterior mejor: 11140.09)
+    SA Iter 188067 (T=0.17, Config: Config5_FocusSingleMove): Nueva mejor solución SA. Costo: 11131.71 (anterior mejor: 11133.47)
+    SA Iter 188594 (T=0.16, Config: Config5_FocusSingleMove): Nueva mejor solución SA. Costo: 11129.31 (anterior mejor: 11131.71)
+    SA Iter 188725 (T=0.16, Config: Config5_FocusSingleMove): Nueva mejor solución SA. Costo: 11125.61 (anterior mejor: 11129.31)
+    SA Iter 188797 (T=0.16, Config: Config5_FocusSingleMove): Nueva mejor solución SA. Costo: 11125.36 (anterior mejor: 11125.61)
+    SA Iter 189130 (T=0.16, Config: Config5_FocusSingleMove): Nueva mejor solución SA. Costo: 11120.02 (anterior mejor: 11125.36)
+    SA Iter 190256 (T=0.15, Config: Config5_FocusSingleMove): Nueva mejor solución SA. Costo: 11118.82 (anterior mejor: 11120.02)
+    SA Iter 190580 (T=0.14, Config: Config5_FocusSingleMove): Nueva mejor solución SA. Costo: 11114.84 (anterior mejor: 11118.82)
+    SA Iter 191123 (T=0.14, Config: Config5_FocusSingleMove): Nueva mejor solución SA. Costo: 11113.02 (anterior mejor: 11114.84)
+    SA Iter 191744 (T=0.13, Config: Config5_FocusSingleMove): Nueva mejor solución SA. Costo: 11101.98 (anterior mejor: 11113.02)
+    SA Iter 193190 (T=0.12, Config: Config5_FocusSingleMove): Nueva mejor solución SA. Costo: 11099.94 (anterior mejor: 11101.98)
+    SA Iter 193426 (T=0.12, Config: Config5_FocusSingleMove): Nueva mejor solución SA. Costo: 11095.98 (anterior mejor: 11099.94)
+    SA Iter 194583 (T=0.11, Config: Config5_FocusSingleMove): Nueva mejor solución SA. Costo: 11093.12 (anterior mejor: 11095.98)
+    SA Run (Config: Config5_FocusSingleMove, Seed 42) Iter: 195000, Temp: 0.11, Costo Actual: 11093.12, Mejor Costo: 11093.12
+  SA Run (Config: Config5_FocusSingleMove, Seed 42): SA Finalizado. Mejor costo encontrado: 11093.12 en 195900 iteraciones.
+
+
+========================= RESULTADOS FINALES DEL PROCESO SA (Determinista con Nuevos Operadores) =========================
+Costo Inicial (Greedy Determinista): 41325.91
+Semilla Global de Replicación Utilizada para TODAS las corridas de SA: 42
+
+Resumen de costos por configuración de SA:
+  Config SA: Config1_HighT_SlowCool (SA Seed Usada: 42) -> Costo SA Final = 10645.66
+  Config SA: Config2_MedT_MedCool (SA Seed Usada: 42) -> Costo SA Final = 9955.89
+  Config SA: Config3_LowT_FastCool_MoreReinsert (SA Seed Usada: 42) -> Costo SA Final = 10132.76
+  Config SA: Config4_HighIter_BalancedOps (SA Seed Usada: 42) -> Costo SA Final = 8236.25
+  Config SA: Config5_FocusSingleMove (SA Seed Usada: 42) -> Costo SA Final = 11093.12
+
+Mejor solución global encontrada por SA (considerando todas las configs con semilla 42): Costo = 8236.25
+  Originada por Config SA: Config4_HighIter_BalancedOps, SA Seed Usada: 42
+  Parámetros de la mejor config: {'label': 'Config4_HighIter_BalancedOps', 'initial_temp': 50000.0, 'final_temp': 0.1, 'cooling_rate': 0.99, 'iter_per_temp': 300, 'prob_single_move': 0.33, 'prob_swap_times': 0.33, 'print_interval': 25000, 'verbose_sa_run': True, 'verbose_sa_progress': True, 'verbose_sa_improvement': True}
+
+Horario de la mejor solución global SA (Config: Config4_HighIter_BalancedOps)
+
+--- Matriz de Horario de Aterrizaje ---
+---------------------------------------
+| Tiempo Aterrizaje | ID Avión      |
+|-------------------|---------------|
+| 884               | 1             |
+| 997               | 3             |
+| 1065              | 2             |
+| 1162              | 6             |
+| 1297              | 9             |
+| 1365              | 10            |
+| 1433              | 8             |
+| 1546              | 4             |
+| 1618              | 5             |
+| 1708              | 12            |
+| 1821              | 13            |
+| 1895              | 14            |
+| 1963              | 11            |
+| 2076              | 16            |
+| 2161              | 17            |
+| 2251              | 18            |
+| 2341              | 15            |
+| 2433              | 20            |
+| 2546              | 7             |
+| 2743              | 19            |
+| 2834              | 23            |
+| 2947              | 22            |
+| 3037              | 24            |
+| 3111              | 21            |
+| 3258              | 25            |
+| 3361              | 27            |
+| 3474              | 30            |
+| 3542              | 31            |
+| 3655              | 29            |
+| 3723              | 26            |
+| 3791              | 28            |
+| 3859              | 35            |
+| 3928              | 34            |
+| 4078              | 32            |
+| 4146              | 33            |
+| 4273              | 36            |
+| 4470              | 37            |
+| 4649              | 40            |
+| 4739              | 38            |
+| 4829              | 41            |
+| 4942              | 39            |
+| 5126              | 42            |
+| 5194              | 44            |
+| 5307              | 46            |
+| 5375              | 47            |
+| 5443              | 45            |
+| 5511              | 50            |
+| 5579              | 43            |
+| 5692              | 51            |
+| 5761              | 49            |
+| 5829              | 48            |
+| 5946              | 52            |
+| 6138              | 53            |
+| 6206              | 54            |
+| 6275              | 55            |
+| 6404              | 57            |
+| 6473              | 59            |
+| 6565              | 58            |
+| 6678              | 56            |
+| 6867              | 60            |
+| 6972              | 61            |
+| 7439              | 62            |
+| 7634              | 63            |
+| 7825              | 64            |
+| 7941              | 67            |
+| 8034              | 66            |
+| 8147              | 68            |
+| 8237              | 65            |
+| 8305              | 69            |
+| 8373              | 70            |
+| 8455              | 72            |
+| 8715              | 71            |
+| 8904              | 73            |
+| 9291              | 74            |
+| 9508              | 75            |
+| 9796              | 77            |
+| 9989              | 76            |
+| 10108             | 79            |
+| 10300             | 78            |
+| 10515             | 85            |
+| 10584             | 81            |
+| 10697             | 80            |
+| 10779             | 82            |
+| 10876             | 84            |
+| 10944             | 83            |
+| 11066             | 88            |
+| 11134             | 86            |
+| 11269             | 87            |
+| 11337             | 90            |
+| 11427             | 89            |
+| 11517             | 91            |
+| 11713             | 92            |
+| 11939             | 93            |
+| 12052             | 94            |
+| 12121             | 95            |
+| 12332             | 96            |
+| 12401             | 98            |
+| 12548             | 99            |
+| 12636             | 97            |
+| 12704             | 100           |
+---------------------------------------
+La mejor solución SA global reportada ES factible.
+
+Gráfico de mejor costo guardado como: sa_determinista_mejor_costo_evolucion_case4_sem42.png
