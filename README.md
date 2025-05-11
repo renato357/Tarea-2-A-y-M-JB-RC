@@ -30,7 +30,7 @@ El repositorio se organiza en carpetas principales según la actividad (1: Greed
         * Para *GRASP Estocástico* y *SA Estocástico*: Suelen tener subcarpetas por caso (`case1/`, `case2/`, etc.). Cada una contiene múltiples gráficos (`.png`) y archivos de salida (`.txt`) correspondientes a las diferentes semillas y/o configuraciones.
 
 * **`datos/`**: Contiene los archivos de entrada (`case1.txt` a `case4.txt`).
-* **`informe/`**: Contiene el informe del proyecto en formato PDF (`Tarea_2_A_y_M.pdf`) y, opcionalmente, los fuentes LaTeX (`.tex`) e imágenes (`img/`).
+* **`informe/`**: Contiene el informe del proyecto en formato PDF (`Tarea_2_A_y_M.pdf`).
 * **`README.md`**: Este archivo.
 
 ## Resultados y Análisis
