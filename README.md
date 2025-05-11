@@ -33,13 +33,6 @@ El repositorio se organiza en carpetas principales según la actividad (1: Greed
 * **`informe/`**: Contiene el informe del proyecto en formato PDF (`Tarea_2_A_y_M.pdf`) y, opcionalmente, los fuentes LaTeX (`.tex`) e imágenes (`img/`).
 * **`README.md`**: Este archivo.
 
-## Uso
-
-1.  Navega a la carpeta del algoritmo específico que deseas ejecutar.
-2.  Asegúrate de que los archivos de datos de la carpeta `datos/` sean accesibles para el script (los scripts pueden tener rutas relativas o esperar los datos en una ubicación específica).
-3.  Ejecuta el script Python: `python nombre_del_script.py`.
-4.  Los resultados (archivos `.txt`, gráficos `.png`) se guardarán en la carpeta del script o en subcarpetas designadas.
-
 ## Resultados y Análisis
 
 Los resultados detallados, análisis de rendimiento y comparaciones se encuentran en el informe `Tarea_2_A_y_M.pdf` dentro de la carpeta `informe/`.
